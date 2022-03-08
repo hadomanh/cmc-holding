@@ -56,9 +56,9 @@
 								Investor
 							</a>
 							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-								<li><a class="dropdown-item" href="#">Internal Report</a></li>
-								<li><a class="dropdown-item" href="#">Annual Finance Report</a></li>
-								<li><a class="dropdown-item" href="#">Sec Filing</a></li>
+								<li><a class="dropdown-item" href="{{ route('investor.internal') }}">Internal Report</a></li>
+								<li><a class="dropdown-item" href="{{ route('investor.finance') }}">Annual Finance Report</a></li>
+								<li><a class="dropdown-item" href="{{ route('investor.sec-filing') }}">Sec Filing</a></li>
 							</ul>
 						</li>
 					</ul>
@@ -71,9 +71,9 @@
 								Media
 							</a>
 							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-								<li><a class="dropdown-item" href="#">Investor News</a></li>
-								<li><a class="dropdown-item" href="#">News</a></li>
-								<li><a class="dropdown-item" href="#">Press Release</a></li>
+								<li><a class="dropdown-item" href="{{ route('media.investor-news') }}">Investor News</a></li>
+								<li><a class="dropdown-item" href="{{ route('media.news') }}">News</a></li>
+								<li><a class="dropdown-item" href="{{ route('media.press') }}">Press Release</a></li>
 							</ul>
 						</li>
 						<li class="nav-item">
@@ -121,9 +121,9 @@
 									<li class="parent">
 										<span>Investor</span>
 										<ul class="list-unstyled">
-											<li><a href="https://hyperaschain.com/" target="_blank">Internal Report</a></li>
-											<li><a href="https://www.pindias.com/" target="_blank">Annual Finance Report</a></li>
-											<li><a href="https://divega.com/" target="_blank">Sec Filing</a></li>
+											<li><a href="{{ route('investor.internal') }}">Internal Report</a></li>
+											<li><a href="{{ route('investor.finance') }}">Annual Finance Report</a></li>
+											<li><a href="{{ route('investor.sec-filing') }}">Sec Filing</a></li>
 										</ul>
 									</li>
 								</ul>
@@ -133,9 +133,9 @@
 									<li class="parent">
 										<span>Media</span>
 										<ul class="list-unstyled">
-											<li><a href="javascript:void(0)">Investment News</a></li>
-											<li><a href="javascript:void(0)">News</a></li>
-											<li><a href="javascript:void(0)">Press Release</a></li>
+											<li><a href="{{ route('media.investor-news') }}">Investment News</a></li>
+											<li><a href="{{ route('media.news') }}">News</a></li>
+											<li><a href="{{ route('media.press') }}">Press Release</a></li>
 										</ul>
 									</li>
 								</ul>
