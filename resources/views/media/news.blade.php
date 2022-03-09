@@ -10,204 +10,61 @@
             <h2 class="sectionHeading text-uppercase centered">NEWS</h2>
             <div class="row">
                 <div class="col-lg-6 col-12">
+
+                    @if ($news->count() > 0)
                     <div class="newsItem highlight">
-                        <a href="#" class="newsThumb">
-                            <img src="{{ asset('img/news-img-1.jpg') }}" alt="" class="w-100">
+                        <a href="{{ route('media.news-detail', $news[0]->id) }}" class="newsThumb">
+                            <img src="{{ $news[0]->thumbnail }}" alt="" class="w-100">
                         </a>
                         <h4 class="newsTitle titleUnderline">
-                            <a href="#">What is Lorem Ipsum?</a>
+                            <a href="{{ route('media.news-detail', $news[0]->id) }}">{{ $news[0]->title }}</a>
                         </h4>
                         <div class="newsDesc">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting...
+                            {{ $news[0]->subtitle }}
                         </div>
                     </div>
+                    @endif
+
                     <ul class="list-unstyled mb-0">
+                        @foreach ($news as $item)
+                        @if ($loop->index > 0 && $loop->index < ($news->count() - 1) / 2)
                         <li class="newsItem row">
-                            <a href="#" class="col-md-4 newsThumb">
-                                <img src="{{ asset('img/news-img-2.jpg') }}" alt="" class="w-100">
+                            <a href="{{ route('media.news-detail', $item->id) }}" class="col-md-4 newsThumb">
+                                <img src="{{ $item->thumbnail }}" alt="" class="w-100">
                             </a>
                             <div class="col-md-8">
                                 <h4 class="newsTitle titleUnderline">
-                                    <a href="#">What is Lorem Ipsum?</a>
+                                    <a href="{{ route('media.news-detail', $item->id) }}">{{ $item->title }}</a>
                                 </h4>
                                 <div class="newsDesc">
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s...
+                                    {{ $item->subtitle }}
                                 </div>  
                             </div>
                         </li>
-                        <li class="newsItem row">
-                            <a href="#" class="col-md-4 newsThumb">
-                                <img src="{{ asset('img/news-img-2.jpg') }}" alt="" class="w-100">
-                            </a>
-                            <div class="col-md-8">
-                                <h4 class="newsTitle titleUnderline">
-                                    <a href="#">What is Lorem Ipsum?</a>
-                                </h4>
-                                <div class="newsDesc">
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s...
-                                </div>  
-                            </div>
-                        </li>
-                        <li class="newsItem row">
-                            <a href="#" class="col-md-4 newsThumb">
-                                <img src="{{ asset('img/news-img-2.jpg') }}" alt="" class="w-100">
-                            </a>
-                            <div class="col-md-8">
-                                <h4 class="newsTitle titleUnderline">
-                                    <a href="#">What is Lorem Ipsum?</a>
-                                </h4>
-                                <div class="newsDesc">
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s...
-                                </div>  
-                            </div>
-                        </li>
-                        <li class="newsItem row">
-                            <a href="#" class="col-md-4 newsThumb">
-                                <img src="{{ asset('img/news-img-2.jpg') }}" alt="" class="w-100">
-                            </a>
-                            <div class="col-md-8">
-                                <h4 class="newsTitle titleUnderline">
-                                    <a href="#">What is Lorem Ipsum?</a>
-                                </h4>
-                                <div class="newsDesc">
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s...
-                                </div>  
-                            </div>
-                        </li>
-                        <li class="newsItem row">
-                            <a href="#" class="col-md-4 newsThumb">
-                                <img src="{{ asset('img/news-img-2.jpg') }}" alt="" class="w-100">
-                            </a>
-                            <div class="col-md-8">
-                                <h4 class="newsTitle titleUnderline">
-                                    <a href="#">What is Lorem Ipsum?</a>
-                                </h4>
-                                <div class="newsDesc">
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s...
-                                </div>  
-                            </div>
-                        </li>
+                        @endif
+                        @endforeach
                     </ul>
                 </div>
+
                 <div class="col-lg-6 col-12">
                     <ul class="list-unstyled mb-0">
+                        @foreach ($news as $item)
+                        @if ($loop->index > ($news->count() - 1) / 2)
                         <li class="newsItem row">
-                            <a href="#" class="col-md-4 newsThumb">
-                                <img src="{{ asset('img/news-img-2.jpg') }}" alt="" class="w-100">
+                            <a href="{{ route('media.news-detail', $item->id) }}" class="col-md-4 newsThumb">
+                                <img src="{{ $item->thumbnail }}" alt="" class="w-100">
                             </a>
                             <div class="col-md-8">
                                 <h4 class="newsTitle titleUnderline">
-                                    <a href="#">What is Lorem Ipsum?</a>
+                                    <a href="{{ route('media.news-detail', $item->id) }}">{{ $item->title }}</a>
                                 </h4>
                                 <div class="newsDesc">
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s...
+                                    {{ $item->subtitle }}
                                 </div>  
                             </div>
                         </li>
-                        <li class="newsItem row">
-                            <a href="#" class="col-md-4 newsThumb">
-                                <img src="{{ asset('img/news-img-2.jpg') }}" alt="" class="w-100">
-                            </a>
-                            <div class="col-md-8">
-                                <h4 class="newsTitle titleUnderline">
-                                    <a href="#">What is Lorem Ipsum?</a>
-                                </h4>
-                                <div class="newsDesc">
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s...
-                                </div>  
-                            </div>
-                        </li>
-                        <li class="newsItem row">
-                            <a href="#" class="col-md-4 newsThumb">
-                                <img src="{{ asset('img/news-img-2.jpg') }}" alt="" class="w-100">
-                            </a>
-                            <div class="col-md-8">
-                                <h4 class="newsTitle titleUnderline">
-                                    <a href="#">What is Lorem Ipsum?</a>
-                                </h4>
-                                <div class="newsDesc">
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s...
-                                </div>  
-                            </div>
-                        </li>
-                        <li class="newsItem row">
-                            <a href="#" class="col-md-4 newsThumb">
-                                <img src="{{ asset('img/news-img-2.jpg') }}" alt="" class="w-100">
-                            </a>
-                            <div class="col-md-8">
-                                <h4 class="newsTitle titleUnderline">
-                                    <a href="#">What is Lorem Ipsum?</a>
-                                </h4>
-                                <div class="newsDesc">
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s...
-                                </div>  
-                            </div>
-                        </li>
-                        <li class="newsItem row">
-                            <a href="#" class="col-md-4 newsThumb">
-                                <img src="{{ asset('img/news-img-2.jpg') }}" alt="" class="w-100">
-                            </a>
-                            <div class="col-md-8">
-                                <h4 class="newsTitle titleUnderline">
-                                    <a href="#">What is Lorem Ipsum?</a>
-                                </h4>
-                                <div class="newsDesc">
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s...
-                                </div>  
-                            </div>
-                        </li>
-                        <li class="newsItem row">
-                            <a href="#" class="col-md-4 newsThumb">
-                                <img src="{{ asset('img/news-img-2.jpg') }}" alt="" class="w-100">
-                            </a>
-                            <div class="col-md-8">
-                                <h4 class="newsTitle titleUnderline">
-                                    <a href="#">What is Lorem Ipsum?</a>
-                                </h4>
-                                <div class="newsDesc">
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s...
-                                </div>  
-                            </div>
-                        </li>
-                        <li class="newsItem row">
-                            <a href="#" class="col-md-4 newsThumb">
-                                <img src="{{ asset('img/news-img-2.jpg') }}" alt="" class="w-100">
-                            </a>
-                            <div class="col-md-8">
-                                <h4 class="newsTitle titleUnderline">
-                                    <a href="#">What is Lorem Ipsum?</a>
-                                </h4>
-                                <div class="newsDesc">
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s...
-                                </div>  
-                            </div>
-                        </li>
-                        <li class="newsItem row">
-                            <a href="#" class="col-md-4 newsThumb">
-                                <img src="{{ asset('img/news-img-2.jpg') }}" alt="" class="w-100">
-                            </a>
-                            <div class="col-md-8">
-                                <h4 class="newsTitle titleUnderline">
-                                    <a href="#">What is Lorem Ipsum?</a>
-                                </h4>
-                                <div class="newsDesc">
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s...
-                                </div>  
-                            </div>
-                        </li>
-                        <li class="newsItem row">
-                            <a href="#" class="col-md-4 newsThumb">
-                                <img src="{{ asset('img/news-img-2.jpg') }}" alt="" class="w-100">
-                            </a>
-                            <div class="col-md-8">
-                                <h4 class="newsTitle titleUnderline">
-                                    <a href="#">What is Lorem Ipsum?</a>
-                                </h4>
-                                <div class="newsDesc">
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s...
-                                </div>  
-                            </div>
-                        </li>
+                        @endif
+                        @endforeach
                     </ul>
                 </div>
             </div>
