@@ -41,7 +41,7 @@
                     </ul>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
+                    <a class="nav-link {{ $isActive('contact') }}" href="{{ route('contact') }}">Contact</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Language</a>
