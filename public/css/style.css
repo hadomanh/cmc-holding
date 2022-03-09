@@ -83,10 +83,6 @@ section .sectionSubHeading {
     font-weight: 300;
     font-size: 20px;
 }
-.mw-600 {
-    max-width: 600px;
-    margin: 0 auto;
-}
 ul.style-1 {
     margin-left: 18px;
     list-style: square;
@@ -192,18 +188,30 @@ ul.style-1 li:not(:last-child) {
     width: 100%;
     height: 100%;
 }
-.nav-pills {
-    background: #ccc;
-    margin-bottom: 50px;
+.nav-tabs {
+    border: none;
+    background: none;
 }
-.nav-pills .nav-link {
-    border-radius: 0;
+.nav-tabs .nav-link {
+    padding: 10px 0;
+    box-shadow: none;
     font-size: 18px;
     color: #464646;
+    border-bottom: 2px solid transparent;
 }
-.nav-pills .nav-link.active,
-.nav-pills .show>.nav-link {
-    background: #df0023;
+.nav-tabs .nav-item.show .nav-link, 
+.nav-tabs .nav-link.active {
+    background: none;
+    border-width: 0 0 2px 0;
+    border-bottom-color: #ce0020;
+    font-weight: 700;
+    color: #ce0020;
+}
+.nav-tabs .nav-link:hover {
+    border-color: transparent;
+}
+.nav-tabs .nav-link:not(:first-child) {
+    margin-left: 30px;
 }
 .owl-carousel {
     position: relative;
@@ -244,6 +252,10 @@ ul.style-1 li:not(:last-child) {
     margin: 0;
     justify-content: end;
     padding: 10px 20px;
+}
+.lineSeparated {
+    border-top: 1px solid #ddd;
+    padding: 20px 0;
 }
 /*========================== HEADER ==========================*/
 header .top {
@@ -363,6 +375,55 @@ header .navbar .dropdown-toggle:after {
 }
 #aboutPage .overview .item:not(:first-child) .desc {
     padding-top: 20px;
+}
+/*========================== REPORT PAGE ==========================*/
+#reportPage .reportNav {
+    border-bottom: 1px solid #b2b2b2;
+    margin-bottom: 20px;
+}
+#reportPage table td {
+    width: 33.333%;
+}
+#reportPage table td:nth-child(2) {
+    text-align: center;
+}
+#reportPage table td:nth-child(3) {
+    text-align: right;
+}
+#reportPage table td img {
+    width: 100px;
+}
+#reportPage table td a {
+    font-size: 20px;
+    display: inline-block;
+}
+#reportPage table td a:not(:first-child) {
+    margin-left: 30px;
+}
+#reportPage .table>:not(caption)>*>* {
+    padding: 15px 0;
+}
+#reportPage .form-select {
+    background-color: transparent;
+}
+#reportPage .form-select:focus {
+    box-shadow: none;
+    border: none;
+}
+/*========================== NEWS ==========================*/
+#mediaNews .newsItem {
+    margin-bottom: 20px;
+}
+#mediaNews .newsItem.highlight {
+    margin-bottom: 30px;
+}
+#mediaNews .newsItem.highlight .newsThumb {
+    display: block;
+    margin-bottom: 20px;
+}
+#mediaNews .newsItem .newsTitle {
+    font-size: 20px;
+    margin-bottom: 10px;
 }
 /*========================== FOOTER ==========================*/
 footer {
@@ -563,6 +624,14 @@ footer .copyright {
     #aboutPage .overview .item:nth-child(odd) .desc,
     #aboutPage .overview .item:nth-child(even) .desc {
         padding: 10px 0 0;
+    }
+    #mediaNews .newsItem .newsThumb,    
+    #mediaNews .newsItem.highlight .newsThumb {
+        margin-bottom: 10px;
+    }
+    #mediaNews .newsItem,
+    #mediaNews .newsItem.highlight {
+        margin-bottom: 20px;
     }
     footer .footerLogo {
         width: 200px;

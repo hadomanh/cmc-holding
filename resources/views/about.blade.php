@@ -177,7 +177,7 @@
                             <a href="#"><i class="fa fa-twitter"></i></a>
                         </div>
                     </div>
-                    <div class="col-md-2 col-md-4 item d-flex flex-column align-items-center">
+                    <div class="col-lg-2 col-md-4 item d-flex flex-column align-items-center">
                         <img src="{{ asset('img/person-2.png') }}" alt="">
                         <h4 class="name">Henry D. Fahman</h4>
                         <div class="position flex-grow-1">Vice Chairman</div>
@@ -186,7 +186,7 @@
                             <a href="#"><i class="fa fa-twitter"></i></a>
                         </div>
                     </div>
-                    <div class="col-md-2 col-md-4 item d-flex flex-column align-items-center">
+                    <div class="col-lg-2 col-md-4 item d-flex flex-column align-items-center">
                         <img src="{{ asset('img/person-3.png') }}" alt="">
                         <h4 class="name">Tran Nam Chung</h4>
                         <div class="position flex-grow-1">Chairman</div>
@@ -195,7 +195,7 @@
                             <a href="#"><i class="fa fa-twitter"></i></a>
                         </div>
                     </div>
-                    <div class="col-md-2 col-md-4 item d-flex flex-column align-items-center">
+                    <div class="col-lg-2 col-md-4 item d-flex flex-column align-items-center">
                         <img src="{{ asset('img/person-4.png') }}" alt="">
                         <h4 class="name">Hoang Quoc Tuan</h4>
                         <div class="position flex-grow-1">Member of BOM</div>
@@ -204,7 +204,7 @@
                             <a href="#"><i class="fa fa-twitter"></i></a>
                         </div>
                     </div>
-                    <div class="col-md-2 col-md-4 item d-flex flex-column align-items-center">
+                    <div class="col-lg-2 col-md-4 item d-flex flex-column align-items-center">
                         <img src="{{ asset('img/person-5.png') }}" alt="">
                         <h4 class="name">Vu Thi Tuyet Thanh</h4>
                         <div class="position flex-grow-1">Member of BOM</div>
@@ -213,7 +213,7 @@
                             <a href="#"><i class="fa fa-twitter"></i></a>
                         </div>
                     </div>
-                    <div class="col-md-2 col-md-4 item d-flex flex-column align-items-center">
+                    <div class="col-lg-2 col-md-4 item d-flex flex-column align-items-center">
                         <img src="{{ asset('img/person-6.png') }}" alt="">
                         <h4 class="name">Nguyen Ngoc Son</h4>
                         <div class="position flex-grow-1">Member of BOM - CEO</div>
@@ -227,7 +227,7 @@
             <div class="listTeam">
                 <h4 class="sectionHeading centered text-uppercase">Advisors</h4>
                 <div class="row g-0 justify-content-center">
-                    <div class="col-md-2 col-md-4 item d-flex flex-column align-items-center">
+                    <div class="col-lg-2 col-md-4 item d-flex flex-column align-items-center">
                         <img src="{{ asset('img/person-7.png') }}" alt="">
                         <h4 class="name">Tran Quang Trung</h4>
                         <div class="position flex-grow-1">Strategy Advisor</div>
@@ -236,7 +236,7 @@
                             <a href="#"><i class="fa fa-twitter"></i></a>
                         </div>
                     </div>
-                    <div class="col-md-2 col-md-4 item d-flex flex-column align-items-center">
+                    <div class="col-lg-2 col-md-4 item d-flex flex-column align-items-center">
                         <img src="{{ asset('img/person-8.png') }}" alt="">
                         <h4 class="name">Steve Truong</h4>
                         <div class="position flex-grow-1">Managing Director PHI Groung Advisor</div>
@@ -245,7 +245,7 @@
                             <a href="#"><i class="fa fa-twitter"></i></a>
                         </div>
                     </div>
-                    <div class="col-md-2 col-md-4 item d-flex flex-column align-items-center">
+                    <div class="col-lg-2 col-md-4 item d-flex flex-column align-items-center">
                         <img src="{{ asset('img/person-9.png') }}" alt="">
                         <h4 class="name">Frank N.Hawkins</h4>
                         <div class="position flex-grow-1">Finance Advisor</div>
@@ -254,7 +254,7 @@
                             <a href="#"><i class="fa fa-twitter"></i></a>
                         </div>
                     </div>
-                    <div class="col-md-2 col-md-4 item d-flex flex-column align-items-center">
+                    <div class="col-lg-2 col-md-4 item d-flex flex-column align-items-center">
                         <img src="{{ asset('img/person-10.png') }}" alt="">
                         <h4 class="name">Michael Bennett</h4>
                         <div class="position flex-grow-1">Investment & Partnership Advisor</div>
@@ -263,7 +263,7 @@
                             <a href="#"><i class="fa fa-twitter"></i></a>
                         </div>
                     </div>
-                    <div class="col-md-2 col-md-4 item d-flex flex-column align-items-center">
+                    <div class="col-lg-2 col-md-4 item d-flex flex-column align-items-center">
                         <img src="{{ asset('img/person-11.png') }}" alt="">
                         <h4 class="name">Tam T.Bui</h4>
                         <div class="position flex-grow-1">Chief Operationg Officer PHI Group Operation Advisor</div>
@@ -272,7 +272,7 @@
                             <a href="#"><i class="fa fa-twitter"></i></a>
                         </div>
                     </div>
-                    <div class="col-md-2 col-md-4 item d-flex flex-column align-items-center">
+                    <div class="col-lg-2 col-md-4 item d-flex flex-column align-items-center">
                         <img src="{{ asset('img/person-12.png') }}" alt="">
                         <h4 class="name">Guiko K</h4>
                         <div class="position flex-grow-1">Technology Advisor</div>
@@ -286,7 +286,7 @@
             <div class="listTeam">
                 <h4 class="sectionHeading centered text-uppercase">Core Team</h4>
                 <div class="row g-0 justify-content-center">
-                    <div class="col-md-2 col-md-4 item d-flex flex-column align-items-center">
+                    <div class="col-lg-2 col-md-4 item d-flex flex-column align-items-center">
                         <img src="{{ asset('img/person-13.png') }}" alt="">
                         <h4 class="name">Tracy Vu</h4>
                         <div class="position flex-grow-1">Brand Director</div>
@@ -295,7 +295,7 @@
                             <a href="#"><i class="fa fa-twitter"></i></a>
                         </div>
                     </div>
-                    <div class="col-md-2 col-md-4 item d-flex flex-column align-items-center">
+                    <div class="col-lg-2 col-md-4 item d-flex flex-column align-items-center">
                         <img src="{{ asset('img/person-14.png') }}" alt="">
                         <h4 class="name">Andy Vu</h4>
                         <div class="position flex-grow-1">CMO</div>
@@ -304,7 +304,7 @@
                             <a href="#"><i class="fa fa-twitter"></i></a>
                         </div>
                     </div>
-                    <div class="col-md-2 col-md-4 item d-flex flex-column align-items-center">
+                    <div class="col-lg-2 col-md-4 item d-flex flex-column align-items-center">
                         <img src="{{ asset('img/person-15.png') }}" alt="">
                         <h4 class="name">Anna Nguyen</h4>
                         <div class="position flex-grow-1">Business & Partnership Director</div>
@@ -313,7 +313,7 @@
                             <a href="#"><i class="fa fa-twitter"></i></a>
                         </div>
                     </div>
-                    <div class="col-md-2 col-md-4 item d-flex flex-column align-items-center">
+                    <div class="col-lg-2 col-md-4 item d-flex flex-column align-items-center">
                         <img src="{{ asset('img/person-16.png') }}" alt="">
                         <h4 class="name">Le Van Duong</h4>
                         <div class="position flex-grow-1">Legal Director</div>
@@ -327,7 +327,7 @@
             <div class="listTeam">
                 <h4 class="sectionHeading centered text-uppercase">Technical steering commitee</h4>
                 <div class="row g-0 teamWrap justify-content-center">
-                    <div class="col-md-2 col-md-4 item d-flex flex-column align-items-center">
+                    <div class="col-lg-2 col-md-4 item d-flex flex-column align-items-center">
                         <img src="{{ asset('img/person-12.png') }}" alt="">
                         <h4 class="name">Guiko K</h4>
                         <div class="position flex-grow-1">Technology Advisor</div>
@@ -336,7 +336,7 @@
                             <a href="#"><i class="fa fa-twitter"></i></a>
                         </div>
                     </div>
-                    <div class="col-md-2 col-md-4 item d-flex flex-column align-items-center">
+                    <div class="col-lg-2 col-md-4 item d-flex flex-column align-items-center">
                         <img src="{{ asset('img/person-17.png') }}" alt="">
                         <h4 class="name">Francesco</h4>
                         <div class="position flex-grow-1">CTO</div>
@@ -345,7 +345,7 @@
                             <a href="#"><i class="fa fa-twitter"></i></a>
                         </div>
                     </div>
-                    <div class="col-md-2 col-md-4 item d-flex flex-column align-items-center">
+                    <div class="col-lg-2 col-md-4 item d-flex flex-column align-items-center">
                         <img src="{{ asset('img/person-18.png') }}" alt="">
                         <h4 class="name">Bui Dinh Ngoc</h4>
                         <div class="position flex-grow-1">Bui Dinh Ngoc</div>
