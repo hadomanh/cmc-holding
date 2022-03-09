@@ -29,6 +29,8 @@
 	<link href="{{ asset('css/owl.theme.default.css') }}" rel="stylesheet">
 	<link href="{{ asset('css/style.css') }}" rel="stylesheet">
 
+	<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+
 </head>
 
 	<body>
