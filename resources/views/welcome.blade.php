@@ -34,17 +34,16 @@
 	<section class="bgWhite">
 		<div class="container-lg">
 			<h2 class="sectionHeading centered text-uppercase">about us</h2>
-			<p class="text-center">CMC Holdings is a multi-industry corporation that prioritizes the digital economy, high-class real estate, and medical specialties, seeking prominent investments in large-scale projects, answering big requests from global users.</p>
 			<div class="row">
 				<div class="col-md-6">
 					<p><img src="{{ asset('img/img-1.jpg') }}" alt=""></p>
 				</div>
 				<div class="col-md-6">
-					<p>In the future, with a wealth of knowledge and practical experience and a team of experts with specialized expertise, we will also develop consulting services including enterprise service delivery, data management strategy, ERP solutions, cloud, forecasting, blockchain, project development, investment, finance talent, M&A, IPO, business management and many more. </p>
+					<p>In the future, with a wealth of knowledge and practical experience and a team of experts with specialized expertise, we will also develop consulting services in the fields of technology, finance, and management. </p>
 					<p>CONNECTION: We leverage the power of connectivity and endeavor to create new forms of connectivity in the categories of the pillar economy especially the digital economy to collaborate with the people and society without borders. </p>
 					<p>METAVERSE: CMC Holdings was founded at a time when digital transformation is inevitable, and many emerging technologies, such as Blockchain, NFT, Cryptocurrency, Digital Banking, and especially Metaverse are on the rise.</p>
 					<p>COMMUNITY: CMC Holdings was built by a community of people with great aspirations and missions with the desire to create great values for many communities around the globe.</p>
-					<p class="text-center"><a href="#" class="btn btnWhite text-uppercase">Read more</a></p>
+					<p class="text-center"><a href="{{ route('about') }}" class="btn btnWhite text-uppercase">Read more</a></p>
 				</div>
 			</div>
 		</div>
@@ -81,7 +80,7 @@
 						<a href="#"><img class="card-img-top" src="{{ asset('img/img-2.jpg') }}"></a>
 						<div class="card-body d-flex flex-column">
 							<h5 class="card-title titleUnderline"><a href="#">Ecosystem</a></h5>
-							<p class="card-text flex-grow-1">The CMC Holdings ecosystem is fast-growing, focuses on the research and development of products and services that address the following special needs: large volume, global scale, repetitive requirements, ever-widening demands,  the longing to enhance the quality of life.</p>
+							<p class="card-text flex-grow-1">The CMC Holdings ecosystem is fast-growing, focuses on the research and development of products and services that address the following special needs: large volume, global scale, repetitive requirements, ever-widening demands, the longing to enhance the quality of life.</p>
 							<div class="text-center"><a target="_blank" href="#" class="btn btnWhite">READ MORE</a></div>
 						</div>
 					</div>
@@ -100,12 +99,22 @@
 					<div class="row g-0">
 						<div class="col-6">
 							<a href="#">
-								<img src="{{ asset('img/partner-1.png') }}" alt="">
+								<img src="{{ asset('img/Phi Group.png') }}" alt="">
 							</a>
 						</div>
 						<div class="col-6">
 							<a href="#">
-								<img src="{{ asset('img/partner-2.png') }}" alt="">
+								<img src="{{ asset('img/Logo_Meta_1900px.png') }}" alt="">
+							</a>
+						</div>
+						<div class="col-6">
+							<a href="#">
+								<img src="{{ asset('img/logo central capital-new-01.png') }}" alt="">
+							</a>
+						</div>
+						<div class="col-6">
+							<a href="#">
+								<img src="{{ asset('img/Petroland.png') }}" alt="">
 							</a>
 						</div>
 						<div class="col-6">
@@ -115,7 +124,75 @@
 						</div>
 						<div class="col-6">
 							<a href="#">
-								<img src="{{ asset('img/partner-2.png') }}" alt="">
+								<img src="{{ asset('img/Petroland.png') }}" alt="">
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="item">
+					<div class="row g-0">
+						<div class="col-6">
+							<a href="#">
+								<img src="{{ asset('img/Nikko AM.png') }}" alt="">
+							</a>
+						</div>
+						<div class="col-6">
+							<a href="#">
+								<img src="{{ asset('img/VCCI.png') }}" alt="">
+							</a>
+						</div>
+						<div class="col-6">
+							<a href="#">
+								<img src="{{ asset('img/Viettin Capital.png') }}" alt="">
+							</a>
+						</div>
+						<div class="col-6">
+							<a href="#">
+								<img src="{{ asset('img/partner-8.png') }}" alt="">
+							</a>
+						</div>
+						<div class="col-6">
+							<a href="#">
+								<img src="{{ asset('img/partner-3.png') }}" alt="">
+							</a>
+						</div>
+						<div class="col-6">
+							<a href="#">
+								<img src="{{ asset('img/Petroland.png') }}" alt="">
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="item">
+					<div class="row g-0">
+						<div class="col-6">
+							<a href="#">
+								<img src="{{ asset('img/partner-1.png') }}" alt="">
+							</a>
+						</div>
+						<div class="col-6">
+							<a href="#">
+								<img src="{{ asset('img/Petroland.png') }}" alt="">
+							</a>
+						</div>
+						<div class="col-6">
+							<a href="#">
+								<img src="{{ asset('img/partner-3.png') }}" alt="">
+							</a>
+						</div>
+						<div class="col-6">
+							<a href="#">
+								<img src="{{ asset('img/Petroland.png') }}" alt="">
+							</a>
+						</div>
+						<div class="col-6">
+							<a href="#">
+								<img src="{{ asset('img/partner-3.png') }}" alt="">
+							</a>
+						</div>
+						<div class="col-6">
+							<a href="#">
+								<img src="{{ asset('img/Petroland.png') }}" alt="">
 							</a>
 						</div>
 					</div>
@@ -134,26 +211,12 @@
 						</div>
 						<div class="col-6">
 							<a href="#">
-								<img src="{{ asset('img/partner-7.png') }}" alt="">
+								<img src="{{ asset('img/Viettin Capital.png') }}" alt="">
 							</a>
 						</div>
 						<div class="col-6">
 							<a href="#">
 								<img src="{{ asset('img/partner-8.png') }}" alt="">
-							</a>
-						</div>
-					</div>
-				</div>
-				<div class="item">
-					<div class="row g-0">
-						<div class="col-6">
-							<a href="#">
-								<img src="{{ asset('img/partner-1.png') }}" alt="">
-							</a>
-						</div>
-						<div class="col-6">
-							<a href="#">
-								<img src="{{ asset('img/partner-2.png') }}" alt="">
 							</a>
 						</div>
 						<div class="col-6">
@@ -163,31 +226,7 @@
 						</div>
 						<div class="col-6">
 							<a href="#">
-								<img src="{{ asset('img/partner-2.png') }}" alt="">
-							</a>
-						</div>
-					</div>
-				</div>
-				<div class="item">
-					<div class="row g-0">
-						<div class="col-6">
-							<a href="#">
-								<img src="{{ asset('img/partner-5.png') }}" alt="">
-							</a>
-						</div>
-						<div class="col-6">
-							<a href="#">
-								<img src="{{ asset('img/partner-6.png') }}" alt="">
-							</a>
-						</div>
-						<div class="col-6">
-							<a href="#">
-								<img src="{{ asset('img/partner-7.png') }}" alt="">
-							</a>
-						</div>
-						<div class="col-6">
-							<a href="#">
-								<img src="{{ asset('img/partner-8.png') }}" alt="">
+								<img src="{{ asset('img/Petroland.png') }}" alt="">
 							</a>
 						</div>
 					</div>
@@ -239,7 +278,7 @@
 						</div>
 						<div class="col-6">
 							<a href="#">
-								<img src="{{ asset('img/partner-7.png') }}" alt="">
+								<img src="{{ asset('img/Viettin Capital.png') }}" alt="">
 							</a>
 						</div>
 						<div class="col-6">
@@ -287,7 +326,7 @@
 						</div>
 						<div class="col-6">
 							<a href="#">
-								<img src="{{ asset('img/partner-7.png') }}" alt="">
+								<img src="{{ asset('img/Viettin Capital.png') }}" alt="">
 							</a>
 						</div>
 						<div class="col-6">
