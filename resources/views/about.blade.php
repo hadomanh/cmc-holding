@@ -170,18 +170,18 @@
                 <h4 class="sectionHeading centered text-uppercase">Board of Management</h4>
                 <div class="row g-0 justify-content-center">
                     <div class="col-lg-2 col-md-4 item d-flex flex-column align-items-center">
-                        <img src="{{ asset('img/Nguyen Ngoc Long - Member of BOM, Deputy CEO.png') }}" alt="">
-                        <h4 class="name">Nguyen Ngoc Long</h4>
-                        <div class="position flex-grow-1">Member of BOM, Deputy CEO</div>
+                        <img src="{{ asset('img/Nguyen Ngoc Son - Vice Chairman CEO.png') }}" alt="">
+                        <h4 class="name">Nguyen Ngoc Son</h4>
+                        <div class="position flex-grow-1">Vice Chairman CEO</div>
                         <div class="social">
                             <a href="#"><i class="fab fa-linkedin"></i></a>
                             <a href="#"><i class="fa fa-twitter"></i></a>
                         </div>
                     </div>
                     <div class="col-lg-2 col-md-4 item d-flex flex-column align-items-center">
-                        <img src="{{ asset('img/Henry - Vice Chairman.png') }}" alt="">
-                        <h4 class="name">Henry D. Fahman</h4>
-                        <div class="position flex-grow-1">Vice Chairman</div>
+                        <img src="{{ asset('img/Nguyen Thanh Long - Member of BOM, Deputy CEO.png') }}" alt="">
+                        <h4 class="name">Nguyen Thanh Long</h4>
+                        <div class="position flex-grow-1">Member of BOM, Deputy CEO</div>
                         <div class="social">
                             <a href="#"><i class="fab fa-linkedin"></i></a>
                             <a href="#"><i class="fa fa-twitter"></i></a>
@@ -197,9 +197,9 @@
                         </div>
                     </div>
                     <div class="col-lg-2 col-md-4 item d-flex flex-column align-items-center">
-                        <img src="{{ asset('img/Hoang Quoc Tuan - Member of BOM.png') }}" alt="">
-                        <h4 class="name">Hoang Quoc Tuan</h4>
-                        <div class="position flex-grow-1">Member of BOM</div>
+                        <img src="{{ asset('img/Henry - Vice Chairman.png') }}" alt="">
+                        <h4 class="name">Henry</h4>
+                        <div class="position flex-grow-1">Vice Chairman</div>
                         <div class="social">
                             <a href="#"><i class="fab fa-linkedin"></i></a>
                             <a href="#"><i class="fa fa-twitter"></i></a>
@@ -208,6 +208,15 @@
 
                 </div>
                 <div class="row g-0 justify-content-center mt-5">
+                    <div class="col-lg-2 col-md-4 item d-flex flex-column align-items-center">
+                        <img src="{{ asset('img/Nguyen Ngoc Long - Member of BOM, Deputy CEO.png') }}" alt="">
+                        <h4 class="name">Nguyen Ngoc Long</h4>
+                        <div class="position flex-grow-1">Member of BOM, Deputy CEO</div>
+                        <div class="social">
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                        </div>
+                    </div>
                     <div class="col-lg-2 col-md-4 item d-flex flex-column align-items-center">
                         <img src="{{ asset('img/Vu Thi Tuyet Thanh -Member of BOM.png') }}" alt="">
                         <h4 class="name">Vu Thi Tuyet Thanh</h4>
@@ -218,18 +227,9 @@
                         </div>
                     </div>
                     <div class="col-lg-2 col-md-4 item d-flex flex-column align-items-center">
-                        <img src="{{ asset('img/Nguyen Ngoc Son - Vice Chairman CEO.png') }}" alt="">
-                        <h4 class="name">Nguyen Ngoc Son</h4>
-                        <div class="position flex-grow-1">Vice Chairman, CEO</div>
-                        <div class="social">
-                            <a href="#"><i class="fab fa-linkedin"></i></a>
-                            <a href="#"><i class="fa fa-twitter"></i></a>
-                        </div>
-                    </div>
-                    <div class="col-lg-2 col-md-4 item d-flex flex-column align-items-center">
-                        <img src="{{ asset('img/Nguyen Thanh Long - Member of BOM, Deputy CEO.png') }}" alt="">
-                        <h4 class="name">Nguyen Thanh Long</h4>
-                        <div class="position flex-grow-1">Member of BOM, Deputy CEO</div>
+                        <img src="{{ asset('img/Hoang Quoc Tuan - Member of BOM.png') }}" alt="">
+                        <h4 class="name">Hoang Quoc Tuan</h4>
+                        <div class="position flex-grow-1">Member of BOM</div>
                         <div class="social">
                             <a href="#"><i class="fab fa-linkedin"></i></a>
                             <a href="#"><i class="fa fa-twitter"></i></a>
