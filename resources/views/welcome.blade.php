@@ -119,12 +119,12 @@
 						</div>
 						<div class="col-6">
 							<a href="#">
-								<img src="{{ asset('img/partner-3.png') }}" alt="">
+								<img src="{{ asset('img/VVC.png') }}" alt="">
 							</a>
 						</div>
 						<div class="col-6">
 							<a href="#">
-								<img src="{{ asset('img/Petroland.png') }}" alt="">
+								<img src="{{ asset('img/Vietnam Post.png') }}" alt="">
 							</a>
 						</div>
 					</div>
@@ -148,51 +148,17 @@
 						</div>
 						<div class="col-6">
 							<a href="#">
-								<img src="{{ asset('img/partner-8.png') }}" alt="">
+								<img src="{{ asset('img/Viettin Securities.png') }}" alt="">
 							</a>
 						</div>
 						<div class="col-6">
 							<a href="#">
-								<img src="{{ asset('img/partner-3.png') }}" alt="">
+								<img src="{{ asset('img/Acentus Capital.png') }}" alt="">
 							</a>
 						</div>
 						<div class="col-6">
 							<a href="#">
-								<img src="{{ asset('img/Petroland.png') }}" alt="">
-							</a>
-						</div>
-					</div>
-				</div>
-				<div class="item">
-					<div class="row g-0">
-						<div class="col-6">
-							<a href="#">
-								<img src="{{ asset('img/partner-1.png') }}" alt="">
-							</a>
-						</div>
-						<div class="col-6">
-							<a href="#">
-								<img src="{{ asset('img/Petroland.png') }}" alt="">
-							</a>
-						</div>
-						<div class="col-6">
-							<a href="#">
-								<img src="{{ asset('img/partner-3.png') }}" alt="">
-							</a>
-						</div>
-						<div class="col-6">
-							<a href="#">
-								<img src="{{ asset('img/Petroland.png') }}" alt="">
-							</a>
-						</div>
-						<div class="col-6">
-							<a href="#">
-								<img src="{{ asset('img/partner-3.png') }}" alt="">
-							</a>
-						</div>
-						<div class="col-6">
-							<a href="#">
-								<img src="{{ asset('img/Petroland.png') }}" alt="">
+								<img src="{{ asset('img/VNPT.png') }}" alt="">
 							</a>
 						</div>
 					</div>
@@ -201,12 +167,46 @@
 					<div class="row g-0">
 						<div class="col-6">
 							<a href="#">
-								<img src="{{ asset('img/partner-5.png') }}" alt="">
+								<img src="{{ asset('img/Phi Group.png') }}" alt="">
 							</a>
 						</div>
 						<div class="col-6">
 							<a href="#">
-								<img src="{{ asset('img/partner-6.png') }}" alt="">
+								<img src="{{ asset('img/Logo_Meta_1900px.png') }}" alt="">
+							</a>
+						</div>
+						<div class="col-6">
+							<a href="#">
+								<img src="{{ asset('img/logo central capital-new-01.png') }}" alt="">
+							</a>
+						</div>
+						<div class="col-6">
+							<a href="#">
+								<img src="{{ asset('img/Petroland.png') }}" alt="">
+							</a>
+						</div>
+						<div class="col-6">
+							<a href="#">
+								<img src="{{ asset('img/VVC.png') }}" alt="">
+							</a>
+						</div>
+						<div class="col-6">
+							<a href="#">
+								<img src="{{ asset('img/Vietnam Post.png') }}" alt="">
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="item">
+					<div class="row g-0">
+						<div class="col-6">
+							<a href="#">
+								<img src="{{ asset('img/Nikko AM.png') }}" alt="">
+							</a>
+						</div>
+						<div class="col-6">
+							<a href="#">
+								<img src="{{ asset('img/VCCI.png') }}" alt="">
 							</a>
 						</div>
 						<div class="col-6">
@@ -216,17 +216,17 @@
 						</div>
 						<div class="col-6">
 							<a href="#">
-								<img src="{{ asset('img/partner-8.png') }}" alt="">
+								<img src="{{ asset('img/Viettin Securities.png') }}" alt="">
 							</a>
 						</div>
 						<div class="col-6">
 							<a href="#">
-								<img src="{{ asset('img/partner-3.png') }}" alt="">
+								<img src="{{ asset('img/Acentus Capital.png') }}" alt="">
 							</a>
 						</div>
 						<div class="col-6">
 							<a href="#">
-								<img src="{{ asset('img/Petroland.png') }}" alt="">
+								<img src="{{ asset('img/VNPT.png') }}" alt="">
 							</a>
 						</div>
 					</div>
@@ -244,46 +244,22 @@
 					<div class="row g-0">
 						<div class="col-6">
 							<a href="#">
-								<img src="{{ asset('img/partner-1.png') }}" alt="">
+								<img src="{{ asset('img/UNasdaq.png') }}" alt="">
 							</a>
 						</div>
 						<div class="col-6">
 							<a href="#">
-								<img src="{{ asset('img/partner-2.png') }}" alt="">
+								<img src="{{ asset('img/Bloomberg.png') }}" alt="">
 							</a>
 						</div>
 						<div class="col-6">
 							<a href="#">
-								<img src="{{ asset('img/partner-3.png') }}" alt="">
+								<img src="{{ asset('img/Market-Watch.png') }}" alt="">
 							</a>
 						</div>
 						<div class="col-6">
 							<a href="#">
-								<img src="{{ asset('img/partner-2.png') }}" alt="">
-							</a>
-						</div>
-					</div>
-				</div>
-				<div class="item">
-					<div class="row g-0">
-						<div class="col-6">
-							<a href="#">
-								<img src="{{ asset('img/partner-5.png') }}" alt="">
-							</a>
-						</div>
-						<div class="col-6">
-							<a href="#">
-								<img src="{{ asset('img/partner-6.png') }}" alt="">
-							</a>
-						</div>
-						<div class="col-6">
-							<a href="#">
-								<img src="{{ asset('img/Viettin Capital.png') }}" alt="">
-							</a>
-						</div>
-						<div class="col-6">
-							<a href="#">
-								<img src="{{ asset('img/partner-8.png') }}" alt="">
+								<img src="{{ asset('img/Market-Screener.png') }}" alt="">
 							</a>
 						</div>
 					</div>
@@ -292,22 +268,22 @@
 					<div class="row g-0">
 						<div class="col-6">
 							<a href="#">
-								<img src="{{ asset('img/partner-1.png') }}" alt="">
+								<img src="{{ asset('img/Global-PR-Newswire.png') }}" alt="">
 							</a>
 						</div>
 						<div class="col-6">
 							<a href="#">
-								<img src="{{ asset('img/partner-2.png') }}" alt="">
+								<img src="{{ asset('img/Yahoo-Finance.png') }}" alt="">
 							</a>
 						</div>
 						<div class="col-6">
 							<a href="#">
-								<img src="{{ asset('img/partner-3.png') }}" alt="">
+								<img src="{{ asset('img/Viettimes.png') }}" alt="">
 							</a>
 						</div>
 						<div class="col-6">
 							<a href="#">
-								<img src="{{ asset('img/partner-2.png') }}" alt="">
+								<img src="{{ asset('img/BDS-Vietnam.png') }}" alt="">
 							</a>
 						</div>
 					</div>
@@ -316,22 +292,46 @@
 					<div class="row g-0">
 						<div class="col-6">
 							<a href="#">
-								<img src="{{ asset('img/partner-5.png') }}" alt="">
+								<img src="{{ asset('img/Doanh-nhan-sai-gon.png') }}" alt="">
 							</a>
 						</div>
 						<div class="col-6">
 							<a href="#">
-								<img src="{{ asset('img/partner-6.png') }}" alt="">
+								<img src="{{ asset('img/Cafe-F.png') }}" alt="">
 							</a>
 						</div>
 						<div class="col-6">
 							<a href="#">
-								<img src="{{ asset('img/Viettin Capital.png') }}" alt="">
+								<img src="{{ asset('img/Thoi-bao-kinh-te-sai-gon.png') }}" alt="">
 							</a>
 						</div>
 						<div class="col-6">
 							<a href="#">
-								<img src="{{ asset('img/partner-8.png') }}" alt="">
+								<img src="{{ asset('img/Market-Watch.png') }}" alt="">
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="item">
+					<div class="row g-0">
+						<div class="col-6">
+							<a href="#">
+								<img src="{{ asset('img/UNasdaq.png') }}" alt="">
+							</a>
+						</div>
+						<div class="col-6">
+							<a href="#">
+								<img src="{{ asset('img/Bloomberg.png') }}" alt="">
+							</a>
+						</div>
+						<div class="col-6">
+							<a href="#">
+								<img src="{{ asset('img/Market-Screener.png') }}" alt="">
+							</a>
+						</div>
+						<div class="col-6">
+							<a href="#">
+								<img src="{{ asset('img/Viettimes.png') }}" alt="">
 							</a>
 						</div>
 					</div>
