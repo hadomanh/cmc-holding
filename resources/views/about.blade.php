@@ -157,7 +157,7 @@
         <div class="container-lg">
             <h2 class="sectionHeading centered">OUR MEMBERS</h2>
             <p class="text-center">As a “Holding in Holding” model, we establish member enterprises with separate ecosystems while maintaining focus on Metaway Holding's broad aims of globalization, digitalization, and innovation for outstanding social values.</p>
-            <p><img src="{{ asset('img/map.jpg') }}" alt=""></p>
+            <p><img src="{{ asset('img/map.png') }}" alt=""></p>
         </div>
     </section>
 
