@@ -104,27 +104,17 @@
 						</div>
 						<div class="col-6">
 							<a href="#">
-								<img src="{{ asset('img/Logo_Meta_1900px.png') }}" alt="">
+								<img src="{{ asset('img/VNPT.png') }}" alt="">
 							</a>
 						</div>
 						<div class="col-6">
 							<a href="#">
-								<img src="{{ asset('img/logo central capital-new-01.png') }}" alt="">
+								<img src="{{ asset('img/Acentus Capital.png') }}" alt="">
 							</a>
 						</div>
 						<div class="col-6">
 							<a href="#">
 								<img src="{{ asset('img/Petroland.png') }}" alt="">
-							</a>
-						</div>
-						<div class="col-6">
-							<a href="#">
-								<img src="{{ asset('img/VVC.png') }}" alt="">
-							</a>
-						</div>
-						<div class="col-6">
-							<a href="#">
-								<img src="{{ asset('img/Vietnam Post.png') }}" alt="">
 							</a>
 						</div>
 					</div>
@@ -151,38 +141,18 @@
 								<img src="{{ asset('img/Viettin Securities.png') }}" alt="">
 							</a>
 						</div>
-						<div class="col-6">
-							<a href="#">
-								<img src="{{ asset('img/Acentus Capital.png') }}" alt="">
-							</a>
-						</div>
-						<div class="col-6">
-							<a href="#">
-								<img src="{{ asset('img/VNPT.png') }}" alt="">
-							</a>
-						</div>
 					</div>
 				</div>
 				<div class="item">
 					<div class="row g-0">
 						<div class="col-6">
 							<a href="#">
-								<img src="{{ asset('img/Phi Group.png') }}" alt="">
+								<img src="{{ asset('img/Vietnam Post.png') }}" alt="">
 							</a>
 						</div>
 						<div class="col-6">
 							<a href="#">
-								<img src="{{ asset('img/Logo_Meta_1900px.png') }}" alt="">
-							</a>
-						</div>
-						<div class="col-6">
-							<a href="#">
-								<img src="{{ asset('img/logo central capital-new-01.png') }}" alt="">
-							</a>
-						</div>
-						<div class="col-6">
-							<a href="#">
-								<img src="{{ asset('img/Petroland.png') }}" alt="">
+								<img src="{{ asset('img/VNPT.png') }}" alt="">
 							</a>
 						</div>
 						<div class="col-6">
@@ -192,7 +162,7 @@
 						</div>
 						<div class="col-6">
 							<a href="#">
-								<img src="{{ asset('img/Vietnam Post.png') }}" alt="">
+								<img src="{{ asset('img/Petroland.png') }}" alt="">
 							</a>
 						</div>
 					</div>
@@ -217,16 +187,6 @@
 						<div class="col-6">
 							<a href="#">
 								<img src="{{ asset('img/Viettin Securities.png') }}" alt="">
-							</a>
-						</div>
-						<div class="col-6">
-							<a href="#">
-								<img src="{{ asset('img/Acentus Capital.png') }}" alt="">
-							</a>
-						</div>
-						<div class="col-6">
-							<a href="#">
-								<img src="{{ asset('img/VNPT.png') }}" alt="">
 							</a>
 						</div>
 					</div>
