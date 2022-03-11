@@ -21,7 +21,7 @@
         </div>
     </section>
 
-    <!-- About Us -->
+    <!-- overview -->
     <section class="bgWhite overview">
         <div class="container-lg">
             <div class="row g-0 item">
@@ -30,7 +30,7 @@
                 </div>
                 <div class="col-md-6">
                     <div class="desc">
-                        <h2 class="sectionHeading text-uppercase">about us</h2>
+                        <h2 class="sectionHeading text-uppercase">overview</h2>
                         <p>Global Based Company: CMC Holdings is headquartered in the US and has offices in many countries around the world, of which a large part of its personnel is in Vietnam, a country with people who are studious, clever, tech-savvy and which is currently recognized for having numerous startups in innovation and high-tech industrie.</p>
                         <p>Inspiration: CMC Holdings was founded with the aim of bringing together a community of competent entrepreneurs in the new era of emerging economies.</p>
                         <p>Human Power: The founders and Executive Team of CMC Holdings have vast experience in investing, corporate management, restructuring, and executing cross-border initiatives, which contributes to the company's strength.</p>
@@ -38,7 +38,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row g-0 item">					
+            <div class="row g-0 item">
                 <div class="col-md-6 order-md-2">
                     <img src="{{ asset('img/img-5.jpg') }}" alt="" class="w-100">
                 </div>
@@ -75,7 +75,7 @@
                         <h2 class="sectionHeading text-uppercase">OUR CORE VALUES</h2>
                         <p>Our positioning is global, digital, and high-class but our core values are centered on people and the unifying of intelligence including human intelligence, artificial intelligence, and business intelligence.</p>
                         <p>Globalization: With the leverage of a borderless economy, CMC Holdings' products, services, and business development are globally oriented with the goal of addressing huge user needs.</p>
-                        <p>Human First:  As a technology company, we put people first, including developing talent in the company and taking care of human issues globally.</p>
+                        <p>Human First: As a technology company, we put people first, including developing talent in the company and taking care of human issues globally.</p>
                         <p>Tech-Driven: Technology-centric business development, identify technologies for addressing both consumer digital endpoints & social impacts.</p>
                         <p>HI, AI, BI Union: Unifying human intelligence (HI), artificial intelligence (AI), and business intelligence (BI) for optimum performance.</p>
                     </div>
@@ -94,8 +94,8 @@
                     <div class="card">
                         <a href="#"><img class="card-img-top" src="{{ asset('img/img-8.jpg') }}"></a>
                         <div class="card-body d-flex flex-column">
-                            <h5 class="card-title titleUnderline"><a href="#">Brand Story</a></h5>
-                            <p class="card-text flex-grow-1">Build its business foundation to contribute to the pillar industries of Vietnam and the world based on the development of the technology revolution and the unifying of intelligence including human intelligence, artificial intelligence, and business intelligence.</p>
+                            <h5 class="card-title titleUnderline"><a href="#">Digital Economy</a></h5>
+                            <p class="card-text flex-grow-1">With the rapid advancement of technology, we have quickly entered the digital era with the evolving needs of tech-driven consumption, and CMC Holdings' commercial growth aim is to improve living standards with powerful technology.</p>
                             <div class="text-center"><a target="_blank" href="http://127.0.0.1:8000/about-us/overview" class="btn btnWhite">READ MORE</a></div>
                         </div>
                     </div>
@@ -104,8 +104,8 @@
                     <div class="card">
                         <a href="#"><img class="card-img-top" src="{{ asset('img/img-9.jpg') }}"></a>
                         <div class="card-body d-flex flex-column">
-                            <h5 class="card-title titleUnderline"><a href="#">Business Category</a></h5>
-                            <p class="card-text flex-grow-1">The business of CMC Holdings focuses on leading and high-class industries including specialized healthcare, super-luxury real estate, technology-related categories, especially financial technology, and blockchain-driven.</p>
+                            <h5 class="card-title titleUnderline"><a href="#">Specialized Healthcare</a></h5>
+                            <p class="card-text flex-grow-1">Our ultimate mission is to create great value for people and society through Human-Oriented Technology and Specialized & Personalization healthcare Services and Treatments.</p>
                             <div class="text-center"><a target="_blank" href="http://127.0.0.1:8000/about-us/overview" class="btn btnWhite">READ MORE</a></div>
                         </div>
                     </div>
@@ -114,8 +114,8 @@
                     <div class="card">
                         <a href="#"><img class="card-img-top" src="{{ asset('img/img-10.jpg') }}"></a>
                         <div class="card-body d-flex flex-column">
-                            <h5 class="card-title titleUnderline"><a href="#">Ecosystem</a></h5>
-                            <p class="card-text flex-grow-1">The CMC Holdings ecosystem is fast-growing, focuses on the research and development of products and services that address the following special needs: large volume, global scale, repetitive requirements, ever-widening demands,  the longing to enhance the quality of life.</p>
+                            <h5 class="card-title titleUnderline"><a href="#">Real Estate</a></h5>
+                            <p class="card-text flex-grow-1">We provide and invest in the most comprehensive and advanced real estate services including high-class real estate products & projects and platforms using blockchain technology to convert real estate into digital assets. </p>
                             <div class="text-center"><a target="_blank" href="http://127.0.0.1:8000/about-us/overview" class="btn btnWhite">READ MORE</a></div>
                         </div>
                     </div>
@@ -124,8 +124,9 @@
                     <div class="card">
                         <a href="#"><img class="card-img-top" src="{{ asset('img/img-11.jpg') }}"></a>
                         <div class="card-body d-flex flex-column">
-                            <h5 class="card-title titleUnderline"><a href="#">Ecosystem</a></h5>
-                            <p class="card-text flex-grow-1">The CMC Holdings ecosystem is fast-growing, focuses on the research and development of products and services that address the following special needs: large volume, global scale, repetitive requirements, ever-widening demands,  the longing to enhance the quality of life.</p>
+                            <h5 class="card-title titleUnderline"><a href="#">Corporate Consulting</a></h5>
+                            <p class="card-text flex-grow-1">With the goal of building a prosperous business community globally, we will help enterprises grow their businesses through consulting services including enterprise service delivery, data management strategy, ERP solutions, cloud, forecasting, blockchain, project development, investment, finance talent, M&A, business management, and many more.</p>
+                            <p class="card-text flex-grow-1">In particular, we pioneer in providing consulting services and designing the right IPO roadmap for SMEs with a team of experienced Mentors and in-depth knowledge in many different fields.</p>
                             <div class="text-center"><a target="_blank" href="http://127.0.0.1:8000/about-us/overview" class="btn btnWhite">READ MORE</a></div>
                         </div>
                     </div>
@@ -169,16 +170,16 @@
                 <h4 class="sectionHeading centered text-uppercase">Board of Management</h4>
                 <div class="row g-0 justify-content-center">
                     <div class="col-lg-2 col-md-4 item d-flex flex-column align-items-center">
-                        <img src="{{ asset('img/person-1.png') }}" alt="">
-                        <h4 class="name">Dau Minh Nhat</h4>
-                        <div class="position flex-grow-1">Member of BOM</div>
+                        <img src="{{ asset('img/Nguyen Ngoc Long - Member of BOM, Deputy CEO.png') }}" alt="">
+                        <h4 class="name">Nguyen Ngoc Long</h4>
+                        <div class="position flex-grow-1">Member of BOM, Deputy CEO</div>
                         <div class="social">
                             <a href="#"><i class="fab fa-linkedin"></i></a>
                             <a href="#"><i class="fa fa-twitter"></i></a>
                         </div>
                     </div>
                     <div class="col-lg-2 col-md-4 item d-flex flex-column align-items-center">
-                        <img src="{{ asset('img/person-2.png') }}" alt="">
+                        <img src="{{ asset('img/Henry - Vice Chairman.png') }}" alt="">
                         <h4 class="name">Henry D. Fahman</h4>
                         <div class="position flex-grow-1">Vice Chairman</div>
                         <div class="social">
@@ -187,7 +188,7 @@
                         </div>
                     </div>
                     <div class="col-lg-2 col-md-4 item d-flex flex-column align-items-center">
-                        <img src="{{ asset('img/person-3.png') }}" alt="">
+                        <img src="{{ asset('img/Tran Nam Chung - Chairman.png') }}" alt="">
                         <h4 class="name">Tran Nam Chung</h4>
                         <div class="position flex-grow-1">Chairman</div>
                         <div class="social">
@@ -196,7 +197,7 @@
                         </div>
                     </div>
                     <div class="col-lg-2 col-md-4 item d-flex flex-column align-items-center">
-                        <img src="{{ asset('img/person-4.png') }}" alt="">
+                        <img src="{{ asset('img/Hoang Quoc Tuan - Member of BOM.png') }}" alt="">
                         <h4 class="name">Hoang Quoc Tuan</h4>
                         <div class="position flex-grow-1">Member of BOM</div>
                         <div class="social">
@@ -204,8 +205,11 @@
                             <a href="#"><i class="fa fa-twitter"></i></a>
                         </div>
                     </div>
+
+                </div>
+                <div class="row g-0 justify-content-center mt-5">
                     <div class="col-lg-2 col-md-4 item d-flex flex-column align-items-center">
-                        <img src="{{ asset('img/person-5.png') }}" alt="">
+                        <img src="{{ asset('img/Vu Thi Tuyet Thanh -Member of BOM.png') }}" alt="">
                         <h4 class="name">Vu Thi Tuyet Thanh</h4>
                         <div class="position flex-grow-1">Member of BOM</div>
                         <div class="social">
@@ -214,9 +218,18 @@
                         </div>
                     </div>
                     <div class="col-lg-2 col-md-4 item d-flex flex-column align-items-center">
-                        <img src="{{ asset('img/person-6.png') }}" alt="">
+                        <img src="{{ asset('img/Nguyen Ngoc Son - Vice Chairman CEO.png') }}" alt="">
                         <h4 class="name">Nguyen Ngoc Son</h4>
-                        <div class="position flex-grow-1">Member of BOM - CEO</div>
+                        <div class="position flex-grow-1">Vice Chairman, CEO</div>
+                        <div class="social">
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-4 item d-flex flex-column align-items-center">
+                        <img src="{{ asset('img/Nguyen Thanh Long - Member of BOM, Deputy CEO.png') }}" alt="">
+                        <h4 class="name">Nguyen Thanh Long</h4>
+                        <div class="position flex-grow-1">Member of BOM, Deputy CEO</div>
                         <div class="social">
                             <a href="#"><i class="fab fa-linkedin"></i></a>
                             <a href="#"><i class="fa fa-twitter"></i></a>
@@ -287,16 +300,16 @@
                 <h4 class="sectionHeading centered text-uppercase">Core Team</h4>
                 <div class="row g-0 justify-content-center">
                     <div class="col-lg-2 col-md-4 item d-flex flex-column align-items-center">
-                        <img src="{{ asset('img/person-13.png') }}" alt="">
-                        <h4 class="name">Tracy Vu</h4>
-                        <div class="position flex-grow-1">Brand Director</div>
+                        <img src="{{ asset('img/Nguyen Ngoc Hoa - CHRO.png') }}" alt="">
+                        <h4 class="name">Nguyen Ngoc Hoa</h4>
+                        <div class="position flex-grow-1">CHRO</div>
                         <div class="social">
                             <a href="#"><i class="fab fa-linkedin"></i></a>
                             <a href="#"><i class="fa fa-twitter"></i></a>
                         </div>
                     </div>
                     <div class="col-lg-2 col-md-4 item d-flex flex-column align-items-center">
-                        <img src="{{ asset('img/person-14.png') }}" alt="">
+                        <img src="{{ asset('img/Andy Vu - CMO.png') }}" alt="">
                         <h4 class="name">Andy Vu</h4>
                         <div class="position flex-grow-1">CMO</div>
                         <div class="social">
@@ -305,7 +318,7 @@
                         </div>
                     </div>
                     <div class="col-lg-2 col-md-4 item d-flex flex-column align-items-center">
-                        <img src="{{ asset('img/person-15.png') }}" alt="">
+                        <img src="{{ asset('img/Anna Nguyen - Business & Partnership Director.png') }}" alt="">
                         <h4 class="name">Anna Nguyen</h4>
                         <div class="position flex-grow-1">Business & Partnership Director</div>
                         <div class="social">
@@ -314,9 +327,18 @@
                         </div>
                     </div>
                     <div class="col-lg-2 col-md-4 item d-flex flex-column align-items-center">
-                        <img src="{{ asset('img/person-16.png') }}" alt="">
+                        <img src="{{ asset('img/Le Van Duong - Legal Director.png') }}" alt="">
                         <h4 class="name">Le Van Duong</h4>
                         <div class="position flex-grow-1">Legal Director</div>
+                        <div class="social">
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-4 item d-flex flex-column align-items-center">
+                        <img src="{{ asset('img/Trinh Hoang Linh - Deputy CEO.png') }}" alt="">
+                        <h4 class="name">Trinh Hoang Linh</h4>
+                        <div class="position flex-grow-1">Deputy CEO</div>
                         <div class="social">
                             <a href="#"><i class="fab fa-linkedin"></i></a>
                             <a href="#"><i class="fa fa-twitter"></i></a>
@@ -348,7 +370,7 @@
                     <div class="col-lg-2 col-md-4 item d-flex flex-column align-items-center">
                         <img src="{{ asset('img/person-18.png') }}" alt="">
                         <h4 class="name">Bui Dinh Ngoc</h4>
-                        <div class="position flex-grow-1">Bui Dinh Ngoc</div>
+                        <div class="position flex-grow-1">CTO</div>
                         <div class="social">
                             <a href="#"><i class="fab fa-linkedin"></i></a>
                             <a href="#"><i class="fa fa-twitter"></i></a>
