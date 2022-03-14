@@ -12,7 +12,7 @@
 			<div class="carousel-inner">
 				<div class="carousel-item active">
 					<div class="carouselContent">
-						<h1 class="title">CMC Holdings<br><span class="fw-light">The Big Things</span></h1>
+						<h1 class="title">Metaway Holdings<br><span class="fw-light">The Big Things</span></h1>
 						<h4 class="subTitle">Cross-border multi-industry economic corporation</h4>
 						<a href="#" class="more">read more</a>
 					</div>
@@ -20,7 +20,7 @@
 				</div>
 				<div class="carousel-item">
 					<div class="carouselContent">
-						<h1 class="title">CMC Holdings<br><span class="fw-light">The Big Things</span></h1>
+						<h1 class="title">Metaway Holdings<br><span class="fw-light">The Big Things</span></h1>
 						<h4 class="subTitle">Cross-border multi-industry economic corporation</h4>
 						<a href="#" class="more">read more</a>
 					</div>
