@@ -203,7 +203,7 @@
 				<div class="item">
 					<div class="row g-0">
 						<div class="col-6">
-							<a href="https://www.nasdaq.com/press-release/corrections-startup-cmc-holdings-successfully-raised-us%241.5-million-in-co-founder">
+							<a href="https://www.nasdaq.com/press-release/corrections-startup-cmc-holdings-successfully-raised-us%241.5-million-in-co-founder" target="blank">
 								<img src="{{ asset('img/UNasdaq.png') }}" alt="">
 							</a>
 						</div>
@@ -218,7 +218,7 @@
 							</a>
 						</div>
 						<div class="col-6">
-							<a href="https://www.marketscreener.com/quote/stock/PHI-GROUP-INC-120787446/news/Corrections-Startup-CMC-Holdings-Successfully-Raised-US-1-5-million-in-Co-founder-Round-to-speed-u-37661739/">
+							<a href="https://www.marketscreener.com/quote/stock/PHI-GROUP-INC-120787446/news/Corrections-Startup-CMC-Holdings-Successfully-Raised-US-1-5-million-in-Co-founder-Round-to-speed-u-37661739/" target="blank">
 								<img src="{{ asset('img/Market-Screener.png') }}" alt="">
 							</a>
 						</div>
@@ -232,7 +232,7 @@
 							</a>
 						</div>
 						<div class="col-6">
-							<a href="https://ca.finance.yahoo.com/news/phi-group-joins-vietnam-based-143000193.html">
+							<a href="https://ca.finance.yahoo.com/news/phi-group-joins-vietnam-based-143000193.html" target="blank">
 								<img src="{{ asset('img/Yahoo-Finance.png') }}" alt="">
 							</a>
 						</div>
@@ -275,7 +275,7 @@
 				<div class="item">
 					<div class="row g-0">
 						<div class="col-6">
-							<a href="https://www.nasdaq.com/press-release/corrections-startup-cmc-holdings-successfully-raised-us%241.5-million-in-co-founder">
+							<a href="https://www.nasdaq.com/press-release/corrections-startup-cmc-holdings-successfully-raised-us%241.5-million-in-co-founder" target="blank">
 								<img src="{{ asset('img/UNasdaq.png') }}" alt="">
 							</a>
 						</div>
@@ -285,7 +285,7 @@
 							</a>
 						</div>
 						<div class="col-6">
-							<a href="https://www.marketscreener.com/quote/stock/PHI-GROUP-INC-120787446/news/Corrections-Startup-CMC-Holdings-Successfully-Raised-US-1-5-million-in-Co-founder-Round-to-speed-u-37661739/">
+							<a href="https://www.marketscreener.com/quote/stock/PHI-GROUP-INC-120787446/news/Corrections-Startup-CMC-Holdings-Successfully-Raised-US-1-5-million-in-Co-founder-Round-to-speed-u-37661739/" target="blank">
 								<img src="{{ asset('img/Market-Screener.png') }}" alt="">
 							</a>
 						</div>
