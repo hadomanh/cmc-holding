@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<!-- Main Tag -->
-	<title>CMC HOLDING</title>
+	<title>METAWAY HOLDING</title>
 	<meta id="PagKeywords" name="keywords" content="CMC CHAIN" />
 	<meta id="PagDescription" name="description" content="" />
 	<link id="LinkIcon" href="" type="image/x-icon" rel="shortcut icon" />
@@ -113,11 +113,11 @@
 								</li>
 								<li>
 									<img src="{{ asset('img/icon-mail.png') }}" class="icon">
-									<div>:  info@cmcholdings.com | info@cmcholdings.vn</div>
+									<div>:  info@metawayholdings.com | info@metawayholdings.vn</div>
 								</li>
 								<li>
 									<img src="{{ asset('img/icon-global.png') }}" class="icon">
-									<div>:  www.cmcholdings.com | www.cmcholdings.vn</div>
+									<div>:  www.metawayholdings.com | www.metawayholdings.vn</div>
 								</li>
 							</ul>
 						</div>
@@ -134,8 +134,8 @@
 			</div>
 			<div class="copyright text-center">
 				<div class="container-lg">
-					<div>CMC Holdings.com is a proud part of CMC Holdings Inc., a leading business  services company.</div>
-					<div>CMC Holdings.com is a Registered Trademark. © 2022 – 2027  All Rights Reserved</div>
+					<div>METAWAY Holdings.com is a proud part of METAWAY Holdings Inc., a leading business  services company.</div>
+					<div>METAWAY Holdings.com is a Registered Trademark. © 2022 – 2027  All Rights Reserved</div>
 				</div>
 			</div>
 		</footer>

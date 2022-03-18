@@ -1,5 +1,5 @@
 <header>
-    <div class="top">CMC Holdings Roadmap 2022-2027 IPO $300 billion</div>
+    <div class="top">METAWAY Holdings Roadmap 2022-2027 IPO $300 billion</div>
     <nav class="navbar navbar-expand-md bg-light">
         <a class="navbar-brand d-md-none d-block" href="{{ route('home') }}">
             <img src="{{ asset('img/logo-mobile.png') }}" alt="">
@@ -12,6 +12,16 @@
                 <li class="nav-item">
                     <a class="nav-link {{ $isActive('home') }}" aria-current="page" href="{{ route('home') }}">Home</a>
                 </li>
+                <!-- <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle {{ $isActive('investor') }}" href="{{ route('home') }}" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Home
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="{{ route('investor.internal') }}">Internal Report</a></li>
+                        <li><a class="dropdown-item" href="{{ route('investor.finance') }}">Annual Finance Report</a></li>
+                        <li><a class="dropdown-item" href="{{ route('investor.sec-filing') }}">Sec Filing</a></li>
+                    </ul>
+                </li> -->
                 <li class="nav-item">
                     <a class="nav-link {{ $isActive('about') }}" href="{{ route('about') }}">About us</a>
                 </li>
