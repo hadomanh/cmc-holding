@@ -14,7 +14,7 @@
 					<div class="carouselContent">
 						<h1 class="title">Metaway Holdings<br><span class="fw-light">The Big Things</span></h1>
 						<h4 class="subTitle">Digital Economy Corporation</h4>
-						<a href="#" class="more">read more</a>
+						<a href="#" class="more">@lang('read more')</a>
 					</div>
 					<img src="{{ asset('img/banner-homepage.jpg') }}" alt="" class="w-100">
 				</div>
@@ -22,7 +22,7 @@
 					<div class="carouselContent">
 						<h1 class="title">Metaway Holdings<br><span class="fw-light">The Big Things</span></h1>
 						<h4 class="subTitle">Digital Economy Corporation</h4>
-						<a href="#" class="more">read more</a>
+						<a href="#" class="more">@lang('read more')</a>
 					</div>
 					<img src="{{ asset('img/banner-homepage-1.jpg') }}" alt="" class="w-100">
 				</div>

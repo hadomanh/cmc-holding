@@ -44,10 +44,10 @@
                 </div>
                 <div class="col-md-6 order-md-1">
                     <div class="desc">
-                        <h2 class="sectionHeading text-uppercase">OUR MISSION</h2>
-                        <p>Utilizing the power of all social resources to build, develop and accompany the global digital economy era. </p>
-                        <p>Creating borderless connectivity in all fields of the digital economy. </p>
-                        <p>Creating a happier and more prosperous life for the worldwide community</p>
+                        <h2 class="sectionHeading text-uppercase">@lang ('OUR MISSION')</h2>
+                        <p>@lang ('Utilizing the power of all social resources to build, develop and accompany the global digital economy era.')</p>
+                        <p>@lang ('Creating borderless connectivity in all fields of the digital economy.')</p>
+                        <p>@lang ('Creating a happier and more prosperous life for the worldwide community')</p>
                     </div>
                 </div>
             </div>
@@ -57,10 +57,10 @@
                 </div>
                 <div class="col-md-6">
                     <div class="desc">
-                        <h2 class="sectionHeading text-uppercase">OUR VISION</h2>
-                        <p>Building a community of entrepreneurs, businesses, investors, and individuals with unified intelligence, companionship and sustainable development.</p>
-                        <p>Becoming the world's leading digital economy corporation by the convergence of intelligence, finance, technology. Thus, we contribute to the common prosperity of the global economy.</p>
-                        <p>Aspiring to IPO on the international exchange platform in 2027.</p>
+                        <h2 class="sectionHeading text-uppercase">@lang ('OUR VISION')</h2>
+                        <p>@lang ('Building a community of entrepreneurs, businesses, investors, and individuals with unified intelligence, companionship and sustainable development.')</p>
+                        <p>@lang ("Becoming the world's leading digital economy corporation by the convergence of intelligence, finance, technology. Thus, we contribute to the common prosperity of the global economy.")</p>
+                        <p>@lang ('Aspiring to IPO on the international exchange platform in 2027.')</p>
                     </div>
                 </div>
             </div>
@@ -70,35 +70,24 @@
                 </div>
                 <div class="col-md-6 order-md-1">
                     <div class="desc">
-                        <h2 class="sectionHeading text-uppercase">OUR CORE VALUES</h2>
-                        <p></p>
-                        <ul class="list-group list-group-numbered">
-                            <li>
-                                Think Big
-                                <ul class="list-unstyled ms-3">
-                                    <li>Act like a founder </li>
-                                    <li>Keep the discipline and high standards</li>
-                                    <li>Respect the diversity </li>
-                                </ul>
-                            </li>
-                            <li>
-                                Spirit of Dedication
-                                <ul class="list-unstyled ms-3">
-                                    <li>Attaching Affection
-                                    </li>
-                                    <li>Sharing the responsibility</li>
-                                    <li>Giving is forever lasted
-                                    </li>
-                                </ul>
-                            </li>
-                            <li>
-                                Transparency, safety
-                                <ul class="list-unstyled ms-3">
-                                    <li>Oriented for solution</li>
-                                    <li>Deep Expertise</li>
-                                    <li>Leaving a legacy</li>
-                                </ul>
-                            </li>
+                        <h2 class="sectionHeading text-uppercase">@lang ('OUR CORE VALUES')</h2>
+                        <h6>@lang ('1. Think Big')</h6>
+                        <ul>
+                            <li>@lang ('Act like a founder')</li>
+                            <li>@lang ('Keep the discipline and high standards')</li>
+                            <li>@lang ('Respect the diversity')</li>
+                        </ul>
+                        <h6>@lang ('2. Spirit of Dedication')</h6>
+                        <ul>
+                            <li>@lang ('Attaching Affection')</li>
+                            <li>@lang ('Sharing the responsibility')</li>
+                            <li>@lang ('Giving is forever lasted')</li>
+                        </ul>
+                        <h6>@lang ('3. Transparency, safety')</h6>
+                        <ul>
+                            <li>@lang ('Oriented for solution')</li>
+                            <li>@lang ('Deep Expertise')</li>
+                            <li>@lang ('Leaving a legacy')</li>
                         </ul>
                     </div>
                 </div>
@@ -109,16 +98,16 @@
     <!-- Business highlights -->
     <section class="newsHighlights bgGrey bgArrow">
         <div class="container-lg">
-            <h2 class="sectionHeading centered">BUSINESS SECTORS</h2>
+            <h2 class="sectionHeading centered">@lang ('BUSINESS SECTORS')</h2>
             <p class="text-center">The business of CMC Holdings focuses on leading and high-class industries including specialized healthcare, super-luxury real estate, technology-related categories, especially financial technology, and blockchain-driven.</p>
             <div class="row">
                 <div class="col-lg-3 col-md-6 item">
                     <div class="card">
                         <a href="#"><img class="card-img-top" src="{{ asset('img/img-8.jpg') }}"></a>
                         <div class="card-body">
-                            <h5 class="card-title titleUnderline"><a href="#">Technology field</a></h5>
-                            <p class="card-text" style="height: 100px; overflow-y: scroll;">Metaway Tech explores, expands, and delivers crucial technology solutions in the pillars of the digital economy. Our goal is to improve the capacity and overall development to meet global user needs in the digital economy age.</p>
-                            <div class="text-center"><a target="_blank" href="http://127.0.0.1:8000/about-us/overview" class="btn btnWhite">READ MORE</a></div>
+                            <h5 class="card-title titleUnderline"><a href="#">@lang ('Technology field')</a></h5>
+                            <p class="card-text" style="height: 100px; overflow-y: scroll;">@lang ('Metaway Tech explores, expands, and delivers crucial technology solutions in the pillars of the digital economy. Our goal is to improve the capacity and overall development to meet global user needs in the digital economy age.')</p>
+                            <div class="text-center"><a target="_blank" href="http://127.0.0.1:8000/about-us/overview" class="btn btnWhite">@lang ('READ MORE')</a></div>
                         </div>
                     </div>
                 </div>
@@ -126,9 +115,9 @@
                     <div class="card">
                         <a href="#"><img class="card-img-top" src="{{ asset('img/img-9.jpg') }}"></a>
                         <div class="card-body">
-                            <h5 class="card-title titleUnderline"><a href="#">Healthcare field</a></h5>
-                            <p class="card-text" style="height: 100px; overflow-y: scroll;">Metaway Med orients to establish an international standard clinic and hospital system specializing in chiropractic. Blockchain technology will be applied to digital medical records for best tracked Metaway Med builds a technology platform to support medical examination, diagnosis, calibration, and treatment for patients, which will help patients save huge amounts of unnecessary costs. Metaway Med owns a world-leading professors and specialists team who are dedicated to caring for patients' health.</p>
-                            <div class="text-center"><a target="_blank" href="http://127.0.0.1:8000/about-us/overview" class="btn btnWhite">READ MORE</a></div>
+                            <h5 class="card-title titleUnderline"><a href="#">@lang ('Healthcare field')</a></h5>
+                            <p class="card-text" style="height: 100px; overflow-y: scroll;">@lang ("Metaway Med orients to establish an international standard clinic and hospital system specializing in chiropractic. Blockchain technology will be applied to digital medical records for best tracked Metaway Med builds a technology platform to support medical examination, diagnosis, calibration, and treatment for patients, which will help patients save huge amounts of unnecessary costs. Metaway Med owns a world-leading professors and specialists team who are dedicated to caring for patients' health.")</p>
+                            <div class="text-center"><a target="_blank" href="http://127.0.0.1:8000/about-us/overview" class="btn btnWhite">@lang ('READ MORE')</a></div>
                         </div>
                     </div>
                 </div>
@@ -136,9 +125,9 @@
                     <div class="card">
                         <a href="#"><img class="card-img-top" src="{{ asset('img/img-10.jpg') }}"></a>
                         <div class="card-body">
-                            <h5 class="card-title titleUnderline"><a href="#">Real Estate field</a></h5>
-                            <p class="card-text" style="height: 100px; overflow-y: scroll;">Metaway Land is an investor and developer of super-luxury class real estate and smart cities. We create the differences for real estates, set new standards for personal branding and premium enjoyment exclusively for elite owners. We apply new technologies comprehensively in the field of real estate. On a global scale, myriad investment opportunities and new forms of ownership will be opened up for Investors regardless of legal and geographical barriers.</p>
-                            <div class="text-center"><a target="_blank" href="http://127.0.0.1:8000/about-us/overview" class="btn btnWhite">READ MORE</a></div>
+                            <h5 class="card-title titleUnderline"><a href="#">@lang ('Real Estate field')</a></h5>
+                            <p class="card-text" style="height: 100px; overflow-y: scroll;">@lang ('Metaway Land is an investor and developer of super-luxury class real estate and smart cities. We create the differences for real estates, set new standards for personal branding and premium enjoyment exclusively for elite owners. We apply new technologies comprehensively in the field of real estate. On a global scale, myriad investment opportunities and new forms of ownership will be opened up for Investors regardless of legal and geographical barriers.')</p>
+                            <div class="text-center"><a target="_blank" href="http://127.0.0.1:8000/about-us/overview" class="btn btnWhite">@lang ('READ MORE')</a></div>
                         </div>
                     </div>
                 </div>
@@ -146,10 +135,9 @@
                     <div class="card">
                         <a href="#"><img class="card-img-top" src="{{ asset('img/img-11.jpg') }}"></a>
                         <div class="card-body">
-                            <h5 class="card-title titleUnderline"><a href="#">Finance field</a></h5>
-                            <p class="card-text" style="height: 100px; overflow-y: scroll;">Metaway Finance applies new technologies in creating digital platforms and solutions for Banking, Insurance, and Securities fields. Brand new investment opportunities and exclusive trading models will be opened up for global users We believe in the future you are the only one who will take control of your own financial life. FWe empower you to learn, plan, and actualize your financial prosperity dreams. You should say bye to all the confusing myths you've heard about investing
-                            </p>
-                            <div class="text-center"><a target="_blank" href="http://127.0.0.1:8000/about-us/overview" class="btn btnWhite">READ MORE</a></div>
+                            <h5 class="card-title titleUnderline"><a href="#">@lang ('Finance field')</a></h5>
+                            <p class="card-text" style="height: 100px; overflow-y: scroll;">@lang ("Metaway Finance applies new technologies in creating digital platforms and solutions for Banking, Insurance, and Securities fields. Brand new investment opportunities and exclusive trading models will be opened up for global users We believe in the future you are the only one who will take control of your own financial life. FWe empower you to learn, plan, and actualize your financial prosperity dreams. You should say bye to all the confusing myths you've heard about investing")</p>
+                            <div class="text-center"><a target="_blank" href="http://127.0.0.1:8000/about-us/overview" class="btn btnWhite">@lang ('READ MORE')</a></div>
                         </div>
                     </div>
                 </div>
@@ -165,10 +153,10 @@
                     <p><img src="{{ asset('img/img-4.jpg') }}" alt=""></p>
                 </div>
                 <div class="col-md-6">
-                    <h2 class="sectionHeading">OUR ECOSYSTEM</h2>
-                    <p>CMC Holdings is a multi-industry, multinational corporation that focuses on important economies' backbone ecosystems to meet global needs. We put priority on the digital economy, high-class real estate, and specialized healthcare. </p>
-                    <p>We have built self-contained and growing ecosystems to fulfill the ever-increasing demands of our global consumers. </p>
-                    <p>The digital ecosystem will feature Hyperas Chain, a specialized platform for coding assets, Pindias, a transaction management platform for digital asset logs, Divega, an auction e-commerce platform, and Rapital Bank, a digital banking service available at any time.</p>
+                    <h2 class="sectionHeading">@lang ('ECOSYSTEM')</h2>
+                    <p>@lang ("Metaway Holdings' ecosystem revolves around the pillars which shape the digital economy. We generate core technologies to apply in all fields of life such as Digital Health Ecosystem, Technology Ecosystem, Digital Real Estate Ecosystem, Digital Financial Ecosystem.") </p>
+                    <!-- <p>@lang ('We have built self-contained and growing ecosystems to fulfill the ever-increasing demands of our global consumers.') </p>
+                    <p>@lang ('The digital ecosystem will feature Hyperas Chain, a specialized platform for coding assets, Pindias, a transaction management platform for digital asset logs, Divega, an auction e-commerce platform, and Rapital Bank, a digital banking service available at any time.')</p> -->
                 </div>
             </div>
         </div>
@@ -177,8 +165,8 @@
     <!-- Our members -->
     <section class="bgWhite partners">
         <div class="container-lg">
-            <h2 class="sectionHeading centered">OUR MEMBERS</h2>
-            <p class="text-center">As a “Holding in Holding” model, we establish member enterprises with separate ecosystems while maintaining focus on Metaway Holding's broad aims of globalization, digitalization, and innovation for outstanding social values.</p>
+            <h2 class="sectionHeading centered">@lang ('HOLDINGS MEMBERS')</h2>
+            <p class="text-center">@lang ("As a 'Holding in Holding' model, we establish member enterprises with separate ecosystems while maintaining focus on Metaway Holding's broad aims of globalization, digitalization, and innovation for outstanding social values.")</p>
             <p><img src="{{ asset('img/map.png') }}" alt=""></p>
         </div>
     </section>
