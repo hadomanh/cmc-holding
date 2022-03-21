@@ -107,7 +107,7 @@
                         <div class="card-body">
                             <h5 class="card-title titleUnderline"><a href="#">@lang ('Technology field')</a></h5>
                             <p class="card-text" style="height: 100px; overflow-y: scroll;">@lang ('Metaway Tech explores, expands, and delivers crucial technology solutions in the pillars of the digital economy. Our goal is to improve the capacity and overall development to meet global user needs in the digital economy age.')</p>
-                            <div class="text-center"><a target="_blank" href="http://127.0.0.1:8000/about-us/overview" class="btn btnWhite">@lang ('READ MORE')</a></div>
+                            <div class="text-center"><a target="_blank" href="http://metawaytech.com/" class="btn btnWhite">@lang ('READ MORE')</a></div>
                         </div>
                     </div>
                 </div>
@@ -179,6 +179,24 @@
             <div class="listTeam">
                 <h4 class="sectionHeading centered text-uppercase">Board of Management</h4>
                 <div class="row g-0 justify-content-center">
+                <div class="col-lg-2 col-md-4 item d-flex flex-column align-items-center">
+                        <img src="{{ asset('img/Tran Nam Chung - Chairman.png') }}" alt="">
+                        <h4 class="name">Tran Nam Chung</h4>
+                        <div class="position flex-grow-1">Chairman</div>
+                        <div class="social">
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-4 item d-flex flex-column align-items-center">
+                        <img src="{{ asset('img/Henry - Vice Chairman.png') }}" alt="">
+                        <h4 class="name">Henry</h4>
+                        <div class="position flex-grow-1">Vice Chairman</div>
+                        <div class="social">
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                        </div>
+                    </div>
                     <div class="col-lg-2 col-md-4 item d-flex flex-column align-items-center">
                         <img src="{{ asset('img/Nguyen Ngoc Son - Vice Chairman CEO.png') }}" alt="">
                         <h4 class="name">Nguyen Ngoc Son</h4>
@@ -197,25 +215,6 @@
                             <a href="#"><i class="fa fa-twitter"></i></a>
                         </div>
                     </div>
-                    <div class="col-lg-2 col-md-4 item d-flex flex-column align-items-center">
-                        <img src="{{ asset('img/Tran Nam Chung - Chairman.png') }}" alt="">
-                        <h4 class="name">Tran Nam Chung</h4>
-                        <div class="position flex-grow-1">Chairman</div>
-                        <div class="social">
-                            <a href="#"><i class="fab fa-linkedin"></i></a>
-                            <a href="#"><i class="fa fa-twitter"></i></a>
-                        </div>
-                    </div>
-                    <div class="col-lg-2 col-md-4 item d-flex flex-column align-items-center">
-                        <img src="{{ asset('img/Henry - Vice Chairman.png') }}" alt="">
-                        <h4 class="name">Henry</h4>
-                        <div class="position flex-grow-1">Vice Chairman</div>
-                        <div class="social">
-                            <a href="#"><i class="fab fa-linkedin"></i></a>
-                            <a href="#"><i class="fa fa-twitter"></i></a>
-                        </div>
-                    </div>
-
                 </div>
                 <div class="row g-0 justify-content-center mt-5">
                     <div class="col-lg-2 col-md-4 item d-flex flex-column align-items-center">

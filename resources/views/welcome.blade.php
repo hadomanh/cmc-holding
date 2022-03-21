@@ -61,7 +61,7 @@
 						<div class="card-body d-flex flex-column">
 							<h5 class="card-title titleUnderline"><a href="#">Brand Story</a></h5>
 							<p class="card-text flex-grow-1">Build its business foundation to contribute to the pillar industries of Vietnam and the world based on the development of the technology revolution and the unifying of intelligence including human intelligence, artificial intelligence, and business intelligence.</p>
-							<div class="text-center"><a target="_blank" href="#" class="btn btnWhite">READ MORE</a></div>
+							<div class="text-center"><a href="{{ route('about') }}" class="btn btnWhite">READ MORE</a></div>
 						</div>
 					</div>
 				</div>
@@ -71,7 +71,7 @@
 						<div class="card-body d-flex flex-column">
 							<h5 class="card-title titleUnderline"><a href="#">Business Category</a></h5>
 							<p class="card-text flex-grow-1">The business of CMC Holdings focuses on leading and high-class industries including specialized healthcare, super-luxury real estate, technology-related categories, especially financial technology, and blockchain-driven.</p>
-							<div class="text-center"><a target="_blank" href="#" class="btn btnWhite">READ MORE</a></div>
+							<div class="text-center"><a href="{{ route('about') }}" class="btn btnWhite">READ MORE</a></div>
 						</div>
 					</div>
 				</div>
@@ -81,7 +81,7 @@
 						<div class="card-body d-flex flex-column">
 							<h5 class="card-title titleUnderline"><a href="#">Ecosystem</a></h5>
 							<p class="card-text flex-grow-1">The CMC Holdings ecosystem is fast-growing, focuses on the research and development of products and services that address the following special needs: large volume, global scale, repetitive requirements, ever-widening demands, the longing to enhance the quality of life.</p>
-							<div class="text-center"><a target="_blank" href="#" class="btn btnWhite">READ MORE</a></div>
+							<div class="text-center"><a href="{{ route('about') }}" class="btn btnWhite">READ MORE</a></div>
 						</div>
 					</div>
 				</div>
