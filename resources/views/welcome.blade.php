@@ -33,13 +33,13 @@
 	<!-- About Us -->
 	<section class="bgWhite">
 		<div class="container-lg">
-			<h2 class="sectionHeading centered text-uppercase">about us</h2>
+			<h2 class="sectionHeading centered text-uppercase">{{ __('about us') }}</h2>
 			<div class="row">
 				<div class="col-md-6">
 					<p><img src="{{ asset('img/img-1.jpg') }}" alt=""></p>
 				</div>
 				<div class="col-md-6">
-					<p>In the future, with a wealth of knowledge and practical experience and a team of experts with specialized expertise, we will also develop consulting services in the fields of technology, finance, and management. </p>
+					<p>{{ __('In the future, with a wealth of knowledge and practical experience and a team of experts with specialized expertise, we will also develop consulting services in the fields of technology, finance, and management.') }} </p>
 					<p>CONNECTION: We leverage the power of connectivity and endeavor to create new forms of connectivity in the categories of the pillar economy especially the digital economy to collaborate with the people and society without borders. </p>
 					<p>METAVERSE: CMC Holdings was founded at a time when digital transformation is inevitable, and many emerging technologies, such as Blockchain, NFT, Cryptocurrency, Digital Banking, and especially Metaverse are on the rise.</p>
 					<p>COMMUNITY: CMC Holdings was built by a community of people with great aspirations and missions with the desire to create great values for many communities around the globe.</p>
