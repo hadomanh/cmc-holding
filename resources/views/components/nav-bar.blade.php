@@ -53,9 +53,15 @@
                 <li class="nav-item">
                     <a class="nav-link {{ $isActive('contact') }}" href="{{ route('contact') }}">Contact</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Language</a>
-                </li>                                
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Language
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="{{ route('localization.set', 'en') }}">EN</a></li>
+                        <li><a class="dropdown-item" href="{{ route('localization.set', 'vi') }}">VI</a></li>
+                    </ul>
+                </li>                               
             </ul>
         </div>
     </nav>

@@ -66,6 +66,12 @@ Route::prefix('investor')->group(function () {
 
 });
 
+Route::prefix('localization')->group(function () {
+
+    Route::get('/{locale}', 'LocalizationController@setLocale')->name('localization.set');
+    
+});
+
 Auth::routes();
 
 Route::middleware('auth')->prefix('admin')->group(function () {
