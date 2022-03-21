@@ -45,9 +45,9 @@
                 <div class="col-md-6 order-md-1">
                     <div class="desc">
                         <h2 class="sectionHeading text-uppercase">OUR MISSION</h2>
-                        <p>Concentrating on finding comprehensive answers to society's and people's key concerns around the globe, pioneering technological innovation and knowledge, making a great contribution to the digital economy and the world economic growth.</p>
-                        <p>Creating a worldwide community with individuals that have a huge vision.</p>
-                        <p>Delivering significant values and positive impacts on society and the globe.</p>
+                        <p>Utilizing the power of all social resources to build, develop and accompany the global digital economy era. </p>
+                        <p>Creating borderless connectivity in all fields of the digital economy. </p>
+                        <p>Creating a happier and more prosperous life for the worldwide community</p>
                     </div>
                 </div>
             </div>
@@ -58,11 +58,9 @@
                 <div class="col-md-6">
                     <div class="desc">
                         <h2 class="sectionHeading text-uppercase">OUR VISION</h2>
-                        <p>Build its business foundation to contribute to the pillar industries of Vietnam and the world</p>
-                        <p>The pioneering and most advanced digital ecosystem in the world.</p>
-                        <p>Set a goal IPO target of US$300 billion by 2027.</p>
-                        <p>Stay connected with the entry and companionship of worldwide partners in order to become a gigantic player in global business for mutual prosperity.</p>
-                        <p>Creating a legacy for future generations.</p>
+                        <p>Building a community of entrepreneurs, businesses, investors, and individuals with unified intelligence, companionship and sustainable development.</p>
+                        <p>Becoming the world's leading digital economy corporation by the convergence of intelligence, finance, technology. Thus, we contribute to the common prosperity of the global economy.</p>
+                        <p>Aspiring to IPO on the international exchange platform in 2027.</p>
                     </div>
                 </div>
             </div>
@@ -73,11 +71,35 @@
                 <div class="col-md-6 order-md-1">
                     <div class="desc">
                         <h2 class="sectionHeading text-uppercase">OUR CORE VALUES</h2>
-                        <p>Our positioning is global, digital, and high-class but our core values are centered on people and the unifying of intelligence including human intelligence, artificial intelligence, and business intelligence.</p>
-                        <p>Globalization: With the leverage of a borderless economy, CMC Holdings' products, services, and business development are globally oriented with the goal of addressing huge user needs.</p>
-                        <p>Human First: As a technology company, we put people first, including developing talent in the company and taking care of human issues globally.</p>
-                        <p>Tech-Driven: Technology-centric business development, identify technologies for addressing both consumer digital endpoints & social impacts.</p>
-                        <p>HI, AI, BI Union: Unifying human intelligence (HI), artificial intelligence (AI), and business intelligence (BI) for optimum performance.</p>
+                        <p></p>
+                        <ul class="list-group list-group-numbered">
+                            <li>
+                                Think Big
+                                <ul class="list-unstyled ms-3">
+                                    <li>Act like a founder </li>
+                                    <li>Keep the discipline and high standards</li>
+                                    <li>Respect the diversity </li>
+                                </ul>
+                            </li>
+                            <li>
+                                Spirit of Dedication
+                                <ul class="list-unstyled ms-3">
+                                    <li>Attaching Affection
+                                    </li>
+                                    <li>Sharing the responsibility</li>
+                                    <li>Giving is forever lasted
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                Transparency, safety
+                                <ul class="list-unstyled ms-3">
+                                    <li>Oriented for solution</li>
+                                    <li>Deep Expertise</li>
+                                    <li>Leaving a legacy</li>
+                                </ul>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -87,15 +109,15 @@
     <!-- Business highlights -->
     <section class="newsHighlights bgGrey bgArrow">
         <div class="container-lg">
-            <h2 class="sectionHeading centered">BUSINESS CATEGORY</h2>
+            <h2 class="sectionHeading centered">BUSINESS SECTORS</h2>
             <p class="text-center">The business of CMC Holdings focuses on leading and high-class industries including specialized healthcare, super-luxury real estate, technology-related categories, especially financial technology, and blockchain-driven.</p>
             <div class="row">
                 <div class="col-lg-3 col-md-6 item">
                     <div class="card">
                         <a href="#"><img class="card-img-top" src="{{ asset('img/img-8.jpg') }}"></a>
-                        <div class="card-body d-flex flex-column">
-                            <h5 class="card-title titleUnderline"><a href="#">Digital Economy</a></h5>
-                            <p class="card-text flex-grow-1">With the rapid advancement of technology, we have quickly entered the digital era with the evolving needs of tech-driven consumption, and CMC Holdings' commercial growth aim is to improve living standards with powerful technology.</p>
+                        <div class="card-body">
+                            <h5 class="card-title titleUnderline"><a href="#">Technology field</a></h5>
+                            <p class="card-text" style="height: 100px; overflow-y: scroll;">Metaway Tech explores, expands, and delivers crucial technology solutions in the pillars of the digital economy. Our goal is to improve the capacity and overall development to meet global user needs in the digital economy age.</p>
                             <div class="text-center"><a target="_blank" href="http://127.0.0.1:8000/about-us/overview" class="btn btnWhite">READ MORE</a></div>
                         </div>
                     </div>
@@ -103,9 +125,9 @@
                 <div class="col-lg-3 col-md-6 item">
                     <div class="card">
                         <a href="#"><img class="card-img-top" src="{{ asset('img/img-9.jpg') }}"></a>
-                        <div class="card-body d-flex flex-column">
-                            <h5 class="card-title titleUnderline"><a href="#">Specialized Healthcare</a></h5>
-                            <p class="card-text flex-grow-1">Our ultimate mission is to create great value for people and society through Human-Oriented Technology and Specialized & Personalization healthcare Services and Treatments.</p>
+                        <div class="card-body">
+                            <h5 class="card-title titleUnderline"><a href="#">Healthcare field</a></h5>
+                            <p class="card-text" style="height: 100px; overflow-y: scroll;">Metaway Med orients to establish an international standard clinic and hospital system specializing in chiropractic. Blockchain technology will be applied to digital medical records for best tracked Metaway Med builds a technology platform to support medical examination, diagnosis, calibration, and treatment for patients, which will help patients save huge amounts of unnecessary costs. Metaway Med owns a world-leading professors and specialists team who are dedicated to caring for patients' health.</p>
                             <div class="text-center"><a target="_blank" href="http://127.0.0.1:8000/about-us/overview" class="btn btnWhite">READ MORE</a></div>
                         </div>
                     </div>
@@ -113,9 +135,9 @@
                 <div class="col-lg-3 col-md-6 item">
                     <div class="card">
                         <a href="#"><img class="card-img-top" src="{{ asset('img/img-10.jpg') }}"></a>
-                        <div class="card-body d-flex flex-column">
-                            <h5 class="card-title titleUnderline"><a href="#">Real Estate</a></h5>
-                            <p class="card-text flex-grow-1">We provide and invest in the most comprehensive and advanced real estate services including high-class real estate products & projects and platforms using blockchain technology to convert real estate into digital assets. </p>
+                        <div class="card-body">
+                            <h5 class="card-title titleUnderline"><a href="#">Real Estate field</a></h5>
+                            <p class="card-text" style="height: 100px; overflow-y: scroll;">Metaway Land is an investor and developer of super-luxury class real estate and smart cities. We create the differences for real estates, set new standards for personal branding and premium enjoyment exclusively for elite owners. We apply new technologies comprehensively in the field of real estate. On a global scale, myriad investment opportunities and new forms of ownership will be opened up for Investors regardless of legal and geographical barriers.</p>
                             <div class="text-center"><a target="_blank" href="http://127.0.0.1:8000/about-us/overview" class="btn btnWhite">READ MORE</a></div>
                         </div>
                     </div>
@@ -123,10 +145,10 @@
                 <div class="col-lg-3 col-md-6 item">
                     <div class="card">
                         <a href="#"><img class="card-img-top" src="{{ asset('img/img-11.jpg') }}"></a>
-                        <div class="card-body d-flex flex-column">
-                            <h5 class="card-title titleUnderline"><a href="#">Corporate Consulting</a></h5>
-                            <p class="card-text flex-grow-1">With the goal of building a prosperous business community globally, we will help enterprises grow their businesses through consulting services including enterprise service delivery, data management strategy, ERP solutions, cloud, forecasting, blockchain, project development, investment, finance talent, M&A, business management, and many more.</p>
-                            <p class="card-text flex-grow-1">In particular, we pioneer in providing consulting services and designing the right IPO roadmap for SMEs with a team of experienced Mentors and in-depth knowledge in many different fields.</p>
+                        <div class="card-body">
+                            <h5 class="card-title titleUnderline"><a href="#">Finance field</a></h5>
+                            <p class="card-text" style="height: 100px; overflow-y: scroll;">Metaway Finance applies new technologies in creating digital platforms and solutions for Banking, Insurance, and Securities fields. Brand new investment opportunities and exclusive trading models will be opened up for global users We believe in the future you are the only one who will take control of your own financial life. FWe empower you to learn, plan, and actualize your financial prosperity dreams. You should say bye to all the confusing myths you've heard about investing
+                            </p>
                             <div class="text-center"><a target="_blank" href="http://127.0.0.1:8000/about-us/overview" class="btn btnWhite">READ MORE</a></div>
                         </div>
                     </div>

@@ -13,7 +13,7 @@
 				<div class="carousel-item active">
 					<div class="carouselContent">
 						<h1 class="title">Metaway Holdings<br><span class="fw-light">The Big Things</span></h1>
-						<h4 class="subTitle">Cross-border multi-industry economic corporation</h4>
+						<h4 class="subTitle">Digital Economy Corporation</h4>
 						<a href="#" class="more">read more</a>
 					</div>
 					<img src="{{ asset('img/banner-homepage.jpg') }}" alt="" class="w-100">
@@ -21,7 +21,7 @@
 				<div class="carousel-item">
 					<div class="carouselContent">
 						<h1 class="title">Metaway Holdings<br><span class="fw-light">The Big Things</span></h1>
-						<h4 class="subTitle">Cross-border multi-industry economic corporation</h4>
+						<h4 class="subTitle">Digital Economy Corporation</h4>
 						<a href="#" class="more">read more</a>
 					</div>
 					<img src="{{ asset('img/banner-homepage-1.jpg') }}" alt="" class="w-100">
@@ -98,22 +98,22 @@
 				<div class="item">
 					<div class="row g-0">
 						<div class="col-6">
-							<a href="#">
+							<a href="#" target="blank">
 								<img src="{{ asset('img/Phi Group.png') }}" alt="">
 							</a>
 						</div>
 						<div class="col-6">
-							<a href="#">
+							<a href="https://vnpt.com.vn/" target="blank">
 								<img src="{{ asset('img/VNPT.png') }}" alt="">
 							</a>
 						</div>
 						<div class="col-6">
-							<a href="#">
+							<a href="https://www.linkedin.com/company/acentus-capital" target="blank">
 								<img src="{{ asset('img/Acentus Capital.png') }}" alt="">
 							</a>
 						</div>
 						<div class="col-6">
-							<a href="#">
+							<a href="http://www.petroland.com.vn/" target="blank">
 								<img src="{{ asset('img/Petroland.png') }}" alt="">
 							</a>
 						</div>
@@ -122,22 +122,22 @@
 				<div class="item">
 					<div class="row g-0">
 						<div class="col-6">
-							<a href="#">
+							<a href="https://en.nikkoam.com/" target="blank">
 								<img src="{{ asset('img/Nikko AM.png') }}" alt="">
 							</a>
 						</div>
 						<div class="col-6">
-							<a href="#">
+							<a href="https://vcci.com.vn/" target="blank">
 								<img src="{{ asset('img/VCCI.png') }}" alt="">
 							</a>
 						</div>
 						<div class="col-6">
-							<a href="#">
+							<a href="http://www.vietinbankcapital.vn/vi-vn/" target="blank">
 								<img src="{{ asset('img/Viettin Capital.png') }}" alt="">
 							</a>
 						</div>
 						<div class="col-6">
-							<a href="#">
+							<a href="https://www.cts.vn/" target="blank">
 								<img src="{{ asset('img/Viettin Securities.png') }}" alt="">
 							</a>
 						</div>
@@ -146,22 +146,22 @@
 				<div class="item">
 					<div class="row g-0">
 						<div class="col-6">
-							<a href="#">
+							<a href="http://www.vnpost.vn/" target="blank">
 								<img src="{{ asset('img/Vietnam Post.png') }}" alt="">
 							</a>
 						</div>
 						<div class="col-6">
-							<a href="#">
+							<a href="https://vnpt.com.vn/" target="blank">
 								<img src="{{ asset('img/VNPT.png') }}" alt="">
 							</a>
 						</div>
 						<div class="col-6">
-							<a href="#">
+							<a href="#" target="blank">
 								<img src="{{ asset('img/VVC.png') }}" alt="">
 							</a>
 						</div>
 						<div class="col-6">
-							<a href="#">
+							<a href="http://www.petroland.com.vn/" target="blank">
 								<img src="{{ asset('img/Petroland.png') }}" alt="">
 							</a>
 						</div>
@@ -170,22 +170,22 @@
 				<div class="item">
 					<div class="row g-0">
 						<div class="col-6">
-							<a href="#">
+							<a href="https://en.nikkoam.com/" target="blank">
 								<img src="{{ asset('img/Nikko AM.png') }}" alt="">
 							</a>
 						</div>
 						<div class="col-6">
-							<a href="#">
+							<a href="https://vcci.com.vn/" target="blank">
 								<img src="{{ asset('img/VCCI.png') }}" alt="">
 							</a>
 						</div>
 						<div class="col-6">
-							<a href="#">
+							<a href="http://www.vietinbankcapital.vn/vi-vn/" target="blank">
 								<img src="{{ asset('img/Viettin Capital.png') }}" alt="">
 							</a>
 						</div>
 						<div class="col-6">
-							<a href="#">
+							<a href="https://www.cts.vn/" target="blank">
 								<img src="{{ asset('img/Viettin Securities.png') }}" alt="">
 							</a>
 						</div>
