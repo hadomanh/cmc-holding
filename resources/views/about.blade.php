@@ -24,7 +24,7 @@
     <!-- overview -->
     <section class="bgWhite overview">
         <div class="container-lg">
-            <div class="row g-0 item">
+            <div class="row g-0 item" id="overview">
                 <div class="col-md-6">
                     <img src="{{ asset('img/img-1.jpg') }}" alt="" class="w-100">
                 </div>
@@ -38,7 +38,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row g-0 item">
+            <div class="row g-0 item" id="ourmission">
                 <div class="col-md-6 order-md-2">
                     <img src="{{ asset('img/img-5.jpg') }}" alt="" class="w-100">
                 </div>
@@ -51,7 +51,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row g-0 item">
+            <div class="row g-0 item" id="ourvision">
                 <div class="col-md-6">
                     <img src="{{ asset('img/img-6.jpg') }}" alt="" class="w-100">
                 </div>
@@ -64,7 +64,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row g-0 item">
+            <div class="row g-0 item" id="ourcorevalues">
                 <div class="col-md-6 order-md-2">
                     <img src="{{ asset('img/img-7.jpg') }}" alt="" class="w-100">
                 </div>
@@ -96,7 +96,7 @@
     </section>
 
     <!-- Business highlights -->
-    <section class="newsHighlights bgGrey bgArrow">
+    <section class="newsHighlights bgGrey bgArrow" id="businesssectors">
         <div class="container-lg">
             <h2 class="sectionHeading centered">@lang ('BUSINESS SECTORS')</h2>
             <p class="text-center">The business of CMC Holdings focuses on leading and high-class industries including specialized healthcare, super-luxury real estate, technology-related categories, especially financial technology, and blockchain-driven.</p>
@@ -117,7 +117,7 @@
                         <div class="card-body">
                             <h5 class="card-title titleUnderline"><a href="#">@lang ('Healthcare field')</a></h5>
                             <p class="card-text" style="height: 100px; overflow-y: scroll;">@lang ("Metaway Med orients to establish an international standard clinic and hospital system specializing in chiropractic. Blockchain technology will be applied to digital medical records for best tracked Metaway Med builds a technology platform to support medical examination, diagnosis, calibration, and treatment for patients, which will help patients save huge amounts of unnecessary costs. Metaway Med owns a world-leading professors and specialists team who are dedicated to caring for patients' health.")</p>
-                            <div class="text-center"><a target="_blank" href="http://127.0.0.1:8000/about-us/overview" class="btn btnWhite">@lang ('READ MORE')</a></div>
+                            <div class="text-center"><a target="_blank" href="{{ route('about') }}" class="btn btnWhite">@lang ('READ MORE')</a></div>
                         </div>
                     </div>
                 </div>
@@ -127,7 +127,7 @@
                         <div class="card-body">
                             <h5 class="card-title titleUnderline"><a href="#">@lang ('Real Estate field')</a></h5>
                             <p class="card-text" style="height: 100px; overflow-y: scroll;">@lang ('Metaway Land is an investor and developer of super-luxury class real estate and smart cities. We create the differences for real estates, set new standards for personal branding and premium enjoyment exclusively for elite owners. We apply new technologies comprehensively in the field of real estate. On a global scale, myriad investment opportunities and new forms of ownership will be opened up for Investors regardless of legal and geographical barriers.')</p>
-                            <div class="text-center"><a target="_blank" href="http://127.0.0.1:8000/about-us/overview" class="btn btnWhite">@lang ('READ MORE')</a></div>
+                            <div class="text-center"><a target="_blank" href="{{ route('about') }}" class="btn btnWhite">@lang ('READ MORE')</a></div>
                         </div>
                     </div>
                 </div>
@@ -137,7 +137,7 @@
                         <div class="card-body">
                             <h5 class="card-title titleUnderline"><a href="#">@lang ('Finance field')</a></h5>
                             <p class="card-text" style="height: 100px; overflow-y: scroll;">@lang ("Metaway Finance applies new technologies in creating digital platforms and solutions for Banking, Insurance, and Securities fields. Brand new investment opportunities and exclusive trading models will be opened up for global users We believe in the future you are the only one who will take control of your own financial life. FWe empower you to learn, plan, and actualize your financial prosperity dreams. You should say bye to all the confusing myths you've heard about investing")</p>
-                            <div class="text-center"><a target="_blank" href="http://127.0.0.1:8000/about-us/overview" class="btn btnWhite">@lang ('READ MORE')</a></div>
+                            <div class="text-center"><a target="_blank" href="{{ route('about') }}" class="btn btnWhite">@lang ('READ MORE')</a></div>
                         </div>
                     </div>
                 </div>
@@ -146,7 +146,7 @@
     </section>
 
     <!-- eco system -->
-    <section class="bgDark text-white">
+    <section class="bgDark text-white" id="ecosystem">
         <div class="container-lg">
             <div class="row">
                 <div class="col-md-6">
@@ -163,7 +163,7 @@
     </section>
 
     <!-- Our members -->
-    <section class="bgWhite partners">
+    <section class="bgWhite partners" id="holdingsmembers">
         <div class="container-lg">
             <h2 class="sectionHeading centered">@lang ('HOLDINGS MEMBERS')</h2>
             <p class="text-center">@lang ("As a 'Holding in Holding' model, we establish member enterprises with separate ecosystems while maintaining focus on Metaway Holding's broad aims of globalization, digitalization, and innovation for outstanding social values.")</p>
@@ -172,7 +172,7 @@
     </section>
 
     <!-- Our members -->
-    <section class="bgGrey team text-center">
+    <section class="bgGrey team text-center" id="executive">
         <div class="container-lg">
             <h2 class="sectionHeading centered">OUR EXECUTIVE TEAM</h2>
             <p>It is a team of qualified personnel, advisors, CEO's, CMO's... all of them have many years of experience in restructuring, M&A, Marketing, and business management industries. The founding partners include PHI Group (USA), and the leading individuals are Mr. Tran Nam Chung and many other associates. Aura Capital is the strategic stakeholder in Vietnam.</p>

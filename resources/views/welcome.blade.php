@@ -39,11 +39,11 @@
 					<p><img src="{{ asset('img/img-1.jpg') }}" alt=""></p>
 				</div>
 				<div class="col-md-6">
-					<p>{{ __('In the future, with a wealth of knowledge and practical experience and a team of experts with specialized expertise, we will also develop consulting services in the fields of technology, finance, and management.') }} </p>
-					<p>CONNECTION: We leverage the power of connectivity and endeavor to create new forms of connectivity in the categories of the pillar economy especially the digital economy to collaborate with the people and society without borders. </p>
-					<p>METAVERSE: CMC Holdings was founded at a time when digital transformation is inevitable, and many emerging technologies, such as Blockchain, NFT, Cryptocurrency, Digital Banking, and especially Metaverse are on the rise.</p>
-					<p>COMMUNITY: CMC Holdings was built by a community of people with great aspirations and missions with the desire to create great values for many communities around the globe.</p>
-					<p class="text-center"><a href="{{ route('about') }}" class="btn btnWhite text-uppercase">Read more</a></p>
+					<p>@lang ('Metaway Holdings is a global-scale digital economy corporation with the orientation to develop on the pillar fields of the digital economy society. We create platforms to fulfill multi-value ecosystems: Digital Healthcare, Digital Education, Digital Commerce, Digital Banking, Digital insurance, Digital Real Estate... All based on optimal application of the cutting-edge technologies for better serving the demand  on for global connectivity')</p>
+					<p><h6>@lang ('Way')</h6>@lang ('Metaway Holdings possesses the secrets of the super-rich class and the formula successfully applied  in the top corporations and even start up companies for spectacular business breakthroughs. This will be the firm launching pad to help us conquer all the peaks.') </p>
+					<p><h6>@lang ('Talent')</h6>@lang ('Metaway Holdings brings together gifted people with a noble vision and mission in connecting communities and actualizing all aspirations.')</p>
+					<p><h6>@lang ('Metaverse')</h6>@lang ('Formed in the Metaverse era, we are well aware of the importance of developing infrastructure and solutions to help humankind quickly access and adapt to the movements of the future.')</p>
+					<p class="text-center"><a href="{{ route('about') }}" class="btn btnWhite text-uppercase">@lang ('Read more')</a></p>
 				</div>
 			</div>
 		</div>
@@ -53,15 +53,15 @@
 	<section class="newsHighlights bgGrey bgArrow">
 		<div class="container-lg">
 			<h2 class="sectionHeading centered">BUSINESS HIGHLIGHTS</h2>
-			<p class="text-center">The rise of the technology 4.0 revolution has motivated CMC Holdings' tycoons and founders to invest and participate in the fields of digital finance, advanced real estate development, and international commodities. </p>
+			<p class="text-center">The rise of the technology 4.0 revolution has motivated METAWAY Holdings' tycoons and founders to invest and participate in the fields of digital finance, advanced real estate development, and international commodities. </p>
 			<div class="row">
 				<div class="col-md-4">
 					<div class="card">
 						<a href="#"><img class="card-img-top" src="{{ asset('img/img-2.jpg') }}"></a>
 						<div class="card-body d-flex flex-column">
-							<h5 class="card-title titleUnderline"><a href="#">Brand Story</a></h5>
-							<p class="card-text flex-grow-1">Build its business foundation to contribute to the pillar industries of Vietnam and the world based on the development of the technology revolution and the unifying of intelligence including human intelligence, artificial intelligence, and business intelligence.</p>
-							<div class="text-center"><a href="{{ route('about') }}" class="btn btnWhite">READ MORE</a></div>
+							<h5 class="card-title titleUnderline"><a href="#">@lang ('Brand Story')</a></h5>
+							<p class="card-text flex-grow-1">@lang ('Born in an era when  technology wave 5.0 is exploding globally, Metaway Holdings is the convergence of pioneering leaders with outstanding vision and wisdom, unlimited imagination, a sky of creativity, and sustainable development.')</p>
+							<div class="text-center"><a href="{{ route('about') }}" class="btn btnWhite">@lang ('READ MORE')</a></div>
 						</div>
 					</div>
 				</div>
@@ -69,9 +69,9 @@
 					<div class="card">
 						<a href="#"><img class="card-img-top" src="{{ asset('img/img-3.jpg') }}"></a>
 						<div class="card-body d-flex flex-column">
-							<h5 class="card-title titleUnderline"><a href="#">Business Category</a></h5>
-							<p class="card-text flex-grow-1">The business of CMC Holdings focuses on leading and high-class industries including specialized healthcare, super-luxury real estate, technology-related categories, especially financial technology, and blockchain-driven.</p>
-							<div class="text-center"><a href="{{ route('about') }}" class="btn btnWhite">READ MORE</a></div>
+							<h5 class="card-title titleUnderline"><a href="#">@lang ('Business Sector')</a></h5>
+							<p class="card-text flex-grow-1">@lang ('Metaway Holdings concentrates  its business operations on the leading sectors with potential future development, which will be the pillars of the digital economy, such as Healthcare, Technology, Real Estate, and Finance.')</p>
+							<div class="text-center"><a href="{{ route('about') }}" class="btn btnWhite">@lang ('READ MORE')</a></div>
 						</div>
 					</div>
 				</div>
@@ -79,9 +79,9 @@
 					<div class="card">
 						<a href="#"><img class="card-img-top" src="{{ asset('img/img-2.jpg') }}"></a>
 						<div class="card-body d-flex flex-column">
-							<h5 class="card-title titleUnderline"><a href="#">Ecosystem</a></h5>
-							<p class="card-text flex-grow-1">The CMC Holdings ecosystem is fast-growing, focuses on the research and development of products and services that address the following special needs: large volume, global scale, repetitive requirements, ever-widening demands, the longing to enhance the quality of life.</p>
-							<div class="text-center"><a href="{{ route('about') }}" class="btn btnWhite">READ MORE</a></div>
+							<h5 class="card-title titleUnderline"><a href="#">@lang ('Ecosystem')</a></h5>
+							<p class="card-text flex-grow-1">@lang ("The Metaway Holdings ecosystem expands to focus on products and services for specialized needs: The backbone pillar of the digital economy, Enormous Volume, Global Scale, Recurrent Demand, Fast-developing Market. We address existing markets and industries' issues with the latest smart, transparent technology solutions.")</p>
+							<div class="text-center"><a href="{{ route('about') }}" class="btn btnWhite">@lang ('READ MORE')</a></div>
 						</div>
 					</div>
 				</div>
@@ -98,7 +98,7 @@
 				<div class="item">
 					<div class="row g-0">
 						<div class="col-6">
-							<a href="#" target="blank">
+							<a href="http://phiglobal.com/" target="blank">
 								<img src="{{ asset('img/Phi Group.png') }}" alt="">
 							</a>
 						</div>
@@ -208,12 +208,12 @@
 							</a>
 						</div>
 						<div class="col-6">
-							<a href="#">
+							<a href="#" target="blank">
 								<img src="{{ asset('img/Bloomberg.png') }}" alt="">
 							</a>
 						</div>
 						<div class="col-6">
-							<a href="#">
+							<a href="https://www.marketwatch.com/press-release/phi-group-joins-vietnam-based-cmc-holdings-to-develop-digital-economy-ecosystem-with-multiple-platforms-to-serve-global-users-needs-2022-01-25" target="blank">
 								<img src="{{ asset('img/Market-Watch.png') }}" alt="">
 							</a>
 						</div>
@@ -227,7 +227,7 @@
 				<div class="item">
 					<div class="row g-0">
 						<div class="col-6">
-							<a href="#">
+							<a href="https://www.globenewswire.com/news-release/2022/01/27/2374480/0/en/Corrections-Startup-CMC-Holdings-Successfully-Raised-US-1-5-million-in-Co-founder-Round-to-speed-up-developments-aiming-for-US-300-billion-IPO-target-by-2027.html" target="blank">
 								<img src="{{ asset('img/Global-PR-Newswire.png') }}" alt="">
 							</a>
 						</div>
@@ -237,12 +237,12 @@
 							</a>
 						</div>
 						<div class="col-6">
-							<a href="#">
+							<a href="https://viettimes.vn/mot-startup-goi-von-thanh-cong-1-5-trieu-usd-trong-vong-dau-tien-post153780.html" target="blank">
 								<img src="{{ asset('img/Viettimes.png') }}" alt="">
 							</a>
 						</div>
 						<div class="col-6">
-							<a href="#">
+							<a href="https://reatimes.vn/cmc-holdings-thu-hut-15-trieu-usd-vong-co-founder-20201224000009645.html" target="blank">
 								<img src="{{ asset('img/BDS-Vietnam.png') }}" alt="">
 							</a>
 						</div>
@@ -251,22 +251,22 @@
 				<div class="item">
 					<div class="row g-0">
 						<div class="col-6">
-							<a href="#">
+							<a href="https://doanhnhansaigon.vn/khoi-nghiep/thu-hut-1-5-trieu-usd-vong-co-founder-chi-sau-mot-gio-keu-goi-1109107.html " target="blank">
 								<img src="{{ asset('img/Doanh-nhan-sai-gon.png') }}" alt="">
 							</a>
 						</div>
 						<div class="col-6">
-							<a href="#">
+							<a href="https://cafef.vn/mot-startup-phat-trien-nen-kinh-te-so-vua-hut-15-trieu-usd-vong-co-founder-tham-vong-ipo-san-nasdaq-vao-nam-2027-2022011821242" target="blank">
 								<img src="{{ asset('img/Cafe-F.png') }}" alt="">
 							</a>
 						</div>
 						<div class="col-6">
-							<a href="#">
+							<a href="https://thesaigontimes.vn/startup-cong-nghe-goi-von-thanh-cong-15-trieu-do-la-sau-1-gio-keu-goi/" target="blank">
 								<img src="{{ asset('img/Thoi-bao-kinh-te-sai-gon.png') }}" alt="">
 							</a>
 						</div>
 						<div class="col-6">
-							<a href="#">
+							<a href="https://www.marketwatch.com/press-release/phi-group-joins-vietnam-based-cmc-holdings-to-develop-digital-economy-ecosystem-with-multiple-platforms-to-serve-global-users-needs-2022-01-25">
 								<img src="{{ asset('img/Market-Watch.png') }}" alt="">
 							</a>
 						</div>
@@ -280,7 +280,7 @@
 							</a>
 						</div>
 						<div class="col-6">
-							<a href="#">
+							<a href="#" target="blank">
 								<img src="{{ asset('img/Bloomberg.png') }}" alt="">
 							</a>
 						</div>
@@ -290,7 +290,7 @@
 							</a>
 						</div>
 						<div class="col-6">
-							<a href="#">
+							<a href="https://viettimes.vn/mot-startup-goi-von-thanh-cong-1-5-trieu-usd-trong-vong-dau-tien-post153780.html" target="blank">
 								<img src="{{ asset('img/Viettimes.png') }}" alt="">
 							</a>
 						</div>

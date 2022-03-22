@@ -10,7 +10,7 @@
             <h2 class="sectionHeading text-uppercase centered">CONTACT US</h2>
             <div class="row align-items-center">
                 <div class="col-md-6">
-                    <h4 class="text-uppercase">cmc holdings</h4>
+                    <h4 class="text-uppercase">metaway holdings</h4>
                     <ul class="list-unstyled">
                         <li class="d-flex">
                             <span class="label">Address 1</span>
@@ -26,11 +26,11 @@
                         </li>
                         <li class="d-flex">
                             <span class="label">Email</span>
-                            <div>: <a href="mailto:info@cmcholdings.com">info@cmcholdings.com</a> | <a href="mailto:info@cmcholdings.vn">info@cmcholdings.vn</a></div>
+                            <div>: <a href="mailto:info@metawayholdings.com">info@metawayholdings.com</a> | <a href="mailto:info@metawayholdings.vn">info@metawayholdings.vn</a></div>
                         </li>
                         <li class="d-flex">
                             <span class="label">Website</span>
-                            <div>: <a href="https://www.cmcholdings.com" target="_blank">www.cmcholdings.com</a> | <a href="https://www.cmcholdings.vn" target="_blank">www.cmcholdings.vn</a></div>
+                            <div>: <a href="https://www.metawayholdings.com" target="_blank">www.metawayholdings.com</a> | <a href="https://www.metawayholdings.vn" target="_blank">www.metawayholdings.vn</a></div>
                         </li>
                     </ul>
                 </div>
@@ -84,11 +84,11 @@
                         </li>
                         <li class="d-flex">
                             <span class="label">E:</span>
-                            <div><a href="mailto:info@cmcholdings.com">info@cmcholdings.com</a></div>
+                            <div><a href="mailto:info@metawayholdings.com">info@metawayholdings.com</a></div>
                         </li>
                         <li class="d-flex">
                             <span class="label">W:</span>
-                            <div><a href="https://www.cmcholdings.com" target="_blank">www.cmcholdings.com</a></div>
+                            <div><a href="https://www.metawayholdings.com" target="_blank">www.metawayholdings.com</a></div>
                         </li>
                     </ul>
                 </div>
@@ -101,11 +101,11 @@
                         </li>
                         <li class="d-flex">
                             <span class="label">E:</span>
-                            <div><a href="mailto:info@cmcholdings.vn">info@cmcholdings.vn</a></div>
+                            <div><a href="mailto:info@metawayholdings.vn">info@metawayholdings.vn</a></div>
                         </li>
                         <li class="d-flex">
                             <span class="label">W:</span>
-                            <div><a href="https://www.cmcholdings.vn" target="_blank">www.cmcholdings.vn</a></div>
+                            <div><a href="https://www.metawayholdings.vn" target="_blank">www.metawayholdings.vn</a></div>
                         </li>
                     </ul>
                 </div>
