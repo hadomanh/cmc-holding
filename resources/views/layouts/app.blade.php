@@ -55,7 +55,7 @@
 									<li class="parent">
 										<span>About us</span>
 										<ul class="list-unstyled">
-											<li><a href="#">Overview</a></li>
+											<li><a href="#overview">Overview</a></li>
 											<li><a href="#">Our Mission</a></li>
 											<li><a href="#">Our Vision</a></li>
 											<li><a href="#">Our Core Values</a></li>
@@ -101,7 +101,7 @@
 					</div>
 				</div>
 				<div class="companyInfo">
-					<h6 class="title"><span>CMC Holdings</span></h6>
+					<h6 class="title"><span>METAWAY Holdings</span></h6>
 					<div class="row">
 						<div class="col">
 							<ul class="list-unstyled">
