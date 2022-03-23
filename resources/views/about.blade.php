@@ -31,10 +31,13 @@
                 <div class="col-md-6">
                     <div class="desc">
                         <h2 class="sectionHeading text-uppercase">overview</h2>
-                        <p>Global Based Company: CMC Holdings is headquartered in the US and has offices in many countries around the world, of which a large part of its personnel is in Vietnam, a country with people who are studious, clever, tech-savvy and which is currently recognized for having numerous startups in innovation and high-tech industrie.</p>
-                        <p>Inspiration: CMC Holdings was founded with the aim of bringing together a community of competent entrepreneurs in the new era of emerging economies.</p>
-                        <p>Human Power: The founders and Executive Team of CMC Holdings have vast experience in investing, corporate management, restructuring, and executing cross-border initiatives, which contributes to the company's strength.</p>
-                        <p>Aspiration: The big vision of CMC Holdings always closely connects with the big dreams of solving the major challenges of the global and social market with huge user needs.</p>
+                        <h6>@lang ('Company Background')</h6>
+                        <p>@lang ('Metaway Holdings is headquartered in the United States with numerous branch offices around the world. The company was founded in the next wave of digital technologies with artificial intelligence, blockchain, the Internet of things, and Cloud computing platforms and applications . These invincible waves will convey great potential and promote the instantaneous development of key economic sectors. Our major ambition is to connect together a community of entrepreneurs, firms, and investors who all share the same desire of giving a legacy for future generations.')</p>
+                        <h6>@lang ('Resource')</h6>
+                        <p>@lang ("Metaway Holdings possesses influential resources in human, finance, and technology. Metaway Holdings' founders and management team have extensive expertise and knowledge in strategy, corporate governance, investing, and restructuring. We capture the world's top successful business formulae. Thanks to the creative ideas based on understanding and mastering the latest platform technologies, We have earned the attention of major investment funds and reputable financial organizations.")</p>
+                        <h6>@lang ('Aspiration')</h6>
+                        <p>@lang ('Metaway Holdings desires to integrate human intelligence, artificial intelligence, and business intelligence to jointly generate prosperous values for worldwide inhabitants and progress to become a leading digital economy organization in the world.')</p>
+
                     </div>
                 </div>
             </div>
@@ -99,7 +102,7 @@
     <section class="newsHighlights bgGrey bgArrow" id="businesssectors">
         <div class="container-lg">
             <h2 class="sectionHeading centered">@lang ('BUSINESS SECTORS')</h2>
-            <p class="text-center">The business of CMC Holdings focuses on leading and high-class industries including specialized healthcare, super-luxury real estate, technology-related categories, especially financial technology, and blockchain-driven.</p>
+            <p class="text-center">The business of METAWAY Holdings focuses on leading and high-class industries including specialized healthcare, super-luxury real estate, technology-related categories, especially financial technology, and blockchain-driven.</p>
             <div class="row">
                 <div class="col-lg-3 col-md-6 item">
                     <div class="card">
@@ -175,11 +178,11 @@
     <section class="bgGrey team text-center" id="executive">
         <div class="container-lg">
             <h2 class="sectionHeading centered">OUR EXECUTIVE TEAM</h2>
-            <p>It is a team of qualified personnel, advisors, CEO's, CMO's... all of them have many years of experience in restructuring, M&A, Marketing, and business management industries. The founding partners include PHI Group (USA), and the leading individuals are Mr. Tran Nam Chung and many other associates. Aura Capital is the strategic stakeholder in Vietnam.</p>
+            <p>@lang ('Metaway Holdings owns executive resources who have many years of experience in many fields: restructuring, M&A, finance, investment and corporate governance. In addition, we also have senior advisors from Phi Group (USA) with a strong and reputable global partner system.')</p>
             <div class="listTeam">
                 <h4 class="sectionHeading centered text-uppercase">Board of Management</h4>
                 <div class="row g-0 justify-content-center">
-                <div class="col-lg-2 col-md-4 item d-flex flex-column align-items-center">
+                    <div class="col-lg-2 col-md-4 item d-flex flex-column align-items-center">
                         <img src="{{ asset('img/Tran Nam Chung - Chairman.png') }}" alt="">
                         <h4 class="name">Tran Nam Chung</h4>
                         <div class="position flex-grow-1">Chairman</div>
