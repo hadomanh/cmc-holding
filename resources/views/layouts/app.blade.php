@@ -56,7 +56,7 @@
 										<span>About us</span>
 										<ul class="list-unstyled">
 											<li><a href="#overview">Overview</a></li>
-											<li><a href="#">Our Mission</a></li>
+											<li><a href="#ourmission">Our Mission</a></li>
 											<li><a href="#">Our Vision</a></li>
 											<li><a href="#">Our Core Values</a></li>
 											<li><a href="#">Business Category</a></li>
