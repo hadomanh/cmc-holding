@@ -57,12 +57,12 @@
 										<ul class="list-unstyled">
 											<li><a href="#overview">Overview</a></li>
 											<li><a href="#ourmission">Our Mission</a></li>
-											<li><a href="#">Our Vision</a></li>
-											<li><a href="#">Our Core Values</a></li>
-											<li><a href="#">Business Category</a></li>
-											<li><a href="#">Our Ecosystem</a></li>
-											<li><a href="#">Our Members</a></li>
-											<li><a href="#">Our Executive Team</a></li>
+											<li><a href="#ourvision">Our Vision</a></li>
+											<li><a href="#ourcorevalues">Our Core Values</a></li>
+											<li><a href="#businesssectors">Business Sector</a></li>
+											<li><a href="#ecosystem">Our Ecosystem</a></li>
+											<li><a href="#holdingsmembers">Holdings Members</a></li>
+											<li><a href="#executive">Our Executive Team</a></li>
 										</ul>
 									</li>
 								</ul>
@@ -93,7 +93,7 @@
 							</div>
 							<div class="col-md-3">
 								<ul>
-									<li><a href="#">Contact</a></li>
+									<li><a href="{{ route('contact') }}">Contact</a></li>
 									<li><a href="#">Language</a></li>
 								</ul>
 							</div>
