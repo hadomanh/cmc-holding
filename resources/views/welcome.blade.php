@@ -52,7 +52,7 @@
 	<!-- Business highlights -->
 	<section class="newsHighlights bgGrey bgArrow">
 		<div class="container-lg">
-			<h2 class="sectionHeading centered">BUSINESS HIGHLIGHTS</h2>
+			<h2 class="sectionHeading centered">CORPORATION HIGHLIGHTS</h2>
 			<p class="text-center">The rise of the technology 4.0 revolution has motivated METAWAY Holdings' tycoons and founders to invest and participate in the fields of digital finance, advanced real estate development, and international commodities. </p>
 			<div class="row">
 				<div class="col-md-4">
@@ -69,8 +69,8 @@
 					<div class="card">
 						<a href="#"><img class="card-img-top" src="{{ asset('img/img-3.jpg') }}"></a>
 						<div class="card-body d-flex flex-column">
-							<h5 class="card-title titleUnderline"><a href="#">@lang ('Business Sector')</a></h5>
-							<p class="card-text flex-grow-1">@lang ('Metaway Holdings concentrates  its business operations on the leading sectors with potential future development, which will be the pillars of the digital economy, such as Healthcare, Technology, Real Estate, and Finance.')</p>
+							<h5 class="card-title titleUnderline"><a href="#">@lang ('Investment Sector')</a></h5>
+							<p class="card-text flex-grow-1">@lang ('Metaway Holdings focuses on investing in leading sectors and industries with high growth potential in the future, which are the pillars of the digital economy including: healthcare, technology, real estate and finance.')</p>
 							<div class="text-center"><a href="{{ route('about') }}" class="btn btnWhite">@lang ('READ MORE')</a></div>
 						</div>
 					</div>
@@ -80,7 +80,7 @@
 						<a href="#"><img class="card-img-top" src="{{ asset('img/img-2.jpg') }}"></a>
 						<div class="card-body d-flex flex-column">
 							<h5 class="card-title titleUnderline"><a href="#">@lang ('Ecosystem')</a></h5>
-							<p class="card-text flex-grow-1">@lang ("The Metaway Holdings ecosystem expands to focus on products and services for specialized needs: The backbone pillar of the digital economy, Enormous Volume, Global Scale, Recurrent Demand, Fast-developing Market. We address existing markets and industries' issues with the latest smart, transparent technology solutions.")</p>
+							<p class="card-text flex-grow-1">@lang ("The Metaway Holdings ecosystem is investing in products and services for specialized needs: The backbone pillar of the digital economy, Enormous Volume, Global Scale, Recurrent Demand, Fast-developing Market. We address existing markets and industries' issues with the latest smart, transparent technology solutions.")</p>
 							<div class="text-center"><a href="{{ route('about') }}" class="btn btnWhite">@lang ('READ MORE')</a></div>
 						</div>
 					</div>
