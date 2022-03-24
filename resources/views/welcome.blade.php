@@ -53,7 +53,7 @@
 	<section class="newsHighlights bgGrey bgArrow">
 		<div class="container-lg">
 			<h2 class="sectionHeading centered">CORPORATION HIGHLIGHTS</h2>
-			<p class="text-center">The rise of the technology 4.0 revolution has motivated METAWAY Holdings' tycoons and founders to invest and participate in the fields of digital finance, advanced real estate development, and international commodities. </p>
+			<p class="text-center">The rise of the technology 5.0 revolution has motivated METAWAY Holdings' tycoons and founders to invest and participate in the fields of digital finance, advanced real estate development, and international commodities. </p>
 			<div class="row">
 				<div class="col-md-4">
 					<div class="card">
