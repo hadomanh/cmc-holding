@@ -101,8 +101,8 @@
     <!-- Business highlights -->
     <section class="newsHighlights bgGrey bgArrow" id="businesssectors">
         <div class="container-lg">
-            <h2 class="sectionHeading centered">@lang ('BUSINESS SECTORS')</h2>
-            <p class="text-center">The business of METAWAY Holdings focuses on leading and high-class industries including specialized healthcare, super-luxury real estate, technology-related categories, especially financial technology, and blockchain-driven.</p>
+            <h2 class="sectionHeading centered">@lang ('INVESTMENT SECTOR')</h2>
+            <p class="text-center">METAWAY Holdings focuses on investing in key areas in the digital economy, including technology, healthcare, real estate, and finance.</p>
             <div class="row">
                 <div class="col-lg-3 col-md-6 item">
                     <div class="card">
@@ -157,9 +157,7 @@
                 </div>
                 <div class="col-md-6">
                     <h2 class="sectionHeading">@lang ('ECOSYSTEM')</h2>
-                    <p>@lang ("Metaway Holdings' ecosystem revolves around the pillars which shape the digital economy. We generate core technologies to apply in all fields of life such as Digital Health Ecosystem, Technology Ecosystem, Digital Real Estate Ecosystem, Digital Financial Ecosystem.") </p>
-                    <!-- <p>@lang ('We have built self-contained and growing ecosystems to fulfill the ever-increasing demands of our global consumers.') </p>
-                    <p>@lang ('The digital ecosystem will feature Hyperas Chain, a specialized platform for coding assets, Pindias, a transaction management platform for digital asset logs, Divega, an auction e-commerce platform, and Rapital Bank, a digital banking service available at any time.')</p> -->
+                    <p>@lang ("The Metaway Holdings ecosystem is investing in products and services for specialized needs: The backbone pillar of the digital economy, Enormous Volume, Global Scale, Recurrent Demand, Fast-developing Market. We address existing markets and industries' issues with the latest smart, transparent technology solutions.") </p>
                 </div>
             </div>
         </div>
@@ -210,17 +208,6 @@
                         </div>
                     </div>
                     <div class="col-lg-2 col-md-4 item d-flex flex-column align-items-center">
-                        <img src="{{ asset('img/Nguyen Thanh Long - Member of BOM, Deputy CEO.png') }}" alt="">
-                        <h4 class="name">Nguyen Thanh Long</h4>
-                        <div class="position flex-grow-1">Member of BOM, Deputy CEO</div>
-                        <div class="social">
-                            <a href="#"><i class="fab fa-linkedin"></i></a>
-                            <a href="#"><i class="fa fa-twitter"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="row g-0 justify-content-center mt-5">
-                    <div class="col-lg-2 col-md-4 item d-flex flex-column align-items-center">
                         <img src="{{ asset('img/Nguyen Ngoc Long - Member of BOM, Deputy CEO.png') }}" alt="">
                         <h4 class="name">Nguyen Ngoc Long</h4>
                         <div class="position flex-grow-1">Member of BOM, Deputy CEO</div>
@@ -230,18 +217,9 @@
                         </div>
                     </div>
                     <div class="col-lg-2 col-md-4 item d-flex flex-column align-items-center">
-                        <img src="{{ asset('img/Vu Thi Tuyet Thanh -Member of BOM.png') }}" alt="">
-                        <h4 class="name">Vu Thi Tuyet Thanh</h4>
-                        <div class="position flex-grow-1">Member of BOM</div>
-                        <div class="social">
-                            <a href="#"><i class="fab fa-linkedin"></i></a>
-                            <a href="#"><i class="fa fa-twitter"></i></a>
-                        </div>
-                    </div>
-                    <div class="col-lg-2 col-md-4 item d-flex flex-column align-items-center">
-                        <img src="{{ asset('img/Hoang Quoc Tuan - Member of BOM.png') }}" alt="">
-                        <h4 class="name">Hoang Quoc Tuan</h4>
-                        <div class="position flex-grow-1">Member of BOM</div>
+                        <img src="{{ asset('img/Nguyen Thanh Long - Member of BOM, Deputy CEO.png') }}" alt="">
+                        <h4 class="name">Nguyen Thanh Long</h4>
+                        <div class="position flex-grow-1">Member of BOM, Deputy CEO</div>
                         <div class="social">
                             <a href="#"><i class="fab fa-linkedin"></i></a>
                             <a href="#"><i class="fa fa-twitter"></i></a>
