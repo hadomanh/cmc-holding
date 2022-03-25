@@ -55,14 +55,14 @@
 									<li class="parent">
 										<span>About us</span>
 										<ul class="list-unstyled">
-											<li><a href="#overview">Overview</a></li>
-											<li><a href="#ourmission">Our Mission</a></li>
-											<li><a href="#ourvision">Our Vision</a></li>
-											<li><a href="#ourcorevalues">Our Core Values</a></li>
-											<li><a href="#businesssectors">Business Sector</a></li>
-											<li><a href="#ecosystem">Our Ecosystem</a></li>
-											<li><a href="#holdingsmembers">Holdings Members</a></li>
-											<li><a href="#executive">Our Executive Team</a></li>
+											<li><a href="{{ route('about') }}">Overview</a></li>
+											<li><a href="{{ route('about') }}">Our Mission</a></li>
+											<li><a href="{{ route('about') }}">Our Vision</a></li>
+											<li><a href="{{ route('about') }}">Our Core Values</a></li>
+											<li><a href="{{ route('about') }}">Business Sector</a></li>
+											<li><a href="{{ route('about') }}">Our Ecosystem</a></li>
+											<li><a href="{{ route('about') }}">Holdings Members</a></li>
+											<li><a href="{{ route('about') }}">Our Executive Team</a></li>
 										</ul>
 									</li>
 								</ul>

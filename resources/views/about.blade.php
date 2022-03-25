@@ -191,7 +191,7 @@
                     </div>
                     <div class="col-lg-2 col-md-4 item d-flex flex-column align-items-center">
                         <img src="{{ asset('img/Henry - Vice Chairman.png') }}" alt="">
-                        <h4 class="name">Henry</h4>
+                        <h4 class="name">Henry D.Fahman</h4>
                         <div class="position flex-grow-1">Vice Chairman</div>
                         <div class="social">
                             <a href="#"><i class="fab fa-linkedin"></i></a>
