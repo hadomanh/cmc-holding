@@ -2,6 +2,8 @@
 
 use App\Http\Controllers\NewsController;
 use App\Models\News;
+use App\Http\Controllers\PressController;
+use App\Models\Press;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
@@ -41,8 +43,14 @@ Route::prefix('media')->group(function () {
     })->name('media.news-detail');
 
     Route::get('/press', function () {
-        return view('media.press');
+        $press = Press::where('active', true)->get();
+        return view('media.press')->with(compact('press'));
     })->name('media.press');
+
+    Route::get('/press/{id}', function ($id) {
+        $press = Press::find($id);
+        return view('media.press-detail')->with(compact('press'));
+    })->name('media.press-detail');
 
     Route::get('/investor-news', function () {
         return view('media.investor-news');
@@ -76,7 +84,12 @@ Auth::routes();
 
 Route::middleware('auth')->prefix('admin')->group(function () {
     Route::get('/', 'HomeController@index')->name('admin.index');
+
     Route::get('/news/toggle/{news}', [NewsController::class, 'toggle'])->name('news.toggle');
     Route::post('/news/image', [NewsController::class, 'imageUpload'])->name('news.image.upload');
     Route::resource('/news', 'NewsController');
+
+    Route::get('/press/toggle/{press}', [PressController::class, 'toggle'])->name('press.toggle');
+    Route::post('/press/image', [PressController::class, 'imageUpload'])->name('press.image.upload');
+    Route::resource('/press', 'PressController');
 });
