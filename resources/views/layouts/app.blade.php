@@ -44,15 +44,41 @@
 		<footer class="pb-0 bgWhite">
 			<div class="container-lg">
 				<div class="row">
-					<div class="col-xl-auto col-12">
-						<img src="{{ asset('img/logo.png') }}" class="footerLogo">
-					</div>
 					<div class="col-xl col-12">
-						<h6 class="title text-red"><span>Home Page</span></h6>
-						<div class="row menuFooter">
-							<div class="col-md-3">
+							<div class="row social">								
+								<div class="col-auto"><a target="_blank" href="https://www.facebook.com/Metaway-Holdings-109209504990418" class="item"><i class="fa fa-facebook-f" aria-hidden="true"></i></a></div>
+								<div class="col-auto"><a target="_blank" href="https://www.youtube.com/channel/UCpIg6-XEcZnofCZD5z8OLVw" class="item"><i class="fa fa-youtube" aria-hidden="true"></i></a></div>
+								<div class="col-auto"><a target="_blank" href="https://linkedin.com/company/metawayglobal" class="item"><i class="fa fa-linkedin" aria-hidden="true"></i></a></div>
+								<div class="col-auto"><a target="_blank" href="https://twitter.com/metawayholdings" class="item"><i class="fa fa-twitter" aria-hidden="true"></i></a></div>								
+							</div>
+						<h6 class="title text-red">
+						<div class="">
+							<img src="{{ asset('img/Asset 2@4x 2.png') }}" class="footerLogo">
+						</div>
+						</h6>
+					</div>
+					<div class="row menuFooter">
+						<div class="col-md-3">
+							<ul class="list-unstyled">
+								<li>
+									<img src="{{ asset('img/icon-map.png') }}" class="icon">
+									<div><strong>Address 1:</strong> 30 N Gould St Ste R Sheridan, Wyoming 82801, USA</div>
+									<div><strong>Address 2:</strong> 2323 Main Street Irvine, CA 92614, U.S.A.</div>
+									<div><strong>Address 3:</strong> CX01 lot, Van Khe urban area, La Khe Ward, Ha Dong District, Hanoi, Vietnam</div>
+								</li>
+								<li>
+									<img src="{{ asset('img/Email.png') }}" class="icon">
+									<div>info@metawayholdings.com  info@metawayholdings.vn</div>
+								</li>
+								<li>
+									<img src="{{ asset('img/Globe.png') }}" class="icon">
+									<div>www.metawayholdings.com  www.metawayholdings.vn</div>
+								</li>
+							</ul>
+						</div>
+						<div class="col-md">
 								<ul>
-									<li class="parent">
+									<li class="parent list-unstyled">
 										<span>About us</span>
 										<ul class="list-unstyled">
 											<li><a href="{{ route('about') }}">Overview</a></li>
@@ -66,10 +92,11 @@
 										</ul>
 									</li>
 								</ul>
-							</div>
-							<div class="col-md-3">
+						</div>
+
+						<div class="col-md">
 								<ul>
-									<li class="parent">
+									<li class="parent list-unstyled">
 										<span>Investor</span>
 										<ul class="list-unstyled">
 											<li><a href="{{ route('investor.internal') }}">Internal Report</a></li>
@@ -78,10 +105,10 @@
 										</ul>
 									</li>
 								</ul>
-							</div>
-							<div class="col-md-3">
+						</div>
+						<div class="col-md">
 								<ul>
-									<li class="parent">
+									<li class="parent list-unstyled">
 										<span>Media</span>
 										<ul class="list-unstyled">
 											<li><a href="{{ route('media.investor-news') }}">Investment News</a></li>
@@ -90,52 +117,20 @@
 										</ul>
 									</li>
 								</ul>
-							</div>
-							<div class="col-md-3">
-								<ul>
+						</div>
+						<div class="col-md">
+								<ul class="list-unstyled">
 									<li><a href="{{ route('contact') }}">Contact</a></li>
-									<li><a href="#">Language</a></li>
 								</ul>
-							</div>
 						</div>
 					</div>
 				</div>
 				<div class="companyInfo">
-					<h6 class="title"><span>METAWAY Holdings</span></h6>
-					<div class="row">
-						<div class="col">
-							<ul class="list-unstyled">
-								<li>
-									<img src="{{ asset('img/icon-location.png') }}" class="icon">
-									<div><strong>1:</strong> 30 N Gould St Ste R Sheridan, Wyoming 82801, USA</div>
-									<div><strong>2:</strong> 2323 Main Street Irvine, CA 92614, U.S.A.</div>
-									<div><strong>3:</strong> CX01 lot, Van Khe urban area, La Khe Ward, Ha Dong District, Hanoi, Vietnam</div>
-								</li>
-								<li>
-									<img src="{{ asset('img/icon-mail.png') }}" class="icon">
-									<div>:  info@metawayholdings.com | info@metawayholdings.vn</div>
-								</li>
-								<li>
-									<img src="{{ asset('img/icon-global.png') }}" class="icon">
-									<div>:  www.metawayholdings.com | www.metawayholdings.vn</div>
-								</li>
-							</ul>
-						</div>
-						<div class="col-md-auto">
-							<div class="row social">								
-								<div class="col-auto"><a target="_blank" href="https://www.facebook.com/Metaway-Holdings-109209504990418" class="item"><i class="fa fa-facebook-f" aria-hidden="true"></i></a></div>
-								<div class="col-auto"><a target="_blank" href="https://www.youtube.com/channel/UCpIg6-XEcZnofCZD5z8OLVw" class="item"><i class="fa fa-youtube" aria-hidden="true"></i></a></div>
-								<div class="col-auto"><a target="_blank" href="https://linkedin.com/company/metawayglobal" class="item"><i class="fa fa-linkedin" aria-hidden="true"></i></a></div>
-								<div class="col-auto"><a target="_blank" href="https://twitter.com/metawayholdings" class="item"><i class="fa fa-twitter" aria-hidden="true"></i></a></div>								
-							</div>
-						</div>
+					<h6 class="title"></h6>
+					<div class="row text-center">
+						<div>METAWAY Holdings.com is a proud part of METAWAY Holdings Inc., a leading business  services company.</div>
+						<div>METAWAY Holdings.com is a Registered Trademark. © 2022 – 2027  All Rights Reserved</div>
 					</div>
-				</div>
-			</div>
-			<div class="copyright text-center">
-				<div class="container-lg">
-					<div>METAWAY Holdings.com is a proud part of METAWAY Holdings Inc., a leading business  services company.</div>
-					<div>METAWAY Holdings.com is a Registered Trademark. © 2022 – 2027  All Rights Reserved</div>
 				</div>
 			</div>
 		</footer>
@@ -161,10 +156,10 @@
 						items:1
 					},
 					1000:{
-						items:2
+						items:1
 					}
 				}
-			})
+			})	
 		</script>
 
 		<!-- Global site tag (gtag.js) - Google Analytics -->
