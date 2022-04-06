@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Sarabun:wght@300;400;600;700&display=swap');
+
 body {
     font-family: 'Sarabun', sans-serif;
     font-size: 14px;
@@ -62,7 +63,7 @@ section {
 section .sectionHeading,
 .titleUnderline {
     position: relative;
-    padding-bottom: 10px;
+    /* padding-bottom: 10px; */
 }
 
 section .sectionHeading {
@@ -70,9 +71,14 @@ section .sectionHeading {
     margin-bottom: 25px;
 }
 
-.titleUnderline {
-    margin-bottom: 20px;
+.col-custom {
+    flex: 0 0 auto;
+    width: 20%;
 }
+
+/* .titleUnderline {
+    margin-bottom: 20px;
+} */
 
 section .sectionHeading span {
     font-weight: 300;
@@ -89,29 +95,18 @@ section .sectionHeading.centered:before,
     transform: translateX(-50%);
 }
 
-section .sectionHeading:before,
-.titleUnderline:before {
-    content: "";
-    position: absolute;
-    width: 50px;
-    height: 2px;
-    background: #ce0020;
-    left: 0;
-    bottom: 0;
-}
-
 section .sectionSubHeading {
     font-weight: 300;
     font-size: 20px;
 }
 
-ul.style-1 {
+ul.owl-carousel {
     margin-left: 18px;
     list-style: square;
     padding: 0;
 }
 
-ul.style-1 li:not(:last-child) {
+ul.owl-carousel li:not(:last-child) {
     margin-bottom: 8px;
 }
 
@@ -119,11 +114,76 @@ ul.style-1 li:not(:last-child) {
     font-weight: 400;
 }
 
+/* ----------------- */
+
+
+.title-bgWhite {
+    text-align: center;
+    color: #C51D23;
+    font-size: 24px;
+    width: 100%;
+}
+
+.img-bgWhite {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+
 .btnWhite {
     background: #fff;
-    border: 1px solid #464646;
-    color: #464646;
+    border: 2px solid #CB1D23;
+    color: #CB1D23;
+    font-size: 20px;
 }
+
+.card-img-top {
+    width: 100%;
+}
+
+.container1 {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.container1 img {
+    vertical-align: middle;
+}
+
+.container1 .content {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    /* Fallback color */
+    background: rgba(0, 0, 0, 0);
+    /* Black background with 0.5 opacity */
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+}
+
+.container1 a {
+    color: #fff;
+}
+
+.btnArrow {
+    color: #CB1D23;
+    font-size: 20px;
+    display: flex;
+    justify-content: end;
+}
+
+.btnArrow:hover {
+    color: #CB1D23;
+}
+
+.partners {
+    background-color: #FFFFFF !important;
+}
+
+/* -------------------------------- */
 
 .btnRed {
     background: #dd0023;
@@ -212,9 +272,9 @@ ul.style-1 li:not(:last-child) {
     margin-bottom: 25px;
 }
 
-.newsHighlights .card {
+/* .newsHighlights .card {
     height: 100%;
-}
+} */
 
 .newsHighlights .card .card-text {
     margin-bottom: 30px;
@@ -264,6 +324,9 @@ ul.style-1 li:not(:last-child) {
     margin-left: 30px;
 }
 
+
+
+
 .owl-carousel {
     position: relative;
 }
@@ -271,9 +334,9 @@ ul.style-1 li:not(:last-child) {
 .owl-carousel .item a {
     display: block;
     background: #fff;
-    padding: 15px 30px;
-    margin: 15px;
+    margin: 0 0 0 40px;
     filter: grayscale(1);
+    color: #000000;
 }
 
 .owl-carousel .item a:hover {
@@ -305,6 +368,40 @@ ul.style-1 li:not(:last-child) {
     display: none;
 }
 
+.owl-carousel .owl-item img {
+    display: block;
+    width: 80%;
+}
+
+.owl-carousel .item .col-auto {
+    width: 20%;
+}
+
+.owl-carousel .item .col-custom {
+    width: 20%;
+    justify-content: center !important;
+    display: flex;
+    background: #fff;
+    padding: 15px 30px;
+    filter: grayscale(1);
+    background: url(../img/bg_custom.png) left top no-repeat, url(../img/bg_custom-1.png) top left no-repeat;
+    position: relative;
+    transform: rotate(45deg);
+
+}
+.owl-carousel .item {
+    margin: 80px 60px;
+
+}
+.owl-carousel .item .col-custom img {
+    width: 100%;
+    /* height: 100px; */
+    position: relative;
+    transform: rotate(-45deg);
+    margin-top: 20px;
+    margin-left: -50px;
+}
+
 .carousel-indicators {
     width: 100%;
     margin: 0;
@@ -325,6 +422,7 @@ header .top {
     background: #bf0223;
     text-align: center;
     color: #fff;
+    font-weight: 700;
 }
 
 header .navbar {
@@ -347,11 +445,12 @@ header .navbar.navbar-expand-md .nav-item:not(:last-child) {
 
 header .navbar.navbar-expand-md .nav-link {
     padding: 0;
-    color: #636363;
+    color: #FFFFFF;
     font-weight: 400;
     position: relative;
     font-size: 16px;
     border-bottom: 3px solid transparent;
+    margin-bottom: 20px
 }
 
 header .navbar.navbar-expand-md .nav-link:hover,
@@ -399,13 +498,16 @@ header .navbar .dropdown-toggle:after {
 }
 
 #homepage .carousel .carouselContent .title {
-    font-size: 98px;
+    font-size: 56px;
     text-transform: uppercase;
     line-height: 1;
+    font-weight: 700;
 }
 
 #homepage .carousel .carouselContent .title span {
     text-transform: capitalize;
+    font-size: 56px;
+    font-weight: 400 !important;
 }
 
 #homepage .carousel .carouselContent .subTitle {
@@ -415,11 +517,13 @@ header .navbar .dropdown-toggle:after {
 #homepage .carousel .more {
     background: #ce0020;
     color: #fff;
+    font-size: 20px;
 }
 
 
 /*========================== ABOUT PAGE ==========================*/
 
+.carousel-item
 #aboutPage .team .listTeam {
     margin-top: 60px;
 }
@@ -468,7 +572,9 @@ header .navbar .dropdown-toggle:after {
     padding-top: 20px;
 }
 
+/* ---------------- */
 
+/* ----------- */
 /*========================== REPORT PAGE ==========================*/
 
 #reportPage .reportNav {
@@ -572,18 +678,22 @@ header .navbar .dropdown-toggle:after {
 /*========================== FOOTER ==========================*/
 
 footer {
-    background: #f3f3f3;
+    background: #000000 !important;
     padding: 40px 0;
+    color: #FFFFFF;
 }
 
 footer a {
-    color: #464646;
+    color: #FFFFFF;
 }
 
 footer .footerLogo {
     width: 300px;
     display: block;
     margin: 0 30px 0 0;
+    position: relative;
+    display: inline-block;
+    background: black;
 }
 
 footer .title {
@@ -599,6 +709,7 @@ footer .title:before {
     width: 100%;
     height: 1px;
     background: #464646;
+    margin-left: 15px;
 }
 
 footer .title span {
@@ -611,6 +722,7 @@ footer .title span {
 
 footer .title.text-red:before {
     background: #df0023;
+    bottom: 50px !important;
 }
 
 footer .title.text-red span {
@@ -629,38 +741,28 @@ footer .menuFooter ul ul li a {
     display: block;
     position: relative;
     padding-left: 15px;
-    font-weight: 400;
-}
-
-footer .menuFooter ul ul a:before {
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 0;
-    height: 0;
-    border-top: 4px solid transparent;
-    border-left: 4px solid #575757;
-    border-bottom: 4px solid transparent;
+    font-weight: 200;
 }
 
 footer .menuFooter ul li a,
 footer .menuFooter ul li.parent span {
-    font-weight: 600;
+    font-weight: 900;
+}
+
+footer .social {
+    justify-content: right;
+    margin-bottom: -45px;
 }
 
 footer .social .item {
     display: inline-flex;
     width: 45px;
     height: 45px;
-    color: #666;
-    border: 2px solid #666;
-    border-radius: 50%;
-    line-height: 1;
+    color: #FFFFFF;
     align-items: center;
     justify-content: center;
     font-size: 25px;
+    margin-right: auto;
 }
 
 footer .social .item:hover {
@@ -701,13 +803,17 @@ footer .copyright {
     #homepage .carousel .carouselContent {
         bottom: 30px;
     }
+
     #homepage .carousel .carouselContent .title {
         font-size: 60px;
     }
+
     #homepage .carousel .carouselContent .subTitle {
         margin: 20px 0;
-        font-size: 18px;
+        font-size: 16px;
+        font-weight: 400;
     }
+
     footer .footerLogo {
         margin: 0 auto 30px;
         width: 250px;
@@ -718,29 +824,41 @@ footer .copyright {
     header .navbar {
         padding: 10px;
     }
+
     header .navbar .navbar-brand img {
         width: 150px;
     }
+
     .owl-carousel .owl-nav button.owl-next {
         right: 0;
     }
+
     .owl-carousel .owl-nav button.owl-prev {
         left: 0;
     }
+
     #homepage .carousel .carouselContent {
         bottom: 30px;
     }
+
     #homepage .carousel .carouselContent .title {
         font-size: 50px;
     }
+
     #homepage .carousel .carouselContent .subTitle {
         font-size: 15px;
     }
+
     #aboutPage .newsHighlights {
         padding-bottom: 20px;
     }
+
     #aboutPage .newsHighlights .item {
         margin-bottom: 20px;
+    }
+
+    .owl-carousel .item .col-auto {
+        width: 25%;
     }
 }
 
@@ -750,66 +868,90 @@ footer .copyright {
     .owl-carousel .item a {
         margin: 5px;
     }
+
     .owl-carousel .owl-nav button.owl-next,
     .owl-carousel .owl-nav button.owl-prev {
         width: 15px;
     }
+
     .newsHighlights .card {
         height: auto;
         margin-bottom: 15px;
     }
+
     section {
         padding: 20px 0;
     }
+
     section .sectionHeading {
         font-size: 25px;
     }
+
     header .navbar-toggler:focus {
         box-shadow: none;
     }
+
     header .navbar-collapse {
         padding-top: 20px;
     }
+
     header .navbar.navbar-expand-md .nav-item,
     header .navbar.navbar-expand-md .nav-item:not(:last-child) {
         margin: 0 0 10px;
     }
+
     #homepage .carousel .more {
         padding: 5px 15px;
     }
+
     #homepage .carousel .carouselContent {
         bottom: 10px;
     }
+
     #homepage .carousel .carouselContent .title {
         font-size: 25px;
     }
+
     #homepage .carousel .carouselContent .subTitle {
-        font-size: 12px;
+        font-size: 16px;
         margin: 10px;
+        font-weight: 400 !important;
     }
+
     #aboutPage .overview .item:not(:last-child) {
         margin-bottom: 20px;
     }
+
     #aboutPage .overview .item:nth-child(odd) .desc,
     #aboutPage .overview .item:nth-child(even) .desc {
         padding: 10px 0 0;
     }
+
     #mediaNews .newsItem .newsThumb,
     #mediaNews .newsItem.highlight .newsThumb {
         margin-bottom: 10px;
     }
+
     #mediaNews .newsItem,
     #mediaNews .newsItem.highlight {
         margin-bottom: 20px;
     }
+
     footer .footerLogo {
         width: 200px;
     }
+
+    footer .social {
+        justify-content: center;
+        margin: auto;
+    }
+
     footer .social .item {
         width: 35px;
         height: 35px;
         font-size: 18px;
     }
+
     footer .copyright {
         margin-top: 10px;
         text-align: center;
