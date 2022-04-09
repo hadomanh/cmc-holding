@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Sarabun:wght@300;400;600;700&display=swap');
+
 body {
     font-family: 'Sarabun', sans-serif;
     font-size: 14px;
@@ -128,6 +129,7 @@ ul.style-1 li:not(:last-child) {
 .btnRed {
     background: #dd0023;
     color: #fff;
+    box-shadow: #ff00009c 0px 5px 15px 0px;
 }
 
 .btnRed:hover {
@@ -317,6 +319,47 @@ ul.style-1 li:not(:last-child) {
     padding: 20px 0;
 }
 
+.ipContact {
+    background: #f0f0f0;
+    margin-bottom: 1rem;
+    border: 0px solid !important;
+}
+
+.ipContact:focus {
+    background: #f0f0f0;
+}
+
+.ipBg {
+    background: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.bgLocal {
+    background: url(../img/bannerLocal.png) repeat center center / contain;
+}
+
+.iconContact {
+    margin-left: 5px;
+}
+
+.fa-sticky-note {
+    transform: rotate(270deg);
+    color: #fff;
+}
+
+.bgRed {
+    background: #ce0020;
+}
+
+.bgdarkGrey {
+    background: #E2E2E2;
+}
+
+.miniSize {
+    font-size: 12px;
+}
 
 /*========================== HEADER ==========================*/
 
@@ -473,7 +516,6 @@ header .navbar .dropdown-toggle:after {
 
 #reportPage .reportNav {
     border-bottom: 1px solid #b2b2b2;
-    margin-bottom: 20px;
 }
 
 #reportPage table td {
@@ -502,7 +544,7 @@ header .navbar .dropdown-toggle:after {
 }
 
 #reportPage .table>:not(caption)>*>* {
-    padding: 15px 0;
+    padding: 15px 40px;
 }
 
 #reportPage .form-select {
@@ -701,13 +743,16 @@ footer .copyright {
     #homepage .carousel .carouselContent {
         bottom: 30px;
     }
+
     #homepage .carousel .carouselContent .title {
         font-size: 60px;
     }
+
     #homepage .carousel .carouselContent .subTitle {
         margin: 20px 0;
         font-size: 18px;
     }
+
     footer .footerLogo {
         margin: 0 auto 30px;
         width: 250px;
@@ -718,27 +763,35 @@ footer .copyright {
     header .navbar {
         padding: 10px;
     }
+
     header .navbar .navbar-brand img {
         width: 150px;
     }
+
     .owl-carousel .owl-nav button.owl-next {
         right: 0;
     }
+
     .owl-carousel .owl-nav button.owl-prev {
         left: 0;
     }
+
     #homepage .carousel .carouselContent {
         bottom: 30px;
     }
+
     #homepage .carousel .carouselContent .title {
         font-size: 50px;
     }
+
     #homepage .carousel .carouselContent .subTitle {
         font-size: 15px;
     }
+
     #aboutPage .newsHighlights {
         padding-bottom: 20px;
     }
+
     #aboutPage .newsHighlights .item {
         margin-bottom: 20px;
     }
@@ -750,66 +803,84 @@ footer .copyright {
     .owl-carousel .item a {
         margin: 5px;
     }
+
     .owl-carousel .owl-nav button.owl-next,
     .owl-carousel .owl-nav button.owl-prev {
         width: 15px;
     }
+
     .newsHighlights .card {
         height: auto;
         margin-bottom: 15px;
     }
+
     section {
         padding: 20px 0;
     }
+
     section .sectionHeading {
         font-size: 25px;
     }
+
     header .navbar-toggler:focus {
         box-shadow: none;
     }
+
     header .navbar-collapse {
         padding-top: 20px;
     }
+
     header .navbar.navbar-expand-md .nav-item,
     header .navbar.navbar-expand-md .nav-item:not(:last-child) {
         margin: 0 0 10px;
     }
+
     #homepage .carousel .more {
         padding: 5px 15px;
     }
+
     #homepage .carousel .carouselContent {
         bottom: 10px;
     }
+
     #homepage .carousel .carouselContent .title {
         font-size: 25px;
     }
+
     #homepage .carousel .carouselContent .subTitle {
         font-size: 12px;
         margin: 10px;
     }
+
     #aboutPage .overview .item:not(:last-child) {
         margin-bottom: 20px;
     }
+
     #aboutPage .overview .item:nth-child(odd) .desc,
     #aboutPage .overview .item:nth-child(even) .desc {
         padding: 10px 0 0;
     }
+
     #mediaNews .newsItem .newsThumb,
     #mediaNews .newsItem.highlight .newsThumb {
         margin-bottom: 10px;
     }
+
     #mediaNews .newsItem,
     #mediaNews .newsItem.highlight {
         margin-bottom: 20px;
     }
+
     footer .footerLogo {
         width: 200px;
     }
+
     footer .social .item {
         width: 35px;
         height: 35px;
         font-size: 18px;
     }
+
     footer .copyright {
         margin-top: 10px;
         text-align: center;
