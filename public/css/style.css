@@ -186,6 +186,7 @@ ul.owl-carousel li:not(:last-child) {
 .btnRed {
     background: #dd0023;
     color: #fff;
+    box-shadow: #ff00009c 0px 5px 15px 0px;
 }
 
 .btnRed:hover {
@@ -414,6 +415,47 @@ ul.owl-carousel li:not(:last-child) {
     padding: 20px 0;
 }
 
+.ipContact {
+    background: #f0f0f0;
+    margin-bottom: 1rem;
+    border: 0px solid !important;
+}
+
+.ipContact:focus {
+    background: #f0f0f0;
+}
+
+.ipBg {
+    background: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.bgLocal {
+    background: url(../img/bannerLocal.png) repeat center center / contain;
+}
+
+.iconContact {
+    margin-left: 5px;
+}
+
+.fa-sticky-note {
+    transform: rotate(270deg);
+    color: #fff;
+}
+
+.bgRed {
+    background: #ce0020;
+}
+
+.bgdarkGrey {
+    background: #E2E2E2;
+}
+
+.miniSize {
+    font-size: 12px;
+}
 
 /*========================== HEADER ==========================*/
 header {
@@ -807,7 +849,6 @@ width: 100%;
 
 #reportPage .reportNav {
     border-bottom: 1px solid #b2b2b2;
-    margin-bottom: 20px;
 }
 
 #reportPage table td {
@@ -836,7 +877,7 @@ width: 100%;
 }
 
 #reportPage .table>:not(caption)>*>* {
-    padding: 15px 0;
+    padding: 15px 40px;
 }
 
 #reportPage .form-select {
