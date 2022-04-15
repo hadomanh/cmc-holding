@@ -543,12 +543,6 @@ header .navbar .dropdown-toggle:after {
 
 
 /*========================== ABOUT PAGE ==========================*/
-/* .container2 {
-    position: relative;
-    max-width: 800px;
-    margin: 0 auto;
-  } */
-
 .container2 img {
     vertical-align: middle;
 }
@@ -575,14 +569,12 @@ header .navbar .dropdown-toggle:after {
 
 .team .listTeam .item {
     background: #fff;
-    padding: 10px 10px 0;
-    /* border: 1px solid #c2c2c2; */
-    margin: -1px;
     border-radius: 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.11);
-    margin: 0 10px;
 }
-
+.our-executive-team{
+    column-count: 5 !important;
+}
 #aboutPage .team .listTeam .name {
     text-transform: uppercase;
     font-size: 16px;
@@ -601,7 +593,7 @@ header .navbar .dropdown-toggle:after {
     color: #aaaaaa;
 }
 
-    .team .listTeam .social i:hover {
+.team .listTeam .social i:hover {
     color: #1d9bf0;
 }
 
@@ -625,86 +617,127 @@ header .navbar .dropdown-toggle:after {
 }
 
 /* ---------------- */
-/* .icon-about {
-    width: 5%;
-} */
+.ourmission {
+    background: #F3F3F3;
+}
 
-/* .text-uppercase span {
-    margin-left: -46px;
-    font-size: 32px;
-    font-weight: 700 !important;
-} */
-.overview  h2{
-    background-image:url(../img/icon-about.png);
-    background-repeat: no-repeat;
-    position: relative;
-    display: block;
+.overview .text-uppercase {
+    background: url(../img/icon-about.png) left no-repeat;
     height: 80px;
+    display: flex;
+    position: relative;
 }
-.overview  h2 span{
+
+.overview .text-uppercase span {
     font-weight: 700;
-    margin: 35px ;
-    display: contents;
+    margin-left: 30px;
+    margin-top: 20px;
 }
-.text-uppercase1 {
-    font-size: 30px;
-    font-weight: 700 !important;
-    justify-content: left;
-}
+
 #overview .text-overview {
     margin: 50px 0;
 }
 
-#overview .text-overview span {
-    font-size: 20px;
-}
-
-.container-lg #ourmission {
-    background-color: #F3F3F3;
-    background-repeat: repeat-x;
-    background-position: left;
-    padding-bottom: 50px;
-    width: 100%;
-    /* border: 2px solid greenyellow; */
-}
-
-/* .container-lg #ourmission::after {
-    box-sizing: border-box;
-  } */
-
-/* .bg-ourmission {
-width: 100%;
-    padding: 30px;
-    color: #ffffff;
-    background-color: steelblue;
-  } */
-#ourcorevalues .desc h2 {
-    margin-top: -60px;
+.ourmission .text-uppercase {
+    background: url(../img/icon-about.png) right no-repeat;
+    height: 80px;
     position: relative;
+    margin-top: -80px;
+    margin-left: -150px;
+}
+
+.ourmission .text-uppercase span {
+    font-weight: 700;
     justify-content: end;
     display: flex;
-    /* margin-top: 20px; */
+    position: relative;
+    margin-top: 20px;
+    margin-right: -120px;
 }
 
-#ourcorevalues,
-#ourmission,
-.desc h2 span {
+.ourvision .text-uppercase {
+    background: url(../img/icon-about.png) left no-repeat;
+    height: 80px;
+    display: flex;
+    position: relative;
+    margin-top: -80px;
+}
+
+.ourvision .text-uppercase span {
+    font-weight: 700;
+    margin-left: 30px;
     margin-top: 20px;
 }
 
-#ourmission .desc h2 {
-    margin-top: -60px;
+.ourcorevalues .text-uppercase {
+    background: url(../img/icon-about.png) right no-repeat;
+    height: 80px;
     position: relative;
-    justify-content: end;
-    display: flex;
+    margin-top: -80px;
+    margin-left: -200px;
+
 }
 
-.text-our-mission img {
-    border: 1px solid #df0023;
-    border-radius: 50px;
-    box-shadow: 1px 1px 6px #df0023;
-    padding: 2px;
-    /* margin: 0 50px 50p 0; */
+.ourcorevalues .text-uppercase span {
+    font-weight: 700;
+    justify-content: end;
+    display: flex;
+    position: relative;
+    margin-top: 20px;
+    margin-right: -190px;
+}
+
+#ecosystem{
+    background: black url(../img/BG-ecosystem.gif) no-repeat right; 
+   padding: 95px 0;
+}
+
+#ecosystem .content {
+    color: #f1f1f1;
+    width: 60%;
+}
+
+
+#executive .listTeam .text-uppercase1{
+    background: url(../img/icon-about.png) left no-repeat;
+    height: 80px;
+    display: flex;
+    position: relative;
+    margin-top: -80px;
+}
+
+#executive .listTeam .text-uppercase1 span {
+    font-weight: 700;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+/* .ourmission .text-our-mission ul li::marker{
+    border-style: solid;
+    color: #bf0223;
+} */
+/* .text-our-mission ul li {
+    float: left;
+    border-right: 1px solid #DDDDDD;
+    position: relative;
+    padding: 10px;
+}
+
+.text-our-mission ul li::after {
+    color: #bf0223;
+    padding: 20px;
+    border: 2px solid #bf0223;
+    list-style-type: square;
+    position: absolute;
+
+} */
+
+.text-our-mission ul li::before {
+    color: #bf0223;
+    padding: 20px;
+    border: 2px solid #bf0223;
+    list-style-type: square;
+    position: absolute;
 }
 
 .text-our-mission {
@@ -722,12 +755,9 @@ width: 100%;
 }
 
 
-#ourcorevalues .our-core {
-    /* border-bottom: 1px solid #464646;
-    border-radius:50px; */
+/* #ourcorevalues .our-core {
     border-top-right-radius: 20px #C4C4C4;
-    /* color: #C4C4C4; */
-}
+} */
 
 
 #ourcorevalues .our-core p {
@@ -783,24 +813,6 @@ width: 100%;
     margin-top: -35px;
 }
 
-#ecosystem {
-    padding-bottom: 0;
-}
-
-#ecosystem img {
-    width: 100%;
-    vertical-align: middle;
-}
-
-#ecosystem .content {
-    position: absolute;
-    bottom: 0;
-    color: #f1f1f1;
-    margin-left: 50px;
-    width: 50%;
-    margin-bottom: 6%;
-    justify-content: center;
-}
 
 /* ----------- */
 /*========================== REPORT PAGE ==========================*/
@@ -868,18 +880,49 @@ width: 100%;
     font-size: 20px;
     margin-bottom: 10px;
 }
+
 /* ---------- */
 .miniSize {
     font-size: 12px;
 }
-.investor p{
-    font-size: 16px ;
+
+.investor p {
+    font-size: 16px;
     font-weight: 600;
-} 
-.investor h5{
+}
+
+.investor h4 {
     font-weight: 700;
     font-size: 24px;
 }
+
+.investor-detail {
+    padding-top: 70px;
+}
+
+.investor-detail strong {
+    font-size: 16px;
+    font-weight: 500;
+    padding-top: 30px;
+}
+
+.investor-detail .img-detail {
+    display: flex;
+    padding: 30px 0;
+    margin: auto;
+}
+
+.title-investor-detail a {
+    color: #bf0223;
+    padding-bottom: 5px;
+    border-bottom: solid 3px #bf0223;
+    width: 100%;
+}
+
+.investor-detail .icon-detail {
+    padding: 0 5px;
+}
+
 /* #mediaNews .carousel-item{
     flex: left;
 } */
@@ -1103,32 +1146,24 @@ footer .copyright {
     .owl-carousel .item .col-auto {
         width: 25%;
     }
+
     .text-uppercase1 span {
         margin-left: -25px;
         font-size: 30px;
         font-weight: 700 !important;
         justify-content: left;
     }
-    #ecosystem .content {
-        color: #000000;
-        position: absolute;
-        bottom: 0;
-        margin-left: 0;
-        width: 100%;
-        margin-bottom: 0;
-        text-align: center;
-        display: contents;
-    }
-
-    
+    #ecosystem  {
+        padding: 0;
+     }
+     #ecosystem .content{
+         width: 100%;
+     }
 }
 
 @media (max-width: 768px) {}
 
 @media (max-width: 576px) {
-    .icon-about {
-        width: 15%;
-    }
 
     .owl-carousel .item a {
         margin: 5px;
@@ -1146,6 +1181,14 @@ footer .copyright {
 
     section {
         padding: 20px 0;
+    }
+
+     .ourmission {
+        padding: 55px 0;
+        position: relative;
+    }
+    .ourmission h2{
+        margin-top: 20px;
     }
 
     section .sectionHeading {
@@ -1222,11 +1265,15 @@ footer .copyright {
         text-align: center;
         font-size: 13px;
     }
-    #ourcorevalues, #ourmission, .desc h2 span{
+
+    #ourcorevalues,
+    #ourmission,
+    .desc h2 span {
         margin-top: 0 !important;
     }
-    .text-uppercase span{
+
+    .text-uppercase span {
         margin-left: -30px;
     }
- 
+
 }

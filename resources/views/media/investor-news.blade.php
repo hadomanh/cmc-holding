@@ -14,81 +14,93 @@
             <!-- <h2 class="sectionHeading text-uppercase centered">INVESTMENT NEWS</h2> -->
             <div class="row">
                  <div class="col-lg-8 col-12">
-                    <img src="{{ asset('img/Img-investor.png') }}" alt="" class="w-100">
+                     <a href="{{ route('media.investor-detail') }}">
+                     <img src="{{ asset('img/Img-investor.png') }}" alt="" class="w-100">
                     <div class="mt-3">
-                        <h4><a href="">  Lorem ipsum dolor sit amet, consectetur</a>  </h4>
+                        <h4>Lorem ipsum dolor sit amet, consectetur</h4>
                         <span class="miniSize">2022-01-19</span>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                     </div>
+                     </a>
                 </div>
                 <div class="col-lg-4 col-12">
-                    <div class="d-flex mb-4">
-                        <div>
+                    <a href="">
+                        <div class="d-flex mb-4">
                             <img src="{{ asset('img/Frame-1.png') }}" alt="">
-                        </div>
                         <div class="ms-4">
-                            <h4><a href="">  Lorem ipsum dolor sit amet, consectetur</a> </h4>
+                            <h5>Lorem ipsum dolor sit amet, consectetur</h5>
                             <span class="miniSize">2022-01-19</span>
                         </div>
-                    </div>
-                    <div class="d-flex mb-4">
-                        <div>
+                         </div>
+                    </a>
+                   <a href="">
+                   <div class="d-flex mb-4">
                             <img src="{{ asset('img/Frame-2.png') }}" alt="">
-                        </div>
                         <div class="ms-4">
-                            <h4><a href="">  Lorem ipsum dolor sit amet, consectetur</a> </h4>
-                            <span class="miniSize">2022-01-19</span>
-                        </div>
-                    </div><div class="d-flex mb-4">
-                        <div>
-                            <img src="{{ asset('img/Frame-3.png') }}" alt="">
-                        </div>
-                        <div class="ms-4">
-                            <h4><a href="">  Lorem ipsum dolor sit amet, consectetur</a> </h4>
-                            <span class="miniSize">2022-01-19</span>
-                        </div>
-                    </div><div class="d-flex mb-4">
-                        <div>
-                            <img src="{{ asset('img/Frame-4.png') }}" alt="">
-                        </div>
-                        <div class="ms-4">
-                            <h4><a href="">  Lorem ipsum dolor sit amet, consectetur</a> </h4>
+                            <h5>Lorem ipsum dolor sit amet, consectetur</h5>
                             <span class="miniSize">2022-01-19</span>
                         </div>
                     </div>
+                   </a>
+                    <a href="">
+                    <div class="d-flex mb-4">
+                            <img src="{{ asset('img/Frame-3.png') }}" alt="">
+                        <div class="ms-4">
+                            <h5>Lorem ipsum dolor sit amet, consectetur</h5>
+                            <span class="miniSize">2022-01-19</span>
+                        </div>
+                    </div>
+                    </a>
+                    <a href="">
+                    <div class="d-flex mb-4">
+                        <img src="{{ asset('img/Frame-4.png') }}" alt="">>
+                        <div class="ms-4">
+                            <h5>Lorem ipsum dolor sit amet, consectetur</h5>
+                            <span class="miniSize">2022-01-19</span>
+                        </div>
+                    </div>
+                    </a>
                 </div>
-
             </div>
-            <div class="row pt-4">
+            <a href="">
+                 <div class="row pt-4">
                 <div class="col-12 col-lg-6"><img src="{{ asset('img/Img-investor-1.png') }}" alt="" class="w-100"></div>
                 <div class="col-12 col-lg-6"> 
                     <div class="mt-3">
-                        <h4><a href="">  Lorem ipsum dolor sit amet, consectetur</a>  </h4>
+                        <h4> Lorem ipsum dolor sit amet, consectetur </h4>
                         <span class="miniSize">2022-01-19</span>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                     </div>
                 </div>
             </div>
-            <div class="row pt-4">
+            </a>
+           
+            <a href="">
+                <div class="row pt-4">
                 <div class="col-12 col-lg-6"><img src="{{ asset('img/Img-investor-2.png') }}" alt="" class="w-100"></div>
                 <div class="col-12 col-lg-6"> 
                     <div class="mt-3">
-                        <h4><a href="">  Lorem ipsum dolor sit amet, consectetur</a> </h4>
+                        <h4> Lorem ipsum dolor sit amet, consectetur</h4>
                         <span class="miniSize">2022-01-19</span>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                     </div>
                 </div>
             </div>
-            <div class="row pt-4">
+            </a>
+            
+            <a href="">
+            <div class="row pt-4"> 
                 <div class="col-12 col-lg-6"><img src="{{ asset('img/Img-investor-3.png') }}" alt="" class="w-100"></div>
                 <div class="col-12 col-lg-6"> 
                     <div class="mt-3">
-                        <h4><a href="">  Lorem ipsum dolor sit amet, consectetur</a> </h4>
+                        <h4>Lorem ipsum dolor sit amet, consectetur</h4>
                         <span class="miniSize">2022-01-19</span>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                     </div>
                 </div>
-            </div>
+            </div>   
+                </a>
+            
         </div>
     </section>
     <!-- <section>
