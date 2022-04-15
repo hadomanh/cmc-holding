@@ -5,31 +5,18 @@
         <!-- Banner -->
         <section class="banner p-0">
             <div id="carouselBanner" class="carousel slide pt-0" data-bs-ride="carousel">
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselBanner" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselBanner" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                </div>
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <div class="carouselContent">
+                <video autoplay muted loop id="myVideo">
+                    <source src="{{ asset('img/banner-home.mp4') }}" type="video/mp4">
+                </video>
+                            <div class="content">
+                            <div class="carouselContent">
                             <h1 class="title">Metaway Holdings<br><span class="fw-light">The Big Things</span></h1>
                             <h6 class="subTitle">Digital Economy Corporation</h6>
                             <a href="#" class="more">@lang('read more') <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
-                                    <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
-                                </svg></a>
-                        </div>
-                        <img src="{{ asset('img/banner-homepage.jpg') }}" alt="" class="w-100">
-                    </div>
-                    <div class="carousel-item">
-                        <div class="carouselContent">
-                            <h1 class="title">Metaway Holdings<br><span class="fw-light">The Big Things</span></h1>
-                            <h4 class="subTitle">Digital Economy Corporation</h4>
-                            <a href="#" class="more">@lang('read more') <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
-                                    <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
-                                </svg></a>
-                        </div>
-                        <img src="{{ asset('img/banner-homepage-1.jpg') }}" alt="" class="w-100">
-                    </div>
+                        <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+                        </svg></a>
+                    </div> 
+                         <!-- <button id="myBtn" onclick="myFunction()">Pause</button> -->
                 </div>
             </div>
         </section>
@@ -37,13 +24,13 @@
         <!-- About Us -->
         <section class="bgWhite">
             <div class="container-lg">
-                <h2 class="sectionHeading centered text-uppercase">{{ __('about us') }}</h2>
+                <h2 class="sectionHeading centered text-uppercase p-3">{{ __('about us') }}</h2>
                 <div class="row">
                     <div class="col-md-12">
-                        <p>@lang ('Metaway Holdings is a global-scale digital economy corporation with the orientation to develop on the pillar fields of the digital economy society. We create platforms to fulfill multi-value ecosystems: Digital Healthcare, Digital Education, Digital Commerce, Digital Banking, Digital insurance, Digital Real Estate... All based on optimal application of the cutting-edge technologies for better serving the demand  on for global connectivity')</p>
+                        <p class="text-center">@lang ('<strong> Metaway Holdings</strong> is a global-scale digital economy corporation with the orientation to develop on the pillar fields of the digital economy society. We create platforms to fulfill multi-value ecosystems: Digital Healthcare, Digital Education, Digital Commerce, Digital Banking, Digital insurance, Digital Real Estate... All based on optimal application of the cutting-edge technologies for better serving the demand  on for global connectivity')</p>
                         <div class="row pt-5">
-                            <div class="col-md-4"><p><img class="img-bgWhite" src="{{ asset('img/success-key-1.png') }}" alt=""><h6 class="title-bgWhite">@lang ('Way')</h6>@lang ('Metaway Holdings possesses the secrets of the super-rich class and the formula successfully applied  in the top corporations and even start up companies for spectacular business breakthroughs. This will be the firm launching pad to help us conquer all the peaks.') </p></div>
-                            <div class="col-md-4"><p><img class="img-bgWhite" src="{{ asset('img/brain-1.png') }}" alt=""><h6 class="title-bgWhite">@lang ('Talent')</h6>@lang ('Metaway Holdings brings together gifted people with a noble vision and mission in connecting communities and actualizing all aspirations.')</p></div>
+                            <div class="col-md-4"><p><img class="img-bgWhite" src="{{ asset('img/success-key-1.png') }}" alt=""><h6 class="title-bgWhite">@lang ('Way')</h6>@lang ('<strong> Metaway Holdings</strong> possesses the secrets of the super-rich class and the formula successfully applied  in the top corporations and even start up companies for spectacular business breakthroughs. This will be the firm launching pad to help us conquer all the peaks.') </p></div>
+                            <div class="col-md-4"><p><img class="img-bgWhite" src="{{ asset('img/brain-1.png') }}" alt=""><h6 class="title-bgWhite">@lang ('Talent')</h6>@lang ('<strong> Metaway Holdings</strong> brings together gifted people with a noble vision and mission in connecting communities and actualizing all aspirations.')</p></div>
                             <div class="col-md-4"><p><img class="img-bgWhite" src="{{ asset('img/Meta-icon-1.png') }}" alt=""><h6 class="title-bgWhite">@lang ('Metaverse')</h6>@lang ('Formed in the Metaverse era, we are well aware of the importance of developing infrastructure and solutions to help humankind quickly access and adapt to the movements of the future.')</p></div>
                         </div>
 
@@ -58,8 +45,8 @@
         <!-- Business highlights -->
         <section class="newsHighlights bgGrey bgArrow">
             <div class="container-lg">
-                <h2 class="sectionHeading centered">CORPORATION HIGHLIGHTS</h2>
-                <p class="text-center">The rise of the technology 5.0 revolution has motivated METAWAY Holdings' tycoons and founders to invest and participate in the fields of digital finance, advanced real estate development, and international commodities. </p>
+                <h2 class="sectionHeading centered p-3">CORPORATION HIGHLIGHTS</h2>
+                <p class="text-center p-3">The rise of the technology 5.0 revolution has motivated METAWAY Holdings' tycoons and founders to invest and participate in the fields of digital finance, advanced real estate development, and international commodities. </p>
                 <div class="row">
                     <div class="col-md-4">
                         <div class="card container1">
@@ -80,7 +67,7 @@
                             <a href="#"><img class="card-img-top" src="{{ asset('img/Corporation-2.png') }}"></a>
                             <div class="card-body d-flex flex-column content">
                                 <h5 class="card-title titleUnderline"><a href="#">@lang ('Investment Sector')</a></h5>
-                                <p class="card-text flex-grow-1">@lang ('Metaway Holdings focuses on investing in leading sectors and industries with high growth potential in the future, which are the pillars of the digital economy including: healthcare, technology, real estate and finance.')</p>
+                                <p class="card-text flex-grow-1">@lang ('<strong>Metaway Holdings</strong> focuses on investing in leading sectors and industries with high growth potential in the future, which are the pillars of the digital economy including: healthcare, technology, real estate and finance.')</p>
                                 <div class="text-center"><a href="{{ route('about') }}" class="btn btnArrow">@lang ('READ MORE')
                                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right mt-2" viewBox="0 0 16 16">
                                             <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
@@ -93,7 +80,7 @@
                             <a href="#"><img class="card-img-top" src="{{ asset('img/Corporation-3.png') }}"></a>
                             <div class="card-body d-flex flex-column content">
                                 <h5 class="card-title titleUnderline"><a href="#">@lang ('Ecosystem')</a></h5>
-                                <p class="card-text flex-grow-1">@lang ("The Metaway Holdings ecosystem is investing in products and services for specialized needs: The backbone pillar of the digital economy, Enormous Volume, Global Scale, Recurrent Demand, Fast-developing Market.")</p>
+                                <p class="card-text flex-grow-1">@lang ("<strong>The Metaway Holdings</strong> ecosystem is investing in products and services for specialized needs: The backbone pillar of the digital economy, Enormous Volume, Global Scale, Recurrent Demand, Fast-developing Market.")</p>
                                 <div class="text-center"><a href="{{ route('about') }}" class="btn btnArrow">@lang ('READ MORE')
                                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right mt-2" viewBox="0 0 16 16">
                                             <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
@@ -109,7 +96,7 @@
         <section class="bgDark partners">
             <div class="container-lg">
                 <h2 class="sectionHeading centered">OUR PARTNERS</h2>
-                <p class="text-center">We prefer to work with companies who have a common vision and can come along with our business ecosystem and corporate culture value system. Our partners come from the multi-diversification of internal and external resources.</p>
+                <p class="text-center ">We prefer to work with companies who have a common vision and can come along with our business ecosystem and corporate culture value system. Our partners come from the multi-diversification of internal and external resources.</p>
                 <div class="owl-carousel ">
                     <div class="item">
                         <div class="row g-0 justify-content-center">
@@ -536,4 +523,18 @@
             </div>
         </section>
     </div>
+    <script>
+var video = document.getElementById("myVideo");
+var btn = document.getElementById("myBtn");
+
+function myFunction() {
+  if (video.paused) {
+    video.play();
+    btn.innerHTML = "Pause";
+  } else {
+    video.pause();
+    btn.innerHTML = "Play";
+  }
+}
+</script>
 @endsection

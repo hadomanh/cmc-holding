@@ -9,7 +9,7 @@
             <div id="carouselBanner" class="carousel slide pt-0" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active container2">
-                        <img src="{{ asset('img/Banner-about-Copy.jpg') }}" alt="" class="w-100">
+                        <img src="{{ asset('img/Banner-about.png') }}" alt="" class="w-100">
                         <div class="content">
                             <h1>ABOUT US</h1>
                         </div>
@@ -29,16 +29,16 @@
                     <div class="row text-overview">
                         <div class="col-md-4">
                             <h4><img src="{{ asset('img/Overview- Company.png') }}" alt=""> <span>Company Background</span></h4>
-                            <p>Metaway Holdings is headquartered in the United States with numerous branch offices around the world. The company was founded in the next wave of digital technologies with artificial intelligence, blockchain, the Internet of things, and Cloud computing platforms and applications . These invincible waves will convey great potential and promote the instantaneous development of key economic sectors. Our major ambition is to connect together a community of entrepreneurs, firms, and investors who all share the same desire of giving a legacy for future genera tions.</p>
+                            <p><strong>Metaway Holdings</strong> is headquartered in the <strong>United States</strong> with numerous branch offices around the world. The company was founded in the next wave of digital technologies with artificial intelligence, blockchain, the Internet of things, and Cloud computing platforms and applications . These invincible waves will convey great potential and promote the instantaneous development of key economic sectors. Our major ambition is to connect together a community of entrepreneurs, firms, and investors who all share the same desire of giving a legacy for future genera tions.</p>
 
                         </div>
                         <div class="col-md-4">
                             <h4><img src="{{ asset('img/Overview-Resource.png') }}" alt=""> <span>Resource</span></h4>
-                            <p>Metaway Holdings possesses influential resources in human, finance, and technology. Metaway Holdings' founders and management team have extensive expertise and knowledge in strategy, corporate governance, investing, and restructuring. We capture the world's top successful business formulae. Thanks to the creative ideas based on understanding and mastering the latest platform technologies, We have earned the attention of major investment funds and reputable financial organizations.</p>
+                            <p><strong>Metaway Holdings</strong> possesses influential resources in human, finance, and technology. <strong>Metaway Holdings'</strong> founders and management team have extensive expertise and knowledge in strategy, corporate governance, investing, and restructuring. We capture the world's top successful business formulae. Thanks to the creative ideas based on understanding and mastering the latest platform technologies, We have earned the attention of major investment funds and reputable financial organizations.</p>
                         </div>
                         <div class="col-md-4">
                             <h4><img src="{{ asset('img/Overview-Aspiration.png') }}" alt=""> <span>Aspiration</span></h4>
-                            <p>Metaway Holdings desires to integrate human intelligence, artificial intelligence, and business intelligence to jointly generate prosperous values for worldwide inhabitants and progress to become a leading digital economy organization in the world.f</p>
+                            <p><strong>Metaway Holdings</strong> desires to integrate human intelligence, artificial intelligence, and business intelligence to jointly generate prosperous values for worldwide inhabitants and progress to become a leading digital economy organization in the world.f</p>
                         </div>
                     </div>
                 </div>
@@ -97,7 +97,7 @@
                             <ul>
                                 <li>@lang ('Act like a founder')</li>
                                 <li>@lang ('Keep the discipline and high standards')</li>
-                                <li>@lang ('Respect the diversity')</li>
+                                <li class="abc">@lang ('Respect the diversity')</li>
                             </ul>
                             </div>
                             <div class="col-md-4 our-core">
@@ -105,121 +105,20 @@
                             <ul>
                                 <li>@lang ('Attaching Affection')</li>
                                 <li>@lang ('Sharing the responsibility')</li>
-                                <li>@lang ('Giving is forever lasted')</li>
+                                <li class="abc">@lang ('Giving is forever lasted')</li>
                             </ul></div>
                             <div class="col-md-4 our-core">
                             <p>3</p><h5 class="">@lang ('Transparency, safety')</h5>
                             <ul>
                                 <li>@lang ('Oriented for solution')</li>
                                 <li>@lang ('Deep Expertise')</li>
-                                <li>@lang ('Leaving a legacy')</li>
-                            </ul></div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-                </section>
-        <!-- <section class="bgWhite overview">
-            <div class="container-lg">
-                <div class="g-0 item" id="overview">
-                <h2 class="sectionHeading text-uppercase"><span class="mt-5">overview</span></h2>
-                        <div class="col-md-12">
-                            <img src="{{ asset('img/Img-about.png') }}" alt="" class="w-100">
-                        </div>
-                    <div class="row text-overview">
-                        <div class="col-md-4">
-                            <h4><img src="{{ asset('img/Overview- Company.png') }}" alt=""> <span>Company Background</span></h4>
-                            <p>Metaway Holdings is headquartered in the United States with numerous branch offices around the world. The company was founded in the next wave of digital technologies with artificial intelligence, blockchain, the Internet of things, and Cloud computing platforms and applications . These invincible waves will convey great potential and promote the instantaneous development of key economic sectors. Our major ambition is to connect together a community of entrepreneurs, firms, and investors who all share the same desire of giving a legacy for future genera tions.</p>
-
-                        </div>
-                        <div class="col-md-4">
-                            <h4><img src="{{ asset('img/Overview-Resource.png') }}" alt=""> <span>Resource</span></h4>
-                            <p>Metaway Holdings possesses influential resources in human, finance, and technology. Metaway Holdings' founders and management team have extensive expertise and knowledge in strategy, corporate governance, investing, and restructuring. We capture the world's top successful business formulae. Thanks to the creative ideas based on understanding and mastering the latest platform technologies, We have earned the attention of major investment funds and reputable financial organizations.</p>
-                        </div>
-                        <div class="col-md-4">
-                            <h4><img src="{{ asset('img/Overview-Aspiration.png') }}" alt=""> <span>Aspiration</span></h4>
-                            <p>Metaway Holdings desires to integrate human intelligence, artificial intelligence, and business intelligence to jointly generate prosperous values for worldwide inhabitants and progress to become a leading digital economy organization in the world.f</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row g-0 item" id="ourmission">
-                    <div class="col-md-12">
-                        <div class="desc">
-                            <h2 class="sectionHeading text-uppercase"> <img src="{{ asset('img/icon-about.png') }}" alt="" class="icon-about"><span>OUR MISSION</span></h2>
-                        </div>
-                    </div>
-                    <div class="row bg-ourmission">
-                        <div class="col-md-6 order-md-1">
-                            <div class="desc text-our-mission">
-                                <ul> 
-                                    <li>@lang ('Utilizing the power of all social resources to build, develop and accompany the global digital economy era.')</li>
-                                    <li>@lang ('Creating borderless connectivity in all fields of the digital economy.')</li>
-                                    <li>@lang ('Creating a happier and more prosperous life for the worldwide community')</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-md-6 order-md-2">
-                            <img src="{{ asset('img/blockcahin-1.png') }}" alt="">
-                        </div>
-                    </div>
-
-                </div>
-                <div class="row g-0 item" id="ourvision">
-                    <div class="col-md-12">
-                        <div class="desc">
-                            <h2 class="sectionHeading text-uppercase"> <img src="{{ asset('img/icon-about.png') }}" alt="" class="icon-about"><span>OUR VISION</span></h2>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <img src="{{ asset('img/blockcahin-2.png') }}" alt="" class="">
-                    </div>
-                    <div class="col-md-6">
-                        <div class="desc text-our-mission">
-                            <ul>
-                                <li>@lang ('Building a community of entrepreneurs, businesses, investors, and individuals with unified intelligence, companionship and sustainable development.')</li>
-                                <li>@lang ("Becoming the world's leading digital economy corporation by the convergence of intelligence, finance, technology. Thus, we contribute to the common prosperity of the global economy.")</li>
-                                <li> @lang ('Aspiring to IPO on the international exchange platform in 2027.')</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="row g-0 item" id="ourcorevalues">
-                    <div class="col-md-12">
-                        <div class="desc">
-                            <h2 class="sectionHeading text-uppercase"> <img src="{{ asset('img/icon-about.png') }}" alt="" class="icon-about"><span>OUR CORE VALUES</span></h2>
-                        </div>
-                    </div>
-                    <div class="col-md-12 order-md-1">
-                        <div class="desc row">
-                            <div class="col-md-4 our-core">
-                            <p>1</p> <h5>@lang ('Think Big')</h5>
-                            <ul>
-                                <li>@lang ('Act like a founder')</li>
-                                <li>@lang ('Keep the discipline and high standards')</li>
-                                <li>@lang ('Respect the diversity')</li>
-                            </ul>
-                            </div>
-                            <div class="col-md-4 our-core">
-                            <p>2</p>  <h5>@lang ('Spirit of Dedication')</h5>
-                            <ul>
-                                <li>@lang ('Attaching Affection')</li>
-                                <li>@lang ('Sharing the responsibility')</li>
-                                <li>@lang ('Giving is forever lasted')</li>
-                            </ul></div>
-                            <div class="col-md-4 our-core">
-                            <p>3</p><h5 class="">@lang ('Transparency, safety')</h5>
-                            <ul>
-                                <li>@lang ('Oriented for solution')</li>
-                                <li>@lang ('Deep Expertise')</li>
-                                <li>@lang ('Leaving a legacy')</li>
+                                <li class="abc">@lang ('Leaving a legacy')</li>
                             </ul></div>
                         </div>
                     </div>
                 </div>
             </div>
-        </section> -->
-
+        </section>
         <!-- Business highlights -->
         <section class="newsHighlights bgGrey bgArrow" id="businesssectors">
             <div class="container-lg">
@@ -393,11 +292,11 @@
                         </div>  
                     </div>
                 </div>
-                <div class="listTeam">
+                <div class="listTeam ">
                     <div class="col-md-12">
                         <h4 class="sectionHeading text-uppercase1 mt-4"><span>Advisors</span></h4>
                     </div>
-                    <div class="row g-0 text-center">
+                    <div class="row g-0 text-center advisors">
                         <div class="col-lg col-md-4 item d-flex flex-column align-items-center m-2">
                             <img src="{{ asset('img/Tran-Quang-Trung.png') }}" alt="">
                             <img class="border-icon" src="{{ asset('img/border-executive.png') }}" alt="">

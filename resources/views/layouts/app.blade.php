@@ -79,7 +79,7 @@
                 <div class="col-md">
                     <ul>
                         <li class="parent list-unstyled">
-                            <span>About us</span>
+                            <span class="ml-4">About us</span>
                             <ul class="list-unstyled">
                                 <li><a href="{{ route('about') }}">Overview</a></li>
                                 <li><a href="{{ route('about') }}">Our Mission</a></li>
@@ -119,9 +119,10 @@
                     </ul>
                 </div>
                 <div class="col-md">
-                    <ul class="list-unstyled">
-                        <li><a href="{{ route('contact') }}">Contact</a></li>
-                    </ul>
+                    <ul><li class="list-unstyled"> 
+                    <a href="{{ route('contact') }}"><span>Contact</span></a>
+                    </li></ul>
+                    
                 </div>
             </div>
         </div>

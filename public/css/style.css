@@ -66,10 +66,6 @@ section .sectionHeading,
     /* padding-bottom: 35px; */
 }
 
-/* section .sectionHeading {
-    font-size: 30px;
-    margin-bottom: 25px;
-} */
 
 .col-custom {
     flex: 0 0 auto;
@@ -112,8 +108,9 @@ ul.owl-carousel li:not(:last-child) {
     font-weight: 400;
 }
 
-/* ----------------- */
-
+strong {
+    font-weight: 700;
+}
 
 .title-bgWhite {
     text-align: center;
@@ -555,13 +552,14 @@ header .navbar .dropdown-toggle:after {
     text-align: center;
     position: absolute;
     left: 50%;
+    height: 60%;
     transform: translateX(-50%);
-    bottom: 50px;
+    bottom: 100px;
     color: #fff;
 }
 
 #homepage .carousel .carouselContent .title {
-    font-size: 56px;
+    /* font-size: 56px; */
     text-transform: uppercase;
     line-height: 1;
     font-weight: 700;
@@ -569,7 +567,7 @@ header .navbar .dropdown-toggle:after {
 
 #homepage .carousel .carouselContent .title span {
     text-transform: capitalize;
-    font-size: 56px;
+    /* font-size: 56px; */
     font-weight: 400 !important;
 }
 
@@ -578,11 +576,22 @@ header .navbar .dropdown-toggle:after {
 }
 
 #homepage .carousel .more {
-    background: #ce0020;
+    background: #C51D23;
     color: #fff;
     font-size: 20px;
 }
 
+#homepage .carousel .more:hover {
+    background-color: #E01B22;
+    font-weight: 900;
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1); 
+}
+#myVideo{
+    height: 100%;
+    width: 100%;
+}
 
 /*========================== ABOUT PAGE ==========================*/
 .container2 img {
@@ -614,9 +623,11 @@ header .navbar .dropdown-toggle:after {
     border-radius: 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.11);
 }
-.our-executive-team{
+
+.our-executive-team {
     column-count: 5 !important;
 }
+
 #aboutPage .team .listTeam .name {
     text-transform: uppercase;
     font-size: 16px;
@@ -697,6 +708,15 @@ header .navbar .dropdown-toggle:after {
     margin-right: -120px;
 }
 
+.ourvision {
+    background: White url(../img/bg-our-vision.png) left bottom no-repeat;
+    /* height: 80px; */
+    display: flex;
+    position: relative;
+    margin-bottom: -80px;
+
+}
+
 .ourvision .text-uppercase {
     background: url(../img/icon-about.png) left no-repeat;
     height: 80px;
@@ -729,9 +749,9 @@ header .navbar .dropdown-toggle:after {
     margin-right: -190px;
 }
 
-#ecosystem{
-    background: black url(../img/BG-ecosystem.gif) no-repeat right; 
-   padding: 95px 0;
+#ecosystem {
+    background: black url(../img/BG-ecosystem.gif) no-repeat right;
+    padding: 95px 0;
 }
 
 #ecosystem .content {
@@ -740,7 +760,7 @@ header .navbar .dropdown-toggle:after {
 }
 
 
-#executive .listTeam .text-uppercase1{
+#executive .listTeam .text-uppercase1 {
     background: url(../img/icon-about.png) left no-repeat;
     height: 80px;
     display: flex;
@@ -754,25 +774,6 @@ header .navbar .dropdown-toggle:after {
     margin-top: 20px;
 }
 
-/* .ourmission .text-our-mission ul li::marker{
-    border-style: solid;
-    color: #bf0223;
-} */
-/* .text-our-mission ul li {
-    float: left;
-    border-right: 1px solid #DDDDDD;
-    position: relative;
-    padding: 10px;
-}
-
-.text-our-mission ul li::after {
-    color: #bf0223;
-    padding: 20px;
-    border: 2px solid #bf0223;
-    list-style-type: square;
-    position: absolute;
-
-} */
 
 .text-our-mission ul li::before {
     color: #bf0223;
@@ -797,9 +798,12 @@ header .navbar .dropdown-toggle:after {
 }
 
 
-/* #ourcorevalues .our-core {
-    border-top-right-radius: 20px #C4C4C4;
-} */
+#ourcorevalues .our-core .abc {
+    /* box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2); */
+    box-shadow: 1px 1px 0 #E5E5E5;
+    border-radius: 20px;
+
+}
 
 
 #ourcorevalues .our-core p {
@@ -1020,6 +1024,7 @@ footer .footerLogo {
     position: relative;
     display: inline-block;
     background: black;
+    margin-bottom: 16px;
 }
 
 footer .title {
@@ -1075,9 +1080,14 @@ footer .menuFooter ul li.parent span {
     font-weight: 900;
 }
 
+footer .menuFooter span {
+    margin-left: 16px;
+    font-size: 20px;
+}
+
 footer .social {
     justify-content: right;
-    margin-bottom: -45px;
+    margin-bottom: -60px;
 }
 
 footer .social .item {
@@ -1130,9 +1140,9 @@ footer .copyright {
         bottom: 30px;
     }
 
-    #homepage .carousel .carouselContent .title {
+    /* #homepage .carousel .carouselContent .title {
         font-size: 60px;
-    }
+    } */
 
     #homepage .carousel .carouselContent .subTitle {
         margin: 20px 0;
@@ -1168,9 +1178,9 @@ footer .copyright {
         bottom: 30px;
     }
 
-    #homepage .carousel .carouselContent .title {
+    /* #homepage .carousel .carouselContent .title {
         font-size: 50px;
-    }
+    } */
 
     #homepage .carousel .carouselContent .subTitle {
         font-size: 15px;
@@ -1194,12 +1204,17 @@ footer .copyright {
         font-weight: 700 !important;
         justify-content: left;
     }
-    #ecosystem  {
+
+    #ecosystem {
         padding: 0;
-     }
-     #ecosystem .content{
-         width: 100%;
-     }
+    }
+
+    #ecosystem .content {
+        width: 100%;
+    }
+    .advisors{
+        justify-content: center;
+    }
 }
 
 @media (max-width: 768px) {}
@@ -1224,11 +1239,12 @@ footer .copyright {
         padding: 20px 0;
     }
 
-     .ourmission {
+    .ourmission {
         padding: 55px 0;
         position: relative;
     }
-    .ourmission h2{
+
+    .ourmission h2 {
         margin-top: 20px;
     }
 
@@ -1257,9 +1273,9 @@ footer .copyright {
         bottom: 10px;
     }
 
-    #homepage .carousel .carouselContent .title {
+    /* #homepage .carousel .carouselContent .title {
         font-size: 25px;
-    }
+    } */
 
     #homepage .carousel .carouselContent .subTitle {
         font-size: 16px;
