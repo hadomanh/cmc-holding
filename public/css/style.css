@@ -380,7 +380,7 @@ strong {
     background: #fff;
     padding: 15px 30px;
     filter: grayscale(1);
-    background: url(../img/bg_custom.png) left top no-repeat, url(../img/bg_custom-1.png) top left no-repeat;
+    /* background: url(../img/bg_custom.png) left top no-repeat, url(../img/bg_custom-1.png) top left no-repeat; */
     position: relative;
     transform: rotate(45deg);
 
@@ -548,14 +548,19 @@ header .navbar .dropdown-toggle:after {
 /*========================== HOMEPAGE ==========================*/
 
 #homepage .carousel .carouselContent {
-    display: inline-block;
+    /* display: inline-block; */
     text-align: center;
-    position: absolute;
-    left: 50%;
+    /* left: 50%; */
     height: 60%;
-    transform: translateX(-50%);
-    bottom: 100px;
+    /* transform: translateX(-50%); */
+    /* bottom: 100px; */
     color: #fff;
+    /* margin: 0; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
 
 #homepage .carousel .carouselContent .title {
@@ -774,15 +779,6 @@ header .navbar .dropdown-toggle:after {
     margin-top: 20px;
 }
 
-
-.text-our-mission ul li::before {
-    color: #bf0223;
-    padding: 20px;
-    border: 2px solid #bf0223;
-    list-style-type: square;
-    position: absolute;
-}
-
 .text-our-mission {
     margin-top: 30px;
 }
@@ -799,7 +795,6 @@ header .navbar .dropdown-toggle:after {
 
 
 #ourcorevalues .our-core .abc {
-    /* box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2); */
     box-shadow: 1px 1px 0 #E5E5E5;
     border-radius: 20px;
 
@@ -858,7 +853,29 @@ header .navbar .dropdown-toggle:after {
 #executive .border-icon {
     margin-top: -35px;
 }
-
+/* #ourmission .text-our-mission ul li::before {
+    content: "\2022";
+    color: #C61D23;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+    border-radius: 20px;
+    padding: 10px;
+    border: 1px #C51D23 solid;
+    border-radius: 50px;
+  } */
+  /* .text-our-mission ul li::after {
+    color: #bf0223;
+    padding: 20px;
+    border: 2px solid #bf0223;
+    list-style-type: square;
+    position: absolute;
+} */
+/* 
+  #ourmission .text-our-mission ul {
+    list-style: none;
+  } */
 
 /* ----------- */
 /*========================== REPORT PAGE ==========================*/

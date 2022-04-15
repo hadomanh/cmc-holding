@@ -3,7 +3,16 @@
 @section('content')
 <div id="contactPage" class="bg-white">
     <section class="p-0">
-        <img src="{{ asset('img/banner-contact.png') }}" alt="" class="w-100">
+        <div id="contact" class="carousel slide pt-0" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active container2">
+                    <img src="{{ asset('img/banner-contact.png') }}" alt="" class="w-100">
+                        <div class="content">
+                            <h1>CONTACT</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
     </section>
     <section class="bgLocal">
         <div class="container-lg">
