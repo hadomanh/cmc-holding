@@ -184,6 +184,7 @@ strong {
     background: #dd0023;
     color: #fff;
     box-shadow: #ff00009c 0px 5px 15px 0px;
+    padding: 6px 75px;
 }
 
 .btnRed:hover {
@@ -985,6 +986,13 @@ header .navbar .dropdown-toggle:after {
     padding: 0 5px;
 }
 
+.location1 p {
+    height: 65px;
+}
+
+.location2 p {
+    height: 45px;
+}
 /* #mediaNews .carousel-item{
     flex: left;
 } */

@@ -24,7 +24,7 @@
                             <h5 class="text-uppercase">United States of America</h5>
                             <div class="d-flex">
                                 <div><img src="{{ asset('img/iconPosition.png') }}"></div>
-                                <div class="ms-3">
+                                <div class="ms-3 location1">
                                     <p class="d-block mb-2">30 N Gould St Ste R Sheridan, Wyoming 82801 <br> 2323 Main Street Irvine, CA 92614 </p>
                                 </div>
                             </div>
@@ -46,7 +46,7 @@
                             <h5 class="text-uppercase">VIETNAM</h5>
                             <div class="d-flex">
                                 <div><img src="{{ asset('img/iconPosition.png') }}"></div>
-                                <div class="ms-3">
+                                <div class="ms-3 location1">
                                     <p class="d-block mb-2">CX01 lot, Van Khe urban area, La <br> Khe Ward, Ha Dong District, Hanoi, Vietnam</p>
                                 </div>
                             </div>
@@ -68,7 +68,7 @@
                             <h5 class="text-uppercase">SINGAPORE</h5>
                             <div class="d-flex">
                                 <div><img src="{{ asset('img/iconPosition.png') }}"></div>
-                                <div class="ms-3">
+                                <div class="ms-3 location2">
                                     <p class="d-block mb-2">International Plaza, 10 Anson Road, Singapore</p>
                                 </div>
                             </div>
@@ -90,7 +90,7 @@
                             <h5 class="text-uppercase">CANADA</h5>
                             <div class="d-flex">
                                 <div><img src="{{ asset('img/iconPosition.png') }}"></div>
-                                <div class="ms-3">
+                                <div class="ms-3 location2">
                                     <p class="d-block mb-2">116 Albert (City of Ottawa, Ontario), Canada</p>
                                 </div>
                             </div>
