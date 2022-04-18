@@ -130,8 +130,8 @@
                             <a href="#"><img class="card-img-top" src="{{ asset('img/img-8.jpg') }}"></a>
                             <div class="card-body">
                                 <h5 class="card-title titleUnderline"><a href="#">@lang ('Technology field')</a></h5>
-                                <p class="card-text"  style="height: 50%;">@lang (' <strong>Metaway Tech</strong> explores, expands, and delivers crucial technology solutions in the pillars of the digital economy. Our goal is to improve the capacity and overall development to meet global user needs in the digital economy age.')</p>
-                                <div class="text-end"><a target="_blank" href="http://metawaytech.com/" class="btn  btn-btnWhite">@lang ('READ MORE')<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
+                                <p class="card-text">@lang (' <strong>Metaway Tech</strong> explores, expands, and delivers crucial technology solutions in the pillars of the digital economy. Our goal is to improve the capacity and overall development to meet global user needs in the digital economy age.')</p>
+                                <div class="text-end btn-read"><a target="_blank" href="http://metawaytech.com/" class="btn btn-btnWhite">@lang ('READ MORE')<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
                                             <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
                                         </svg></a></div>
                             </div>
@@ -178,13 +178,11 @@
         </section>
 
 
-
-
         <!-- eco system -->
         <section class="text-white" id="ecosystem">
             <div class="container-lg">
                 <div class="content">
-                <h2 class="">@lang ('ECOSYSTEM')</h2>
+                <h2 class="text-light">@lang ('ECOSYSTEM')</h2>
                 <p>@lang ("<strong>The Metaway Holdings</strong> ecosystem is investing in products and services for specialized needs: The backbone pillar of the digital economy, Enormous Volume, Global Scale, Recurrent Demand, Fast-developing Market. We address existing markets and industries' issues with the latest smart, transparent technology solutions.") </p>
                 </div>
             </div>
@@ -193,13 +191,13 @@
         <!-- Our members -->
         <section class="bgWhite partners" id="holdingsmembers">
             <div class="container-lg">
+                <div class="row g-0">
                 <h2 class="sectionHeading centered">@lang ('HOLDINGS MEMBERS')</h2>
                 <p class="text-center">@lang ("As a 'Holding in Holding' model, we establish member enterprises with separate ecosystems while maintaining focus on Metaway Holding's broad aims of globalization, digitalization, and innovation for outstanding social values.")</p>
                 <p><img src="{{ asset('img/Map1.png') }}" alt=""></p>
+                </div>
             </div>
         </section>
-
-
         <!-- Our members -->
         <section class="bgGrey team" id="executive">
             <div class="container-lg">
@@ -210,7 +208,7 @@
                         <h4 class="sectionHeading text-uppercase1 mt-4"><span>Board of Management</span></h4>
                     </div>
                     <div class="row g-0 justify-content-center text-center our-executive-team">
-                        <div class="col-lg-2 col-md-4 item d-flex flex-column align-items-center m-2">
+                        <div class="col-lg-2 col-md-4 col-sm-6 item d-flex flex-column align-items-center m-2">
                             <img src="{{ asset('img/Tran-Nam-Trung.png') }}" alt="">
                             <img class="border-icon" src="{{ asset('img/border-executive.png') }}" alt="">
                             <h4 class="name">Tran Nam Chung</h4>
@@ -220,7 +218,7 @@
                                 <a href="#"><i class="fa fa-twitter"></i></a>
                             </div>
                         </div>
-                        <div class="col-lg-2 col-md-4 item d-flex flex-column align-items-center m-2">
+                        <div class="col-lg-2 col-md-4 col-sm-6 item d-flex flex-column align-items-center m-2">
                             <img src="{{ asset('img/Henre-D.Fahman.png') }}" alt="">
                             <img class="border-icon" src="{{ asset('img/border-executive.png') }}" alt="">
                             <h4 class="name">Henry D.Fahman</h4>
@@ -230,7 +228,7 @@
                                 <a href="#"><i class="fa fa-twitter"></i></a>
                             </div>
                         </div>
-                        <div class="col-lg-2 col-md-4 item d-flex flex-column align-items-center m-2">
+                        <div class="col-lg-2 col-md-4 col-sm-6 item d-flex flex-column align-items-center m-2">
                             <img src="{{ asset('img/Nguyen-Ngoc-Son.png') }}" alt="">
                             <img class="border-icon" src="{{ asset('img/border-executive.png') }}" alt="">
                             <h4 class="name">Nguyen Ngoc Son</h4>
@@ -240,7 +238,7 @@
                                 <a href="#"><i class="fa fa-twitter"></i></a>
                             </div>
                         </div>
-                        <div class="col-lg-2 col-md-4 item d-flex flex-column align-items-center m-2">
+                        <div class="col-lg-2 col-md-4 col-sm-6 item d-flex flex-column align-items-center m-2">
                             <img src="{{ asset('img/Nguyen-Ngoc-Long.png') }}" alt="">
                             <img class="border-icon" src="{{ asset('img/border-executive.png') }}" alt="">
                             <h4 class="name">Nguyen Ngoc Long</h4>
@@ -250,7 +248,7 @@
                                 <a href="#"><i class="fa fa-twitter"></i></a>
                             </div>
                         </div>
-                        <div class="col-lg-2 col-md-4 item d-flex flex-column align-items-center m-2">
+                        <div class="col-lg-2 col-md-4 col-sm-6 item d-flex flex-column align-items-center m-2">
                             <img src="{{ asset('img/Nguyen-Thanh-Long.png') }}" alt="">
                             <img class="border-icon" src="{{ asset('img/border-executive.png') }}" alt="">
                             <h4 class="name">Nguyen Thanh Long</h4>
@@ -260,7 +258,7 @@
                                 <a href="https://twitter.com"><i class="fa fa-twitter"></i></a>
                             </div>
                         </div>
-                        <div class="col-lg-2 col-md-4 item d-flex flex-column align-items-center m-2">
+                        <div class="col-lg-2 col-md-4 col-sm-6 item d-flex flex-column align-items-center m-2">
                             <img src="{{ asset('img/Trinh-Hoang-Linh.png') }}" alt="">
                             <img class="border-icon" src="{{ asset('img/border-executive.png') }}" alt="">
                             <h4 class="name">TRINH HOANG LINH</h4>
@@ -270,7 +268,7 @@
                                 <a href="https://twitter.com"><i class="fa fa-twitter"></i></a>
                             </div>
                         </div>
-                        <div class="col-lg-2 col-md-4 item d-flex flex-column align-items-center m-2">
+                        <div class="col-lg-2 col-md-4 col-sm-6 item d-flex flex-column align-items-center m-2">
                             <img src="{{ asset('img/Lam-Minh-Phuoc.png') }}" alt="">
                             <img class="border-icon" src="{{ asset('img/border-executive.png') }}" alt="">
                             <h4 class="name">Lam Minh Phuoc</h4>
@@ -280,7 +278,7 @@
                                 <a href="https://twitter.com"><i class="fa fa-twitter"></i></a>
                             </div>
                         </div>
-                        <div class="col-lg-2 col-md-4 item d-flex flex-column align-items-center m-2">
+                        <div class="col-lg-2 col-md-4 col-sm-6 item d-flex flex-column align-items-center m-2">
                             <img src="{{ asset('img/Pham-Anh-Tuan.png') }}" alt="">
                             <img class="border-icon" src="{{ asset('img/border-executive.png') }}" alt="">
                             <h4 class="name">Pham Anh Tuan</h4>
@@ -291,7 +289,7 @@
                             </div>
                         </div>  
                     </div>
-                </div>
+                </div>  
                 <div class="listTeam ">
                     <div class="col-md-12">
                         <h4 class="sectionHeading text-uppercase1 mt-4"><span>Advisors</span></h4>
@@ -426,7 +424,7 @@
                             <img src="{{ asset('img/Francesco.png') }}" alt="">
                             <img class="border-icon" src="{{ asset('img/border-executive.png') }}" alt="">
                             <h4 class="name">Francesco</h4>
-                            <div class="position flex-grow-1">CTO</div>
+                            <div class="position flex-grow-1"> Business & Partnership Director</div>
                             <div class="social">
                                 <a href="#"><i class="fab fa-linkedin"></i></a>
                                 <a href="#"><i class="fa fa-twitter"></i></a>

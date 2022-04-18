@@ -18,7 +18,7 @@
         <div class="container-lg">
             <div class="row align-items-center">
                 <div class="col-md-6 ">
-                    <h2 class="text-uppercase centered">Metaway Holdings</h2>
+                    <h1 class="text-uppercase centered">Metaway Holdings</h1>
                     <div class="row mt-5">
                         <div class="col-md-6 mb-4 mb-4">
                             <h5 class="text-uppercase">United States of America</h5>

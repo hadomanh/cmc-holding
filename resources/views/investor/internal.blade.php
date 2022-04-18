@@ -17,13 +17,13 @@
     <section class="bg-white">
         <div class="container-lg">
             <!-- <h2 class="sectionHeading text-uppercase centered">FINANCE REPORT</h2> -->
-            <div class="row g-0 reportNav">
+            <!-- <div class="row g-0 reportNav">
                 <nav class="col">
                     <div class="nav nav-tabs" id="nav-tab" role="tablist">
                         <button class="nav-link active" id="nav-internal-report-tab" data-bs-toggle="tab" data-bs-target="#nav-internal-report" type="button" role="tab" aria-controls="nav-internal-report" aria-selected="true">Internal Report</button>
                     </div>
                 </nav>
-            </div>
+            </div> -->
             <div class="tab-content" id="nav-tabContent">
                 <div class="tab-pane fade show active" id="nav-internal-report" role="tabpanel" aria-labelledby="nav-internal-report-tab">
                 <table class="table align-middle">

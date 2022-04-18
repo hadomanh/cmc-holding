@@ -4,12 +4,12 @@
 <div id="mediaNews" class="bg-white">
     <section class="investor-detail">
         <div class="container-lg">
-            <div class="row">
+            <div class="row title-investor">
                  <div class="col-lg-8 col-12">
-                     <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna </h4>
+                     <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna </h3>
                      <span class="miniSize">2022-01-19</span><br>
-                     <strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                         Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.</strong>
+                     <p class="title-news">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                         Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.</p>
                      <p> "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
                          eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem
                           quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
@@ -33,7 +33,7 @@
                           consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem 
                           eum fugiat quo voluptas nulla pariatur?"</p>
                 </div>
-                <div class="col-lg-3 col-12">
+                <div class="col-lg-4 col-12">
                     <div class="title-investor-detail col-12">
                         <h4><a href="">Xem nhiều</a></h4>
                     </div>
@@ -43,7 +43,7 @@
                                 <img src="{{ asset('img/Frame-1.png') }}" alt="" class="icon-detail">
                             </div>
                             <div class="col-8">
-                                <h5>Lorem ipsum dolor sit amet, consectetur</h5>
+                                <h4>Lorem ipsum dolor sit amet, consectetur</h4>
                                 <span class="miniSize">2022-01-19</span>
                             </div>
                         </div>
@@ -54,7 +54,7 @@
                                 <img src="{{ asset('img/Frame-2.png') }}" alt="" class="icon-detail">
                             </div>
                             <div class="col-8">
-                                <h5>Lorem ipsum dolor sit amet, consectetur</h5>
+                                <h4>Lorem ipsum dolor sit amet, consectetur</h4>
                                 <span class="miniSize">2022-01-19</span>
                             </div>
                         </div>
@@ -65,7 +65,7 @@
                                 <img src="{{ asset('img/Frame-3.png') }}" alt="" class="icon-detail">
                             </div>
                             <div class="col-8">
-                                <h5>Lorem ipsum dolor sit amet, consectetur</h5>
+                                <h4>Lorem ipsum dolor sit amet, consectetur</h4>
                                 <span class="miniSize">2022-01-19</span>
                             </div>
                         </div>
@@ -76,7 +76,7 @@
                                 <img src="{{ asset('img/Frame-4.png') }}" alt="" class="icon-detail">
                             </div>
                             <div class="col-8">
-                                <h5>Lorem ipsum dolor sit amet, consectetur</h5>
+                                <h4>Lorem ipsum dolor sit amet, consectetur</h4>
                                 <span class="miniSize">2022-01-19</span>
                             </div>
                         </div>
