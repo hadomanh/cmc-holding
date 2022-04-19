@@ -22,12 +22,12 @@
         </section>
 
         <!-- About Us -->
-        <section class="bgWhite">
+        <section class="bgWhite banner-home">
             <div class="container-lg">
                 <h2 class="sectionHeading centered text-uppercase p-3">{{ __('about us') }}</h2>
                 <div class="row">
                     <div class="col-md-12">
-                        <p class="text-center">@lang ('<strong> Metaway Holdings</strong> is a global-scale digital economy corporation with the orientation to develop on the pillar fields of the digital economy society. We create platforms to fulfill multi-value ecosystems: Digital Healthcare, Digital Education, Digital Commerce, Digital Banking, Digital insurance, Digital Real Estate... All based on optimal application of the cutting-edge technologies for better serving the demand  on for global connectivity')</p>
+                        <p class="text-center pb-5">@lang ('<strong> Metaway Holdings</strong> is a global-scale digital economy corporation with the orientation to develop on the pillar fields of the digital economy society. We create platforms to fulfill multi-value ecosystems: Digital Healthcare, Digital Education, Digital Commerce, Digital Banking, Digital insurance, Digital Real Estate... All based on optimal application of the cutting-edge technologies for better serving the demand  on for global connectivity')</p>
                         <div class="row about-home">
                             <div class="col-md-4 about-home1"><p><img class="img-bgWhite" src="{{ asset('img/success-key-1.png') }}" alt=""><h6 class="title-bgWhite">@lang ('Way')</h6>@lang ('<strong> Metaway Holdings</strong> possesses the secrets of the super-rich class and the formula successfully applied  in the top corporations and even start up companies for spectacular business breakthroughs. This will be the firm launching pad to help us conquer all the peaks.') </p></div>
                             <div class="col-md-4 about-home2"><p><img class="img-bgWhite" src="{{ asset('img/brain-1.png') }}" alt=""><h6 class="title-bgWhite">@lang ('Talent')</h6>@lang ('<strong> Metaway Holdings</strong> brings together gifted people with a noble vision and mission in connecting communities and actualizing all aspirations.')</p></div>
