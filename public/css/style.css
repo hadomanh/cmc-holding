@@ -456,7 +456,8 @@ strong {
 }
 
 .bgLocal {
-    background: url(../img/bannerLocal.png) repeat center center / contain;
+    background: url(../img/bannerLocal.png) no-repeat left;
+    margin: 0px 61px;
 }
 
 .iconContact {
@@ -1091,14 +1092,21 @@ header .navbar .dropdown-toggle:after {
     padding: 0 5px;
 }
 
-.location1 p {
+.flag{
+    margin-right: 13px;
+} 
+
+.arrowdown {
+    font-size: 14px !important;
+    margin-left: 9px !important;
+}
+/* .location1 p {
     height: 65px;
 }
 
 .location2 p {
     height: 45px;
-}
-
+} */
 /* #mediaNews .carousel-item{
     flex: left;
 } */
