@@ -123,7 +123,7 @@
         <section class="newsHighlights bgGrey bgArrow" id="businesssectors">
             <div class="container-lg">
                 <h2 class="sectionHeading centered">@lang ('INVESTMENT SECTOR')</h2>
-                <p class="text-center"><strong>METAWAY Holdings</strong> focuses on investing in key areas in the digital economy, including technology, healthcare, real estate, and finance.</p>
+                <p class="text-center mb-4"><strong>METAWAY Holdings</strong> focuses on investing in key areas in the digital economy, including technology, healthcare, real estate, and finance.</p>
                 <div class="row">
                     <div class="col-md-6 item">
                         <div class="card"  style="height: 100%;">
