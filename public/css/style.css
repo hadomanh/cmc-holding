@@ -469,7 +469,8 @@ strong {
 }
 
 .bgLocal {
-    background: url(../img/bannerLocal.png) repeat center center / contain;
+    background: url(../img/bannerLocal.png) no-repeat left;
+    margin: 0px 61px;
 }
 
 .iconContact {
@@ -1109,14 +1110,21 @@ header .navbar .dropdown-toggle:after {
     padding: 0 5px;
 }
 
+.flag{
+    margin-right: 13px;
+} 
+
+.arrowdown {
+    font-size: 14px !important;
+    margin-left: 9px !important;
+}
 /* .location1 p {
     height: 65px;
 } */
 
 .location2 p {
     height: 45px;
-}
-
+} */
 /* #mediaNews .carousel-item{
     flex: left;
 } */
@@ -1222,7 +1230,7 @@ footer .menuFooter ul ul {
 footer .menuFooter ul ul li a {
     display: block;
     position: relative;
-    padding-left: 15px;
+    /* padding-left: 15px; */
     font-weight: 200;
 }
 
@@ -1232,7 +1240,7 @@ footer .menuFooter ul li.parent span {
 }
 
 footer .menuFooter span {
-    margin-left: 16px;
+    /* margin-left: 16px; */
     font-size: 20px;
 }
 

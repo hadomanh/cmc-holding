@@ -358,52 +358,52 @@
                     </div>
                     <div class="item">
                         <div class="row g-0 justify-content-center">
-                            <div class="col-auto">
-                                <a href="https://www.nasdaq.com/press-release/corrections-startup-cmc-holdings-successfully-raised-us%241.5-million-in-co-founder" target="blank">
+                            <div class="col-auto col-sm-6">
+                                <a href="https://ca.finance.yahoo.com/news/phi-group-joins-vietnam-based-143000193.html" target="blank">
                                     <img src="{{ asset('img/Yahoo-Finance.png') }}" alt="">
                                 </a>
                             </div>
-                            <div class="col-auto">
-                                <a href="#" target="blank">
+                            <div class="col-auto col-sm-6">
+                                <a href="https://viettimes.vn/mot-startup-goi-von-thanh-cong-1-5-trieu-usd-trong-vong-dau-tien-post153780.html" target="blank">
                                     <img src="{{ asset('img/Viettimes.png') }}" alt="">
                                 </a>
                             </div>
-                            <div class="col-auto">
-                                <a href="https://www.marketscreener.com/quote/stock/PHI-GROUP-INC-120787446/news/Corrections-Startup-CMC-Holdings-Successfully-Raised-US-1-5-million-in-Co-founder-Round-to-speed-u-37661739/" target="blank">
+                            <div class="col-auto col-sm-6">
+                                <a href="https://www.nasdaq.com/press-release/corrections-startup-cmc-holdings-successfully-raised-us%241.5-million-in-co-founder" target="blank">
                                     <img src="{{ asset('img/UNasdaq.png') }}" alt="">
                                 </a>
                             </div>
-                            <div class="col-auto">
+                            <div class="col-auto col-sm-6">
                                 <a href="https://viettimes.vn/mot-startup-goi-von-thanh-cong-1-5-trieu-usd-trong-vong-dau-tien-post153780.html" target="blank">
                                     <img src="{{ asset('img/Thoi-bao-kinh-te-sai-gon.png') }}" alt="">
                                 </a>
                             </div>
-                            <div class="col-auto">
-                                <a href="https://viettimes.vn/mot-startup-goi-von-thanh-cong-1-5-trieu-usd-trong-vong-dau-tien-post153780.html" target="blank">
+                            <div class="col-auto col-sm-6">
+                                <a href="https://www.marketwatch.com/press-release/phi-group-joins-vietnam-based-cmc-holdings-to-develop-digital-economy-ecosystem-with-multiple-platforms-to-serve-global-users-needs-2022-01-25" target="blank">
                                     <img src="{{ asset('img/Market-Watch.png') }}" alt="">
                                 </a>
                             </div>
-                            <div class="col-auto">
-                                <a href="https://viettimes.vn/mot-startup-goi-von-thanh-cong-1-5-trieu-usd-trong-vong-dau-tien-post153780.html" target="blank">
+                            <div class="col-auto col-sm-6">
+                                <a href="https://www.marketscreener.com/quote/stock/PHI-GROUP-INC-120787446/news/Corrections-Startup-CMC-Holdings-Successfully-Raised-US-1-5-million-in-Co-founder-Round-to-speed-u-37661739/" target="blank">
                                     <img src="{{ asset('img/Market-Screener.png') }}" alt="">
                                 </a>
                             </div>
-                            <div class="col-auto">
-                                <a href="https://viettimes.vn/mot-startup-goi-von-thanh-cong-1-5-trieu-usd-trong-vong-dau-tien-post153780.html" target="blank">
+                            <div class="col-auto col-sm-6">
+                                <a href="https://www.globenewswire.com/news-release/2022/01/27/2374480/0/en/Corrections-Startup-CMC-Holdings-Successfully-Raised-US-1-5-million-in-Co-founder-Round-to-speed-up-developments-aiming-for-US-300-billion-IPO-target-by-2027.html" target="blank">
                                     <img src="{{ asset('img/Global-PR-Newswire.png') }}" alt="">
                                 </a>
                             </div>
-                            <div class="col-auto">
+                            <div class="col-auto col-sm-6">
                                 <a href="https://viettimes.vn/mot-startup-goi-von-thanh-cong-1-5-trieu-usd-trong-vong-dau-tien-post153780.html" target="blank">
                                     <img src="{{ asset('img/doanh-nhan-sai-gon.png') }}" alt="">
                                 </a>
                             </div>
-                            <div class="col-auto">
+                            <div class="col-auto col-sm-6">
                                 <a href="https://viettimes.vn/mot-startup-goi-von-thanh-cong-1-5-trieu-usd-trong-vong-dau-tien-post153780.html" target="blank">
                                     <img src="{{ asset('img/Cafe-F.png') }}" alt="">
                                 </a>
                             </div>
-                            <div class="col-auto">
+                            <div class="col-auto col-sm-6">
                                 <a href="https://viettimes.vn/mot-startup-goi-von-thanh-cong-1-5-trieu-usd-trong-vong-dau-tien-post153780.html" target="blank">
                                     <img src="{{ asset('img/Bloomberg.png') }}" alt="">
                                 </a>
@@ -412,52 +412,52 @@
                     </div>
                     <div class="item">
                         <div class="row g-0 justify-content-center">
-                            <div class="col-auto">
-                                <a href="https://www.nasdaq.com/press-release/corrections-startup-cmc-holdings-successfully-raised-us%241.5-million-in-co-founder" target="blank">
+                            <div class="col-auto col-sm-6">
+                                <a href="https://ca.finance.yahoo.com/news/phi-group-joins-vietnam-based-143000193.html" target="blank">
                                     <img src="{{ asset('img/Yahoo-Finance.png') }}" alt="">
                                 </a>
                             </div>
-                            <div class="col-auto">
-                                <a href="#" target="blank">
+                            <div class="col-auto col-sm-6">
+                                <a href="https://viettimes.vn/mot-startup-goi-von-thanh-cong-1-5-trieu-usd-trong-vong-dau-tien-post153780.html" target="blank">
                                     <img src="{{ asset('img/Viettimes.png') }}" alt="">
                                 </a>
                             </div>
-                            <div class="col-auto">
-                                <a href="https://www.marketscreener.com/quote/stock/PHI-GROUP-INC-120787446/news/Corrections-Startup-CMC-Holdings-Successfully-Raised-US-1-5-million-in-Co-founder-Round-to-speed-u-37661739/" target="blank">
+                            <div class="col-auto col-sm-6">
+                                <a href="https://www.nasdaq.com/press-release/corrections-startup-cmc-holdings-successfully-raised-us%241.5-million-in-co-founder" target="blank">
                                     <img src="{{ asset('img/UNasdaq.png') }}" alt="">
                                 </a>
                             </div>
-                            <div class="col-auto">
+                            <div class="col-auto col-sm-6">
                                 <a href="https://viettimes.vn/mot-startup-goi-von-thanh-cong-1-5-trieu-usd-trong-vong-dau-tien-post153780.html" target="blank">
                                     <img src="{{ asset('img/Thoi-bao-kinh-te-sai-gon.png') }}" alt="">
                                 </a>
                             </div>
-                            <div class="col-auto">
-                                <a href="https://viettimes.vn/mot-startup-goi-von-thanh-cong-1-5-trieu-usd-trong-vong-dau-tien-post153780.html" target="blank">
+                            <div class="col-auto col-sm-6">
+                                <a href="https://www.marketwatch.com/press-release/phi-group-joins-vietnam-based-cmc-holdings-to-develop-digital-economy-ecosystem-with-multiple-platforms-to-serve-global-users-needs-2022-01-25" target="blank">
                                     <img src="{{ asset('img/Market-Watch.png') }}" alt="">
                                 </a>
                             </div>
-                            <div class="col-auto">
-                                <a href="https://viettimes.vn/mot-startup-goi-von-thanh-cong-1-5-trieu-usd-trong-vong-dau-tien-post153780.html" target="blank">
+                            <div class="col-auto col-sm-6">
+                                <a href="https://www.marketscreener.com/quote/stock/PHI-GROUP-INC-120787446/news/Corrections-Startup-CMC-Holdings-Successfully-Raised-US-1-5-million-in-Co-founder-Round-to-speed-u-37661739/" target="blank">
                                     <img src="{{ asset('img/Market-Screener.png') }}" alt="">
                                 </a>
                             </div>
-                            <div class="col-auto">
-                                <a href="https://viettimes.vn/mot-startup-goi-von-thanh-cong-1-5-trieu-usd-trong-vong-dau-tien-post153780.html" target="blank">
+                            <div class="col-auto col-sm-6">
+                                <a href="https://www.globenewswire.com/news-release/2022/01/27/2374480/0/en/Corrections-Startup-CMC-Holdings-Successfully-Raised-US-1-5-million-in-Co-founder-Round-to-speed-up-developments-aiming-for-US-300-billion-IPO-target-by-2027.html" target="blank">
                                     <img src="{{ asset('img/Global-PR-Newswire.png') }}" alt="">
                                 </a>
                             </div>
-                            <div class="col-auto">
+                            <div class="col-auto col-sm-6">
                                 <a href="https://viettimes.vn/mot-startup-goi-von-thanh-cong-1-5-trieu-usd-trong-vong-dau-tien-post153780.html" target="blank">
                                     <img src="{{ asset('img/doanh-nhan-sai-gon.png') }}" alt="">
                                 </a>
                             </div>
-                            <div class="col-auto">
+                            <div class="col-auto col-sm-6">
                                 <a href="https://viettimes.vn/mot-startup-goi-von-thanh-cong-1-5-trieu-usd-trong-vong-dau-tien-post153780.html" target="blank">
                                     <img src="{{ asset('img/Cafe-F.png') }}" alt="">
                                 </a>
                             </div>
-                            <div class="col-auto">
+                            <div class="col-auto col-sm-6">
                                 <a href="https://viettimes.vn/mot-startup-goi-von-thanh-cong-1-5-trieu-usd-trong-vong-dau-tien-post153780.html" target="blank">
                                     <img src="{{ asset('img/Bloomberg.png') }}" alt="">
                                 </a>
@@ -466,52 +466,52 @@
                     </div>
                     <div class="item">
                         <div class="row g-0 justify-content-center">
-                            <div class="col-auto col-md-3">
-                                <a href="https://www.nasdaq.com/press-release/corrections-startup-cmc-holdings-successfully-raised-us%241.5-million-in-co-founder" target="blank">
+                            <div class="col-auto col-sm-6">
+                                <a href="https://ca.finance.yahoo.com/news/phi-group-joins-vietnam-based-143000193.html" target="blank">
                                     <img src="{{ asset('img/Yahoo-Finance.png') }}" alt="">
                                 </a>
                             </div>
-                            <div class="col-auto col-md-3">
-                                <a href="#" target="blank">
+                            <div class="col-auto col-sm-6">
+                                <a href="https://viettimes.vn/mot-startup-goi-von-thanh-cong-1-5-trieu-usd-trong-vong-dau-tien-post153780.html" target="blank">
                                     <img src="{{ asset('img/Viettimes.png') }}" alt="">
                                 </a>
                             </div>
-                            <div class="col-auto col-md-3">
-                                <a href="https://www.marketscreener.com/quote/stock/PHI-GROUP-INC-120787446/news/Corrections-Startup-CMC-Holdings-Successfully-Raised-US-1-5-million-in-Co-founder-Round-to-speed-u-37661739/" target="blank">
+                            <div class="col-auto col-sm-6">
+                                <a href="https://www.nasdaq.com/press-release/corrections-startup-cmc-holdings-successfully-raised-us%241.5-million-in-co-founder" target="blank">
                                     <img src="{{ asset('img/UNasdaq.png') }}" alt="">
                                 </a>
                             </div>
-                            <div class="col-auto col-md-3">
+                            <div class="col-auto col-sm-6">
                                 <a href="https://viettimes.vn/mot-startup-goi-von-thanh-cong-1-5-trieu-usd-trong-vong-dau-tien-post153780.html" target="blank">
                                     <img src="{{ asset('img/Thoi-bao-kinh-te-sai-gon.png') }}" alt="">
                                 </a>
                             </div>
-                            <div class="col-auto col-md-3">
-                                <a href="https://viettimes.vn/mot-startup-goi-von-thanh-cong-1-5-trieu-usd-trong-vong-dau-tien-post153780.html" target="blank">
+                            <div class="col-auto col-sm-6">
+                                <a href="https://www.marketwatch.com/press-release/phi-group-joins-vietnam-based-cmc-holdings-to-develop-digital-economy-ecosystem-with-multiple-platforms-to-serve-global-users-needs-2022-01-25" target="blank">
                                     <img src="{{ asset('img/Market-Watch.png') }}" alt="">
                                 </a>
                             </div>
-                            <div class="col-auto col-md-3">
-                                <a href="https://viettimes.vn/mot-startup-goi-von-thanh-cong-1-5-trieu-usd-trong-vong-dau-tien-post153780.html" target="blank">
+                            <div class="col-auto col-sm-6">
+                                <a href="https://www.marketscreener.com/quote/stock/PHI-GROUP-INC-120787446/news/Corrections-Startup-CMC-Holdings-Successfully-Raised-US-1-5-million-in-Co-founder-Round-to-speed-u-37661739/" target="blank">
                                     <img src="{{ asset('img/Market-Screener.png') }}" alt="">
                                 </a>
                             </div>
-                            <div class="col-auto col-md-3">
-                                <a href="https://viettimes.vn/mot-startup-goi-von-thanh-cong-1-5-trieu-usd-trong-vong-dau-tien-post153780.html" target="blank">
+                            <div class="col-auto col-sm-6">
+                                <a href="https://www.globenewswire.com/news-release/2022/01/27/2374480/0/en/Corrections-Startup-CMC-Holdings-Successfully-Raised-US-1-5-million-in-Co-founder-Round-to-speed-up-developments-aiming-for-US-300-billion-IPO-target-by-2027.html" target="blank">
                                     <img src="{{ asset('img/Global-PR-Newswire.png') }}" alt="">
                                 </a>
                             </div>
-                            <div class="col-auto col-md-3">
+                            <div class="col-auto col-sm-6">
                                 <a href="https://viettimes.vn/mot-startup-goi-von-thanh-cong-1-5-trieu-usd-trong-vong-dau-tien-post153780.html" target="blank">
                                     <img src="{{ asset('img/doanh-nhan-sai-gon.png') }}" alt="">
                                 </a>
                             </div>
-                            <div class="col-auto col-md-3">
+                            <div class="col-auto col-sm-6">
                                 <a href="https://viettimes.vn/mot-startup-goi-von-thanh-cong-1-5-trieu-usd-trong-vong-dau-tien-post153780.html" target="blank">
                                     <img src="{{ asset('img/Cafe-F.png') }}" alt="">
                                 </a>
                             </div>
-                            <div class="col-auto col-md-3">
+                            <div class="col-auto col-sm-6">
                                 <a href="https://viettimes.vn/mot-startup-goi-von-thanh-cong-1-5-trieu-usd-trong-vong-dau-tien-post153780.html" target="blank">
                                     <img src="{{ asset('img/Bloomberg.png') }}" alt="">
                                 </a>

@@ -84,6 +84,15 @@
                                 <li><a href="{{ route('about') }}">Overview</a></li>
                                 <li><a href="{{ route('about') }}">Our Mission</a></li>
                                 <li><a href="{{ route('about') }}">Our Vision</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md">
+                    <ul>
+                        <li class="parent list-unstyled">
+                            <span class="">Investment Sector</span>
+                            <ul class="list-unstyled">
                                 <li><a href="{{ route('about') }}">Our Core Values</a></li>
                                 <li><a href="{{ route('about') }}">Business Sector</a></li>
                                 <li><a href="{{ route('about') }}">Our Ecosystem</a></li>
@@ -93,7 +102,6 @@
                         </li>
                     </ul>
                 </div>
-
                 <div class="col-md">
                     <ul>
                         <li class="parent list-unstyled">
