@@ -100,12 +100,12 @@
                     <div class="item">
                         <div class="row g-0 justify-content-center">
                             <div class="col-custom col-sm-6">
-                                <a href="http://phiglobal.com/" target="blank">
+                                <a href="http://www.vnpost.vn/" target="blank">
                                     <img src="{{ asset('img/Vietnam Post.png') }}" alt="">
                                 </a>
                             </div>
                             <div class="col-custom col-sm-6">
-                                <a href="https://vnpt.com.vn/" target="blank">
+                                <a href="http://www.vietinbankcapital.vn/vi-vn/" target="blank">
                                     <img src="{{ asset('img/Viettin Capital.png') }}" alt="">
                                 </a>
                             </div>
@@ -120,27 +120,27 @@
                                 </a>
                             </div>
                             <div class="col-custom col-sm-6">
-                                <a href="http://www.petroland.com.vn/" target="blank">
+                                <a href="https://vcci.com.vn/" target="blank">
                                     <img src="{{ asset('img/VVC.png') }}" alt="">
                                 </a>
                             </div>
                             <div class="col-custom col-sm-6">
-                                <a href="http://www.petroland.com.vn/" target="blank">
+                                <a href="http://phiglobal.com/" target="blank">
                                     <img src="{{ asset('img/Phi Group.png') }}" alt="">
                                 </a>
                             </div>
                             <div class="col-custom col-sm-6">
-                                <a href="http://www.petroland.com.vn/" target="blank">
+                                <a href="https://vnpt.com.vn/" target="blank">
                                     <img src="{{ asset('img/VNPT.png') }}" alt="">
                                 </a>
                             </div>
                             <div class="col-custom col-sm-6">
-                                <a href="http://www.petroland.com.vn/" target="blank">
+                                <a href="http://phiglobal.com/" target="blank">
                                     <img src="{{ asset('img/Phi Group.png') }}" alt="">
                                 </a>
                             </div>
                             <div class="col-custom col-sm-6">
-                                <a href="http://www.petroland.com.vn/" target="blank">
+                                <a href="https://en.nikkoam.com/" target="blank">
                                     <img src="{{ asset('img/Nikko AM.png') }}" alt="">
                                 </a>
                             </div>
@@ -148,48 +148,48 @@
                     </div>
                     <div class="item">
                         <div class="row g-0 justify-content-center">
-                            <div class="col-custom">
-                                <a href="http://phiglobal.com/" target="blank">
+                            <div class="col-custom col-sm-6">
+                                <a href="http://www.vnpost.vn/" target="blank">
                                     <img src="{{ asset('img/Vietnam Post.png') }}" alt="">
                                 </a>
                             </div>
-                            <div class="col-custom">
-                                <a href="https://vnpt.com.vn/" target="blank">
+                            <div class="col-custom col-sm-6">
+                                <a href="http://www.vietinbankcapital.vn/vi-vn/" target="blank">
                                     <img src="{{ asset('img/Viettin Capital.png') }}" alt="">
                                 </a>
                             </div>
-                            <div class="col-custom">
+                            <div class="col-custom col-sm-6">
                                 <a href="https://www.linkedin.com/company/acentus-capital" target="blank">
                                     <img src="{{ asset('img/Acentus Capital.png') }}" alt="">
                                 </a>
                             </div>
-                            <div class="col-custom">
+                            <div class="col-custom col-sm-6">
                                 <a href="http://www.petroland.com.vn/" target="blank">
                                     <img src="{{ asset('img/Petroland.png') }}" alt="">
                                 </a>
                             </div>
-                            <div class="col-custom">
-                                <a href="http://www.petroland.com.vn/" target="blank">
+                            <div class="col-custom col-sm-6">
+                                <a href="https://vcci.com.vn/" target="blank">
                                     <img src="{{ asset('img/VVC.png') }}" alt="">
                                 </a>
                             </div>
-                            <div class="col-custom">
-                                <a href="http://www.petroland.com.vn/" target="blank">
+                            <div class="col-custom col-sm-6">
+                                <a href="http://phiglobal.com/" target="blank">
                                     <img src="{{ asset('img/Phi Group.png') }}" alt="">
                                 </a>
                             </div>
-                            <div class="col-custom">
-                                <a href="http://www.petroland.com.vn/" target="blank">
+                            <div class="col-custom col-sm-6">
+                                <a href="https://vnpt.com.vn/" target="blank">
                                     <img src="{{ asset('img/VNPT.png') }}" alt="">
                                 </a>
                             </div>
-                            <div class="col-custom">
-                                <a href="http://www.petroland.com.vn/" target="blank">
+                            <div class="col-custom col-sm-6">
+                                <a href="http://phiglobal.com/" target="blank">
                                     <img src="{{ asset('img/Phi Group.png') }}" alt="">
                                 </a>
                             </div>
-                            <div class="col-custom">
-                                <a href="http://www.petroland.com.vn/" target="blank">
+                            <div class="col-custom col-sm-6">
+                                <a href="https://en.nikkoam.com/" target="blank">
                                     <img src="{{ asset('img/Nikko AM.png') }}" alt="">
                                 </a>
                             </div>
@@ -197,48 +197,48 @@
                     </div>
                     <div class="item">
                         <div class="row g-0 justify-content-center">
-                            <div class="col-custom">
-                                <a href="http://phiglobal.com/" target="blank">
+                            <div class="col-custom col-sm-6">
+                                <a href="http://www.vnpost.vn/" target="blank">
                                     <img src="{{ asset('img/Vietnam Post.png') }}" alt="">
                                 </a>
                             </div>
-                            <div class="col-custom">
-                                <a href="https://vnpt.com.vn/" target="blank">
+                            <div class="col-custom col-sm-6">
+                                <a href="http://www.vietinbankcapital.vn/vi-vn/" target="blank">
                                     <img src="{{ asset('img/Viettin Capital.png') }}" alt="">
                                 </a>
                             </div>
-                            <div class="col-custom">
+                            <div class="col-custom col-sm-6">
                                 <a href="https://www.linkedin.com/company/acentus-capital" target="blank">
                                     <img src="{{ asset('img/Acentus Capital.png') }}" alt="">
                                 </a>
                             </div>
-                            <div class="col-custom">
+                            <div class="col-custom col-sm-6">
                                 <a href="http://www.petroland.com.vn/" target="blank">
                                     <img src="{{ asset('img/Petroland.png') }}" alt="">
                                 </a>
                             </div>
-                            <div class="col-custom">
-                                <a href="http://www.petroland.com.vn/" target="blank">
+                            <div class="col-custom col-sm-6">
+                                <a href="https://vcci.com.vn/" target="blank">
                                     <img src="{{ asset('img/VVC.png') }}" alt="">
                                 </a>
                             </div>
-                            <div class="col-custom">
-                                <a href="http://www.petroland.com.vn/" target="blank">
+                            <div class="col-custom col-sm-6">
+                                <a href="http://phiglobal.com/" target="blank">
                                     <img src="{{ asset('img/Phi Group.png') }}" alt="">
                                 </a>
                             </div>
-                            <div class="col-custom">
-                                <a href="http://www.petroland.com.vn/" target="blank">
+                            <div class="col-custom col-sm-6">
+                                <a href="https://vnpt.com.vn/" target="blank">
                                     <img src="{{ asset('img/VNPT.png') }}" alt="">
                                 </a>
                             </div>
-                            <div class="col-custom">
-                                <a href="http://www.petroland.com.vn/" target="blank">
+                            <div class="col-custom col-sm-6">
+                                <a href="http://phiglobal.com/" target="blank">
                                     <img src="{{ asset('img/Phi Group.png') }}" alt="">
                                 </a>
                             </div>
-                            <div class="col-custom">
-                                <a href="http://www.petroland.com.vn/" target="blank">
+                            <div class="col-custom col-sm-6">
+                                <a href="https://en.nikkoam.com/" target="blank">
                                     <img src="{{ asset('img/Nikko AM.png') }}" alt="">
                                 </a>
                             </div>
@@ -246,48 +246,48 @@
                     </div>
                     <div class="item">
                         <div class="row g-0 justify-content-center">
-                            <div class="col-custom">
-                                <a href="http://phiglobal.com/" target="blank">
+                            <div class="col-custom col-sm-6">
+                                <a href="http://www.vnpost.vn/" target="blank">
                                     <img src="{{ asset('img/Vietnam Post.png') }}" alt="">
                                 </a>
                             </div>
-                            <div class="col-custom">
-                                <a href="https://vnpt.com.vn/" target="blank">
+                            <div class="col-custom col-sm-6">
+                                <a href="http://www.vietinbankcapital.vn/vi-vn/" target="blank">
                                     <img src="{{ asset('img/Viettin Capital.png') }}" alt="">
                                 </a>
                             </div>
-                            <div class="col-custom">
+                            <div class="col-custom col-sm-6">
                                 <a href="https://www.linkedin.com/company/acentus-capital" target="blank">
                                     <img src="{{ asset('img/Acentus Capital.png') }}" alt="">
                                 </a>
                             </div>
-                            <div class="col-custom">
+                            <div class="col-custom col-sm-6">
                                 <a href="http://www.petroland.com.vn/" target="blank">
                                     <img src="{{ asset('img/Petroland.png') }}" alt="">
                                 </a>
                             </div>
-                            <div class="col-custom">
-                                <a href="http://www.petroland.com.vn/" target="blank">
+                            <div class="col-custom col-sm-6">
+                                <a href="https://vcci.com.vn/" target="blank">
                                     <img src="{{ asset('img/VVC.png') }}" alt="">
                                 </a>
                             </div>
-                            <div class="col-custom">
-                                <a href="http://www.petroland.com.vn/" target="blank">
+                            <div class="col-custom col-sm-6">
+                                <a href="http://phiglobal.com/" target="blank">
                                     <img src="{{ asset('img/Phi Group.png') }}" alt="">
                                 </a>
                             </div>
-                            <div class="col-custom">
-                                <a href="http://www.petroland.com.vn/" target="blank">
+                            <div class="col-custom col-sm-6">
+                                <a href="https://vnpt.com.vn/" target="blank">
                                     <img src="{{ asset('img/VNPT.png') }}" alt="">
                                 </a>
                             </div>
-                            <div class="col-custom">
-                                <a href="http://www.petroland.com.vn/" target="blank">
+                            <div class="col-custom col-sm-6">
+                                <a href="http://phiglobal.com/" target="blank">
                                     <img src="{{ asset('img/Phi Group.png') }}" alt="">
                                 </a>
                             </div>
-                            <div class="col-custom">
-                                <a href="http://www.petroland.com.vn/" target="blank">
+                            <div class="col-custom col-sm-6">
+                                <a href="https://en.nikkoam.com/" target="blank">
                                     <img src="{{ asset('img/Nikko AM.png') }}" alt="">
                                 </a>
                             </div>
@@ -320,7 +320,7 @@
                                 </a>
                             </div>
                             <div class="col-auto col-sm-6">
-                                <a href="https://viettimes.vn/mot-startup-goi-von-thanh-cong-1-5-trieu-usd-trong-vong-dau-tien-post153780.html" target="blank">
+                                <a href="https://thesaigontimes.vn/startup-cong-nghe-goi-von-thanh-cong-15-trieu-do-la-sau-1-gio-keu-goi/" target="blank">
                                     <img src="{{ asset('img/Thoi-bao-kinh-te-sai-gon.png') }}" alt="">
                                 </a>
                             </div>
@@ -340,17 +340,17 @@
                                 </a>
                             </div>
                             <div class="col-auto col-sm-6">
-                                <a href="https://viettimes.vn/mot-startup-goi-von-thanh-cong-1-5-trieu-usd-trong-vong-dau-tien-post153780.html" target="blank">
+                                <a href="https://doanhnhansaigon.vn/khoi-nghiep/thu-hut-1-5-trieu-usd-vong-co-founder-chi-sau-mot-gio-keu-goi-1109107.html" target="blank">
                                     <img src="{{ asset('img/doanh-nhan-sai-gon.png') }}" alt="">
                                 </a>
                             </div>
                             <div class="col-auto col-sm-6">
-                                <a href="https://viettimes.vn/mot-startup-goi-von-thanh-cong-1-5-trieu-usd-trong-vong-dau-tien-post153780.html" target="blank">
+                                <a href="https://cafef.vn/mot-startup-phat-trien-nen-kinh-te-so-vua-hut-15-trieu-usd-vong-co-founder-tham-vong-ipo-san-nasdaq-vao-nam-2027-2022011821242" target="blank">
                                     <img src="{{ asset('img/Cafe-F.png') }}" alt="">
                                 </a>
                             </div>
                             <div class="col-auto col-sm-6">
-                                <a href="https://viettimes.vn/mot-startup-goi-von-thanh-cong-1-5-trieu-usd-trong-vong-dau-tien-post153780.html" target="blank">
+                                <a href="#" target="blank">
                                     <img src="{{ asset('img/Bloomberg.png') }}" alt="">
                                 </a>
                             </div>
@@ -374,7 +374,7 @@
                                 </a>
                             </div>
                             <div class="col-auto col-sm-6">
-                                <a href="https://viettimes.vn/mot-startup-goi-von-thanh-cong-1-5-trieu-usd-trong-vong-dau-tien-post153780.html" target="blank">
+                                <a href="https://thesaigontimes.vn/startup-cong-nghe-goi-von-thanh-cong-15-trieu-do-la-sau-1-gio-keu-goi/" target="blank">
                                     <img src="{{ asset('img/Thoi-bao-kinh-te-sai-gon.png') }}" alt="">
                                 </a>
                             </div>
@@ -394,17 +394,17 @@
                                 </a>
                             </div>
                             <div class="col-auto col-sm-6">
-                                <a href="https://viettimes.vn/mot-startup-goi-von-thanh-cong-1-5-trieu-usd-trong-vong-dau-tien-post153780.html" target="blank">
+                                <a href="https://doanhnhansaigon.vn/khoi-nghiep/thu-hut-1-5-trieu-usd-vong-co-founder-chi-sau-mot-gio-keu-goi-1109107.html" target="blank">
                                     <img src="{{ asset('img/doanh-nhan-sai-gon.png') }}" alt="">
                                 </a>
                             </div>
                             <div class="col-auto col-sm-6">
-                                <a href="https://viettimes.vn/mot-startup-goi-von-thanh-cong-1-5-trieu-usd-trong-vong-dau-tien-post153780.html" target="blank">
+                                <a href="https://cafef.vn/mot-startup-phat-trien-nen-kinh-te-so-vua-hut-15-trieu-usd-vong-co-founder-tham-vong-ipo-san-nasdaq-vao-nam-2027-2022011821242" target="blank">
                                     <img src="{{ asset('img/Cafe-F.png') }}" alt="">
                                 </a>
                             </div>
                             <div class="col-auto col-sm-6">
-                                <a href="https://viettimes.vn/mot-startup-goi-von-thanh-cong-1-5-trieu-usd-trong-vong-dau-tien-post153780.html" target="blank">
+                                <a href="#" target="blank">
                                     <img src="{{ asset('img/Bloomberg.png') }}" alt="">
                                 </a>
                             </div>
@@ -428,7 +428,7 @@
                                 </a>
                             </div>
                             <div class="col-auto col-sm-6">
-                                <a href="https://viettimes.vn/mot-startup-goi-von-thanh-cong-1-5-trieu-usd-trong-vong-dau-tien-post153780.html" target="blank">
+                                <a href="https://thesaigontimes.vn/startup-cong-nghe-goi-von-thanh-cong-15-trieu-do-la-sau-1-gio-keu-goi/" target="blank">
                                     <img src="{{ asset('img/Thoi-bao-kinh-te-sai-gon.png') }}" alt="">
                                 </a>
                             </div>
@@ -448,17 +448,17 @@
                                 </a>
                             </div>
                             <div class="col-auto col-sm-6">
-                                <a href="https://viettimes.vn/mot-startup-goi-von-thanh-cong-1-5-trieu-usd-trong-vong-dau-tien-post153780.html" target="blank">
+                                <a href="https://doanhnhansaigon.vn/khoi-nghiep/thu-hut-1-5-trieu-usd-vong-co-founder-chi-sau-mot-gio-keu-goi-1109107.html" target="blank">
                                     <img src="{{ asset('img/doanh-nhan-sai-gon.png') }}" alt="">
                                 </a>
                             </div>
                             <div class="col-auto col-sm-6">
-                                <a href="https://viettimes.vn/mot-startup-goi-von-thanh-cong-1-5-trieu-usd-trong-vong-dau-tien-post153780.html" target="blank">
+                                <a href="https://cafef.vn/mot-startup-phat-trien-nen-kinh-te-so-vua-hut-15-trieu-usd-vong-co-founder-tham-vong-ipo-san-nasdaq-vao-nam-2027-2022011821242" target="blank">
                                     <img src="{{ asset('img/Cafe-F.png') }}" alt="">
                                 </a>
                             </div>
                             <div class="col-auto col-sm-6">
-                                <a href="https://viettimes.vn/mot-startup-goi-von-thanh-cong-1-5-trieu-usd-trong-vong-dau-tien-post153780.html" target="blank">
+                                <a href="#" target="blank">
                                     <img src="{{ asset('img/Bloomberg.png') }}" alt="">
                                 </a>
                             </div>
@@ -482,7 +482,7 @@
                                 </a>
                             </div>
                             <div class="col-auto col-sm-6">
-                                <a href="https://viettimes.vn/mot-startup-goi-von-thanh-cong-1-5-trieu-usd-trong-vong-dau-tien-post153780.html" target="blank">
+                                <a href="https://thesaigontimes.vn/startup-cong-nghe-goi-von-thanh-cong-15-trieu-do-la-sau-1-gio-keu-goi/" target="blank">
                                     <img src="{{ asset('img/Thoi-bao-kinh-te-sai-gon.png') }}" alt="">
                                 </a>
                             </div>
@@ -502,17 +502,17 @@
                                 </a>
                             </div>
                             <div class="col-auto col-sm-6">
-                                <a href="https://viettimes.vn/mot-startup-goi-von-thanh-cong-1-5-trieu-usd-trong-vong-dau-tien-post153780.html" target="blank">
+                                <a href="https://doanhnhansaigon.vn/khoi-nghiep/thu-hut-1-5-trieu-usd-vong-co-founder-chi-sau-mot-gio-keu-goi-1109107.html" target="blank">
                                     <img src="{{ asset('img/doanh-nhan-sai-gon.png') }}" alt="">
                                 </a>
                             </div>
                             <div class="col-auto col-sm-6">
-                                <a href="https://viettimes.vn/mot-startup-goi-von-thanh-cong-1-5-trieu-usd-trong-vong-dau-tien-post153780.html" target="blank">
+                                <a href="https://cafef.vn/mot-startup-phat-trien-nen-kinh-te-so-vua-hut-15-trieu-usd-vong-co-founder-tham-vong-ipo-san-nasdaq-vao-nam-2027-2022011821242" target="blank">
                                     <img src="{{ asset('img/Cafe-F.png') }}" alt="">
                                 </a>
                             </div>
                             <div class="col-auto col-sm-6">
-                                <a href="https://viettimes.vn/mot-startup-goi-von-thanh-cong-1-5-trieu-usd-trong-vong-dau-tien-post153780.html" target="blank">
+                                <a href="#" target="blank">
                                     <img src="{{ asset('img/Bloomberg.png') }}" alt="">
                                 </a>
                             </div>

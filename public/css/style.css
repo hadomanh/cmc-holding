@@ -190,10 +190,13 @@ strong {
     font-size: 20px;
     display: flex;
     justify-content: end;
+    margin-right: 20px;
 }
+.btnArrow sv
 
 .btnArrow:hover {
     color: #CB1D23;
+    margin-right: auto;
 }
 
 .partners {
@@ -758,7 +761,7 @@ header .navbar .dropdown-toggle:after {
 }
 
 #overview .text-overview {
-    margin: 50px 0;
+    margin: 30px 0;
 }
 
 .ourmission .text-uppercase {
@@ -931,12 +934,13 @@ header .navbar .dropdown-toggle:after {
     color: #D91F26;
     font-size: 20px;
     font-weight: 450;
+    margin-right: 20px;
 }
 
-/* .btn-btnWhite:hover {
+.btn-btnWhite:hover {
     color: #D91F26;
-   
-} */
+    margin-right: auto;
+}
 
 #businesssectors .card {
     border-radius: 20px;
@@ -994,7 +998,7 @@ header .navbar .dropdown-toggle:after {
 
 .btn-read .btn-btnWhite {
     margin-top: 68px;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
 
 }
 
@@ -1110,21 +1114,24 @@ header .navbar .dropdown-toggle:after {
     padding: 0 5px;
 }
 
-.flag{
+.flag {
     margin-right: 13px;
-} 
+}
 
 .arrowdown {
     font-size: 14px !important;
     margin-left: 9px !important;
 }
+
 /* .location1 p {
     height: 65px;
 } */
 
 .location2 p {
     height: 45px;
-} */
+}
+
+*/
 /* #mediaNews .carousel-item{
     flex: left;
 } */
@@ -1232,6 +1239,7 @@ footer .menuFooter ul ul li a {
     position: relative;
     /* padding-left: 15px; */
     font-weight: 200;
+    text-align: left;
 }
 
 footer .menuFooter ul li a,

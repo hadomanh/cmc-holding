@@ -79,16 +79,21 @@
                 <div class="col-md">
                     <ul>
                         <li class="parent list-unstyled">
-                            <span class="ml-4">About us</span>
+                            <span class="">About us</span>
                             <ul class="list-unstyled">
                                 <li><a href="{{ route('about') }}">Overview</a></li>
                                 <li><a href="{{ route('about') }}">Our Mission</a></li>
                                 <li><a href="{{ route('about') }}">Our Vision</a></li>
+                                <li><a href="{{ route('about') }}">Our Core Values</a></li>
+                                <li><a href="{{ route('about') }}">Investment Sectors </a></li>
+                                <li><a href="{{ route('about') }}">Our Ecosystem</a></li>
+                                <li><a href="{{ route('about') }}">Holdings Members</a></li>
+                                <li><a href="{{ route('about') }}">Our Executive Team</a></li>
                             </ul>
                         </li>
                     </ul>
                 </div>
-                <div class="col-md">
+                <!-- <div class="col-md">
                     <ul>
                         <li class="parent list-unstyled">
                             <span class="">Investment Sector</span>
@@ -101,7 +106,7 @@
                             </ul>
                         </li>
                     </ul>
-                </div>
+                </div> -->
                 <div class="col-md">
                     <ul>
                         <li class="parent list-unstyled">
@@ -127,7 +132,8 @@
                     </ul>
                 </div>
                 <div class="col-md">
-                    <ul><li class="list-unstyled"> 
+                    <ul>
+                        <li class="list-unstyled"> 
                     <a href="{{ route('contact') }}"><span>Contact</span></a>
                     </li></ul>
                     
