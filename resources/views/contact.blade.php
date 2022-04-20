@@ -2,8 +2,17 @@
 
 @section('content')
 <div id="contactPage" class="bg-white">
-    <section class="p-0">
-        <img src="{{ asset('img/banner-contact.png') }}" alt="" class="w-100">
+    <section class="banner p-0">
+        <div id="carouselBanner" class="carousel slide pt-0" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active container2">
+                    <img src="{{ asset('img/banner-contact.png') }}" alt="" class="w-100">
+                    <div class="content">
+                        <h1>CONTACT</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
     <section class="bgLocal">
         <div class="container-lg">
@@ -16,7 +25,7 @@
                             <div class="d-flex">
                                 <div><img src="{{ asset('img/iconPosition.png') }}"></div>
                                 <div class="ms-3 location1">
-                                    <p class="d-block mb-2">30 N Gould St Ste R Sheridan, Wyoming 82801 <br> 2323 Main Street Irvine, CA 92614 </p>
+                                    <p class="d-block mb-2">30 N Gould St Ste R Sheridan, <br> Wyoming 82801 <br> 2323 Main Street Irvine, CA 92614 </p>
                                 </div>
                             </div>
                             <div class="d-flex">
@@ -31,14 +40,14 @@
                                     <p class="d-block mb-2">info@metawayholdings.com</p>
                                 </div>
                             </div>
-                            
+
                         </div>
                         <div class="col-md-6 mb-4">
                             <h5 class="text-uppercase">VIETNAM</h5>
                             <div class="d-flex">
                                 <div><img src="{{ asset('img/iconPosition.png') }}"></div>
                                 <div class="ms-3 location1">
-                                    <p class="d-block mb-2">CX01 lot, Van Khe urban area, La <br> Khe Ward, Ha Dong District, Hanoi, Vietnam</p>
+                                    <p class="d-block mb-2">CX01 lot, Van Khe urban area, La <br> Khe Ward, Ha Dong District, <br> Hanoi, Vietnam</p>
                                 </div>
                             </div>
                             <div class="d-flex">
@@ -53,7 +62,7 @@
                                     <p class="d-block mb-2">info@metawayholdings.com</p>
                                 </div>
                             </div>
-                            
+
                         </div>
                         <div class="col-md-6 mb-4">
                             <h5 class="text-uppercase">SINGAPORE</h5>
@@ -75,14 +84,14 @@
                                     <p class="d-block mb-2">info@metawayholdings.com</p>
                                 </div>
                             </div>
-                            
+
                         </div>
                         <div class="col-md-6 mb-4">
                             <h5 class="text-uppercase">CANADA</h5>
                             <div class="d-flex">
                                 <div><img src="{{ asset('img/iconPosition.png') }}"></div>
                                 <div class="ms-3 location2">
-                                    <p class="d-block mb-2">116 Albert (City of Ottawa, Ontario), Canada</p>
+                                    <p class="d-block mb-2">116 Albert (City of Ottawa, Ontario), <br> Canada</p>
                                 </div>
                             </div>
                             <div class="d-flex">
@@ -97,7 +106,7 @@
                                     <p class="d-block mb-2">info@metawayholdings.com</p>
                                 </div>
                             </div>
-                            
+
                         </div>
                     </div>
                 </div>

@@ -7,7 +7,7 @@
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <i class="fas fa-bars" aria-hidden="true"></i>
         </button>
-        <div class="collapse navbar-collapse justify-content-between align-items-end" id="navbarSupportedContent">
+        <div class="collapse navbar-collapse justify-content-around align-items-end" id="navbarSupportedContent">
             <ul class="navbar-nav">
                 <li class="nav-item">
                     <a class="nav-link {{ $isActive('home') }}" aria-current="page" href="{{ route('home') }}">Home</a>
@@ -45,11 +45,16 @@
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Language
+                        @if ( App::getLocale() === 'vi')
+                        <img src="{{ asset('img/flagVN.png')}}" alt=""><i class="fas fa-angle-down arrowdown"></i>
+                        @else
+                            <img src="{{ asset('img/flagUSA.png')}}" alt=""><i class="fas fa-angle-down arrowdown"></i>
+                        @endif
+                        
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="{{ route('localization.set', 'en') }}">EN</a></li>
-                        <li><a class="dropdown-item" href="{{ route('localization.set', 'vi') }}">VI</a></li>
+                        <li><a class="dropdown-item" href="{{ route('localization.set', 'en') }}"><img src="{{ asset('img/flagUSA.png')}}" alt="" class="flag">EN</a></li>
+                        <li><a class="dropdown-item" href="{{ route('localization.set', 'vi') }}"><img src="{{ asset('img/flagVN.png')}}" alt="" class="flag">VI</a></li>
                     </ul>
                 </li>
             </ul>
