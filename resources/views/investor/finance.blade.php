@@ -3,11 +3,20 @@
 @section('content')
 <div id="reportPage">
     <section class="banner p-0">
-        <img src="{{ asset('img/banner-annual.png') }}" alt="" class="w-100">
+        <div id="annual" class="carousel slide pt-0" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active container2">
+                    <img src="{{ asset('img/banner-annual.png') }}" alt="" class="w-100">
+                        <div class="content">
+                            <h1>ANNUAL FINANCE REPORT</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
     </section>
     <section class="bg-white">
         <div class="container-lg">
-            <h2 class="sectionHeading text-uppercase centered">ANNUAL FINANCE REPORT</h2>
+            <!-- <h2 class="sectionHea/ding text-uppercase centered">ANNUAL FINANCE REPORT</h2> -->
             <div class="row g-0 reportNav">
                 <nav class="col d-flex justify-content-center">
                     <div class="nav nav-tabs" id="nav-tab" role="tablist">

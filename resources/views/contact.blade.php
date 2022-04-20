@@ -2,23 +2,23 @@
 
 @section('content')
 <div id="contactPage" class="bg-white">
-    <section class="banner p-0">
-        <div id="carouselBanner" class="carousel slide pt-0" data-bs-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active container2">
+    <section class="p-0">
+        <div id="contact" class="carousel slide pt-0" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active container2">
                     <img src="{{ asset('img/banner-contact.png') }}" alt="" class="w-100">
-                    <div class="content">
-                        <h1>CONTACT</h1>
+                        <div class="content">
+                            <h1>CONTACT</h1>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
     </section>
     <section class="bgLocal">
         <div class="container-lg">
             <div class="row align-items-center">
                 <div class="col-md-6 ">
-                    <h2 class="text-uppercase centered">Metaway Holdings</h2>
+                    <h1 class="text-uppercase centered">Metaway Holdings</h1>
                     <div class="row mt-5">
                         <div class="col-md-6 mb-4 mb-4">
                             <h5 class="text-uppercase">United States of America</h5>
