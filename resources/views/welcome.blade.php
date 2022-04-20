@@ -33,10 +33,10 @@
                             <div class="col-md-4 about-home2"><p><img class="img-bgWhite" src="{{ asset('img/brain-1.png') }}" alt=""><h6 class="title-bgWhite">@lang ('Talent')</h6>@lang ('<strong> Metaway Holdings</strong> brings together gifted people with a noble vision and mission in connecting communities and actualizing all aspirations.')</p></div>
                             <div class="col-md-4 about-home3"><p><img class="img-bgWhite" src="{{ asset('img/Meta-icon-1.png') }}" alt=""><h6 class="title-bgWhite">@lang ('Metaverse')</h6>@lang ('Formed in the Metaverse era, we are well aware of the importance of developing infrastructure and solutions to help humankind quickly access and adapt to the movements of the future.')</p></div>
                         </div>
-                        <p class="text-center"><a href="{{ route('about') }}" class="btn btnWhite text-uppercase">@lang ('Read more') <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
+                    </div>
+                    <p class="text-center"><a href="{{ route('about') }}" class="btn btnWhite text-uppercase">@lang ('Read more') <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
                                     <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
                                 </svg></a></p>
-                    </div>
                 </div>
             </div>
         </section>
@@ -305,17 +305,17 @@
                     <div class="item">
                         <div class="row g-0 justify-content-center">
                             <div class="col-auto col-sm-6">
-                                <a href="https://www.nasdaq.com/press-release/corrections-startup-cmc-holdings-successfully-raised-us%241.5-million-in-co-founder" target="blank">
+                                <a href="https://ca.finance.yahoo.com/news/phi-group-joins-vietnam-based-143000193.html" target="blank">
                                     <img src="{{ asset('img/Yahoo-Finance.png') }}" alt="">
                                 </a>
                             </div>
                             <div class="col-auto col-sm-6">
-                                <a href="#" target="blank">
+                                <a href="https://viettimes.vn/mot-startup-goi-von-thanh-cong-1-5-trieu-usd-trong-vong-dau-tien-post153780.html" target="blank">
                                     <img src="{{ asset('img/Viettimes.png') }}" alt="">
                                 </a>
                             </div>
                             <div class="col-auto col-sm-6">
-                                <a href="https://www.marketscreener.com/quote/stock/PHI-GROUP-INC-120787446/news/Corrections-Startup-CMC-Holdings-Successfully-Raised-US-1-5-million-in-Co-founder-Round-to-speed-u-37661739/" target="blank">
+                                <a href="https://www.nasdaq.com/press-release/corrections-startup-cmc-holdings-successfully-raised-us%241.5-million-in-co-founder" target="blank">
                                     <img src="{{ asset('img/UNasdaq.png') }}" alt="">
                                 </a>
                             </div>
@@ -325,17 +325,17 @@
                                 </a>
                             </div>
                             <div class="col-auto col-sm-6">
-                                <a href="https://viettimes.vn/mot-startup-goi-von-thanh-cong-1-5-trieu-usd-trong-vong-dau-tien-post153780.html" target="blank">
+                                <a href="https://www.marketwatch.com/press-release/phi-group-joins-vietnam-based-cmc-holdings-to-develop-digital-economy-ecosystem-with-multiple-platforms-to-serve-global-users-needs-2022-01-25" target="blank">
                                     <img src="{{ asset('img/Market-Watch.png') }}" alt="">
                                 </a>
                             </div>
                             <div class="col-auto col-sm-6">
-                                <a href="https://viettimes.vn/mot-startup-goi-von-thanh-cong-1-5-trieu-usd-trong-vong-dau-tien-post153780.html" target="blank">
+                                <a href="https://www.marketscreener.com/quote/stock/PHI-GROUP-INC-120787446/news/Corrections-Startup-CMC-Holdings-Successfully-Raised-US-1-5-million-in-Co-founder-Round-to-speed-u-37661739/" target="blank">
                                     <img src="{{ asset('img/Market-Screener.png') }}" alt="">
                                 </a>
                             </div>
                             <div class="col-auto col-sm-6">
-                                <a href="https://viettimes.vn/mot-startup-goi-von-thanh-cong-1-5-trieu-usd-trong-vong-dau-tien-post153780.html" target="blank">
+                                <a href="https://www.globenewswire.com/news-release/2022/01/27/2374480/0/en/Corrections-Startup-CMC-Holdings-Successfully-Raised-US-1-5-million-in-Co-founder-Round-to-speed-up-developments-aiming-for-US-300-billion-IPO-target-by-2027.html" target="blank">
                                     <img src="{{ asset('img/Global-PR-Newswire.png') }}" alt="">
                                 </a>
                             </div>

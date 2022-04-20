@@ -268,7 +268,7 @@
                                 <a href="https://twitter.com"><i class="fa fa-twitter"></i></a>
                             </div>
                         </div>
-                        <div class="col-lg-2 col-md-4 col-sm-6 item d-flex flex-column align-items-center m-2">
+                        <!-- <div class="col-lg-2 col-md-4 col-sm-6 item d-flex flex-column align-items-center m-2">
                             <img src="{{ asset('img/Lam-Minh-Phuoc.png') }}" alt="">
                             <img class="border-icon" src="{{ asset('img/border-executive.png') }}" alt="">
                             <h4 class="name">Lam Minh Phuoc</h4>
@@ -277,7 +277,7 @@
                                 <a href="https://www.linkedin.com/"><i class="fab fa-linkedin"></i></a>
                                 <a href="https://twitter.com"><i class="fa fa-twitter"></i></a>
                             </div>
-                        </div>
+                        </div> -->
                         <div class="col-lg-2 col-md-4 col-sm-6 item d-flex flex-column align-items-center m-2">
                             <img src="{{ asset('img/Pham-Anh-Tuan.png') }}" alt="">
                             <img class="border-icon" src="{{ asset('img/border-executive.png') }}" alt="">

@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Sarabun:wght@300;400;600;700&display=swap');
 
 body {
-    font-family: SVN-Gotham;
+    font-family: 'Sarabun', sans-serif;
     font-size: 16px;
     color: #464646;
     background: #f3f3f3;
@@ -129,18 +129,31 @@ strong {
 }
 
 .btnWhite {
-    background: #fff;
+    /* background: #fff;
     border: 2px solid #CB1D23;
     color: #CB1D23;
     font-size: 20px;
-    /* width: 100px; */
-    /* transition: width 2s, height 4s; */
+    width: 100px;
+    transition: width 2s, height 4s; */
+    color: #CB1D23;
+    border: 2px solid rgb(171, 5, 5);
+    border-radius: 0px;
+    padding: 9px 38px;
+    display: inline-block;
+    font-size: 20px;
+    border: 2px solid #CB1D23;
+    background: #fff;
+    transition-duration: 1s;
 }
 
 .btnWhite:hover {
-    background-color: #CB1D23;
+    /* background-color: #CB1D23;
     color: white;
     transition: 0.2s;
+    width: 100%; */
+    box-shadow: inset 400px 0 0 0 #CB1D23;
+    transition-duration: 1s;
+    color: white;
 }
 
 
@@ -724,7 +737,10 @@ header .navbar .dropdown-toggle:after {
 
 /* ---------------- */
 .ourmission {
-    background: #F3F3F3;
+    /* background: #F3F3F3; */
+    background: url(../img/bg-ourmission.png) no-repeat;
+    /* height: 80px; */
+    width: 100%;
 }
 
 .overview .text-uppercase {
@@ -758,7 +774,7 @@ header .navbar .dropdown-toggle:after {
     display: flex;
     position: relative;
     margin-top: 16px;
-    margin-right: -160px;
+    margin-right: -140px;
 }
 
 .ourvision {
@@ -798,7 +814,7 @@ header .navbar .dropdown-toggle:after {
     display: flex;
     position: relative;
     margin-top: 16px;
-    margin-right: -234px;
+    margin-right: -208px;
 }
 
 #ecosystem {
@@ -846,6 +862,7 @@ header .navbar .dropdown-toggle:after {
     border: 2px solid #CB1D23;
     padding: 20px;
 }
+
 .text-our-mission ul li:before {
     content: '';
     border: 1px solid #CB1D23;
@@ -858,18 +875,15 @@ header .navbar .dropdown-toggle:after {
     margin-right: 15px;
     margin-bottom: auto;
     box-shadow: 2px 3px 10px red;
-    margin-left: -18px;
+    margin-left: -19px;
     margin-top: 10px;
-    margin-bottom: 0;
+    margin-bottom: 1px;
 }
 
 .text-our-mission ul>li {
     align-items: center;
     margin: 5px 0;
 }
-
-
-
 
 
 
@@ -916,8 +930,12 @@ header .navbar .dropdown-toggle:after {
     color: #D91F26;
     font-size: 20px;
     font-weight: 450;
-
 }
+
+/* .btn-btnWhite:hover {
+    color: #D91F26;
+   
+} */
 
 #businesssectors .card {
     border-radius: 20px;
@@ -1091,9 +1109,9 @@ header .navbar .dropdown-toggle:after {
     padding: 0 5px;
 }
 
-.location1 p {
+/* .location1 p {
     height: 65px;
-}
+} */
 
 .location2 p {
     height: 45px;
@@ -1135,7 +1153,9 @@ header .navbar .dropdown-toggle:after {
     font-weight: 600;
 }
 
+/* #contactPage .centered{
 
+} */
 /*========================== FOOTER ==========================*/
 
 footer {
@@ -1381,15 +1401,27 @@ footer .copyright {
 
     .ourmission .text-uppercase span {
         margin-right: -126px;
+        margin-top: 21px;
+    }
+
+    .ourmission .text-uppercase {
+        height: 80px;
+        position: relative;
+        margin-top: -88px;
+        margin-left: -150px;
     }
 
     .ourcorevalues .text-uppercase span {
-        margin-right: -209px;
+        margin-right: -178px;
     }
 
     .btn-read .btn-btnWhite {
         margin-top: 138px;
         margin-bottom: 10px;
+    }
+
+    .ipBg {
+        margin-top: -403px;
     }
 }
 
@@ -1556,5 +1588,26 @@ footer .copyright {
     .btn-read .btn-btnWhite {
         margin-top: 0;
         margin-bottom: 0;
+    }
+
+    .ourvision .text-uppercase {
+        height: 127px;
+        /* display: flex;
+        position: relative;
+        margin-top: -80px; */
+    }
+
+    .ourvision .text-uppercase span {
+        font-weight: 700;
+        margin-left: 30px;
+        margin-top: 43px;
+    }
+
+    .about-home2 {
+        margin-top: 0;
+    }
+
+    .ipBg {
+        margin-top: 0;
     }
 }
