@@ -46,9 +46,9 @@
         <div class="row">
             <div class="col-xl col-12">
                 <div class="row social">
-                    <div class="col-auto"><a target="_blank" href="https://www.facebook.com/Metaway-Holdings-109209504990418" class="item"><i class="fa fa-facebook-f" aria-hidden="true"></i></a></div>
+                    <div class="col-auto"><a target="_blank" href="https://www.facebook.com/metawayholdings" class="item"><i class="fa fa-facebook-f" aria-hidden="true"></i></a></div>
                     <div class="col-auto"><a target="_blank" href="https://www.youtube.com/channel/UCpIg6-XEcZnofCZD5z8OLVw" class="item"><i class="fa fa-youtube" aria-hidden="true"></i></a></div>
-                    <div class="col-auto"><a target="_blank" href="https://linkedin.com/company/metawayglobal" class="item"><i class="fa fa-linkedin" aria-hidden="true"></i></a></div>
+                    <div class="col-auto"><a target="_blank" href="https://www.linkedin.com/company/metawayholdings/" class="item"><i class="fa fa-linkedin" aria-hidden="true"></i></a></div>
                     <div class="col-auto"><a target="_blank" href="https://twitter.com/metawayholdings" class="item"><i class="fa fa-twitter" aria-hidden="true"></i></a></div>
                 </div>
                 <h6 class="title text-red">
@@ -79,11 +79,25 @@
                 <div class="col-md">
                     <ul>
                         <li class="parent list-unstyled">
-                            <span>About us</span>
+                            <span class="">About us</span>
                             <ul class="list-unstyled">
                                 <li><a href="{{ route('about') }}">Overview</a></li>
                                 <li><a href="{{ route('about') }}">Our Mission</a></li>
                                 <li><a href="{{ route('about') }}">Our Vision</a></li>
+                                <li><a href="{{ route('about') }}">Our Core Values</a></li>
+                                <li><a href="{{ route('about') }}">Investment Sectors </a></li>
+                                <li><a href="{{ route('about') }}">Our Ecosystem</a></li>
+                                <li><a href="{{ route('about') }}">Holdings Members</a></li>
+                                <li><a href="{{ route('about') }}">Our Executive Team</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <!-- <div class="col-md">
+                    <ul>
+                        <li class="parent list-unstyled">
+                            <span class="">Investment Sector</span>
+                            <ul class="list-unstyled">
                                 <li><a href="{{ route('about') }}">Our Core Values</a></li>
                                 <li><a href="{{ route('about') }}">Business Sector</a></li>
                                 <li><a href="{{ route('about') }}">Our Ecosystem</a></li>
@@ -92,8 +106,7 @@
                             </ul>
                         </li>
                     </ul>
-                </div>
-
+                </div> -->
                 <div class="col-md">
                     <ul>
                         <li class="parent list-unstyled">
@@ -119,9 +132,11 @@
                     </ul>
                 </div>
                 <div class="col-md">
-                    <ul class="list-unstyled">
-                        <li><a href="{{ route('contact') }}">Contact</a></li>
-                    </ul>
+                    <ul>
+                        <li class="list-unstyled"> 
+                    <a href="{{ route('contact') }}"><span>Contact</span></a>
+                    </li></ul>
+                    
                 </div>
             </div>
         </div>

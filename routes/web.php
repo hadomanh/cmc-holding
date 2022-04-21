@@ -68,9 +68,8 @@ Route::prefix('investor')->group(function () {
         return view('investor.internal');
     })->name('investor.internal');
 
-    Route::get('/sec-filing', function () {
-        return view('investor.sec-filing');
-    })->name('investor.sec-filing');
+    Route::get('/sec-filing', function () {return view('investor.sec-filing');})->name('investor.sec-filing');
+    Route::get('/investor-detail', function () {return view('media.investor-detail');})->name('media.investor-detail');
 
 });
 
