@@ -59,7 +59,7 @@
                          </div>
                      </div>
                      <div class="col-md-6 order-md-2 order-1">
-                         <img src="{{ asset('img/blockcahin-1.png') }}" alt="">
+                         <img src="{{ asset('img/meta-about.jpg') }}" alt="">
                      </div>
                  </div>
              </div>
@@ -189,14 +189,15 @@
         </section>
 
         <!-- Our members -->
-        <section class="bgWhite partners" id="holdingsmembers">
+        <section class="bgWhite " id="holdingsmembers">
             <div class="container-lg">
                 <div class="row g-0">
                 <h2 class="sectionHeading centered">@lang ('HOLDINGS MEMBERS')</h2>
                 <p class="text-center">@lang ("As a 'Holding in Holding' model, we establish member enterprises with separate ecosystems while maintaining focus on Metaway Holding's broad aims of globalization, digitalization, and innovation for outstanding social values.")</p>
-                <p><img src="{{ asset('img/Map1.png') }}" alt=""></p>
-                </div>
+                <p class="text-center">@lang ("As a 'Holding in Holding' model, we establish member enterprises with separate ecosystems while maintaining focus on Metaway Holding's broad aims of globalization, digitalization, and innovation for outstanding social values.")</p>
+                <p><img src="http://127.0.0.1:8000/img/Map1.png" alt=""></p>
             </div>
+            <!-- <div class="map"></div> -->
         </section>
         <!-- Our members -->
         <section class="bgGrey team" id="executive">
@@ -238,7 +239,7 @@
                                 <a href="#"><i class="fa fa-twitter"></i></a>
                             </div>
                         </div>
-                        <div class="col-lg-2 col-md-4 col-sm-6 item d-flex flex-column align-items-center m-2">
+                        <!-- <div class="col-lg-2 col-md-4 col-sm-6 item d-flex flex-column align-items-center m-2">
                             <img src="{{ asset('img/Nguyen-Ngoc-Long.png') }}" alt="">
                             <img class="border-icon" src="{{ asset('img/border-executive.png') }}" alt="">
                             <h4 class="name">Nguyen Ngoc Long</h4>
@@ -246,36 +247,6 @@
                             <div class="social">
                                 <a href="#"><i class="fab fa-linkedin"></i></a>
                                 <a href="#"><i class="fa fa-twitter"></i></a>
-                            </div>
-                        </div>
-                        <div class="col-lg-2 col-md-4 col-sm-6 item d-flex flex-column align-items-center m-2">
-                            <img src="{{ asset('img/Nguyen-Thanh-Long.png') }}" alt="">
-                            <img class="border-icon" src="{{ asset('img/border-executive.png') }}" alt="">
-                            <h4 class="name">Nguyen Thanh Long</h4>
-                            <div class="position flex-grow-1">Member of BOM, Deputy CEO</div>
-                            <div class="social">
-                                <a href="https://www.linkedin.com/"><i class="fab fa-linkedin"></i></a>
-                                <a href="https://twitter.com"><i class="fa fa-twitter"></i></a>
-                            </div>
-                        </div>
-                        <div class="col-lg-2 col-md-4 col-sm-6 item d-flex flex-column align-items-center m-2">
-                            <img src="{{ asset('img/Trinh-Hoang-Linh.png') }}" alt="">
-                            <img class="border-icon" src="{{ asset('img/border-executive.png') }}" alt="">
-                            <h4 class="name">TRINH HOANG LINH</h4>
-                            <div class="position flex-grow-1">Deputy CEO</div>
-                            <div class="social">
-                                <a href="https://www.linkedin.com/"><i class="fab fa-linkedin"></i></a>
-                                <a href="https://twitter.com"><i class="fa fa-twitter"></i></a>
-                            </div>
-                        </div>
-                        <!-- <div class="col-lg-2 col-md-4 col-sm-6 item d-flex flex-column align-items-center m-2">
-                            <img src="{{ asset('img/Lam-Minh-Phuoc.png') }}" alt="">
-                            <img class="border-icon" src="{{ asset('img/border-executive.png') }}" alt="">
-                            <h4 class="name">Lam Minh Phuoc</h4>
-                            <div class="position flex-grow-1">Deputy CEO</div>
-                            <div class="social">
-                                <a href="https://www.linkedin.com/"><i class="fab fa-linkedin"></i></a>
-                                <a href="https://twitter.com"><i class="fa fa-twitter"></i></a>
                             </div>
                         </div> -->
                         <div class="col-lg-2 col-md-4 col-sm-6 item d-flex flex-column align-items-center m-2">
@@ -288,6 +259,37 @@
                                 <a href="https://twitter.com"><i class="fa fa-twitter"></i></a>
                             </div>
                         </div>  
+                        <div class="col-lg-2 col-md-4 col-sm-6 item d-flex flex-column align-items-center m-2">
+                            <img src="{{ asset('img/Nguyen-Thanh-Long.png') }}" alt="">
+                            <img class="border-icon" src="{{ asset('img/border-executive.png') }}" alt="">
+                            <h4 class="name">Nguyen Thanh Long</h4>
+                            <div class="position flex-grow-1">Member of BOM, Deputy CEO</div>
+                            <div class="social">
+                                <a href="https://www.linkedin.com/"><i class="fab fa-linkedin"></i></a>
+                                <a href="https://twitter.com"><i class="fa fa-twitter"></i></a>
+                            </div>
+                        </div>
+                        <!-- <div class="col-lg-2 col-md-4 col-sm-6 item d-flex flex-column align-items-center m-2">
+                            <img src="{{ asset('img/Trinh-Hoang-Linh.png') }}" alt="">
+                            <img class="border-icon" src="{{ asset('img/border-executive.png') }}" alt="">
+                            <h4 class="name">TRINH HOANG LINH</h4>
+                            <div class="position flex-grow-1">Deputy CEO</div>
+                            <div class="social">
+                                <a href="https://www.linkedin.com/"><i class="fab fa-linkedin"></i></a>
+                                <a href="https://twitter.com"><i class="fa fa-twitter"></i></a>
+                            </div>
+                        </div> -->
+                        <!-- <div class="col-lg-2 col-md-4 col-sm-6 item d-flex flex-column align-items-center m-2">
+                            <img src="{{ asset('img/Lam-Minh-Phuoc.png') }}" alt="">
+                            <img class="border-icon" src="{{ asset('img/border-executive.png') }}" alt="">
+                            <h4 class="name">Lam Minh Phuoc</h4>
+                            <div class="position flex-grow-1">Deputy CEO</div>
+                            <div class="social">
+                                <a href="https://www.linkedin.com/"><i class="fab fa-linkedin"></i></a>
+                                <a href="https://twitter.com"><i class="fa fa-twitter"></i></a>
+                            </div>
+                        </div> -->
+                        
                     </div>
                 </div>  
                 <div class="listTeam ">

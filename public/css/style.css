@@ -346,9 +346,6 @@ strong {
     margin-left: 30px;
 }
 
-
-
-
 .owl-carousel {
     position: relative;
 }
@@ -850,15 +847,6 @@ header .navbar .dropdown-toggle:after {
 }
 
 
-
-
-
-
-/* .text-our-mission ul li {
-    padding: 10px;
-    border: 2px solid #CB1D23;
-} */
-
 .text-our-mission ul li::marker {
     color: #CB1D23;
     border: 2px solid #CB1D23;
@@ -999,6 +987,24 @@ header .navbar .dropdown-toggle:after {
     /* margin-bottom: 20px; */
 
 }
+
+
+
+
+
+/* 
+#holdingsmembers .map{
+    background: url(../img/bg-map.png);
+    width: 100%;
+
+} */
+
+
+
+
+
+
+
 
 /* ----------- */
 /*========================== REPORT PAGE ==========================*/
@@ -1193,7 +1199,7 @@ footer .footerLogo {
 
 footer .title {
     position: relative;
-    margin-bottom: 15px;
+    margin-bottom: 0px;
 }
 
 footer .title:before {
@@ -1252,7 +1258,8 @@ footer .menuFooter span {
 
 footer .social {
     justify-content: right;
-    margin-bottom: -60px;
+    margin-bottom: -20px;
+    position: relative;
 }
 
 footer .social .item {
@@ -1267,8 +1274,9 @@ footer .social .item {
 }
 
 footer .social .item:hover {
-    color: #e33651;
+    color: #e33651 !important;
     border-color: #e33651;
+    justify-content: center;
 }
 
 footer .companyInfo {
