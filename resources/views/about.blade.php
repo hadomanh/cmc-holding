@@ -27,16 +27,16 @@
                             <img src="{{ asset('img/meta-about.jpg') }}" alt="" class="w-100">
                         </div>
                     <div class="row text-overview">
-                        <div class="col-md-4">
+                        <div class="col-md-4 p-4">
                             <h4><img src="{{ asset('img/Overview- Company.png') }}" alt=""> <span>Company Background</span></h4>
                             <p><strong>Metaway Holdings</strong> is headquartered in the <strong>United States</strong> with numerous branch offices around the world. The company was founded in the next wave of digital technologies with artificial intelligence, blockchain, the Internet of things, and Cloud computing platforms and applications . These invincible waves will convey great potential and promote the instantaneous development of key economic sectors. Our major ambition is to connect together a community of entrepreneurs, firms, and investors who all share the same desire of giving a legacy for future genera tions.</p>
 
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-4 p-4">
                             <h4><img src="{{ asset('img/Overview-Resource.png') }}" alt=""> <span>Resource</span></h4>
                             <p><strong>Metaway Holdings</strong> possesses influential resources in human, finance, and technology. <strong>Metaway Holdings'</strong> founders and management team have extensive expertise and knowledge in strategy, corporate governance, investing, and restructuring. We capture the world's top successful business formulae. Thanks to the creative ideas based on understanding and mastering the latest platform technologies, We have earned the attention of major investment funds and reputable financial organizations.</p>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-4 p-4">
                             <h4><img src="{{ asset('img/Overview-Aspiration.png') }}" alt=""> <span>Aspiration</span></h4>
                             <p><strong>Metaway Holdings</strong> desires to integrate human intelligence, artificial intelligence, and business intelligence to jointly generate prosperous values for worldwide inhabitants and progress to become a leading digital economy organization in the world.f</p>
                         </div>
@@ -123,7 +123,7 @@
         <section class="newsHighlights bgGrey bgArrow" id="businesssectors">
             <div class="container-lg">
                 <h2 class="sectionHeading centered">@lang ('INVESTMENT SECTOR')</h2>
-                <p class="text-center"><strong>METAWAY Holdings</strong> focuses on investing in key areas in the digital economy, including technology, healthcare, real estate, and finance.</p>
+                <p class="text-center mb-4"><strong>METAWAY Holdings</strong> focuses on investing in key areas in the digital economy, including technology, healthcare, real estate, and finance.</p>
                 <div class="row">
                     <div class="col-md-6 item">
                         <div class="card"  style="height: 100%;">
