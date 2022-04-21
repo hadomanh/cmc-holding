@@ -900,9 +900,9 @@ header .navbar .dropdown-toggle:after {
 }
 
 
-#ourcorevalues .our-core .abc {
+#ourcorevalues .our-core .boder-ourcore {
     box-shadow: 1px 1px 0 #E5E5E5;
-    border-radius: 20px;
+    border-radius: 10px;
 
 }
 
