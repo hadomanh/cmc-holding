@@ -195,8 +195,8 @@
                 <h2 class="sectionHeading centered">@lang ('HOLDINGS MEMBERS')</h2>
                 <h1 class="flashit">Welcome</h1>
                 <p class="text-center">@lang ("As a 'Holding in Holding' model, we establish member enterprises with separate ecosystems while maintaining focus on Metaway Holding's broad aims of globalization, digitalization, and innovation for outstanding social values.")</p>
-                <!-- <p><img src="http://127.0.0.1:8000/img/Map1.png" alt=""></p> -->
-                <p> 
+                <p><img src="http://127.0.0.1:8000/img/Map1.png" alt=""></p>
+                <!-- <p> 
                     <div class="map">
                         <div class="col-4">
                             <img class="country-can" src="{{ asset('img/favicon.png') }}" alt=""><span>Canada</span>
@@ -213,7 +213,7 @@
                         </div>  
                     
                     </div>
-                </p>
+                </p> -->
             </div>
         </section>
         <!-- Our members -->
@@ -256,16 +256,6 @@
                                 <a href="#"><i class="fa fa-twitter"></i></a>
                             </div>
                         </div>
-                        <!-- <div class="col-lg-2 col-md-4 col-sm-6 item d-flex flex-column align-items-center m-2">
-                            <img src="{{ asset('img/Nguyen-Ngoc-Long.png') }}" alt="">
-                            <img class="border-icon" src="{{ asset('img/border-executive.png') }}" alt="">
-                            <h4 class="name">Nguyen Ngoc Long</h4>
-                            <div class="position flex-grow-1">Member of BOM, Deputy CEO</div>
-                            <div class="social">
-                                <a href="#"><i class="fab fa-linkedin"></i></a>
-                                <a href="#"><i class="fa fa-twitter"></i></a>
-                            </div>
-                        </div> -->
                         <div class="col-lg-2 col-md-4 col-sm-6 item d-flex flex-column align-items-center m-2">
                             <img src="{{ asset('img/Pham-Anh-Tuan.png') }}" alt="">
                             <img class="border-icon" src="{{ asset('img/border-executive.png') }}" alt="">
@@ -286,27 +276,6 @@
                                 <a href="https://twitter.com"><i class="fa fa-twitter"></i></a>
                             </div>
                         </div>
-                        <!-- <div class="col-lg-2 col-md-4 col-sm-6 item d-flex flex-column align-items-center m-2">
-                            <img src="{{ asset('img/Trinh-Hoang-Linh.png') }}" alt="">
-                            <img class="border-icon" src="{{ asset('img/border-executive.png') }}" alt="">
-                            <h4 class="name">TRINH HOANG LINH</h4>
-                            <div class="position flex-grow-1">Deputy CEO</div>
-                            <div class="social">
-                                <a href="https://www.linkedin.com/"><i class="fab fa-linkedin"></i></a>
-                                <a href="https://twitter.com"><i class="fa fa-twitter"></i></a>
-                            </div>
-                        </div> -->
-                        <!-- <div class="col-lg-2 col-md-4 col-sm-6 item d-flex flex-column align-items-center m-2">
-                            <img src="{{ asset('img/Lam-Minh-Phuoc.png') }}" alt="">
-                            <img class="border-icon" src="{{ asset('img/border-executive.png') }}" alt="">
-                            <h4 class="name">Lam Minh Phuoc</h4>
-                            <div class="position flex-grow-1">Deputy CEO</div>
-                            <div class="social">
-                                <a href="https://www.linkedin.com/"><i class="fab fa-linkedin"></i></a>
-                                <a href="https://twitter.com"><i class="fa fa-twitter"></i></a>
-                            </div>
-                        </div> -->
-                        
                     </div>
                 </div>  
                 <div class="listTeam ">
