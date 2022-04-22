@@ -8,15 +8,17 @@
                 <video autoplay muted loop id="myVideo">
                     <source src="{{ asset('img/banner-home.mp4') }}" type="video/mp4">
                 </video>
-                    <div class="content">
-                        <div class="carouselContent">
-                            <h1 class="title">Metaway Holdings<br><span class="fw-light">The Big Things</span></h1>
-                            <h6 class="subTitle">Digital Economy Corporation</h6>
-                            <a href="#" class="more">@lang('read more') <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
-                        <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
-                        </svg></a>
-                    </div> 
-                         <!-- <button id="myBtn" onclick="myFunction()">Pause</button> -->
+                <div class="content">
+                    <div class="carouselContent">
+                        <h1 class="title">Metaway Holdings<br><span class="fw-light">The Big Things</span></h1>
+                        <h6 class="subTitle">Digital Economy Corporation</h6>
+                        <a href="#" class="more">
+                            @lang('read more') 
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+                            </svg>
+                        </a>
+                    </div>
                 </div>
             </div>
         </section>
@@ -34,9 +36,14 @@
                             <div class="col-md-4 about-home3"><p><img class="img-bgWhite" src="{{ asset('img/Meta-icon-1.png') }}" alt=""><h6 class="title-bgWhite">@lang ('Metaverse')</h6>@lang ('Formed in the Metaverse era, we are well aware of the importance of developing infrastructure and solutions to help humankind quickly access and adapt to the movements of the future.')</p></div>
                         </div>
                     </div>
-                    <p class="text-center"><a href="{{ route('about') }}" class="btn btnWhite text-uppercase">@lang ('Read more') <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
-                                    <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
-                                </svg></a></p>
+                    <p class="text-center">
+                        <a href="{{ route('about') }}" class="btn btnWhite text-uppercase">
+                            @lang ('Read more') 
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+                            </svg>
+                        </a>
+                    </p>
                 </div>
             </div>
         </section>
@@ -53,10 +60,14 @@
                             <div class="card-body d-flex flex-column content">
                                 <h5 class="card-title titleUnderline"><a href="#">@lang ('Brand Story')</a></h5>
                                 <p class="card-text flex-grow-1">@lang ('Born in an era when technology wave 5.0 is exploding globally,  Metaway Holdings is the convergence of pioneering leaders with outstanding vision and wisdom, unlimited imagination, a sky of creativity, and sustainable development.')</p>
-                                <div class="text-center"><a href="{{ route('about') }}" class="btn btnArrow">@lang ('READ MORE')
+                                <div class="text-center">
+                                    <a href="{{ route('about') }}" class="btn btnArrow">
+                                        @lang ('READ MORE')
                                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right mt-2" viewBox="0 0 16 16">
                                             <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
-                                        </svg></a></div>
+                                        </svg>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -67,10 +78,14 @@
                             <div class="card-body d-flex flex-column content">
                                 <h5 class="card-title titleUnderline"><a href="#">@lang ('Investment Sector')</a></h5>
                                 <p class="card-text flex-grow-1">@lang ('<strong>Metaway Holdings</strong> focuses on investing in leading sectors and industries with high growth potential in the future, which are the pillars of the digital economy including: healthcare, technology, real estate and finance.')</p>
-                                <div class="text-center"><a href="{{ route('about') }}" class="btn btnArrow">@lang ('READ MORE')
+                                <div class="text-center">
+                                    <a href="{{ route('about') }}" class="btn btnArrow">
+                                        @lang ('READ MORE')
                                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right mt-2" viewBox="0 0 16 16">
                                             <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
-                                        </svg></a></div>
+                                        </svg>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -80,10 +95,14 @@
                             <div class="card-body d-flex flex-column content">
                                 <h5 class="card-title titleUnderline"><a href="#">@lang ('Ecosystem')</a></h5>
                                 <p class="card-text flex-grow-1">@lang ("<strong>The Metaway Holdings</strong> ecosystem is investing in products and services for specialized needs: The backbone pillar of the digital economy, Enormous Volume, Global Scale, Recurrent Demand, Fast-developing Market.")</p>
-                                <div class="text-center"><a href="{{ route('about') }}" class="btn btnArrow">@lang ('READ MORE')
+                                <div class="text-center">
+                                    <a href="{{ route('about') }}" class="btn btnArrow">
+                                        @lang ('READ MORE')
                                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right mt-2" viewBox="0 0 16 16">
                                             <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
-                                        </svg></a></div>
+                                        </svg>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -92,55 +111,66 @@
         </section>
 
         <!-- Our parnters -->
-        <section class="bgDark partners">
+        <section class="bgWhite partners">
             <div class="container-lg">
                 <h2 class="sectionHeading centered">OUR PARTNERS</h2>
                 <p class="text-center p-3">We prefer to work with companies who have a common vision and can come along with our business ecosystem and corporate culture value system. Our partners come from the multi-diversification of internal and external resources.</p>
-                <div class="owl-carousel ">
+                <div class="owl-carousel">
                     <div class="item">
                         <div class="row g-0 justify-content-center">
                             <div class="col-custom col-sm-6">
                                 <a href="http://www.vnpost.vn/" target="blank">
+                                    <span></span>
                                     <img src="{{ asset('img/Vietnam Post.png') }}" alt="">
                                 </a>
                             </div>
                             <div class="col-custom col-sm-6">
                                 <a href="http://www.vietinbankcapital.vn/vi-vn/" target="blank">
+                                    <span></span>
                                     <img src="{{ asset('img/Viettin Capital.png') }}" alt="">
                                 </a>
                             </div>
                             <div class="col-custom col-sm-6">
                                 <a href="https://www.linkedin.com/company/acentus-capital" target="blank">
+                                    <span></span>
                                     <img src="{{ asset('img/Acentus Capital.png') }}" alt="">
                                 </a>
                             </div>
                             <div class="col-custom col-sm-6">
                                 <a href="http://www.petroland.com.vn/" target="blank">
+                                    <span></span>
                                     <img src="{{ asset('img/Petroland.png') }}" alt="">
                                 </a>
                             </div>
                             <div class="col-custom col-sm-6">
                                 <a href="https://vcci.com.vn/" target="blank">
+                                    <span></span>
                                     <img src="{{ asset('img/VVC.png') }}" alt="">
                                 </a>
                             </div>
+                        </div>
+                        <div class="row g-0 justify-content-center">
                             <div class="col-custom col-sm-6">
                                 <a href="http://phiglobal.com/" target="blank">
+                                    <span></span>
                                     <img src="{{ asset('img/Phi Group.png') }}" alt="">
                                 </a>
                             </div>
                             <div class="col-custom col-sm-6">
                                 <a href="https://vnpt.com.vn/" target="blank">
+                                    <span></span>
                                     <img src="{{ asset('img/VNPT.png') }}" alt="">
                                 </a>
                             </div>
                             <div class="col-custom col-sm-6">
                                 <a href="http://phiglobal.com/" target="blank">
+                                    <span></span>
                                     <img src="{{ asset('img/Phi Group.png') }}" alt="">
                                 </a>
                             </div>
                             <div class="col-custom col-sm-6">
                                 <a href="https://en.nikkoam.com/" target="blank">
+                                    <span></span>
                                     <img src="{{ asset('img/Nikko AM.png') }}" alt="">
                                 </a>
                             </div>
@@ -150,144 +180,57 @@
                         <div class="row g-0 justify-content-center">
                             <div class="col-custom col-sm-6">
                                 <a href="http://www.vnpost.vn/" target="blank">
+                                    <span></span>
                                     <img src="{{ asset('img/Vietnam Post.png') }}" alt="">
                                 </a>
                             </div>
                             <div class="col-custom col-sm-6">
                                 <a href="http://www.vietinbankcapital.vn/vi-vn/" target="blank">
+                                    <span></span>
                                     <img src="{{ asset('img/Viettin Capital.png') }}" alt="">
                                 </a>
                             </div>
                             <div class="col-custom col-sm-6">
                                 <a href="https://www.linkedin.com/company/acentus-capital" target="blank">
+                                    <span></span>
                                     <img src="{{ asset('img/Acentus Capital.png') }}" alt="">
                                 </a>
                             </div>
                             <div class="col-custom col-sm-6">
                                 <a href="http://www.petroland.com.vn/" target="blank">
+                                    <span></span>
                                     <img src="{{ asset('img/Petroland.png') }}" alt="">
                                 </a>
                             </div>
                             <div class="col-custom col-sm-6">
                                 <a href="https://vcci.com.vn/" target="blank">
+                                    <span></span>
                                     <img src="{{ asset('img/VVC.png') }}" alt="">
-                                </a>
-                            </div>
-                            <div class="col-custom col-sm-6">
-                                <a href="http://phiglobal.com/" target="blank">
-                                    <img src="{{ asset('img/Phi Group.png') }}" alt="">
-                                </a>
-                            </div>
-                            <div class="col-custom col-sm-6">
-                                <a href="https://vnpt.com.vn/" target="blank">
-                                    <img src="{{ asset('img/VNPT.png') }}" alt="">
-                                </a>
-                            </div>
-                            <div class="col-custom col-sm-6">
-                                <a href="http://phiglobal.com/" target="blank">
-                                    <img src="{{ asset('img/Phi Group.png') }}" alt="">
-                                </a>
-                            </div>
-                            <div class="col-custom col-sm-6">
-                                <a href="https://en.nikkoam.com/" target="blank">
-                                    <img src="{{ asset('img/Nikko AM.png') }}" alt="">
                                 </a>
                             </div>
                         </div>
-                    </div>
-                    <div class="item">
                         <div class="row g-0 justify-content-center">
                             <div class="col-custom col-sm-6">
-                                <a href="http://www.vnpost.vn/" target="blank">
-                                    <img src="{{ asset('img/Vietnam Post.png') }}" alt="">
-                                </a>
-                            </div>
-                            <div class="col-custom col-sm-6">
-                                <a href="http://www.vietinbankcapital.vn/vi-vn/" target="blank">
-                                    <img src="{{ asset('img/Viettin Capital.png') }}" alt="">
-                                </a>
-                            </div>
-                            <div class="col-custom col-sm-6">
-                                <a href="https://www.linkedin.com/company/acentus-capital" target="blank">
-                                    <img src="{{ asset('img/Acentus Capital.png') }}" alt="">
-                                </a>
-                            </div>
-                            <div class="col-custom col-sm-6">
-                                <a href="http://www.petroland.com.vn/" target="blank">
-                                    <img src="{{ asset('img/Petroland.png') }}" alt="">
-                                </a>
-                            </div>
-                            <div class="col-custom col-sm-6">
-                                <a href="https://vcci.com.vn/" target="blank">
-                                    <img src="{{ asset('img/VVC.png') }}" alt="">
-                                </a>
-                            </div>
-                            <div class="col-custom col-sm-6">
                                 <a href="http://phiglobal.com/" target="blank">
+                                    <span></span>
                                     <img src="{{ asset('img/Phi Group.png') }}" alt="">
                                 </a>
                             </div>
                             <div class="col-custom col-sm-6">
                                 <a href="https://vnpt.com.vn/" target="blank">
+                                    <span></span>
                                     <img src="{{ asset('img/VNPT.png') }}" alt="">
                                 </a>
                             </div>
                             <div class="col-custom col-sm-6">
                                 <a href="http://phiglobal.com/" target="blank">
+                                    <span></span>
                                     <img src="{{ asset('img/Phi Group.png') }}" alt="">
                                 </a>
                             </div>
                             <div class="col-custom col-sm-6">
                                 <a href="https://en.nikkoam.com/" target="blank">
-                                    <img src="{{ asset('img/Nikko AM.png') }}" alt="">
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="row g-0 justify-content-center">
-                            <div class="col-custom col-sm-6">
-                                <a href="http://www.vnpost.vn/" target="blank">
-                                    <img src="{{ asset('img/Vietnam Post.png') }}" alt="">
-                                </a>
-                            </div>
-                            <div class="col-custom col-sm-6">
-                                <a href="http://www.vietinbankcapital.vn/vi-vn/" target="blank">
-                                    <img src="{{ asset('img/Viettin Capital.png') }}" alt="">
-                                </a>
-                            </div>
-                            <div class="col-custom col-sm-6">
-                                <a href="https://www.linkedin.com/company/acentus-capital" target="blank">
-                                    <img src="{{ asset('img/Acentus Capital.png') }}" alt="">
-                                </a>
-                            </div>
-                            <div class="col-custom col-sm-6">
-                                <a href="http://www.petroland.com.vn/" target="blank">
-                                    <img src="{{ asset('img/Petroland.png') }}" alt="">
-                                </a>
-                            </div>
-                            <div class="col-custom col-sm-6">
-                                <a href="https://vcci.com.vn/" target="blank">
-                                    <img src="{{ asset('img/VVC.png') }}" alt="">
-                                </a>
-                            </div>
-                            <div class="col-custom col-sm-6">
-                                <a href="http://phiglobal.com/" target="blank">
-                                    <img src="{{ asset('img/Phi Group.png') }}" alt="">
-                                </a>
-                            </div>
-                            <div class="col-custom col-sm-6">
-                                <a href="https://vnpt.com.vn/" target="blank">
-                                    <img src="{{ asset('img/VNPT.png') }}" alt="">
-                                </a>
-                            </div>
-                            <div class="col-custom col-sm-6">
-                                <a href="http://phiglobal.com/" target="blank">
-                                    <img src="{{ asset('img/Phi Group.png') }}" alt="">
-                                </a>
-                            </div>
-                            <div class="col-custom col-sm-6">
-                                <a href="https://en.nikkoam.com/" target="blank">
+                                    <span></span>
                                     <img src="{{ asset('img/Nikko AM.png') }}" alt="">
                                 </a>
                             </div>
@@ -298,7 +241,7 @@
         </section>
 
         <!-- As seen on -->
-        <section class="bgGrey partners">
+        <section class="bgWhite asSeenOn">
             <div class="container-lg">
                 <h2 class="sectionHeading centered">AS SEEN ON</h2>
                 <div class="owl-carousel">
