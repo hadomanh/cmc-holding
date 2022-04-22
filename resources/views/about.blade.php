@@ -192,6 +192,7 @@
         <section class="bgWhite " id="holdingsmembers">
             <div class="container-lg">
                 <h2 class="sectionHeading centered">@lang ('HOLDINGS MEMBERS')</h2>
+                <h1 class="flashit">Welcome</h1>
                 <p class="text-center">@lang ("As a 'Holding in Holding' model, we establish member enterprises with separate ecosystems while maintaining focus on Metaway Holding's broad aims of globalization, digitalization, and innovation for outstanding social values.")</p>
                 <span class="memberLocation style-1">
                     <img src="{{ asset('img/icon-metaway.png') }}" alt="">
@@ -200,8 +201,25 @@
                     <img src="{{ asset('img/icon-metaway.png') }}" alt="">
                 </span>
                 <p><img src="http://127.0.0.1:8000/img/Map1.png" alt=""></p>
+                <!-- <p> 
+                    <div class="map">
+                        <div class="col-4">
+                            <img class="country-can" src="{{ asset('img/favicon.png') }}" alt=""><span>Canada</span>
+                            <img class="country-usa" src="{{ asset('img/favicon.png') }}" alt=""><span>USA</span>
+                        </div>
+                        <div class="col-4">
+                            <img class="country-dubai" src="{{ asset('img/favicon.png') }}" alt=""><span>Dubai</span>
+                            <img class="country-africa" src="{{ asset('img/favicon.png') }}" alt=""><span>South Africa</span>
+                        </div>
+                        <div class="col-4" >
+                            <img class="country-hongkong" src="{{ asset('img/favicon.png') }}" alt=""><span>Hongkong</span>
+                            <img class="country-vietnam" src="{{ asset('img/favicon.png') }}" alt=""><span>VietNam</span>
+                            <img class="country-singapore" src="{{ asset('img/favicon.png') }}" alt=""><span>Singapore</span>
+                        </div>  
+                    
+                    </div>
+                </p> -->
             </div>
-            <!-- <div class="map"></div> -->
         </section>
         <!-- Our members -->
         <section class="bgGrey team" id="executive">
@@ -243,16 +261,6 @@
                                 <a href="#"><i class="fa fa-twitter"></i></a>
                             </div>
                         </div>
-                        <!-- <div class="col-lg-2 col-md-4 col-sm-6 item d-flex flex-column align-items-center m-2">
-                            <img src="{{ asset('img/Nguyen-Ngoc-Long.png') }}" alt="">
-                            <img class="border-icon" src="{{ asset('img/border-executive.png') }}" alt="">
-                            <h4 class="name">Nguyen Ngoc Long</h4>
-                            <div class="position flex-grow-1">Member of BOM, Deputy CEO</div>
-                            <div class="social">
-                                <a href="#"><i class="fab fa-linkedin"></i></a>
-                                <a href="#"><i class="fa fa-twitter"></i></a>
-                            </div>
-                        </div> -->
                         <div class="col-lg-2 col-md-4 col-sm-6 item d-flex flex-column align-items-center m-2">
                             <img src="{{ asset('img/Pham-Anh-Tuan.png') }}" alt="">
                             <img class="border-icon" src="{{ asset('img/border-executive.png') }}" alt="">
@@ -273,27 +281,6 @@
                                 <a href="https://twitter.com"><i class="fa fa-twitter"></i></a>
                             </div>
                         </div>
-                        <!-- <div class="col-lg-2 col-md-4 col-sm-6 item d-flex flex-column align-items-center m-2">
-                            <img src="{{ asset('img/Trinh-Hoang-Linh.png') }}" alt="">
-                            <img class="border-icon" src="{{ asset('img/border-executive.png') }}" alt="">
-                            <h4 class="name">TRINH HOANG LINH</h4>
-                            <div class="position flex-grow-1">Deputy CEO</div>
-                            <div class="social">
-                                <a href="https://www.linkedin.com/"><i class="fab fa-linkedin"></i></a>
-                                <a href="https://twitter.com"><i class="fa fa-twitter"></i></a>
-                            </div>
-                        </div> -->
-                        <!-- <div class="col-lg-2 col-md-4 col-sm-6 item d-flex flex-column align-items-center m-2">
-                            <img src="{{ asset('img/Lam-Minh-Phuoc.png') }}" alt="">
-                            <img class="border-icon" src="{{ asset('img/border-executive.png') }}" alt="">
-                            <h4 class="name">Lam Minh Phuoc</h4>
-                            <div class="position flex-grow-1">Deputy CEO</div>
-                            <div class="social">
-                                <a href="https://www.linkedin.com/"><i class="fab fa-linkedin"></i></a>
-                                <a href="https://twitter.com"><i class="fa fa-twitter"></i></a>
-                            </div>
-                        </div> -->
-                        
                     </div>
                 </div>  
                 <div class="listTeam ">
