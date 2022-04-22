@@ -77,7 +77,9 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-md">
+                <div class="col-9">
+                <div class="row">
+                <div class="col-md-5 col-xl-3">
                     <ul>
                         <li class="parent list-unstyled">
                             <span class="">About us</span>
@@ -108,7 +110,7 @@
                         </li>
                     </ul>
                 </div> -->
-                <div class="col-md">
+                <div class="col-md-5 col-xl-3">
                     <ul>
                         <li class="parent list-unstyled">
                             <span>Investor</span>
@@ -120,7 +122,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-md">
+                <div class="col-md-5 col-xl-3">
                     <ul>
                         <li class="parent list-unstyled">
                             <span>Media</span>
@@ -132,13 +134,16 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-md">
+                <div class="col-md-5 col-xl-3">
                     <ul>
                         <li class="list-unstyled"> 
                     <a href="{{ route('contact') }}"><span>Contact</span></a>
                     </li></ul>
                     
                 </div>
+                </div>
+                </div>
+                
             </div>
         </div>
         <div class="companyInfo">
