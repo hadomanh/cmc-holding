@@ -193,10 +193,28 @@
             <div class="container-lg">
                 <div class="row g-0">
                 <h2 class="sectionHeading centered">@lang ('HOLDINGS MEMBERS')</h2>
+                <h1 class="flashit">Welcome</h1>
                 <p class="text-center">@lang ("As a 'Holding in Holding' model, we establish member enterprises with separate ecosystems while maintaining focus on Metaway Holding's broad aims of globalization, digitalization, and innovation for outstanding social values.")</p>
-                <p><img src="http://127.0.0.1:8000/img/Map1.png" alt=""></p>
+                <!-- <p><img src="http://127.0.0.1:8000/img/Map1.png" alt=""></p> -->
+                <p> 
+                    <div class="map">
+                        <div class="col-4">
+                            <img class="country-can" src="{{ asset('img/favicon.png') }}" alt=""><span>Canada</span>
+                            <img class="country-usa" src="{{ asset('img/favicon.png') }}" alt=""><span>USA</span>
+                        </div>
+                        <div class="col-4">
+                            <img class="country-dubai" src="{{ asset('img/favicon.png') }}" alt=""><span>Dubai</span>
+                            <img class="country-africa" src="{{ asset('img/favicon.png') }}" alt=""><span>South Africa</span>
+                        </div>
+                        <div class="col-4" >
+                            <img class="country-hongkong" src="{{ asset('img/favicon.png') }}" alt=""><span>Hongkong</span>
+                            <img class="country-vietnam" src="{{ asset('img/favicon.png') }}" alt=""><span>VietNam</span>
+                            <img class="country-singapore" src="{{ asset('img/favicon.png') }}" alt=""><span>Singapore</span>
+                        </div>  
+                    
+                    </div>
+                </p>
             </div>
-            <!-- <div class="map"></div> -->
         </section>
         <!-- Our members -->
         <section class="bgGrey team" id="executive">
