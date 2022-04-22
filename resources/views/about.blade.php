@@ -191,10 +191,15 @@
         <!-- Our members -->
         <section class="bgWhite " id="holdingsmembers">
             <div class="container-lg">
-                <div class="row g-0">
                 <h2 class="sectionHeading centered">@lang ('HOLDINGS MEMBERS')</h2>
                 <h1 class="flashit">Welcome</h1>
                 <p class="text-center">@lang ("As a 'Holding in Holding' model, we establish member enterprises with separate ecosystems while maintaining focus on Metaway Holding's broad aims of globalization, digitalization, and innovation for outstanding social values.")</p>
+                <span class="memberLocation style-1">
+                    <img src="{{ asset('img/icon-metaway.png') }}" alt="">
+                </span>
+                <span class="memberLocation style-2">
+                    <img src="{{ asset('img/icon-metaway.png') }}" alt="">
+                </span>
                 <p><img src="http://127.0.0.1:8000/img/Map1.png" alt=""></p>
                 <!-- <p> 
                     <div class="map">
