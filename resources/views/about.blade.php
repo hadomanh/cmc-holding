@@ -59,7 +59,7 @@
                          </div>
                      </div>
                      <div class="col-md-6 order-md-2 order-1">
-                         <img src="{{ asset('img/blockcahin-1.png') }}" alt="">
+                         <img src="{{ asset('img/meta-about.jpg') }}" alt="">
                      </div>
                  </div>
              </div>
@@ -97,7 +97,7 @@
                             <ul>
                                 <li>@lang ('Act like a founder')</li>
                                 <li>@lang ('Keep the discipline and high standards')</li>
-                                <li class="abc">@lang ('Respect the diversity')</li>
+                                <li class="boder-ourcore">@lang ('Respect the diversity')</li>
                             </ul>
                             </div>
                             <div class="col-md-4 our-core">
@@ -105,14 +105,14 @@
                             <ul>
                                 <li>@lang ('Attaching Affection')</li>
                                 <li>@lang ('Sharing the responsibility')</li>
-                                <li class="abc">@lang ('Giving is forever lasted')</li>
+                                <li class="boder-ourcore">@lang ('Giving is forever lasted')</li>
                             </ul></div>
                             <div class="col-md-4 our-core">
                             <p>3</p><h5 class="">@lang ('Transparency, safety')</h5>
                             <ul>
                                 <li>@lang ('Oriented for solution')</li>
                                 <li>@lang ('Deep Expertise')</li>
-                                <li class="abc">@lang ('Leaving a legacy')</li>
+                                <li class="boder-ourcore">@lang ('Leaving a legacy')</li>
                             </ul></div>
                         </div>
                     </div>
@@ -143,7 +143,7 @@
                             <div class="card-body">
                                 <h5 class="card-title titleUnderline"><a href="#">@lang ('Healthcare field')</a></h5>
                                 <p class="card-text">@lang ("<strong>Metaway Med</strong> orients to establish an international standard clinic and hospital system specializing in chiropractic. Blockchain technology will be applied to digital medical records for best tracked Metaway Med builds a technology platform to support medical examination, diagnosis, calibration, and treatment for patients, which will help patients save huge amounts of unnecessary costs. Metaway Med owns a world-leading professors and specialists team who are dedicated to caring for patients' health.")</p>
-                                <div class="text-end"><a target="_blank" href="{{ route('about') }}" class="btn btn-btnWhite">@lang ('READ MORE')<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
+                                <div class="text-end"><a target="_blank" href="http://metawaymed.com/" class="btn btn-btnWhite">@lang ('READ MORE')<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
                                             <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
                                         </svg></a></div>
                             </div>
@@ -155,7 +155,7 @@
                             <div class="card-body">
                                 <h5 class="card-title titleUnderline"><a href="#">@lang ('Real Estate field')</a></h5>
                                 <p class="card-text">@lang ('<strong>Metaway Land</strong> is an investor and developer of super-luxury class real estate and smart cities. We create the differences for real estates, set new standards for personal branding and premium enjoyment exclusively for elite owners. We apply new technologies comprehensively in the field of real estate. On a global scale, myriad investment opportunities and new forms of ownership will be opened up for Investors regardless of legal and geographical barriers.')</p>
-                                <div class="text-end"><a target="_blank" href="{{ route('about') }}" class="btn  btn-btnWhite">@lang ('READ MORE')<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
+                                <div class="text-end"><a target="_blank" href="http://metawayland.com/" class="btn  btn-btnWhite">@lang ('READ MORE')<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
                                             <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
                                         </svg></a></div>
                             </div>
@@ -167,7 +167,7 @@
                             <div class="card-body">
                                 <h5 class="card-title titleUnderline"><a href="#">@lang ('Finance field')</a></h5>
                                 <p class="card-text">@lang ("<strong>Metaway Finance</strong> applies new technologies in creating digital platforms and solutions for Banking, Insurance, and Securities fields. Brand new investment opportunities and exclusive trading models will be opened up for global users We believe in the future you are the only one who will take control of your own financial life. FWe empower you to learn, plan, and actualize your financial prosperity dreams. You should say bye to all the confusing myths you've heard about investing")</p>
-                                <div class="text-end"><a target="_blank" href="{{ route('about') }}" class="btn  btn-btnWhite">@lang ('READ MORE')<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
+                                <div class="text-end"><a target="_blank" href="http://metawayfinance.com/" class="btn  btn-btnWhite">@lang ('READ MORE')<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
                                             <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
                                         </svg></a></div>
                             </div>
@@ -189,14 +189,14 @@
         </section>
 
         <!-- Our members -->
-        <section class="bgWhite partners" id="holdingsmembers">
+        <section class="bgWhite " id="holdingsmembers">
             <div class="container-lg">
                 <div class="row g-0">
                 <h2 class="sectionHeading centered">@lang ('HOLDINGS MEMBERS')</h2>
                 <p class="text-center">@lang ("As a 'Holding in Holding' model, we establish member enterprises with separate ecosystems while maintaining focus on Metaway Holding's broad aims of globalization, digitalization, and innovation for outstanding social values.")</p>
-                <p><img src="{{ asset('img/Map1.png') }}" alt=""></p>
-                </div>
+                <p><img src="http://127.0.0.1:8000/img/Map1.png" alt=""></p>
             </div>
+            <!-- <div class="map"></div> -->
         </section>
         <!-- Our members -->
         <section class="bgGrey team" id="executive">
@@ -238,7 +238,7 @@
                                 <a href="#"><i class="fa fa-twitter"></i></a>
                             </div>
                         </div>
-                        <div class="col-lg-2 col-md-4 col-sm-6 item d-flex flex-column align-items-center m-2">
+                        <!-- <div class="col-lg-2 col-md-4 col-sm-6 item d-flex flex-column align-items-center m-2">
                             <img src="{{ asset('img/Nguyen-Ngoc-Long.png') }}" alt="">
                             <img class="border-icon" src="{{ asset('img/border-executive.png') }}" alt="">
                             <h4 class="name">Nguyen Ngoc Long</h4>
@@ -246,36 +246,6 @@
                             <div class="social">
                                 <a href="#"><i class="fab fa-linkedin"></i></a>
                                 <a href="#"><i class="fa fa-twitter"></i></a>
-                            </div>
-                        </div>
-                        <div class="col-lg-2 col-md-4 col-sm-6 item d-flex flex-column align-items-center m-2">
-                            <img src="{{ asset('img/Nguyen-Thanh-Long.png') }}" alt="">
-                            <img class="border-icon" src="{{ asset('img/border-executive.png') }}" alt="">
-                            <h4 class="name">Nguyen Thanh Long</h4>
-                            <div class="position flex-grow-1">Member of BOM, Deputy CEO</div>
-                            <div class="social">
-                                <a href="https://www.linkedin.com/"><i class="fab fa-linkedin"></i></a>
-                                <a href="https://twitter.com"><i class="fa fa-twitter"></i></a>
-                            </div>
-                        </div>
-                        <div class="col-lg-2 col-md-4 col-sm-6 item d-flex flex-column align-items-center m-2">
-                            <img src="{{ asset('img/Trinh-Hoang-Linh.png') }}" alt="">
-                            <img class="border-icon" src="{{ asset('img/border-executive.png') }}" alt="">
-                            <h4 class="name">TRINH HOANG LINH</h4>
-                            <div class="position flex-grow-1">Deputy CEO</div>
-                            <div class="social">
-                                <a href="https://www.linkedin.com/"><i class="fab fa-linkedin"></i></a>
-                                <a href="https://twitter.com"><i class="fa fa-twitter"></i></a>
-                            </div>
-                        </div>
-                        <!-- <div class="col-lg-2 col-md-4 col-sm-6 item d-flex flex-column align-items-center m-2">
-                            <img src="{{ asset('img/Lam-Minh-Phuoc.png') }}" alt="">
-                            <img class="border-icon" src="{{ asset('img/border-executive.png') }}" alt="">
-                            <h4 class="name">Lam Minh Phuoc</h4>
-                            <div class="position flex-grow-1">Deputy CEO</div>
-                            <div class="social">
-                                <a href="https://www.linkedin.com/"><i class="fab fa-linkedin"></i></a>
-                                <a href="https://twitter.com"><i class="fa fa-twitter"></i></a>
                             </div>
                         </div> -->
                         <div class="col-lg-2 col-md-4 col-sm-6 item d-flex flex-column align-items-center m-2">
@@ -288,6 +258,37 @@
                                 <a href="https://twitter.com"><i class="fa fa-twitter"></i></a>
                             </div>
                         </div>  
+                        <div class="col-lg-2 col-md-4 col-sm-6 item d-flex flex-column align-items-center m-2">
+                            <img src="{{ asset('img/Nguyen-Thanh-Long.png') }}" alt="">
+                            <img class="border-icon" src="{{ asset('img/border-executive.png') }}" alt="">
+                            <h4 class="name">Nguyen Thanh Long</h4>
+                            <div class="position flex-grow-1">Member of BOM, Deputy CEO</div>
+                            <div class="social">
+                                <a href="https://www.linkedin.com/"><i class="fab fa-linkedin"></i></a>
+                                <a href="https://twitter.com"><i class="fa fa-twitter"></i></a>
+                            </div>
+                        </div>
+                        <!-- <div class="col-lg-2 col-md-4 col-sm-6 item d-flex flex-column align-items-center m-2">
+                            <img src="{{ asset('img/Trinh-Hoang-Linh.png') }}" alt="">
+                            <img class="border-icon" src="{{ asset('img/border-executive.png') }}" alt="">
+                            <h4 class="name">TRINH HOANG LINH</h4>
+                            <div class="position flex-grow-1">Deputy CEO</div>
+                            <div class="social">
+                                <a href="https://www.linkedin.com/"><i class="fab fa-linkedin"></i></a>
+                                <a href="https://twitter.com"><i class="fa fa-twitter"></i></a>
+                            </div>
+                        </div> -->
+                        <!-- <div class="col-lg-2 col-md-4 col-sm-6 item d-flex flex-column align-items-center m-2">
+                            <img src="{{ asset('img/Lam-Minh-Phuoc.png') }}" alt="">
+                            <img class="border-icon" src="{{ asset('img/border-executive.png') }}" alt="">
+                            <h4 class="name">Lam Minh Phuoc</h4>
+                            <div class="position flex-grow-1">Deputy CEO</div>
+                            <div class="social">
+                                <a href="https://www.linkedin.com/"><i class="fab fa-linkedin"></i></a>
+                                <a href="https://twitter.com"><i class="fa fa-twitter"></i></a>
+                            </div>
+                        </div> -->
+                        
                     </div>
                 </div>  
                 <div class="listTeam ">

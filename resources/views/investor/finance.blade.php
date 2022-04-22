@@ -39,7 +39,7 @@
                             </td>
                         </tr>
                         <tr class="bgGrey">
-                            <td>2018</td>
+                            <td>2022</td>
                             <td>
                                 <div>Finance Report</div>
                             </td>
@@ -49,7 +49,37 @@
                             </td>
                         </tr>
                         <tr class="bgdarkGrey">
-                            <td>2019</td>
+                            <td>2023</td>
+                            <td>
+                                <div>Finance Report</div>
+                            </td>
+                            <td>
+                                <a href="#"><i class="fas fa-eye"></i></a>
+                                <a href="#"><i class="fa fa-download"></i></a>
+                            </td>
+                        </tr>
+                        <tr class="bgGrey">
+                            <td>2024</td>
+                            <td>
+                                <div>Finance Report</div>
+                            </td>
+                            <td>
+                                <a href="#"><i class="fas fa-eye"></i></a>
+                                <a href="#"><i class="fa fa-download"></i></a>
+                            </td>
+                        </tr>
+                        <tr class="bgdarkGrey">
+                            <td>2025</td>
+                            <td>
+                                <div>Finance Report</div>
+                            </td>
+                            <td>
+                                <a href="#"><i class="fas fa-eye"></i></a>
+                                <a href="#"><i class="fa fa-download"></i></a>
+                            </td>
+                        </tr>
+                        <tr class="bgGrey">
+                            <td>2026</td>
                             <td>
                                 <div>Finance Report</div>
                             </td>
@@ -62,7 +92,7 @@
                 </div>
                 <div class="tab-pane fade" id="nav-finance-report" role="tabpanel" aria-labelledby="nav-finance-report-tab">
                     <table class="table align-middle">
-                        <tr class="bgRed">
+                    <tr class="bgRed">
                             <td>
                                 <div class="fw-bold text-white">TIME<i class="fas fa-arrow-down ms-2"></i></div>
                             </td>
@@ -72,7 +102,7 @@
                             </td>
                         </tr>
                         <tr class="bgGrey">
-                            <td>2018</td>
+                            <td>2022</td>
                             <td>
                                 <div>Finance Report</div>
                             </td>
@@ -82,7 +112,37 @@
                             </td>
                         </tr>
                         <tr class="bgdarkGrey">
-                            <td>2019</td>
+                            <td>2023</td>
+                            <td>
+                                <div>Finance Report</div>
+                            </td>
+                            <td>
+                                <a href="#"><i class="fas fa-eye"></i></a>
+                                <a href="#"><i class="fa fa-download"></i></a>
+                            </td>
+                        </tr>
+                        <tr class="bgGrey">
+                            <td>2024</td>
+                            <td>
+                                <div>Finance Report</div>
+                            </td>
+                            <td>
+                                <a href="#"><i class="fas fa-eye"></i></a>
+                                <a href="#"><i class="fa fa-download"></i></a>
+                            </td>
+                        </tr>
+                        <tr class="bgdarkGrey">
+                            <td>2025</td>
+                            <td>
+                                <div>Finance Report</div>
+                            </td>
+                            <td>
+                                <a href="#"><i class="fas fa-eye"></i></a>
+                                <a href="#"><i class="fa fa-download"></i></a>
+                            </td>
+                        </tr>
+                        <tr class="bgGrey">
+                            <td>2026</td>
                             <td>
                                 <div>Finance Report</div>
                             </td>
@@ -95,7 +155,7 @@
                 </div>
                 <div class="tab-pane fade" id="nav-business-result-report" role="tabpanel" aria-labelledby="nav-business-result-report-tab">
                     <table class="table align-middle">
-                        <tr class="bgRed">
+                    <tr class="bgRed">
                             <td>
                                 <div class="fw-bold text-white">TIME<i class="fas fa-arrow-down ms-2"></i></div>
                             </td>
@@ -105,7 +165,7 @@
                             </td>
                         </tr>
                         <tr class="bgGrey">
-                            <td>2018</td>
+                            <td>2022</td>
                             <td>
                                 <div>Finance Report</div>
                             </td>
@@ -115,7 +175,37 @@
                             </td>
                         </tr>
                         <tr class="bgdarkGrey">
-                            <td>2019</td>
+                            <td>2023</td>
+                            <td>
+                                <div>Finance Report</div>
+                            </td>
+                            <td>
+                                <a href="#"><i class="fas fa-eye"></i></a>
+                                <a href="#"><i class="fa fa-download"></i></a>
+                            </td>
+                        </tr>
+                        <tr class="bgGrey">
+                            <td>2024</td>
+                            <td>
+                                <div>Finance Report</div>
+                            </td>
+                            <td>
+                                <a href="#"><i class="fas fa-eye"></i></a>
+                                <a href="#"><i class="fa fa-download"></i></a>
+                            </td>
+                        </tr>
+                        <tr class="bgdarkGrey">
+                            <td>2025</td>
+                            <td>
+                                <div>Finance Report</div>
+                            </td>
+                            <td>
+                                <a href="#"><i class="fas fa-eye"></i></a>
+                                <a href="#"><i class="fa fa-download"></i></a>
+                            </td>
+                        </tr>
+                        <tr class="bgGrey">
+                            <td>2026</td>
                             <td>
                                 <div>Finance Report</div>
                             </td>

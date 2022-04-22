@@ -726,6 +726,8 @@ header .navbar .dropdown-toggle:after {
 .text-our-mission {
     margin-top: 30px;
 }
+
+
 .text-our-mission ul li::marker {
     color: #CB1D23;
     border: 2px solid #CB1D23;
@@ -758,9 +760,11 @@ header .navbar .dropdown-toggle:after {
 #ourcorevalues {
     padding-top: 30px;
 }
-#ourcorevalues .our-core .abc {
+
+
+#ourcorevalues .our-core .boder-ourcore {
     box-shadow: 1px 1px 0 #E5E5E5;
-    border-radius: 20px;
+    border-radius: 10px;
 
 }
 #ourcorevalues .our-core p {
@@ -813,6 +817,17 @@ header .navbar .dropdown-toggle:after {
 .btn-read .btn-btnWhite {
     margin-top: 68px;
 }
+
+
+
+/* 
+#holdingsmembers .map{
+    background: url(../img/bg-map.png);
+    width: 100%;
+
+} */
+
+/* ----------- */
 /*========================== REPORT PAGE ==========================*/
 
 #reportPage .reportNav {
@@ -955,7 +970,7 @@ footer .footerLogo {
 }
 footer .title {
     position: relative;
-    margin-bottom: 15px;
+    margin-bottom: 0px;
 }
 footer .title:before {
     content: "";
@@ -1004,7 +1019,8 @@ footer .menuFooter span {
 }
 footer .social {
     justify-content: right;
-    margin-bottom: -60px;
+    margin-bottom: -20px;
+    position: relative;
 }
 footer .social .item {
     display: inline-flex;
@@ -1017,8 +1033,9 @@ footer .social .item {
     margin-right: auto;
 }
 footer .social .item:hover {
-    color: #e33651;
+    color: #e33651 !important;
     border-color: #e33651;
+    justify-content: center;
 }
 footer .companyInfo {
     margin-top: 30px;
