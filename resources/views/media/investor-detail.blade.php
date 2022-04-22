@@ -43,7 +43,7 @@
                                 <img src="{{ asset('img/Frame-1.png') }}" alt="" class="icon-detail">
                             </div>
                             <div class="col-8">
-                                <h4>Lorem ipsum dolor sit amet, consectetur</h4>
+                                <h5>Lorem ipsum dolor sit amet, consectetur</h5>
                                 <span class="miniSize">2022-01-19</span>
                             </div>
                         </div>
@@ -54,7 +54,7 @@
                                 <img src="{{ asset('img/Frame-2.png') }}" alt="" class="icon-detail">
                             </div>
                             <div class="col-8">
-                                <h4>Lorem ipsum dolor sit amet, consectetur</h4>
+                                <h5>Lorem ipsum dolor sit amet, consectetur</h5>
                                 <span class="miniSize">2022-01-19</span>
                             </div>
                         </div>
@@ -65,7 +65,7 @@
                                 <img src="{{ asset('img/Frame-3.png') }}" alt="" class="icon-detail">
                             </div>
                             <div class="col-8">
-                                <h4>Lorem ipsum dolor sit amet, consectetur</h4>
+                                <h5>Lorem ipsum dolor sit amet, consectetur</h5>
                                 <span class="miniSize">2022-01-19</span>
                             </div>
                         </div>
@@ -76,7 +76,7 @@
                                 <img src="{{ asset('img/Frame-4.png') }}" alt="" class="icon-detail">
                             </div>
                             <div class="col-8">
-                                <h4>Lorem ipsum dolor sit amet, consectetur</h4>
+                                <h5>Lorem ipsum dolor sit amet, consectetur</h5>
                                 <span class="miniSize">2022-01-19</span>
                             </div>
                         </div>
