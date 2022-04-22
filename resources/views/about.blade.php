@@ -131,9 +131,7 @@
                             <div class="card-body">
                                 <h5 class="card-title titleUnderline"><a href="#">@lang ('Technology field')</a></h5>
                                 <p class="card-text">@lang (' <strong>Metaway Tech</strong> explores, expands, and delivers crucial technology solutions in the pillars of the digital economy. Our goal is to improve the capacity and overall development to meet global user needs in the digital economy age.')</p>
-                                <div class="text-end btn-read"><a target="_blank" href="http://metawaytech.com/" class="btn btn-btnWhite">@lang ('READ MORE')<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
-                                            <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
-                                        </svg></a></div>
+                                <div class="text-end btn-read"><a target="_blank" href="http://metawaytech.com/" class="btn btn-btnWhite">@lang ('READ MORE')<i class="fa-solid fa-angle-right"></i></a></div>
                             </div>
                         </div>
                     </div>
@@ -143,9 +141,7 @@
                             <div class="card-body">
                                 <h5 class="card-title titleUnderline"><a href="#">@lang ('Healthcare field')</a></h5>
                                 <p class="card-text">@lang ("<strong>Metaway Med</strong> orients to establish an international standard clinic and hospital system specializing in chiropractic. Blockchain technology will be applied to digital medical records for best tracked Metaway Med builds a technology platform to support medical examination, diagnosis, calibration, and treatment for patients, which will help patients save huge amounts of unnecessary costs. Metaway Med owns a world-leading professors and specialists team who are dedicated to caring for patients' health.")</p>
-                                <div class="text-end"><a target="_blank" href="http://metawaymed.com/" class="btn btn-btnWhite">@lang ('READ MORE')<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
-                                            <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
-                                        </svg></a></div>
+                                <div class="text-end"><a target="_blank" href="http://metawaymed.com/" class="btn btn-btnWhite">@lang ('READ MORE')<i class="fa-solid fa-angle-right"></i></a></div>
                             </div>
                         </div>
                     </div>
@@ -155,9 +151,7 @@
                             <div class="card-body">
                                 <h5 class="card-title titleUnderline"><a href="#">@lang ('Real Estate field')</a></h5>
                                 <p class="card-text">@lang ('<strong>Metaway Land</strong> is an investor and developer of super-luxury class real estate and smart cities. We create the differences for real estates, set new standards for personal branding and premium enjoyment exclusively for elite owners. We apply new technologies comprehensively in the field of real estate. On a global scale, myriad investment opportunities and new forms of ownership will be opened up for Investors regardless of legal and geographical barriers.')</p>
-                                <div class="text-end"><a target="_blank" href="http://metawayland.com/" class="btn  btn-btnWhite">@lang ('READ MORE')<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
-                                            <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
-                                        </svg></a></div>
+                                <div class="text-end"><a target="_blank" href="http://metawayland.com/" class="btn  btn-btnWhite">@lang ('READ MORE')<i class="fa-solid fa-angle-right"></i></a></div>
                             </div>
                         </div>
                     </div>
@@ -167,9 +161,7 @@
                             <div class="card-body">
                                 <h5 class="card-title titleUnderline"><a href="#">@lang ('Finance field')</a></h5>
                                 <p class="card-text">@lang ("<strong>Metaway Finance</strong> applies new technologies in creating digital platforms and solutions for Banking, Insurance, and Securities fields. Brand new investment opportunities and exclusive trading models will be opened up for global users We believe in the future you are the only one who will take control of your own financial life. FWe empower you to learn, plan, and actualize your financial prosperity dreams. You should say bye to all the confusing myths you've heard about investing")</p>
-                                <div class="text-end"><a target="_blank" href="http://metawayfinance.com/" class="btn  btn-btnWhite">@lang ('READ MORE')<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
-                                            <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
-                                        </svg></a></div>
+                                <div class="text-end"><a target="_blank" href="http://metawayfinance.com/" class="btn  btn-btnWhite">@lang ('READ MORE')<i class="fa-solid fa-angle-right"></i></a></div>
                             </div>
                         </div>
                     </div>
