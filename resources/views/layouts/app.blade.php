@@ -157,11 +157,11 @@
 <script type="text/javascript" src=" {{ asset('js/owl.carousel.min.js') }}"></script>
 <script>
     $('.owl-carousel').owlCarousel({
-        loop: true,
+        loop: false,
         margin: 0,
         nav: true,
         dots: false,
-        autoplay: true,
+        autoplay: false,
         autoplaySpeed: 1000,
         navSpeed: 1000,
         responsive:{
