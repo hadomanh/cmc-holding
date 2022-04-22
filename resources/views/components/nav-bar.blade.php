@@ -52,7 +52,7 @@
                         @endif
                         
                     </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
                         <li><a class="dropdown-item" href="{{ route('localization.set', 'en') }}"><img src="{{ asset('img/flagUSA.png')}}" alt="" class="flag">EN</a></li>
                         <li><a class="dropdown-item" href="{{ route('localization.set', 'vi') }}"><img src="{{ asset('img/flagVN.png')}}" alt="" class="flag">VI</a></li>
                     </ul>

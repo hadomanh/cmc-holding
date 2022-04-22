@@ -1077,6 +1077,9 @@ footer .copyright {
     .owl-carousel .item {
         margin: 10px;
     }
+    .partners .owl-carousel .item .row:last-child {
+        margin-top: -90px;
+    }
 }
 @media (max-width: 992px) {
     header .navbar {
@@ -1147,8 +1150,15 @@ footer .copyright {
     .ipBg {
         margin-top: -403px;
     }
+    .partners .owl-carousel .item .row:last-child {
+        margin-top: -75px;
+    }
 }
-@media (max-width: 768px) {}
+@media (max-width: 768px) {
+    .partners .owl-carousel .item .row:last-child {
+        margin-top: -70px;
+    }
+}
 @media (max-width: 576px) {
     .owl-carousel .item a {
         margin: 5px;
@@ -1156,6 +1166,20 @@ footer .copyright {
     .owl-carousel .owl-nav button.owl-next,
     .owl-carousel .owl-nav button.owl-prev {
         width: 15px;
+    }
+    .partners .owl-carousel .item .col-custom {
+        width: 33.333%;
+    }
+    .partners .owl-carousel .item img {
+        padding: 0;
+    }
+    .partners .owl-carousel .item .row:first-child .col-custom:nth-child(4),
+    .partners .owl-carousel .item .row:first-child .col-custom:nth-child(5) {
+        position: relative;
+        top: -55px;
+    }
+    .partners .owl-carousel .item .row:last-child {
+        margin-top: -110px;
     }
     .newsHighlights .card {
         height: auto;
