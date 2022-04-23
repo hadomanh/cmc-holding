@@ -33,6 +33,8 @@
 
   <link rel="stylesheet" href="{{ asset('css/admin.css') }}">
 
+	<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+
 </head>
 <body class="hold-transition sidebar-mini layout-fixed">
 <div class="wrapper">
