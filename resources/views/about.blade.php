@@ -192,7 +192,6 @@
         <section class="bgWhite " id="holdingsmembers">
             <div class="container-lg">
                 <h2 class="sectionHeading centered">@lang ('HOLDINGS MEMBERS')</h2>
-                <h1 class="flashit">Welcome</h1>
                 <p class="text-center">@lang ("As a 'Holding in Holding' model, we establish member enterprises with separate ecosystems while maintaining focus on Metaway Holding's broad aims of globalization, digitalization, and innovation for outstanding social values.")</p>
                 
                 <!-- <p><img src="http://127.0.0.1:8000/img/Map1.png" alt=""></p> -->
@@ -212,7 +211,7 @@
                         </div>
                         <div class="memberLocation style-2 south">
                             <img src="{{ asset('img/icon-metaway.png') }}" alt="">
-                            <p>South Africa</p>
+                            <p>SouthAfrica</p>
                         </div>
                         <div class="memberLocation style-2 hongkong">
                             <img src="{{ asset('img/icon-metaway.png') }}" alt="">
@@ -311,7 +310,7 @@
                             <img src="{{ asset('img/Steve-Truong.png') }}" alt="">
                             <img class="border-icon" src="{{ asset('img/border-executive.png') }}" alt="">
                             <h4 class="name">Steve Truong</h4>
-                            <div class="position flex-grow-1">Managing Director PHI Groung Advisor</div>
+                            <div class="position flex-grow-1">Managing Director PHI Group Advisor</div>
                             <div class="social">
                                 <a href="#"><i class="fab fa-linkedin"></i></a>
                                 <a href="#"><i class="fa fa-twitter"></i></a>
