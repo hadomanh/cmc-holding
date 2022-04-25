@@ -990,6 +990,8 @@ header .navbar .dropdown-toggle:after {
     display: flex;
     align-items: center;
     justify-content: center;
+    font-weight: bold;
+    font-size: 56px;
 }
 
 .carousel-item #aboutPage .team .listTeam {
@@ -1887,6 +1889,18 @@ footer .copyright {
         /* margin-left: 142px; */
     }
 }
+@media ( max-width: 799px) {
+    #ecosystem {
+        padding: 80px;
+    }
+    
+}
+@media ( max-width: 770px) {
+    #ecosystem {
+        padding: 79px;
+    }
+    
+}
 @media (max-width: 768px) {
     .partners .owl-carousel .item .row:last-child {
         margin-top: -70px;
@@ -2111,5 +2125,15 @@ footer .copyright {
         position: absolute;
         margin-top: 46px;
         margin-left: 258px;
+    }
+}
+@media ( width: 390px ) {
+    .bgLocal {
+        margin: 0px 0px;
+    }
+}
+@media (width: 390px) {
+    .container2 .content h1 {
+        font-size: 36px;
     }
 }

@@ -17,9 +17,9 @@
     <section class="bgLocal">
         <div class="container-lg">
             <div class="row align-items-center">
+            <h1 class="text-uppercase centered">Metaway Holdings</h1>
                 <div class="col-md-6">
-                    <h1 class="text-uppercase centered">Metaway Holdings</h1>
-                    <div class="row mt-5">
+                    <div class="row">
                         <div class="col-lg-6 col-md p-3">
                             <h5 class="text-uppercase">United States of America</h5>
                             <div class="d-flex">
@@ -69,7 +69,7 @@
                             <div class="d-flex">
                                 <div><img src="{{ asset('img/iconPosition.png') }}" class="w-100"></div>
                                 <div class="ms-3 location2">
-                                    <p class="d-block mb-2">International Plaza, 10 Anson Road, Singapore</p>
+                                    <p class="d-block mb-2">International Plaza, 10 Anson Road, <br> Singapore</p>
                                 </div>
                             </div>
                             <div class="d-flex">
