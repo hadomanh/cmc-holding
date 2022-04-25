@@ -651,15 +651,111 @@ header .navbar .dropdown-toggle:after {
 
 .asSeenOn {
     display: block;
-    filter: grayscale(1);
+    /* filter: grayscale(1); */
+    /* filter: grayscale(1); */
+}
+.asSeenOn .owl-carousel .owl-item a:hover img{
+    filter: grayscale(0);
 }
 
 .asSeenOn .owl-carousel .owl-item img {
     width: 75%;
     margin-right: -61px;
     margin-left: 32px;
+    filter: grayscale(1);
+}
+.partners .owl-carousel .item .col-custom {
+    width: 20%;
+    position: relative;
 }
 
+.partners .owl-carousel .item .col-custom:after {
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+}
+
+.partners .owl-carousel .item a {
+    position: absolute;
+    width: calc(100% / 1.4);
+    height: calc(100% / 1.4);
+    top: calc(100% / 7);
+    left: calc(100% / 7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: rotate(45deg);
+}
+
+.partners .owl-carousel .item a span {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.partners .owl-carousel .item a:before,
+.partners .owl-carousel .item a:after,
+.partners .owl-carousel .item a span:before,
+.partners .owl-carousel .item a span:after {
+    content: "";
+    display: block;
+    position: absolute;
+    ;
+}
+
+.partners .owl-carousel .item a:before {
+    width: 21px;
+    height: 100%;
+    left: -10px;
+    top: -10px;
+    background: url("../img/bg-partner-left.png") no-repeat center top;
+}
+
+.partners .owl-carousel .item a:after {
+    height: 21px;
+    width: 100%;
+    right: -10px;
+    top: -10px;
+    background: url("../img/bg-partner-top.png") no-repeat right center;
+}
+
+.partners .owl-carousel .item a span:before {
+    width: 21px;
+    height: 100%;
+    right: -10px;
+    top: -10px;
+    background: url("../img/bg-partner-left.png") no-repeat center top;
+}
+
+.partners .owl-carousel .item a span:after {
+    height: 21px;
+    width: 100%;
+    right: -10px;
+    bottom: -10px;
+    background: url("../img/bg-partner-top.png") no-repeat right center;
+}
+
+.partners .owl-carousel .item img {
+    padding: 0 20px;
+    transform: rotate(-45deg);
+    filter: grayscale(1);
+}
+
+.partners .owl-carousel .item a:hover img {
+    filter: grayscale(0);
+}
+
+.asSeenOn .owl-carousel .owl-item  img {
+    width: 75%;
+    margin-right: -61px;
+    margin-left: 32px;
+    filter: grayscale(1);
+}
+.asSeenOn .owl-carousel .owl-item a:hover img{
+    filter: grayscale(0);
+}
 /*========================== ABOUT PAGE ==========================*/
 .memberLocation {
     display: inline-flex;
@@ -702,6 +798,103 @@ header .navbar .dropdown-toggle:after {
 .memberLocation.style-2:before {
     animation-name: blue-animate-2;
 }
+#holdingsmembers .map {
+    background: url(../img/bg-map.png);
+    background-repeat: no-repeat;
+    background-attachment: initial;
+    background-position: center;
+    width: 100%;
+    height: 575px;
+}
+#holdingsmembers .map .singapore{
+    position: absolute;
+    margin-top: 332px;
+    margin-left: 1019px;
+}
+#holdingsmembers .map .vietnam{
+    position: absolute;
+    margin-top: 242px;
+    margin-left: 913px;
+}
+#holdingsmembers .map .hongkong{
+    position: absolute;
+    margin-top: 176px;
+    margin-left: 957px;
+}
+#holdingsmembers .map .south{
+    position: absolute;
+    margin-top: 393px;
+    margin-left: 648px;
+}
+#holdingsmembers .map .dubai{
+    position: absolute;
+    margin-top: 224px;
+    margin-left: 699px;
+}
+#holdingsmembers .map .usa{
+    position: absolute;
+    margin-top: 173px;
+    margin-left: 285px;
+
+}
+#holdingsmembers .map .cannada{
+    position: absolute;
+    margin-top: 77px;
+    margin-left: 398px;
+}
+#holdingsmembers .map p{
+    position: absolute  ;
+    margin-top: 70px;
+    width: 100%;
+    font-weight: 700;
+}
+/* #holdingsmembers img {
+    width: 50%;
+    border-radius: 50%;
+    background: #fff;
+    animation: ripple 1000ms infinite;
+    border: solid 1px #bf0223;
+    padding: 5px;
+    margin-top: 70px;
+    margin-left: 228px;
+    width: 8%;
+    border-radius: 50%;
+    animation: ripple 1000ms infinite;
+    padding: 8px;
+    box-shadow: 5px 10px 20px red inset;
+    margin-top: 94px;
+        margin-left: 406px;
+    box-shadow: 5px 10px 20px red inset;
+} */
+/* #holdingsmembers .country-can {
+    margin-top: 69px;
+    margin-left: 406px;
+}
+#holdingsmembers .country-usa {
+    margin-top: 61px;
+    margin-left: 235px;
+}
+#holdingsmembers .country-dubai {
+    margin-top: 226px;
+    margin-left: 272px;
+}
+#holdingsmembers .country-africa {
+    margin-top: 129px;
+    margin-left: 223px;
+}
+#holdingsmembers .country-hongkong {
+    margin-top: 184px;
+    margin-left: 92px;
+    margin-right: 200px;
+}
+#holdingsmembers .country-vietnam {
+    margin-top: 30px;
+    margin-left: 52px;
+}
+#holdingsmembers .country-singapore {
+    margin-bottom: -185px;
+    margin-left: 11px;
+} */
 .memberLocation.style-2:after {
     animation-name: circle-animate-2;
 }
@@ -945,6 +1138,7 @@ header .navbar .dropdown-toggle:after {
     margin-left: 33px;
     margin-top: 15px;
     font-size: 31px;
+    text-align: left;
 }
 .text-our-mission {
     margin-top: 30px;
@@ -1035,6 +1229,187 @@ header .navbar .dropdown-toggle:after {
 .btn-read .btn-btnWhite {
     margin-top: 68px;
 }
+#holdingsmembers img {
+    width: 100%;
+    background: #fff;
+    animation: ripple 1000ms infinite;
+}
+
+.overview .text-uppercase {
+    background: url(../img/icon-about.png) left no-repeat;
+    height: 80px;
+    display: flex;
+    position: relative;
+}
+.overview .text-uppercase span {
+    font-weight: 700;
+    margin-left: 30px;
+    margin-top: 16px;
+}
+#overview .text-overview {
+    margin: 30px 0;
+}
+.ourmission .text-uppercase {
+    background: url(../img/icon-about.png) right no-repeat;
+    height: 80px;
+    position: relative;
+    margin-top: -80px;
+    margin-left: -150px;
+}
+.ourmission .text-uppercase span {
+    font-weight: 700;
+    justify-content: end;
+    display: flex;
+    position: relative;
+    margin-top: 16px;
+    margin-right: -140px;
+}
+.ourvision {
+    background: White url(../img/bg-our-vision.png) left bottom no-repeat;
+    display: flex;
+    position: relative;
+    margin-bottom: 0px;
+}
+.ourvision .text-uppercase {
+    background: url(../img/icon-about.png) left no-repeat;
+    height: 80px;
+    display: flex;
+    position: relative;
+    margin-top: -80px;
+}
+.ourvision .text-uppercase span {
+    font-weight: 700;
+    margin-left: 28px;
+    margin-top: 16px;
+}
+.ourcorevalues .text-uppercase {
+    background: url(../img/icon-about.png) right no-repeat;
+    height: 80px;
+    position: relative;
+    margin-top: -80px;
+    margin-left: -200px;
+}
+.ourcorevalues .text-uppercase span {
+    font-weight: 700;
+    justify-content: end;
+    display: flex;
+    position: relative;
+    margin-top: 16px;
+    margin-right: -208px;
+}
+#ecosystem {
+    background: black url(../img/BG-ecosystem.gif) no-repeat right;
+    padding: 95px 0;
+}
+#ecosystem .content {
+    color: #f1f1f1;
+    width: 60%;
+}
+#executive .listTeam .text-uppercase1 {
+    background: url(../img/icon-about.png) left no-repeat;
+    height: 80px;
+    display: flex;
+    position: relative;
+    margin-top: -80px;
+}
+#executive .listTeam .text-uppercase1 span {
+    font-weight: 700;
+    margin-left: 33px;
+    margin-top: 15px;
+    font-size: 31px;
+    text-align: left;
+}
+.text-our-mission {
+    margin-top: 30px;
+}
+.text-our-mission ul li::marker {
+    color: #CB1D23;
+    border: 2px solid #CB1D23;
+    padding: 20px;
+}
+.text-our-mission ul li:before {
+    content: '';
+    border: 1px solid #CB1D23;
+    border-radius: 100%;
+    width: 12px;
+    height: 12px;
+    display: inline-block;
+    padding: 0.25em;
+    line-height: 1.0;
+    margin-right: 8px;
+    margin-bottom: auto;
+    box-shadow: 2px 3px 10px red;
+    margin-left: -20px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+.text-our-mission ul>li {
+    align-items: center;
+    margin: 5px 0;
+}
+#ourvision .desc h2 {
+    margin-bottom: 20px;
+    margin-top: -60px !important;
+}
+#ourcorevalues {
+    padding-top: 30px;
+}
+#ourcorevalues .our-core .boder-ourcore {
+    box-shadow: 1px 1px 0 #E5E5E5;
+    border-radius: 10px;
+}
+#ourcorevalues .our-core p {
+    color: #C4C4C4;
+    font-size: 72px;
+    font-weight: 700;
+    text-align: justify;
+    margin-bottom: -55px;
+}
+#ourcorevalues .our-core h5 {
+    padding-left: 20px;
+}
+#ourcorevalues .our-core ul li {
+    padding: 10px;
+}
+#businesssectors .titleUnderline {
+    font-weight: 700;
+    font-size: 24px;
+}
+.btn-btnWhite {
+    color: #D91F26;
+    font-size: 20px;
+    font-weight: 450;
+    margin-right: 20px;
+}
+.btn-btnWhite:hover {
+    color: #D91F26;
+    margin-right: auto;
+}
+#businesssectors .card {
+    border-radius: 20px;
+}
+#businesssectors .card img {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+#businesssectors .card:hover {
+    transition: 1s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.11);
+}
+#executive {
+    background-color: #FFFFFF;
+}
+#executive strong {
+    font-weight: 700;
+}
+#executive .border-icon {
+    margin-top: -35px;
+}
+.btn-read .btn-btnWhite {
+    margin-top: 68px;
+}
+
+
 /* #holdingsmembers .map {
     background: url(../img/bg-map.png);
     background-repeat: no-repeat;
@@ -1050,73 +1425,57 @@ header .navbar .dropdown-toggle:after {
     background: #fff;
     animation: ripple 1000ms infinite;
 }
+#holdingsmembers .map {
+    background: url(../img/bg-map.png);
+    background-repeat: no-repeat;
+    background-attachment: initial;
+    background-position: center;
+    width: 100%;
+    height: 575px;
+}
+#holdingsmembers .map .singapore{
+    position: absolute;
+    margin-top: 332px;
+    margin-left: 1019px;
+}
+#holdingsmembers .map .vietnam{
+    position: absolute;
+    margin-top: 242px;
+    margin-left: 913px;
+}
+#holdingsmembers .map .hongkong{
+    position: absolute;
+    margin-top: 176px;
+    margin-left: 957px;
+}
+#holdingsmembers .map .south{
+    position: absolute;
+    margin-top: 393px;
+    margin-left: 648px;
+}
+#holdingsmembers .map .dubai{
+    position: absolute;
+    margin-top: 224px;
+    margin-left: 699px;
+}
+#holdingsmembers .map .usa{
+    position: absolute;
+    margin-top: 173px;
+    margin-left: 285px;
 
-/* #holdingsmembers img {
-    width: 50%;
-    border-radius: 50%;
-    background: #fff;
-    animation: ripple 1000ms infinite;
-    border: solid 1px #bf0223;
-    padding: 5px;
+}
+#holdingsmembers .map .cannada{
+    position: absolute;
+    margin-top: 77px;
+    margin-left: 398px;
+}
+#holdingsmembers .map p{
+    position: absolute  ;
     margin-top: 70px;
-    margin-left: 228px;
-    width: 8%;
-    border-radius: 50%;
-    animation: ripple 1000ms infinite;
-    padding: 8px;
-    box-shadow: 5px 10px 20px red inset;
-    margin-top: 94px;
-        margin-left: 406px;
-    box-shadow: 5px 10px 20px red inset;
-} */
-
-/* #holdingsmembers .country-can {
-    margin-top: 69px;
-    margin-left: 406px;
-
+    width: 100%;
+    font-weight: 700;
+    margin-right: 40px;
 }
-
-#holdingsmembers .country-usa {
-    margin-top: 61px;
-    margin-left: 235px;
-}
-
-#holdingsmembers .country-dubai {
-    margin-top: 226px;
-    margin-left: 272px;
-}
-
-#holdingsmembers .country-africa {
-    margin-top: 129px;
-    margin-left: 223px;
-}
-
-#holdingsmembers .country-hongkong {
-    margin-top: 184px;
-    margin-left: 92px;
-    margin-right: 200px;
-}
-
-#holdingsmembers .country-vietnam {
-    margin-top: 30px;
-    margin-left: 52px;
-}
-
-#holdingsmembers .country-singapore {
-    margin-bottom: -185px;
-    margin-left: 11px;
-} */
-
-/* @keyframes ripple {
-    0% {
-        box-shadow: 0 0 0 0px #bf0223, 0 0 0 0px #fff, 0 0 0 0px #bf0223, 0 0 0 0px #fff;
-    }
-
-    100% {
-        box-shadow: 0 0 0 0.5px #bf0223, 0 0 0 0px rgba(255, 255, 255, 255);
-
-    }
-} */
 /*========================== REPORT PAGE ==========================*/
 
 #reportPage .reportNav {
@@ -1366,6 +1725,41 @@ footer .copyright {
     .partners .owl-carousel .item .row:last-child {
         margin-top: -90px;
     }
+    #holdingsmembers .map .singapore{
+        position: absolute;
+        margin-top: 343px;
+        margin-left: 832px;
+    }
+    #holdingsmembers .map .vietnam{
+        position: absolute;
+        margin-top: 252px;
+        margin-left: 722px;
+    }
+    #holdingsmembers .map .hongkong{
+        position: absolute;
+        margin-top: 178px;
+        margin-left: 760px;
+    }
+    #holdingsmembers .map .south{
+        position: absolute;
+        margin-top: 394px;
+        margin-left: 450px;
+    }
+    #holdingsmembers .map .dubai{
+        position: absolute;
+        margin-top: 218px;
+        margin-left: 514px;
+    }
+    #holdingsmembers .map .usa{
+        position: absolute;
+        margin-top: 194px;
+        margin-left: 117px;
+    }
+    #holdingsmembers .map .cannada{
+        position: absolute;
+        margin-top: 77px;
+        margin-left: 229px;
+    }
 }
 @media (max-width: 992px) {
     header .navbar {
@@ -1444,10 +1838,83 @@ footer .copyright {
     .partners .owl-carousel .item .row:last-child {
         margin-top: -75px;
     }
+    #holdingsmembers .map .singapore{
+        position: absolute;
+        margin-top: 332px;
+        margin-left: 696px;
+    }
+    #holdingsmembers .map .vietnam{
+        position: absolute;
+        margin-top: 239px;
+        margin-left: 618px;
+    }
+    #holdingsmembers .map .hongkong{
+        position: absolute;
+        margin-top: 175px;
+        margin-left: 680px;
+    }
+    #holdingsmembers .map .south{
+        position: absolute;
+        margin-top: 389px;
+        margin-left: 362px;
+    }
+    #holdingsmembers .map .dubai{
+        position: absolute;
+        margin-top: 218px;
+        margin-left: 420px;
+    }
+    #holdingsmembers .map .usa{
+        position: absolute;
+        margin-top: 203px;
+        margin-left: 39px;
+    }
+    #holdingsmembers .map .cannada{
+        position: absolute;
+        margin-top: 84px;
+        margin-left: 244px;
+        /* margin-left: 142px; */
+    }
 }
 @media (max-width: 768px) {
     .partners .owl-carousel .item .row:last-child {
         margin-top: -70px;
+    }
+    #holdingsmembers .map .singapore{
+        position: absolute;
+        margin-top: 320px;
+        margin-left: 705px;
+    
+    }
+    #holdingsmembers .map .vietnam{
+        position: absolute;
+        margin-top: 233px;
+        margin-left: 637px;
+    }
+    #holdingsmembers .map .hongkong{
+        position: absolute;
+        margin-top: 193px;
+        margin-left: 692px;
+    }
+    #holdingsmembers .map .south{
+        position: absolute;
+        margin-top: 395px;
+        margin-left: 368px;
+    
+    }
+    #holdingsmembers .map .dubai{
+        position: absolute;
+        margin-top: 222px;
+        margin-left: 428px;
+    }
+    #holdingsmembers .map .usa{
+        position: absolute;
+        margin-top: 210px;
+        margin-left: 31px;
+    }
+    #holdingsmembers .map .cannada{
+        position: absolute;
+        margin-top: 73px;
+        margin-left: 128px;
     }
 }
 @media (max-width: 576px) {
@@ -1588,5 +2055,49 @@ footer .copyright {
         width: 66%;
         margin-right: 30px;
         margin-left: 30px;
+    }
+    #holdingsmembers .map {
+        background: url(../img/bg-map.png);
+        background-repeat: no-repeat;
+        background-attachment: initial;
+        background-position: center;
+        width: 100%;
+        /* height: 575px; */
+    }
+    #holdingsmembers .map .singapore{
+        position: absolute;
+        margin-top: 332px;
+        margin-left: 1019px;
+    }
+    #holdingsmembers .map .vietnam{
+        position: absolute;
+        margin-top: 242px;
+        margin-left: 913px;
+    }
+    #holdingsmembers .map .hongkong{
+        position: absolute;
+        margin-top: 176px;
+        margin-left: 957px;
+    }
+    #holdingsmembers .map .south{
+        position: absolute;
+        margin-top: 362px;
+        margin-left: 474px;
+    }
+    #holdingsmembers .map .dubai{
+        position: absolute;
+        margin-top: 224px;
+        margin-left: 699px;
+    }
+    #holdingsmembers .map .usa{
+        position: absolute;
+        margin-top: 169px;
+        margin-left: 127px;
+    
+    }
+    #holdingsmembers .map .cannada{
+        position: absolute;
+        margin-top: 46px;
+        margin-left: 258px;
     }
 }
