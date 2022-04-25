@@ -1299,7 +1299,7 @@ header .navbar .dropdown-toggle:after {
 }
 #ecosystem {
     background: black url(../img/BG-ecosystem.gif) no-repeat right;
-    padding: 95px 0;
+    padding: 90px 0;
 }
 #ecosystem .content {
     color: #f1f1f1;
@@ -1761,6 +1761,18 @@ footer .copyright {
         margin-left: 229px;
     }
 }
+@media ( max-width: 1398px) {
+    #ecosystem {
+        padding: 78px;
+    }
+    
+}
+@media ( max-width: 1198px) {
+    #ecosystem {
+        padding: 66px;
+    }
+    
+}
 @media (max-width: 992px) {
     header .navbar {
         padding: 10px;
@@ -1794,7 +1806,7 @@ footer .copyright {
         justify-content: left;
     }
     #ecosystem {
-        padding: 0;
+        padding: 86px 20px;
     }
     #ecosystem .content {
         width: 100%;
