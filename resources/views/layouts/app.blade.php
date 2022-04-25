@@ -15,10 +15,10 @@
     <!-- Facebook Tag -->
     <meta property="og:url" content=""/>
     <meta property="og:type" content="website"/>
-    <meta property="og:title" content="CMC CHAIN"/>
-    <meta property="og:description" content="CMC CHAIN"/>
+    <meta property="og:title" content="METAWAY HOLDINGS"/>
+    <meta property="og:description" content="METAWAY HOLDINGS"/>
     <meta property="og:image" content=""/>
-    <meta property="og:site_name" content="CMC CHAIN" />
+    <meta property="og:site_name" content="METAWAY HOLDINGS" />
 
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/fa881189ef.js" crossorigin="anonymous"></script>
