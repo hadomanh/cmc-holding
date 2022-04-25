@@ -417,11 +417,7 @@
                             <img src="{{ asset('img/Francesco.png') }}" alt="">
                             <img class="border-icon" src="{{ asset('img/border-executive.png') }}" alt="">
                             <h4 class="name">Francesco</h4>
-<<<<<<< HEAD
                             <div class="position flex-grow-1">CTO</div>
-=======
-                            <div class="position flex-grow-1">CTO   </div>
->>>>>>> b6472c45b4f3dea8c4bf9b1e0b7bfb9cb9a237da
                             <div class="social">
                                 <a href="#"><i class="fab fa-linkedin"></i></a>
                                 <a href="#"><i class="fa fa-twitter"></i></a>
