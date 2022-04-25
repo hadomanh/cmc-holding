@@ -75,6 +75,7 @@
     CKEDITOR.config.height = 800;
     CKEDITOR.config.width = 'auto';
     CKEDITOR.config.skin = 'moono';
+    CKEDITOR.config.allowedContent = true
 
 initUpload('#js--upload', '#uploadWrapper')
 </script>

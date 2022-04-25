@@ -4,6 +4,8 @@ use App\Http\Controllers\NewsController;
 use App\Models\News;
 use App\Http\Controllers\PressController;
 use App\Models\Press;
+use App\Http\Controllers\InvestorNewsController;
+use App\Models\InvestorNews;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
@@ -53,7 +55,8 @@ Route::prefix('media')->group(function () {
     })->name('media.press-detail');
 
     Route::get('/investor-news', function () {
-        return view('media.investor-news');
+        $investorNews = InvestorNews::where('active', true)->get();
+        return view('media.investor-news')->with(compact('investorNews'));
     })->name('media.investor-news');
 
 });
@@ -68,8 +71,15 @@ Route::prefix('investor')->group(function () {
         return view('investor.internal');
     })->name('investor.internal');
 
-    Route::get('/sec-filing', function () {return view('investor.sec-filing');})->name('investor.sec-filing');
-    Route::get('/investor-detail', function () {return view('media.investor-detail');})->name('media.investor-detail');
+    Route::get('/sec-filing', function () {
+        return view('investor.sec-filing');
+    })->name('investor.sec-filing');
+
+    Route::get('/investor-detail/{id}', function ($id) {
+        $investorNews = InvestorNews::find($id);
+        $relatedNews = InvestorNews::where('id', '!=', $id)->take(5)->get();
+        return view('media.investor-detail')->with(compact('investorNews', 'relatedNews'));
+    })->name('media.investor-detail');
 
 });
 
@@ -91,4 +101,8 @@ Route::middleware('auth')->prefix('admin')->group(function () {
     Route::get('/press/toggle/{press}', [PressController::class, 'toggle'])->name('press.toggle');
     Route::post('/press/image', [PressController::class, 'imageUpload'])->name('press.image.upload');
     Route::resource('/press', 'PressController');
+
+    Route::get('/investor-news/toggle/{investor_news}', [InvestorNewsController::class, 'toggle'])->name('investor-news.toggle');
+    Route::post('/investor-news/image', [InvestorNewsController::class, 'imageUpload'])->name('investor-news.image.upload');
+    Route::resource('/investor-news', 'InvestorNewsController');
 });

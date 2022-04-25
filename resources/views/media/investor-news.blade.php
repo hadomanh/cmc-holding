@@ -12,91 +12,52 @@
     <section class="investor">
         <div class="container-lg  title-investor" >
             <div class="row">
-                 <div class="col-lg-8 col-12">
-                    <a href="{{ route('media.investor-detail') }}">
-                        <img src="{{ asset('img/Img-investor.png') }}" alt="" class="w-100">
+                @if ($investorNews->count() > 0)
+                <div class="col-lg-8 col-12">
+                    <a href="{{ route('media.investor-detail', $investorNews[0]->id) }}">
+                        <img src="{{ $investorNews[0]->thumbnail }}" alt="" class="w-100">
                         <div class="mt-3">
-                            <h4>Lorem ipsum dolor sit amet, consectetur</h4>
-                            <span class="miniSize">2022-01-19</span>
-                            <p class="text-dark">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            <h4>{{ $investorNews[0]->title }}</h4>
+                            <span class="miniSize">{{ date('Y-m-d', strtotime($investorNews[0]->created_at)) }}</span>
+                            <p class="text-dark">{{ $investorNews[0]->subtitle }}</p>
                         </div>
                     </a>
                 </div>
+                @endif
+
                 <div class="col-lg-4 col-12">
+                    @foreach ($investorNews as $item)
+                        @if ($loop->index > 0 && $loop->index < ($investorNews->count() - 1) / 2)
+                            <a href="">
+                                <div class="d-flex mb-4">
+                                    <img src="{{ $item->thumbnail }}" alt="">
+                                    <div class="ms-4">
+                                        <h4>{{ $item->title }}</h4>
+                                        <span class="miniSize">{{ date('Y-m-d', strtotime($item->created_at)) }}</span>
+                                    </div>
+                                </div>
+                            </a>
+                        @endif
+                    @endforeach
+                </div>
+            </div>
+
+            @foreach ($investorNews as $item)
+                @if ($loop->index >= ($investorNews->count() - 1) / 2)
                     <a href="">
-                        <div class="d-flex mb-4">
-                            <img src="{{ asset('img/Frame-1.png') }}" alt="">
-                            <div class="ms-4">
-                                <h4>Lorem ipsum dolor sit amet, consectetur</h4>
-                                <span class="miniSize">2022-01-19</span>
+                        <div class="row pt-4 title-investor">
+                            <div class="col-12 col-lg-6"><img src="{{ $item->thumbnail }}" alt="" class="w-100"></div>
+                            <div class="col-12 col-lg-6"> 
+                                <div class="mt-3">
+                                <h4>{{ $item->title }}</h4>
+                                <span class="miniSize">{{ date('Y-m-d', strtotime($item->created_at)) }}</span>
+                                <p  class="text-dark">{{ $item->subtitle }}</p>
+                                </div>
                             </div>
                         </div>
                     </a>
-                    <a href="">
-                        <div class="d-flex mb-4">
-                            <img src="{{ asset('img/Frame-2.png') }}" alt="">
-                            <div class="ms-4">
-                                <h4>Lorem ipsum dolor sit amet, consectetur</h4>
-                                <span class="miniSize">2022-01-19</span>
-                        </div>
-                    </div>
-                   </a>
-                    <a href="">
-                    <div class="d-flex mb-4">
-                            <img src="{{ asset('img/Frame-3.png') }}" alt="">
-                        <div class="ms-4">
-                            <h4>Lorem ipsum dolor sit amet, consectetur</h4>
-                            <span class="miniSize">2022-01-19</span>
-                        </div>
-                    </div>
-                    </a>
-                    <a href="">
-                    <div class="d-flex mb-4">
-                        <img src="{{ asset('img/Frame-4.png') }}" alt="">>
-                        <div class="ms-4">
-                            <h4>Lorem ipsum dolor sit amet, consectetur</h4>
-                            <span class="miniSize">2022-01-19</span>
-                        </div>
-                    </div>
-                    </a>
-                </div>
-            </div>
-            <a href="">
-                <div class="row pt-4 title-investor">
-                    <div class="col-12 col-lg-6"><img src="{{ asset('img/Img-investor-1.png') }}" alt="" class="w-100"></div>
-                    <div class="col-12 col-lg-6"> 
-                        <div class="mt-3">
-                        <h4> Lorem ipsum dolor sit amet, consectetur </h4>
-                        <span class="miniSize">2022-01-19</span>
-                        <p  class="text-dark">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                        </div>
-                    </div>
-                </div>
-            </a>
-           <a href="">
-               <div class="row pt-4">
-                    <div class="col-12 col-lg-6"><img src="{{ asset('img/Img-investor-2.png') }}" alt="" class="w-100"></div>
-                    <div class="col-12 col-lg-6"> 
-                        <div class="mt-3">
-                            <h4> Lorem ipsum dolor sit amet, consectetur</h4>
-                            <span class="miniSize">2022-01-19</span>
-                            <p  class="text-dark">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                        </div>
-                    </div>
-                </div>
-            </a>
-            <a href="">
-                <div class="row pt-4"> 
-                    <div class="col-12 col-lg-6"><img src="{{ asset('img/Img-investor-3.png') }}" alt="" class="w-100"></div>
-                    <div class="col-12 col-lg-6"> 
-                        <div class="mt-3">
-                            <h4>Lorem ipsum dolor sit amet, consectetur</h4>
-                            <span class="miniSize">2022-01-19</span>
-                            <p  class="text-dark">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                        </div>
-                    </div>
-                </div> 
-            </a>
+                @endif
+            @endforeach
         </div>
     </section>
     <!-- <section>

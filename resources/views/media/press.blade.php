@@ -50,7 +50,7 @@
                 <div class="col-lg-6 col-12">
                     <ul class="list-unstyled mb-0">
                         @foreach ($press as $item)
-                        @if ($loop->index > ($press->count() - 1) / 2)
+                        @if ($loop->index >= ($press->count() - 1) / 2)
                         <li class="pressItem row">
                             <a href="{{ route('media.press-detail', $item->id) }}" class="col-md-4 pressThumb">
                                 <img src="{{ $item->thumbnail }}" alt="" class="w-100">
