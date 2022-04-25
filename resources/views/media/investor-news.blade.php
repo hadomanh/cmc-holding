@@ -43,7 +43,7 @@
             </div>
 
             @foreach ($investorNews as $item)
-                @if ($loop->index > ($investorNews->count() - 1) / 2)
+                @if ($loop->index >= ($investorNews->count() - 1) / 2)
                     <a href="">
                         <div class="row pt-4 title-investor">
                             <div class="col-12 col-lg-6"><img src="{{ $item->thumbnail }}" alt="" class="w-100"></div>
