@@ -985,6 +985,8 @@ header .navbar .dropdown-toggle:after {
     display: flex;
     align-items: center;
     justify-content: center;
+    font-weight: bold;
+    font-size: 56px;
 }
 
 .carousel-item #aboutPage .team .listTeam {
@@ -1338,7 +1340,7 @@ header .navbar .dropdown-toggle:after {
 
 #ecosystem {
     background: black url(../img/BG-ecosystem.gif) no-repeat right;
-    padding: 95px 0;
+    padding: 90px 0;
 }
 
 #ecosystem .content {
@@ -1756,7 +1758,18 @@ footer .copyright {
         margin-left: 229px;
     }
 }
-
+@media ( max-width: 1398px) {
+    #ecosystem {
+        padding: 78px;
+    }
+    
+}
+@media ( max-width: 1198px) {
+    #ecosystem {
+        padding: 66px;
+    }
+    
+}
 @media (max-width: 992px) {
     header .navbar {
         padding: 10px;
@@ -1790,7 +1803,7 @@ footer .copyright {
         justify-content: left;
     }
     #ecosystem {
-        padding: 0;
+        padding: 86px 20px;
     }
     #ecosystem .content {
         width: 100%;
@@ -1870,7 +1883,18 @@ footer .copyright {
         margin-left: 244px;
     }
 }
-
+@media ( max-width: 799px) {
+    #ecosystem {
+        padding: 80px;
+    }
+    
+}
+@media ( max-width: 770px) {
+    #ecosystem {
+        padding: 79px;
+    }
+    
+}
 @media (max-width: 768px) {
     .partners .owl-carousel .item .row:last-child {
         margin-top: -70px;
@@ -2223,5 +2247,15 @@ footer .copyright {
         margin-top: 57px;
         width: 100%;
         margin-right: 78px; 
+    }
+}
+@media ( width: 390px ) {
+    .bgLocal {
+        margin: 0px 0px;
+    }
+}
+@media (width: 390px) {
+    .container2 .content h1 {
+        font-size: 36px;
     }
 }

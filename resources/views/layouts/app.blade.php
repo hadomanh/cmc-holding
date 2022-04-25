@@ -22,6 +22,7 @@
 
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/fa881189ef.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <!-- Css File -->
     <link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet">
@@ -76,7 +77,9 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-md">
+                <div class="col-9">
+                <div class="row">
+                <div class="col-md-5 col-xl-3">
                     <ul>
                         <li class="parent list-unstyled">
                             <span class="">About us</span>
@@ -107,7 +110,7 @@
                         </li>
                     </ul>
                 </div> -->
-                <div class="col-md">
+                <div class="col-md-5 col-xl-3">
                     <ul>
                         <li class="parent list-unstyled">
                             <span>Investor</span>
@@ -119,7 +122,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-md">
+                <div class="col-md-5 col-xl-3">
                     <ul>
                         <li class="parent list-unstyled">
                             <span>Media</span>
@@ -131,13 +134,16 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-md">
+                <div class="col-md-5 col-xl-3">
                     <ul>
                         <li class="list-unstyled"> 
                     <a href="{{ route('contact') }}"><span>Contact</span></a>
                     </li></ul>
                     
                 </div>
+                </div>
+                </div>
+                
             </div>
         </div>
         <div class="companyInfo">
