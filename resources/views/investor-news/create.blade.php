@@ -7,7 +7,7 @@
         <h3 class="card-title">News</h3>
     </div>
 
-    <form class="card-body" action="{{ route('news.store') }}" method="POST" enctype="multipart/form-data" autocomplete="off">
+    <form class="card-body" action="{{ route('investor-news.store') }}" method="POST" enctype="multipart/form-data" autocomplete="off">
         @csrf
         <div class="form-group">
             <label for="titleInput">Title</label>
@@ -58,7 +58,7 @@
         </div>
     
         <button type="submit" class="btn btn-primary">Submit</button>
-        <a href="{{ route('news.index') }}" class="btn btn-outline-secondary">Cancel</a>
+        <a href="{{ route('investor-news.index') }}" class="btn btn-outline-secondary">Cancel</a>
     </form>
 
 </div>
@@ -69,7 +69,7 @@
 <script src="{{ asset('bower_components/ckeditor4/ckeditor.js') }}"></script>
 <script>
     CKEDITOR.replace('editor', {
-        filebrowserUploadUrl: "{{ route('news.image.upload', ['_token' => csrf_token() ]) }}",
+        filebrowserUploadUrl: "{{ route('investor-news.image.upload', ['_token' => csrf_token() ]) }}",
         filebrowserUploadMethod: 'form'
     });
     CKEDITOR.config.height = 800;

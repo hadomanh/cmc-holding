@@ -49,7 +49,7 @@
                 <div class="col-lg-6 col-12">
                     <ul class="list-unstyled mb-0">
                         @foreach ($news as $item)
-                        @if ($loop->index > ($news->count() - 1) / 2)
+                        @if ($loop->index >= ($news->count() - 1) / 2)
                         <li class="newsItem row">
                             <a href="{{ route('media.news-detail', $item->id) }}" class="col-md-4 newsThumb">
                                 <img src="{{ $item->thumbnail }}" alt="" class="w-100">
