@@ -205,15 +205,15 @@
                             <img src="{{ asset('img/icon-metaway.png') }}" alt="">
                             <p>USA</p>
                         </div>
-                        <div class="memberLocation style-2 dubai">
+                        <div class="memberLocation style-1 dubai">
                             <img src="{{ asset('img/icon-metaway.png') }}" alt="">
                             <p>Dubai</p>
                         </div>
                         <div class="memberLocation style-2 south">
                             <img src="{{ asset('img/icon-metaway.png') }}" alt="">
-                            <p>SouthAfrica</p>
+                            <p>South Africa</p>
                         </div>
-                        <div class="memberLocation style-2 hongkong">
+                        <div class="memberLocation style-1 hongkong">
                             <img src="{{ asset('img/icon-metaway.png') }}" alt="">
                             <p>Hongkong</p>
                         </div>
@@ -221,7 +221,7 @@
                             <img src="{{ asset('img/icon-metaway.png') }}" alt="">
                             <p>Vietnam</p>
                         </div>
-                        <div class="memberLocation style-2 singapore">
+                        <div class="memberLocation style-1 singapore">
                             <img src="{{ asset('img/icon-metaway.png') }}" alt="">
                             <p>Singapore</p>
                         </div>
