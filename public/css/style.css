@@ -868,53 +868,6 @@ header .navbar .dropdown-toggle:after {
     margin-right: -110px;
 }
 
-/* #holdingsmembers img {
-    width: 50%;
-    border-radius: 50%;
-    background: #fff;
-    animation: ripple 1000ms infinite;
-    border: solid 1px #bf0223;
-    padding: 5px;
-    margin-top: 70px;
-    margin-left: 228px;
-    width: 8%;
-    border-radius: 50%;
-    animation: ripple 1000ms infinite;
-    padding: 8px;
-    box-shadow: 5px 10px 20px red inset;
-    margin-top: 94px;
-        margin-left: 406px;
-    box-shadow: 5px 10px 20px red inset;
-} */
-/* #holdingsmembers .country-can {
-    margin-top: 69px;
-    margin-left: 406px;
-}
-#holdingsmembers .country-usa {
-    margin-top: 61px;
-    margin-left: 235px;
-}
-#holdingsmembers .country-dubai {
-    margin-top: 226px;
-    margin-left: 272px;
-}
-#holdingsmembers .country-africa {
-    margin-top: 129px;
-    margin-left: 223px;
-}
-#holdingsmembers .country-hongkong {
-    margin-top: 184px;
-    margin-left: 92px;
-    margin-right: 200px;
-}
-#holdingsmembers .country-vietnam {
-    margin-top: 30px;
-    margin-left: 52px;
-}
-#holdingsmembers .country-singapore {
-    margin-bottom: -185px;
-    margin-left: 11px;
-} */
 .memberLocation.style-2:after {
     animation-name: circle-animate-2;
 }
@@ -1491,260 +1444,156 @@ header .navbar .dropdown-toggle:after {
 #businesssectors .card {
     border-radius: 20px;
 }
-
 #businesssectors .card img {
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
-
 #businesssectors .card:hover {
     transition: 1s;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.11);
 }
-
 #executive {
     background-color: #FFFFFF;
 }
-
 #executive strong {
     font-weight: 700;
 }
-
 #executive .border-icon {
     margin-top: -35px;
 }
-
 .btn-read .btn-btnWhite {
     margin-top: 68px;
 }
-
-
-/* #holdingsmembers .map {
-    background: url(../img/bg-map.png);
-    background-repeat: no-repeat;
-    background-attachment: initial;
-    background-position: center;
-    width: 100%;
-    height: 575px;
-    display: flex;
-    position: relative;
-} */
 #holdingsmembers img {
     width: 100%;
     background: #fff;
     animation: ripple 1000ms infinite;
 }
-
-/* #holdingsmembers .map {
-    background: url(../img/bg-map.png);
-    background-repeat: no-repeat;
-    background-attachment: initial;
-    background-position: center;
-    width: 100%;
-    height: 575px;
-}
-
-#holdingsmembers .map .singapore {
-    position: absolute;
-    margin-top: 332px;
-    margin-left: 1019px;
-}
-
-#holdingsmembers .map .vietnam {
-    position: absolute;
-    margin-top: 242px;
-    margin-left: 913px;
-}
-
-#holdingsmembers .map .hongkong {
-    position: absolute;
-    margin-top: 176px;
-    margin-left: 957px;
-}
-
-#holdingsmembers .map .south {
-    position: absolute;
-    margin-top: 393px;
-    margin-left: 648px;
-}
-
-#holdingsmembers .map .dubai {
-    position: absolute;
-    margin-top: 224px;
-    margin-left: 699px;
-}
-
-#holdingsmembers .map .usa {
-    position: absolute;
-    margin-top: 173px;
-    margin-left: 285px;
-
-}
-
-#holdingsmembers .map .cannada {
-    position: absolute;
-    margin-top: 77px;
-    margin-left: 398px;
-} */
-
 /*========================== REPORT PAGE ==========================*/
 
 #reportPage .reportNav {
     border-bottom: 1px solid #b2b2b2;
 }
-
 #reportPage table td {
     width: 33.333%;
 }
-
 #reportPage table td:nth-child(2) {
     text-align: center;
 }
-
 #reportPage table td:nth-child(3) {
     text-align: right;
 }
-
 #reportPage table td img {
     width: 100px;
 }
-
 #reportPage table td a {
     font-size: 20px;
     display: inline-block;
 }
-
 #reportPage table td a:not(:first-child) {
     margin-left: 30px;
 }
-
 #reportPage .table>:not(caption)>*>* {
     padding: 15px 40px;
 }
-
 #reportPage .form-select {
     background-color: transparent;
 }
-
 #reportPage .form-select:focus {
     box-shadow: none;
     border: none;
 }
-
 /*========================== NEWS PAGE ==========================*/
 #mediaNews .newsItem {
     margin-bottom: 20px;
 }
-
 #mediaNews .newsItem.highlight {
     margin-bottom: 30px;
 }
-
 #mediaNews .newsItem.highlight .newsThumb {
     display: block;
     margin-bottom: 20px;
 }
-
 #mediaNews .newsItem .newsTitle {
     font-size: 20px;
     margin-bottom: 10px;
 }
-
 .miniSize {
     font-size: 12px;
 }
-
 .investor h4 {
     font-weight: 700;
     font-size: 24px;
 }
-
 .investor-detail {
     padding-top: 70px;
 }
-
 .investor-detail .title-news {
     font-size: 16px;
     font-weight: 900;
     padding: 30px 0;
 }
-
 .investor-detail .img-detail {
     display: flex;
     padding: 30px 0;
     margin: auto;
 }
-
 .title-investor h4:hover {
     color: #CB1D23;
 }
-
 .title-investor-detail a {
     color: #bf0223;
     padding-bottom: 5px;
     border-bottom: solid 3px #bf0223;
     width: 100%;
 }
-
 .investor-detail .icon-detail {
     padding: 0 5px;
 }
-
 .flag {
     margin-right: 13px;
 }
-
 .arrowdown {
     font-size: 14px !important;
     margin-left: 9px !important;
 }
-
 .location2 p {
     height: 45px;
 }
-
 /*========================== CONTACT PAGE ==========================*/
 #contactPage .contactForm ul li {
     margin: 10px 0;
 }
-
 #contactPage .contactForm ul li .label {
     font-weight: 600;
     color: #bf0223;
     flex-shrink: 0;
     width: 80px;
 }
-
 #contactPage .branch .item {
     border: 1px solid #c2c2c2;
     margin-right: -1px;
 }
-
 #contactPage .branch .item ul {
     padding: 10px;
 }
-
 #contactPage .branch .item ul li {
     padding: 5px 10px;
 }
-
 #contactPage .branch .item ul li .label {
     flex-shrink: 0;
     width: 25px;
     font-weight: 600;
 }
-
 /*========================== FOOTER ==========================*/
 footer {
     background: #000000 !important;
     padding: 40px 0;
     color: #FFFFFF;
 }
-
 footer a {
     color: #FFFFFF;
 }
-
 footer .footerLogo {
     width: 300px;
     display: block;
@@ -1754,12 +1603,10 @@ footer .footerLogo {
     background: black;
     margin-bottom: 16px;
 }
-
 footer .title {
     position: relative;
     margin-bottom: 0px;
 }
-
 footer .title:before {
     content: "";
     position: absolute;
@@ -1770,7 +1617,6 @@ footer .title:before {
     background: #464646;
     margin-left: 15px;
 }
-
 footer .title span {
     display: inline-block;
     background: #fff;
@@ -1778,46 +1624,37 @@ footer .title span {
     padding-right: 5px;
     color: #464646;
 }
-
 footer .title.text-red:before {
     background: #df0023;
     bottom: 50px !important;
 }
-
 footer .title.text-red span {
     color: #df0023;
 }
-
 footer .menuFooter ul li:not(:last-child) {
     margin-bottom: 8px;
 }
-
 footer .menuFooter ul ul {
     margin: 8px 0 0;
 }
-
 footer .menuFooter ul ul li a {
     display: block;
     position: relative;
     font-weight: 200;
     text-align: left;
 }
-
 footer .menuFooter ul li a,
 footer .menuFooter ul li.parent span {
     font-weight: 900;
 }
-
 footer .menuFooter span {
     font-size: 20px;
 }
-
 footer .social {
     justify-content: right;
     margin-bottom: -20px;
     position: relative;
 }
-
 footer .social .item {
     display: inline-flex;
     width: 45px;
@@ -1828,35 +1665,29 @@ footer .social .item {
     font-size: 25px;
     margin-right: auto;
 }
-
 footer .social .item:hover {
     color: #e33651 !important;
     border-color: #e33651;
     justify-content: center;
 }
-
 footer .companyInfo {
     margin-top: 30px;
 }
-
 footer .companyInfo ul li {
     margin: 8px 0;
     position: relative;
     padding-left: 35px;
 }
-
 footer .companyInfo ul li .icon {
     position: absolute;
     left: 0;
     top: 0;
 }
-
 footer .copyright {
     background: #d7d7d7;
     padding: 15px;
     margin-top: 30px;
 }
-
 /*========================== RESPONSIVE ==========================*/
 @media (max-width: 1440px) {}
 
@@ -1866,72 +1697,59 @@ footer .copyright {
     #homepage .carousel .carouselContent {
         bottom: 30px;
     }
-
     .btn-read .btn-btnWhite {
         margin-top: 117px;
     }
-
     #homepage .carousel .carouselContent .subTitle {
         margin: 20px 0;
         font-size: 16px;
         font-weight: 400;
     }
-
     footer .footerLogo {
         margin: 0 auto 30px;
         width: 250px;
     }
-
     .owl-carousel .item {
         margin: 10px;
     }
-
     .asSeenOn .owl-carousel .owl-item img {
         width: 63%;
         margin-right: -136px;
         margin-left: 39px;
     }
-
     .partners .owl-carousel .item .row:last-child {
         margin-top: -90px;
     }
-
     #holdingsmembers .map .singapore {
         position: absolute;
         margin-top: 343px;
         margin-left: 832px;
     }
-
     #holdingsmembers .map .vietnam {
         position: absolute;
         margin-top: 252px;
         margin-left: 722px;
     }
-
     #holdingsmembers .map .hongkong {
         position: absolute;
         margin-top: 178px;
         margin-left: 760px;
     }
-
     #holdingsmembers .map .south {
         position: absolute;
         margin-top: 394px;
         margin-left: 450px;
     }
-
     #holdingsmembers .map .dubai {
         position: absolute;
         margin-top: 218px;
         margin-left: 514px;
     }
-
     #holdingsmembers .map .usa {
         position: absolute;
         margin-top: 194px;
         margin-left: 117px;
     }
-
     #holdingsmembers .map .cannada {
         position: absolute;
         margin-top: 77px;
@@ -1944,140 +1762,112 @@ footer .copyright {
         padding: 10px;
         width: 100%;
     }
-
     header .navbar .navbar-brand img {
         width: 213px;
     }
-
     .owl-carousel .owl-nav button.owl-next {
         right: 0;
     }
-
     .owl-carousel .owl-nav button.owl-prev {
         left: 0;
     }
-
     #homepage .carousel .carouselContent {
         bottom: 30px;
     }
-
     #homepage .carousel .carouselContent .subTitle {
         font-size: 15px;
     }
-
     #aboutPage .newsHighlights {
         padding-bottom: 20px;
     }
-
     #aboutPage .newsHighlights .item {
         margin-bottom: 20px;
     }
-
     .text-uppercase1 span {
         margin-left: -25px;
         font-size: 30px;
         font-weight: 700 !important;
         justify-content: left;
     }
-
     #ecosystem {
         padding: 0;
     }
-
     #ecosystem .content {
         width: 100%;
     }
-
     .advisors {
         justify-content: center;
     }
-
     .newsHighlights .card .card-text {
         margin-top: -8px;
         margin-bottom: -7px;
         padding: 0;
     }
-
     .container1 .content {
         padding: 10px;
     }
-
     .ourmission .text-uppercase span {
         margin-right: -126px;
         margin-top: 21px;
     }
-
     .ourmission .text-uppercase {
         height: 80px;
         position: relative;
         margin-top: -88px;
         margin-left: -150px;
     }
-
     .ourcorevalues .text-uppercase span {
         margin-right: -178px;
     }
-
     .btn-read .btn-btnWhite {
         margin-top: 138px;
         margin-bottom: 10px;
     }
-
     .ipBg {
         margin-top: -403px;
     }
-
     .asSeenOn .owl-carousel .owl-item img {
         width: 50%;
         margin-right: 12px;
         margin-left: 83px;
     }
-
     .partners .owl-carousel .item .row:last-child {
         margin-top: -75px;
     }
-
     #holdingsmembers .map .singapore {
         position: absolute;
         margin-top: 332px;
         margin-left: 696px;
     }
-
     #holdingsmembers .map .vietnam {
         position: absolute;
         margin-top: 239px;
         margin-left: 618px;
     }
-
     #holdingsmembers .map .hongkong {
         position: absolute;
         margin-top: 175px;
         margin-left: 680px;
     }
-
     #holdingsmembers .map .south {
         position: absolute;
         margin-top: 389px;
         margin-left: 362px;
     }
-
     #holdingsmembers .map .dubai {
         position: absolute;
         margin-top: 218px;
         margin-left: 420px;
     }
-
     #holdingsmembers .map .usa {
         position: absolute;
         margin-top: 203px;
         margin-left: 39px;
     }
-
     #holdingsmembers .map .cannada {
         position: absolute;
         margin-top: 84px;
         margin-left: 244px;
-        /* margin-left: 142px; */
     }
 }
 
@@ -2085,7 +1875,6 @@ footer .copyright {
     .partners .owl-carousel .item .row:last-child {
         margin-top: -70px;
     }
-
     #holdingsmembers .map .singapore {
         position: absolute;
         margin-top: 320px;
@@ -2097,32 +1886,26 @@ footer .copyright {
         margin-top: 233px;
         margin-left: 637px;
     }
-
     #holdingsmembers .map .hongkong {
         position: absolute;
         margin-top: 193px;
         margin-left: 692px;
     }
-
     #holdingsmembers .map .south {
         position: absolute;
         margin-top: 395px;
         margin-left: 368px;
-
     }
-
     #holdingsmembers .map .dubai {
         position: absolute;
         margin-top: 222px;
         margin-left: 428px;
     }
-
     #holdingsmembers .map .usa {
         position: absolute;
         margin-top: 210px;
         margin-left: 31px;
     }
-
     #holdingsmembers .map .cannada {
         position: absolute;
         margin-top: 73px;
@@ -2141,60 +1924,47 @@ footer .copyright {
     .owl-carousel .item a {
         margin: 5px;
     }
-
     .owl-carousel .owl-nav button.owl-next,
     .owl-carousel .owl-nav button.owl-prev {
         width: 15px;
     }
-
     .partners .owl-carousel .item .col-custom {
         width: 33.333%;
     }
-
     .partners .owl-carousel .item img {
         padding: 0;
     }
-
     .partners .owl-carousel .item .row:first-child .col-custom:nth-child(4),
     .partners .owl-carousel .item .row:first-child .col-custom:nth-child(5) {
         position: relative;
         top: -55px;
     }
-
     .partners .owl-carousel .item .row:last-child {
         margin-top: -110px;
     }
-
     .newsHighlights .card {
         height: auto;
         margin-bottom: 15px;
     }
-
     section {
         padding: 20px 0;
     }
-
     .ourmission {
         padding: 55px 0;
         position: relative;
     }
-
     .ourmission h2 {
         margin-top: 20px;
     }
-
     section .sectionHeading {
         font-size: 25px;
     }
-
     header .navbar-toggler:focus {
         box-shadow: none;
     }
-
     header .navbar-collapse {
         padding-top: 20px;
     }
-
     header .navbar.navbar-expand-md .nav-item,
     header .navbar.navbar-expand-md .nav-item:not(:last-child) {
         margin: 0 0 10px;
@@ -2208,111 +1978,89 @@ footer .copyright {
         bottom: 10px;
         width: 100%;
     }
-
     #homepage .carousel .carouselContent .title {
         text-transform: capitalize;
         font-size: 35px;
         font-weight: 400 !important;
     }
-
     #homepage .carousel .carouselContent .subTitle {
         font-size: 15px;
         margin: 10px;
         font-weight: 400 !important;
     }
-
     #aboutPage .overview .item:not(:last-child) {
         margin-bottom: 20px;
     }
-
     #aboutPage .overview .item:nth-child(odd) .desc,
     #aboutPage .overview .item:nth-child(even) .desc {
         padding: 10px 0 0;
     }
-
     #mediaNews .newsItem .newsThumb,
     #mediaNews .newsItem.highlight .newsThumb {
         margin-bottom: 10px;
     }
-
     #mediaNews .newsItem,
     #mediaNews .newsItem.highlight {
         margin-bottom: 20px;
     }
-
     footer .footerLogo {
         width: 200px;
     }
-
     footer .social {
         justify-content: center;
         margin: auto;
     }
-
     footer .social .item {
         width: 35px;
         height: 35px;
         font-size: 18px;
     }
-
     footer .copyright {
         margin-top: 10px;
         text-align: center;
         font-size: 13px;
     }
-
     #ourcorevalues,
     #ourmission,
     .desc h2 span {
         margin-top: 0 !important;
     }
-
     .text-uppercase span {
         margin-left: -30px;
     }
-
     .owl-carousel .item {
         margin: 10px;
     }
-
     .owl-carousel .item .col-auto {
         width: 50%;
     }
-
     .owl-carousel .owl-item img {
         display: block;
         width: 70%;
     }
-
     .btn-read .btn-btnWhite {
         margin-top: 0;
         margin-bottom: 0;
     }
-
     .ourvision .text-uppercase {
         height: 127px;
     }
-
     .ourvision .text-uppercase span {
         font-weight: 700;
         margin-left: 30px;
         margin-top: 43px;
     }
-
     .about-home2 {
         margin-top: 0;
     }
-
     .ipBg {
         margin-top: 0;
     }
-
     .asSeenOn .owl-carousel .owl-item img {
         width: 66%;
         margin-right: 30px;
         margin-left: 30px;
     }
-
     .memberLocation {
         display: inline-flex;
         width: 25px;
@@ -2322,50 +2070,41 @@ footer .copyright {
         justify-content: center;
         position: relative;
     }
-
     #holdingsmembers .map {
         background: url(../img/bg-map.png);
         background-repeat: no-repeat;
         background-size: 576px 351px;
     }
-
     #holdingsmembers .map .singapore {
         position: absolute;
         margin-top: 220px;
         margin-left: 502px;
     }
-
     #holdingsmembers .map .vietnam {
         position: absolute;
         margin-top: 157px;
         margin-left: 453px;
     }
-
     #holdingsmembers .map .hongkong {
         position: absolute;
         margin-top: 93px;
         margin-left: 477px;
     }
-
     #holdingsmembers .map .south {
         position: absolute;
         margin-top: 256px;
         margin-left: 286px;
-    
     }
-
     #holdingsmembers .map .dubai {
         position: absolute;
         margin-top: 132px;
         margin-left: 317px;
     }
-
     #holdingsmembers .map .usa {
         position: absolute;
         margin-top: 112px;
         margin-left: 64px;
     }
-
     #holdingsmembers .map .cannada {
         position: absolute;
         margin-top: 46px;
@@ -2382,16 +2121,11 @@ footer .copyright {
         justify-content: center;
         position: relative;
     }
-
     #holdingsmembers .map {
         background: url(../img/bg-map.png);
         background-repeat: no-repeat;
         background-size: 449px 257px;
-        /* background-repeat: no-repeat;
-        background-attachment: initial; */
-        /* background-position: center; */
     }
-
     #holdingsmembers .map .singapore {
         position: absolute;
         top: 189px;
@@ -2431,8 +2165,6 @@ footer .copyright {
         position: absolute;
         margin-top: 57px;
         width: 100%;
-        /* font-weight: 700; */
-        /* font-size: 16px; */
         margin-right: 78px;
     }
 }
