@@ -58,8 +58,8 @@
                         <div class="card container1">
                             <a href="#"><img class="card-img-top" src="{{ asset('img/Corporation-1.png') }}"></a>
                             <div class="card-body d-flex flex-column content">
-                                <h5 class="card-title titleUnderline"><a href="#">@lang ('Brand Story')</a></h5>
-                                <p class="card-text flex-grow-1" style="height: 200px;">@lang ('Born in an era when technology wave 5.0 is exploding globally,  Metaway Holdings is the convergence of pioneering leaders with outstanding vision and wisdom, unlimited imagination, a sky of creativity, and sustainable development.')</p>
+                                <h4 class="card-title titleUnderline"><a href="#">@lang ('Brand Story')</a></h4>
+                                <p class="card-text flex-grow-1" style="height:162px;">@lang ('Born in an era when technology wave 5.0 is exploding globally,  Metaway Holdings is the convergence of pioneering leaders with outstanding vision and wisdom, unlimited imagination, a sky of creativity, and sustainable development.')</p>
                                 <div class="text-center">
                                     <a href="{{ route('about') }}" class="btn btnArrow">
                                         @lang ('READ MORE')
@@ -76,8 +76,8 @@
                         <div class="card container1">
                             <a href="#"><img class="card-img-top" src="{{ asset('img/Corporation-2.png') }}"></a>
                             <div class="card-body d-flex flex-column content">
-                                <h5 class="card-title titleUnderline"><a href="#">@lang ('Investment Sector')</a></h5>
-                                <p class="card-text flex-grow-1" style="height: 200px;"><strong>Metaway Holdings</strong> @lang ('focuses on investing in leading sectors and industries with high growth potential in the future, which are the pillars of the digital economy including: healthcare, technology, real estate and finance.')</p>
+                                <h4 class="card-title titleUnderline"><a href="#">@lang ('Investment Sector')</a></h4>
+                                <p class="card-text flex-grow-1" style="height:162px;"><strong>Metaway Holdings</strong> @lang ('focuses on investing in leading sectors and industries with high growth potential in the future, which are the pillars of the digital economy including: healthcare, technology, real estate and finance.')</p>
                                 <div class="text-center">
                                     <a href="{{ route('about') }}" class="btn btnArrow">
                                         @lang ('READ MORE')
@@ -93,8 +93,8 @@
                         <div class="card container1">
                             <a href="#"><img class="card-img-top" src="{{ asset('img/Corporation-3.png') }}"></a>
                             <div class="card-body d-flex flex-column content">
-                                <h5 class="card-title titleUnderline"><a href="#">@lang ('Ecosystem')</a></h5>
-                                <p class="card-text flex-grow-1" style="height: 200px;"><strong>@lang ('The Metaway Holdings')</strong> @lang ("ecosystem is investing in products and services for specialized needs: The backbone pillar of the digital economy, Enormous Volume, Global Scale, Recurrent Demand, Fast-developing Market. We address existing markets and industries' issues with the latest smart, transparent technology solutions.")</p>
+                                <h4 class="card-title titleUnderline"><a href="#">@lang ('Ecosystem')</a></h4>
+                                <p class="card-text flex-grow-1" style="height:162px;"><strong>@lang ('The Metaway Holdings')</strong> @lang ("ecosystem is investing in products and services for specialized needs: The backbone pillar of the digital economy, Enormous Volume, Global Scale, Recurrent Demand, Fast-developing Market. We address existing markets and industries' issues with the latest smart, transparent technology solutions.")</p>
                                 <div class="text-center">
                                     <a href="{{ route('about') }}" class="btn btnArrow">
                                         @lang ('READ MORE')
