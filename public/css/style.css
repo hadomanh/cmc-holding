@@ -1883,18 +1883,18 @@ footer .copyright {
         margin-left: 244px;
     }
 }
-@media ( max-width: 799px) {
+/* @media ( max-width: 799px) {
     #ecosystem {
         padding: 80px;
     }
     
-}
-@media ( max-width: 770px) {
+} */
+/* @media ( max-width: 770px) {
     #ecosystem {
         padding: 79px;
     }
     
-}
+} */
 @media (max-width: 768px) {
     .partners .owl-carousel .item .row:last-child {
         margin-top: -70px;
