@@ -29,10 +29,10 @@
                 <h2 class="sectionHeading centered text-uppercase p-3">{{ __('about us') }}</h2>
                 <div class="row">
                     <div class="col-md-12">
-                        <p class="text-center pb-5">@lang ('<strong> Metaway Holdings</strong> is a global-scale digital economy corporation with the orientation to develop on the pillar fields of the digital economy society. We create platforms to fulfill multi-value ecosystems: Digital Healthcare, Digital Education, Digital Commerce, Digital Banking, Digital insurance, Digital Real Estate... All based on optimal application of the cutting-edge technologies for better serving the demand  on for global connectivity')</p>
+                        <p class="text-center pb-5"><strong> Metaway Holdings</strong> @lang ('is a global-scale digital economy corporation with the orientation to develop on the pillar fields of the digital economy society. We create platforms to fulfill multi-value ecosystems: Digital Healthcare, Digital Education, Digital Commerce, Digital Banking, Digital insurance, Digital Real Estate... All based on optimal application of the cutting-edge technologies for better serving the demand on for global connectivity')</p>
                         <div class="row about-home">
-                            <div class="col-md-4 about-home1"><p><img class="img-bgWhite" src="{{ asset('img/success-key-1.png') }}" alt=""><h6 class="title-bgWhite">@lang ('Way')</h6>@lang ('<strong> Metaway Holdings</strong> possesses the secrets of the super-rich class and the formula successfully applied  in the top corporations and even start up companies for spectacular business breakthroughs. This will be the firm launching pad to help us conquer all the peaks.') </p></div>
-                            <div class="col-md-4 about-home2"><p><img class="img-bgWhite" src="{{ asset('img/brain-1.png') }}" alt=""><h6 class="title-bgWhite">@lang ('Talent')</h6>@lang ('<strong> Metaway Holdings</strong> brings together gifted people with a noble vision and mission in connecting communities and actualizing all aspirations.')</p></div>
+                            <div class="col-md-4 about-home1"><p><img class="img-bgWhite" src="{{ asset('img/success-key-1.png') }}" alt=""><h6 class="title-bgWhite">@lang ('Way')</h6><strong> Metaway Holdings</strong> @lang ('possesses the secrets of the super-rich class and the formula successfully applied  in the top corporations and even start up companies for spectacular business breakthroughs. This will be the firm launching pad to help us conquer all the peaks.') </p></div>
+                            <div class="col-md-4 about-home2"><p><img class="img-bgWhite" src="{{ asset('img/brain-1.png') }}" alt=""><h6 class="title-bgWhite">@lang ('Talent')</h6><strong> Metaway Holdings</strong> @lang ('brings together gifted people with a noble vision and mission in connecting communities and actualizing all aspirations.')</p></div>
                             <div class="col-md-4 about-home3"><p><img class="img-bgWhite" src="{{ asset('img/Meta-icon-1.png') }}" alt=""><h6 class="title-bgWhite">@lang ('Metaverse')</h6>@lang ('Formed in the Metaverse era, we are well aware of the importance of developing infrastructure and solutions to help humankind quickly access and adapt to the movements of the future.')</p></div>
                         </div>
                     </div>
@@ -59,7 +59,7 @@
                             <a href="#"><img class="card-img-top" src="{{ asset('img/Corporation-1.png') }}"></a>
                             <div class="card-body d-flex flex-column content">
                                 <h5 class="card-title titleUnderline"><a href="#">@lang ('Brand Story')</a></h5>
-                                <p class="card-text flex-grow-1">@lang ('Born in an era when technology wave 5.0 is exploding globally,  Metaway Holdings is the convergence of pioneering leaders with outstanding vision and wisdom, unlimited imagination, a sky of creativity, and sustainable development.')</p>
+                                <p class="card-text flex-grow-1" style="height: 200px;">@lang ('Born in an era when technology wave 5.0 is exploding globally,  Metaway Holdings is the convergence of pioneering leaders with outstanding vision and wisdom, unlimited imagination, a sky of creativity, and sustainable development.')</p>
                                 <div class="text-center">
                                     <a href="{{ route('about') }}" class="btn btnArrow">
                                         @lang ('READ MORE')
@@ -77,7 +77,7 @@
                             <a href="#"><img class="card-img-top" src="{{ asset('img/Corporation-2.png') }}"></a>
                             <div class="card-body d-flex flex-column content">
                                 <h5 class="card-title titleUnderline"><a href="#">@lang ('Investment Sector')</a></h5>
-                                <p class="card-text flex-grow-1"><strong>Metaway Holdings</strong> @lang ('focuses on investing in leading sectors and industries with high growth potential in the future, which are the pillars of the digital economy including: healthcare, technology, real estate and finance.')</p>
+                                <p class="card-text flex-grow-1" style="height: 200px;"><strong>Metaway Holdings</strong> @lang ('focuses on investing in leading sectors and industries with high growth potential in the future, which are the pillars of the digital economy including: healthcare, technology, real estate and finance.')</p>
                                 <div class="text-center">
                                     <a href="{{ route('about') }}" class="btn btnArrow">
                                         @lang ('READ MORE')
@@ -94,7 +94,7 @@
                             <a href="#"><img class="card-img-top" src="{{ asset('img/Corporation-3.png') }}"></a>
                             <div class="card-body d-flex flex-column content">
                                 <h5 class="card-title titleUnderline"><a href="#">@lang ('Ecosystem')</a></h5>
-                                <p class="card-text flex-grow-1">@lang ("<strong>The Metaway Holdings</strong> ecosystem is investing in products and services for specialized needs: The backbone pillar of the digital economy, Enormous Volume, Global Scale, Recurrent Demand, Fast-developing Market.")</p>
+                                <p class="card-text flex-grow-1" style="height: 200px;"><strong>@lang ('The Metaway Holdings')</strong> @lang ("ecosystem is investing in products and services for specialized needs: The backbone pillar of the digital economy, Enormous Volume, Global Scale, Recurrent Demand, Fast-developing Market. We address existing markets and industries' issues with the latest smart, transparent technology solutions.")</p>
                                 <div class="text-center">
                                     <a href="{{ route('about') }}" class="btn btnArrow">
                                         @lang ('READ MORE')
