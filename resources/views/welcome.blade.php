@@ -77,7 +77,7 @@
                             <a href="#"><img class="card-img-top" src="{{ asset('img/Corporation-2.png') }}"></a>
                             <div class="card-body d-flex flex-column content">
                                 <h5 class="card-title titleUnderline"><a href="#">@lang ('Investment Sector')</a></h5>
-                                <p class="card-text flex-grow-1">@lang ('<strong>Metaway Holdings</strong> focuses on investing in leading sectors and industries with high growth potential in the future, which are the pillars of the digital economy including: healthcare, technology, real estate and finance.')</p>
+                                <p class="card-text flex-grow-1"><strong>Metaway Holdings</strong> @lang ('focuses on investing in leading sectors and industries with high growth potential in the future, which are the pillars of the digital economy including: healthcare, technology, real estate and finance.')</p>
                                 <div class="text-center">
                                     <a href="{{ route('about') }}" class="btn btnArrow">
                                         @lang ('READ MORE')
