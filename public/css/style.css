@@ -1895,6 +1895,54 @@ footer .copyright {
     }
     
 }
+@media ( max-width: 730px) {
+    #ecosystem {
+        padding: 77px;
+    }
+    
+}
+@media ( max-width: 726px) {
+    #ecosystem {
+        padding: 68px;
+    }
+    
+}
+@media ( max-width: 374px) {
+    #ecosystem {
+        padding: 34px;
+    }
+    
+}
+@media ( max-width: 600px) {
+    #ecosystem {
+        padding: 56px;
+    }
+    
+}
+@media ( max-width: 502px) {
+    #ecosystem {
+        padding: 46px;
+    }
+    
+}
+@media ( max-width: 438px) {
+    #ecosystem {
+        padding: 32px;
+    }
+    
+}
+@media ( max-width: 368px) {
+    #ecosystem {
+        padding: 20px;
+    }
+    
+}
+@media ( max-width: 314px) {
+    #ecosystem {
+        padding: 11px;
+    }
+    
+}
 @media (max-width: 768px) {
     .partners .owl-carousel .item .row:last-child {
         margin-top: -70px;
