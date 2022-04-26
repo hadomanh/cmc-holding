@@ -47,7 +47,7 @@
         <section class="ourmission">
             <div class="container-lg">
              <div class="row g-0 item" id="ourmission">
-                 <h2 class="sectionHeading text-uppercase"><span>OUR MISSION</span></h2>
+                 <h2 class="sectionHeading text-uppercase"><span>@lang ('OUR MISSION')</span></h2>
                  <div class="row">
                     <div class="col-md-6 order-md-1 order-2 d-flex align-items-center">
                          <div class="desc">
@@ -68,7 +68,7 @@
         <section class="bgWhite ourvision">
             <div class="container-lg">
             <div class="row g-0 item" id="ourvision">
-                            <h2 class="sectionHeading text-uppercase"><span>OUR VISION</span></h2>
+                            <h2 class="sectionHeading text-uppercase"><span>@lang ('OUR VISION')</span></h2>
                     <div class="col-md-6">
                         <img src="{{ asset('img/blockcahin-2.png') }}" alt="" class="">
                     </div>
@@ -88,7 +88,7 @@
         <section class="bgWhite ourcorevalues">
             <div class="container-lg">
             <div class="row g-0 item" id="ourcorevalues">
-                            <h2 class="sectionHeading text-uppercase"><span>OUR CORE VALUES</span></h2>
+                            <h2 class="sectionHeading text-uppercase"><span>@lang ('OUR CORE VALUES')</span></h2>
 
                     <div class="col-md-12 order-md-1">
                         <div class="desc row">
@@ -122,15 +122,15 @@
         <!-- Business highlights -->
         <section class="newsHighlights bgGrey bgArrow" id="businesssectors">
             <div class="container-lg">
-                <h2 class="sectionHeading centered">@lang ('INVESTMENT SECTOR')</h2>
-                <p class="text-center mb-4"><strong>METAWAY Holdings</strong> focuses on investing in key areas in the digital economy, including technology, healthcare, real estate, and finance.</p>
+                <h2 class="sectionHeading centered"><strong>@lang ('INVESTMENT SECTOR')</strong></h2>
+                <p class="text-center mb-4">The business of <strong>METAWAY Holdings</strong> focuses on leading and high-class industries including specialized healthcare, super-luxury real estate, technology-related categories, especially financial technology, and blockchain-driven.</p>
                 <div class="row">
                     <div class="col-md-6 item">
                         <div class="card"  style="height: 100%;">
                             <a href="#"><img class="card-img-top" src="{{ asset('img/img-8.jpg') }}"></a>
                             <div class="card-body d-flex flex-column">
                                 <h5 class="card-title titleUnderline"><a href="#">@lang ('Technology field')</a></h5>
-                                <p class="card-text flex-grow-1">@lang ("<strong>Metaway Tech</strong> explores, expands, and delivers crucial technology solutions in the pillars of the digital economy. Our goal is to improve the capacity and overall development to meet global user needs in the digital economy age.")</p>
+                                <p class="card-text flex-grow-1"><strong>Metaway Tech</strong> @lang ('explores, expands, and delivers crucial technology solutions in the pillars of the digital economy. Our goal is to improve the capacity and overall development to meet global user needs in the digital economy age.')</p>
                                 <div class="text-end"><a target="_blank" href="http://metawaytech.com/" class="btn btn-btnWhite">@lang ('READ MORE')<i class="fa-solid fa-angle-right"></i></a></div>
                             </div>
                         </div>
@@ -140,7 +140,7 @@
                             <a href="#"><img class="card-img-top" src="{{ asset('img/img-9.jpg') }}"></a>
                             <div class="card-body d-flex flex-column">
                                 <h5 class="card-title titleUnderline"><a href="#">@lang ('Healthcare field')</a></h5>
-                                <p class="card-text flex-grow-1">@lang ("<strong>Metaway Med</strong> orients to establish an international standard clinic and hospital system specializing in chiropractic. Blockchain technology will be applied to digital medical records for best tracked Metaway Med builds a technology platform to support medical examination, diagnosis, calibration, and treatment for patients, which will help patients save huge amounts of unnecessary costs. Metaway Med owns a world-leading professors and specialists team who are dedicated to caring for patients' health.")</p>
+                                <p class="card-text flex-grow-1"><strong>Metaway Med</strong> @lang ("orients to establish an international standard clinic and hospital system specializing in chiropractic. Blockchain technology will be applied to digital medical records for best tracked Metaway Med builds a technology platform to support medical examination, diagnosis, calibration, and treatment for patients, which will help patients save huge amounts of unnecessary costs. Metaway Med owns a world-leading professors and specialists team who are dedicated to caring for patients' health.")</p>
                                 <div class="text-end"><a target="_blank" href="http://metawaymed.com/" class="btn btn-btnWhite">@lang ('READ MORE')<i class="fa-solid fa-angle-right"></i></a></div>
                             </div>
                         </div>
@@ -150,7 +150,7 @@
                             <a href="#"><img class="card-img-top" src="{{ asset('img/img-10.jpg') }}"></a>
                             <div class="card-body d-flex flex-column">
                                 <h5 class="card-title titleUnderline"><a href="#">@lang ('Real Estate field')</a></h5>
-                                <p class="card-text flex-grow-1">@lang ('<strong>Metaway Land</strong> is an investor and developer of super-luxury class real estate and smart cities. We create the differences for real estates, set new standards for personal branding and premium enjoyment exclusively for elite owners. We apply new technologies comprehensively in the field of real estate. On a global scale, myriad investment opportunities and new forms of ownership will be opened up for Investors regardless of legal and geographical barriers.')</p>
+                                <p class="card-text flex-grow-1"><strong>Metaway Land</strong> @lang ('is an investor and developer of super-luxury class real estate and smart cities. We create the differences for real estates, set new standards for personal branding and premium enjoyment exclusively for elite owners. We apply new technologies comprehensively in the field of real estate. On a global scale, myriad investment opportunities and new forms of ownership will be opened up for Investors regardless of legal and geographical barriers.')</p>
                                 <div class="text-end"><a target="_blank" href="http://metawayland.com/" class="btn  btn-btnWhite">@lang ('READ MORE')<i class="fa-solid fa-angle-right"></i></a></div>
                             </div>
                         </div>
@@ -160,7 +160,7 @@
                             <a href="#"><img class="card-img-top" src="{{ asset('img/img-11.jpg') }}"></a>
                             <div class="card-body d-flex flex-column">
                                 <h5 class="card-title titleUnderline"><a href="#">@lang ('Finance field')</a></h5>
-                                <p class="card-text flex-grow-1">@lang ("<strong>Metaway Finance</strong> applies new technologies in creating digital platforms and solutions for Banking, Insurance, and Securities fields. Brand new investment opportunities and exclusive trading models will be opened up for global users We believe in the future you are the only one who will take control of your own financial life. FWe empower you to learn, plan, and actualize your financial prosperity dreams. You should say bye to all the confusing myths you've heard about investing")</p>
+                                <p class="card-text flex-grow-1"><strong>Metaway Finance</strong> @lang ("applies new technologies in creating digital platforms and solutions for Banking, Insurance, and Securities fields. Brand new investment opportunities and exclusive trading models will be opened up for global users We believe in the future you are the only one who will take control of your own financial life. FWe empower you to learn, plan, and actualize your financial prosperity dreams. You should say bye to all the confusing myths you've heard about investing")</p>
                                 <div class="text-end"><a target="_blank" href="http://metawayfinance.com/" class="btn  btn-btnWhite">@lang ('READ MORE')<i class="fa-solid fa-angle-right"></i></a></div>
                             </div>
                         </div>
@@ -175,7 +175,7 @@
             <div class="container-lg">
                 <div class="content">
                 <h2 class="text-light">@lang ('ECOSYSTEM')</h2>
-                <p>@lang ("<strong>The Metaway Holdings</strong> ecosystem is investing in products and services for specialized needs: The backbone pillar of the digital economy, Enormous Volume, Global Scale, Recurrent Demand, Fast-developing Market. We address existing markets and industries' issues with the latest smart, transparent technology solutions.") </p>
+                <p><strong>The Metaway Holdings</strong> @lang ("ecosystem is investing in products and services for specialized needs: The backbone pillar of the digital economy, Enormous Volume, Global Scale, Recurrent Demand, Fast-developing Market. We address existing markets and industries' issues with the latest smart, transparent technology solutions.") </p>
                 </div>
             </div>
         </section>
@@ -184,7 +184,7 @@
         <section class="bgWhite " id="holdingsmembers">
             <div class="container-lg">
                 <h2 class="sectionHeading centered">@lang ('HOLDINGS MEMBERS')</h2>
-                <p class="text-center">@lang ("As a 'Holding in Holding' model, we establish member enterprises with separate ecosystems while maintaining focus on Metaway Holding's broad aims of globalization, digitalization, and innovation for outstanding social values.")</p>
+                <p class="text-center">@lang ("Metaway Holdings operates under the model of “Holdings in holdings”. We build separate ecosystems while still focusing on Metaway Holding's broad goal of globalization, digitization, and innovation for superior social values.")</p>
                 
                 <!-- <p><img src="http://127.0.0.1:8000/img/Map1.png" alt=""></p> -->
                 <p> 
@@ -224,8 +224,8 @@
         <!-- Our members -->
         <section class="bgGrey team" id="executive">
             <div class="container-lg">
-                <h2 class="sectionHeading centered">OUR EXECUTIVE TEAM</h2>
-                <p>@lang (' <strong>Metaway Holdings</strong>  owns executive resources who have many years of experience in many fields: restructuring, M&A, finance, investment and corporate governance. In addition, we also have senior advisors from Phi Group (USA) with a strong and reputable global partner system.')</p>
+                <h2 class="sectionHeading centered">@lang ('OUR EXECUTIVE TEAM')</h2>
+                <p class="text-center"><strong>Metaway Holdings</strong>  @lang ('owns executive resources who have many years of experience in many fields: restructuring, M&A, finance, investment and corporate governance. In addition, we also have senior advisors from Phi Group (USA) with a strong and reputable global partner system.')</p>
                 <div class="listTeam">
                     <div class="col-md-12">
                         <h4 class="sectionHeading text-uppercase1 mt-4"><span>Board of Management</span></h4>
