@@ -6,6 +6,8 @@
         <div class="container-lg">
             <div class="row title-investor">
                 <div class="col-lg-8 col-12">
+                    <h3>{!! $investorNews->title !!}</h3>
+                    <br>
                     {!! $investorNews->content !!}
                 </div>
                 <div class="col-lg-4 col-12">
