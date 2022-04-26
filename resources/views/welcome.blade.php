@@ -12,11 +12,8 @@
                     <div class="carouselContent">
                         <h1 class="title">Metaway Holdings<br><span class="fw-light">The Big Things</span></h1>
                         <h6 class="subTitle">Digital Economy Corporation</h6>
-                        <a href="#" class="more">
-                            @lang('read more') 
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
-                                <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
-                            </svg>
+                        <a href="{{ route('about') }}" class="more">
+                            @lang('read more')  <i class="fa-solid fa-angle-right"></i>
                         </a>
                     </div>
                 </div>
@@ -38,10 +35,7 @@
                     </div>
                     <p class="text-center">
                         <a href="{{ route('about') }}" class="btn btnWhite text-uppercase">
-                            @lang ('Read more') 
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
-                                <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
-                            </svg>
+                            @lang ('Read more')   <i class="fa-solid fa-angle-right"></i>
                         </a>
                     </p>
                 </div>
@@ -62,10 +56,7 @@
                                 <p class="card-text flex-grow-1" style="height:162px;">@lang ('Born in an era when technology wave 5.0 is exploding globally,  Metaway Holdings is the convergence of pioneering leaders with outstanding vision and wisdom, unlimited imagination, a sky of creativity, and sustainable development.')</p>
                                 <div class="text-center">
                                     <a href="{{ route('about') }}" class="btn btnArrow">
-                                        @lang ('READ MORE')
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right mt-2" viewBox="0 0 16 16">
-                                            <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
-                                        </svg>
+                                        @lang ('READ MORE')  <i class="fa-solid fa-angle-right p-2"></i>
                                     </a>
                                 </div>
                             </div>
@@ -80,10 +71,7 @@
                                 <p class="card-text flex-grow-1" style="height:162px;"><strong>Metaway Holdings</strong> @lang ('focuses on investing in leading sectors and industries with high growth potential in the future, which are the pillars of the digital economy including: healthcare, technology, real estate and finance.')</p>
                                 <div class="text-center">
                                     <a href="{{ route('about') }}" class="btn btnArrow">
-                                        @lang ('READ MORE')
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right mt-2" viewBox="0 0 16 16">
-                                            <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
-                                        </svg>
+                                        @lang ('READ MORE')  <i class="fa-solid fa-angle-right p-2"></i>
                                     </a>
                                 </div>
                             </div>
@@ -97,10 +85,7 @@
                                 <p class="card-text flex-grow-1" style="height:162px;"><strong>@lang ('The Metaway Holdings')</strong> @lang ("ecosystem is investing in products and services for specialized needs: The backbone pillar of the digital economy, Enormous Volume, Global Scale, Recurrent Demand, Fast-developing Market. We address existing markets and industries' issues with the latest smart, transparent technology solutions.")</p>
                                 <div class="text-center">
                                     <a href="{{ route('about') }}" class="btn btnArrow">
-                                        @lang ('READ MORE')
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right mt-2" viewBox="0 0 16 16">
-                                            <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
-                                        </svg>
+                                        @lang ('READ MORE')  <i class="fa-solid fa-angle-right p-2"></i>
                                     </a>
                                 </div>
                             </div>
