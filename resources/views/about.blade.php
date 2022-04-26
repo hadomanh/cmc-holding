@@ -167,9 +167,12 @@
                             <div class="card-body">
                                 <h5 class="card-title titleUnderline"><a href="#">@lang ('Finance field')</a></h5>
                                 <p class="card-text">@lang ("<strong>Metaway Finance</strong> applies new technologies in creating digital platforms and solutions for Banking, Insurance, and Securities fields. Brand new investment opportunities and exclusive trading models will be opened up for global users We believe in the future you are the only one who will take control of your own financial life. FWe empower you to learn, plan, and actualize your financial prosperity dreams. You should say bye to all the confusing myths you've heard about investing")</p>
-                                <div class="text-end"><a target="_blank" href="http://metawayfinance.com/" class="btn  btn-btnWhite">@lang ('READ MORE')<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
+                                <div class="text-end"><a target="_blank" href="http://metawayfinance.com/" class="btn  btn-btnWhite">@lang ('READ MORE')
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
                                             <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
-                                        </svg></a></div>
+                                        </svg>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -233,7 +236,7 @@
         <section class="bgGrey team" id="executive">
             <div class="container-lg">
                 <h2 class="sectionHeading centered">OUR EXECUTIVE TEAM</h2>
-                <p>@lang (' <strong>Metaway Holdings</strong>  owns executive resources who have many years of experience in many fields: restructuring, M&A, finance, investment and corporate governance. In addition, we also have senior advisors from Phi Group (USA) with a strong and reputable global partner system.')</p>
+                <p class="text-center">@lang (' <strong>Metaway Holdings</strong>  owns executive resources who have many years of experience in many fields: restructuring, M&A, finance, investment and corporate governance. In addition, we also have senior advisors from Phi Group (USA) with a strong and reputable global partner system.')</p>
                 <div class="listTeam">
                     <div class="col-md-12">
                         <h4 class="sectionHeading text-uppercase1 mt-4"><span>Board of Management</span></h4>
