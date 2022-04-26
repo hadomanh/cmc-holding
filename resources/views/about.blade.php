@@ -417,7 +417,7 @@
                             <img src="{{ asset('img/Francesco.png') }}" alt="">
                             <img class="border-icon" src="{{ asset('img/border-executive.png') }}" alt="">
                             <h4 class="name">Francesco</h4>
-                            <div class="position flex-grow-1">CTO   </div>
+                            <div class="position flex-grow-1">CTO</div>
                             <div class="social">
                                 <a href="#"><i class="fab fa-linkedin"></i></a>
                                 <a href="#"><i class="fa fa-twitter"></i></a>
