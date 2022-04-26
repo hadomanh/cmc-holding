@@ -1895,9 +1895,15 @@ footer .copyright {
     }
     
 }
+@media ( max-width: 767px) {
+    #ecosystem {
+        padding: 68px;
+    }
+    
+}
 @media ( max-width: 730px) {
     #ecosystem {
-        padding: 77px;
+        padding: 70px;
     }
     
 }
@@ -1907,15 +1913,21 @@ footer .copyright {
     }
     
 }
-@media ( max-width: 374px) {
+@media ( max-width: 622px) {
     #ecosystem {
-        padding: 34px;
+        padding: 58px;
     }
     
 }
 @media ( max-width: 600px) {
     #ecosystem {
         padding: 56px;
+    }
+    
+}
+@media ( max-width: 531px) {
+    #ecosystem {
+        padding: 44px;
     }
     
 }
@@ -1928,6 +1940,18 @@ footer .copyright {
 @media ( max-width: 438px) {
     #ecosystem {
         padding: 32px;
+    }
+    
+}
+@media ( max-width: 392px) {
+    #ecosystem {
+        padding: 29px;
+    }
+    
+}
+@media ( max-width: 374px) {
+    #ecosystem {
+        padding: 34px;
     }
     
 }
