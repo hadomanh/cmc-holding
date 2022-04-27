@@ -203,7 +203,7 @@
                         </div>
                         <div class="memberLocation style-2 south">
                             <img src="{{ asset('img/icon-metaway.png') }}" alt="">
-                            <p>South Africa</p>
+                            <p>SouthAfrica</p>
                         </div>
                         <div class="memberLocation style-1 hongkong">
                             <img src="{{ asset('img/icon-metaway.png') }}" alt="">
