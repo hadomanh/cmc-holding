@@ -735,7 +735,7 @@ header .navbar .dropdown-toggle:after {
 
 .asSeenOn .owl-carousel .owl-item img {
     width: 75%;
-    margin-right: -95px;
+    margin-right: -90px;
     margin-left: 27px;
     filter: grayscale(1);
 }
