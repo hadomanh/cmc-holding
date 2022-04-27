@@ -1093,7 +1093,6 @@ header .navbar .dropdown-toggle:after {
     position: relative;
     margin-bottom: 0px;
 }
-
 .ourvision .text-uppercase {
     background: url(../img/icon-about.png) left no-repeat;
     height: 80px;
@@ -1101,13 +1100,11 @@ header .navbar .dropdown-toggle:after {
     position: relative;
     margin-top: -80px;
 }
-
 .ourvision .text-uppercase span {
     font-weight: 700;
     margin-left: 28px;
     margin-top: 16px;
 }
-
 .ourcorevalues .text-uppercase {
     background: url(../img/icon-about.png) right no-repeat;
     height: 80px;
@@ -1115,7 +1112,6 @@ header .navbar .dropdown-toggle:after {
     margin-top: -80px;
     margin-left: -200px;
 }
-
 .ourcorevalues .text-uppercase span {
     font-weight: 700;
     justify-content: end;
@@ -1124,17 +1120,14 @@ header .navbar .dropdown-toggle:after {
     margin-top: 16px;
     margin-right: -208px;
 }
-
 #ecosystem {
     background: black url(../img/BG-ecosystem.gif) no-repeat right;
     padding: 95px 0;
 }
-
 #ecosystem .content {
     color: #f1f1f1;
     width: 60%;
 }
-
 #executive .listTeam .text-uppercase1 {
     background: url(../img/icon-about.png) left no-repeat;
     height: 80px;
@@ -1142,7 +1135,6 @@ header .navbar .dropdown-toggle:after {
     position: relative;
     margin-top: -80px;
 }
-
 #executive .listTeam .text-uppercase1 span {
     font-weight: 700;
     margin-left: 33px;
@@ -1150,19 +1142,14 @@ header .navbar .dropdown-toggle:after {
     font-size: 31px;
     text-align: left;
 }
-
-
-
 .text-our-mission {
     margin-top: 30px;
 }
-
 .text-our-mission ul li::marker {
     color: #CB1D23;
     border: 2px solid #CB1D23;
     padding: 20px;
 }
-
 .text-our-mission ul li:before {
     content: '';
     border: 1px solid #CB1D23;
@@ -1179,16 +1166,10 @@ header .navbar .dropdown-toggle:after {
     margin-top: 10px;
     margin-bottom: 0px;
 }
-
 .text-our-mission ul>li {
     align-items: center;
     margin: 5px 0;
 }
-
-
-
-
-
 #ourvision .desc h2 {
     margin-bottom: 20px;
     margin-top: -60px !important;
@@ -1983,25 +1964,37 @@ footer .copyright {
 }
 @media ( max-width: 770px) {
     #ecosystem {
-        padding: 79px;
+        padding: 75px;
+    }
+    
+}
+@media ( max-width: 764px) {
+    #ecosystem {
+        padding: 70px;
     }
     
 }
 @media ( max-width: 730px) {
     #ecosystem {
-        padding: 77px;
+        padding: 67px;
     }
     
 }
 @media ( max-width: 726px) {
     #ecosystem {
-        padding: 68px;
+        padding: 55px;
     }
     
 }
 @media ( max-width: 600px) {
     #ecosystem {
         padding: 56px;
+    }
+    
+}
+@media ( max-width: 531px) {
+    #ecosystem {
+        padding: 44px;
     }
     
 }
@@ -2013,7 +2006,31 @@ footer .copyright {
 }
 @media ( max-width: 438px) {
     #ecosystem {
-        padding: 32px;
+        padding: 30px;
+    }
+    
+}
+@media ( max-width: 390px) {
+    #ecosystem {
+        padding: 24px;
+    }
+    
+}
+@media ( max-width: 374px) {
+    #ecosystem {
+        padding: 20px;
+    }
+    
+}
+@media ( max-width: 392px) {
+    #ecosystem {
+        padding: 29px;
+    }
+    
+}
+@media ( max-width: 374px) {
+    #ecosystem {
+        padding: 34px;
     }
     
 }
@@ -2445,5 +2462,15 @@ footer .copyright {
 @media (width: 390px) {
     .container2 .content h1 {
         font-size: 36px;
+    }
+}
+@media (width: 1198px) {
+    #corporation {
+        height: 242px !important;
+    }
+}
+@media (width: 1196px) {
+    #corporation {
+        height: 242px !important;
     }
 }
