@@ -1461,7 +1461,7 @@ header .navbar .dropdown-toggle:after {
 }
 /*======================INVESTOR-DETAIL========================*/
 .title-new{
-text-align: initial !important;
+    font-size: 12px;
 }
 /*========================== REPORT PAGE ==========================*/
 
