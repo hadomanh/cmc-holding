@@ -269,7 +269,7 @@
                             </div>
                             <div class="col-lg-auto col-sm-6 col-6">
                                 <a href="https://doanhnhansaigon.vn/khoi-nghiep/thu-hut-1-5-trieu-usd-vong-co-founder-chi-sau-mot-gio-keu-goi-1109107.html" target="blank">
-                                    <img src="{{ asset('img/Doanh-nhan-sai-gon.png') }}" alt="">
+                                    <img src="{{ asset('img/Doanh-Nhan-Sai-Gon.png') }}" alt="">
                                 </a>
                             </div>
                             <div class="col-lg-auto col-sm-6 col-6">
@@ -323,7 +323,7 @@
                             </div>
                             <div class="col-lg-auto col-sm-6 col-6">
                                 <a href="https://doanhnhansaigon.vn/khoi-nghiep/thu-hut-1-5-trieu-usd-vong-co-founder-chi-sau-mot-gio-keu-goi-1109107.html" target="blank">
-                                    <img src="{{ asset('img/Doanh-nhan-sai-gon.png') }}" alt="">
+                                    <img src="{{ asset('img/Doanh-Nhan-Sai-Gon.png') }}" alt="">
                                 </a>
                             </div>
                             <div class="col-lg-auto col-sm-6 col-6">
@@ -377,7 +377,7 @@
                             </div>
                             <div class="col-lg-auto col-sm-6 col-6">
                                 <a href="https://doanhnhansaigon.vn/khoi-nghiep/thu-hut-1-5-trieu-usd-vong-co-founder-chi-sau-mot-gio-keu-goi-1109107.html" target="blank">
-                                    <img src="{{ asset('img/Doanh-nhan-sai-gon.png') }}" alt="">
+                                    <img src="{{ asset('img/Doanh-Nhan-Sai-Gon.png') }}" alt="">
                                 </a>
                             </div>
                             <div class="col-lg-auto col-sm-6 col-6">
@@ -431,7 +431,7 @@
                             </div>
                             <div class="col-lg-auto col-sm-6 col-6">
                                 <a href="https://doanhnhansaigon.vn/khoi-nghiep/thu-hut-1-5-trieu-usd-vong-co-founder-chi-sau-mot-gio-keu-goi-1109107.html" target="blank">
-                                    <img src="{{ asset('img/Doanh-nhan-sai-gon.png') }}" alt="">
+                                    <img src="{{ asset('img/Doanh-Nhan-Sai-Gon.png') }}" alt="">
                                 </a>
                             </div>
                             <div class="col-lg-auto col-sm-6 col-6">
