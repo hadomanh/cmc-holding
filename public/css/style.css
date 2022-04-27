@@ -1558,6 +1558,9 @@ header .navbar .dropdown-toggle:after {
 .investor-detail .icon-detail {
     padding: 0 5px;
 }
+.investor-detail .h4 {
+    font-size: 16px;
+}
 .flag {
     margin-right: 13px;
 }
