@@ -82,7 +82,7 @@
                             <a href="#"><img class="card-img-top" src="{{ asset('img/Corporation-3.png') }}"></a>
                             <div class="card-body d-flex flex-column content">
                                 <h4 class="card-title titleUnderline"><a href="#">@lang ('Ecosystem')</a></h4>
-                                <p class="card-text flex-grow-1" style="height:162px;"><strong>@lang ('The Metaway Holdings')</strong> @lang ("ecosystem is investing in products and services for specialized needs: The backbone pillar of the digital economy, Enormous Volume, Global Scale, Recurrent Demand, Fast-developing Market. We address existing markets and industries' issues with the latest smart, transparent technology solutions.")</p>
+                                <p class="card-text flex-grow-1" style="height:162px;" id="corporation"><strong>@lang ('The Metaway Holdings')</strong> @lang ("ecosystem is investing in products and services for specialized needs: The backbone pillar of the digital economy, Enormous Volume, Global Scale, Recurrent Demand, Fast-developing Market. We address existing markets and industries' issues with the latest smart, transparent technology solutions.")</p>
                                 <div class="text-center">
                                     <a href="{{ route('about') }}" class="btn btnArrow">
                                         @lang ('READ MORE')  <i class="fa-solid fa-angle-right p-2"></i>
