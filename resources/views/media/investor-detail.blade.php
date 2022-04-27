@@ -6,7 +6,7 @@
         <div class="container-lg">
             <div class="row title-investor">
                 <div class="col-lg-8 col-12">
-                    <h3>{!! $investorNews->title !!}</h3>
+                    <h3 class="title-new">{!! $investorNews->title !!}</h3>
                     <br>
                     {!! $investorNews->content !!}
                 </div>
@@ -22,7 +22,7 @@
                                     <img src="{{ $item->thumbnail }}" alt="" class="icon-detail">
                                 </div>
                                 <div class="col-8">
-                                    <h6>{{ $item->title }}</h6>
+                                    <h4 class="title-new">{{ $item->title }}</h4>
                                     <span class="miniSize">{{ date('Y-m-d', strtotime($item->created_at)) }}</span>
                                 </div>
                             </div>

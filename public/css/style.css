@@ -1093,7 +1093,6 @@ header .navbar .dropdown-toggle:after {
     position: relative;
     margin-bottom: 0px;
 }
-
 .ourvision .text-uppercase {
     background: url(../img/icon-about.png) left no-repeat;
     height: 80px;
@@ -1101,13 +1100,11 @@ header .navbar .dropdown-toggle:after {
     position: relative;
     margin-top: -80px;
 }
-
 .ourvision .text-uppercase span {
     font-weight: 700;
     margin-left: 28px;
     margin-top: 16px;
 }
-
 .ourcorevalues .text-uppercase {
     background: url(../img/icon-about.png) right no-repeat;
     height: 80px;
@@ -1115,7 +1112,6 @@ header .navbar .dropdown-toggle:after {
     margin-top: -80px;
     margin-left: -200px;
 }
-
 .ourcorevalues .text-uppercase span {
     font-weight: 700;
     justify-content: end;
@@ -1124,17 +1120,14 @@ header .navbar .dropdown-toggle:after {
     margin-top: 16px;
     margin-right: -208px;
 }
-
 #ecosystem {
     background: black url(../img/BG-ecosystem.gif) no-repeat right;
     padding: 95px 0;
 }
-
 #ecosystem .content {
     color: #f1f1f1;
     width: 60%;
 }
-
 #executive .listTeam .text-uppercase1 {
     background: url(../img/icon-about.png) left no-repeat;
     height: 80px;
@@ -1142,7 +1135,6 @@ header .navbar .dropdown-toggle:after {
     position: relative;
     margin-top: -80px;
 }
-
 #executive .listTeam .text-uppercase1 span {
     font-weight: 700;
     margin-left: 33px;
@@ -1150,19 +1142,14 @@ header .navbar .dropdown-toggle:after {
     font-size: 31px;
     text-align: left;
 }
-
-
-
 .text-our-mission {
     margin-top: 30px;
 }
-
 .text-our-mission ul li::marker {
     color: #CB1D23;
     border: 2px solid #CB1D23;
     padding: 20px;
 }
-
 .text-our-mission ul li:before {
     content: '';
     border: 1px solid #CB1D23;
@@ -1179,16 +1166,11 @@ header .navbar .dropdown-toggle:after {
     margin-top: 10px;
     margin-bottom: 0px;
 }
-
 .text-our-mission ul>li {
     align-items: center;
     margin: 5px 0;
+    text-align: initial;
 }
-
-
-
-
-
 #ourvision .desc h2 {
     margin-bottom: 20px;
     margin-top: -60px !important;
@@ -1477,6 +1459,10 @@ header .navbar .dropdown-toggle:after {
     background: #fff;
     animation: ripple 1000ms infinite;
 }
+/*======================INVESTOR-DETAIL========================*/
+.title-new{
+text-align: initial !important;
+}
 /*========================== REPORT PAGE ==========================*/
 
 #reportPage .reportNav {
@@ -1525,6 +1511,7 @@ header .navbar .dropdown-toggle:after {
 #mediaNews .newsItem .newsTitle {
     font-size: 20px;
     margin-bottom: 10px;
+    text-align: initial;
 }
 .miniSize {
     font-size: 12px;
@@ -1532,6 +1519,7 @@ header .navbar .dropdown-toggle:after {
 .investor h4 {
     font-weight: 700;
     font-size: 24px;
+    text-align: left;
 }
 .investor-detail {
     padding-top: 70px;
@@ -1545,6 +1533,9 @@ header .navbar .dropdown-toggle:after {
     display: flex;
     padding: 30px 0;
     margin: auto;
+}
+.title-investo{
+    text-align: initial;
 }
 .title-investor h4:hover {
     color: #CB1D23;
@@ -1777,7 +1768,91 @@ footer .copyright {
     #ecosystem {
         padding: 66px;
     }
-    
+    #holdingsmembers .map .singapore {
+        position: absolute;
+        top: 220px;
+        right: 180px;
+    }
+    #holdingsmembers .map .vietnam {
+        position: absolute;    
+        top: 194px;
+        right: 292px;
+    }
+    #holdingsmembers .map .hongkong {
+        position: absolute;
+        top: 195px;
+        left: -32px;
+    }
+    #holdingsmembers .map .south {
+        position: absolute;
+        top: 214px;
+        left: -55px;
+    }
+    #holdingsmembers .map .dubai {
+        position: absolute;
+        top: 211px;
+        left: -46px;
+    }
+    #holdingsmembers .map .usa {
+        position: absolute;
+        top: 248px;
+        left: -28px;
+    }
+    #holdingsmembers .map .cannada {
+        position: absolute;
+        top: 228px;
+        left: -30px;
+    }
+}@media (max-width: 1024px) {
+    .partners .owl-carousel .item .row:last-child {
+        margin-top: -70px;
+    }
+    /* #holdingsmembers .map{
+        width: 800px;
+        overflow-x: auto;
+      } */
+    #holdingsmembers .map .singapore {
+        position: absolute;
+        top: 204px;
+        right: 105px;
+    }
+    #holdingsmembers .map .vietnam {
+        position: absolute;
+        top: 172px;
+        right: 199px;
+    }
+    #holdingsmembers .map .hongkong {
+        position: absolute;    
+        top: 184px;
+        left: 72px;
+    }
+    #holdingsmembers .map .south {
+        position: absolute;
+        top: 208px;
+        left: 54px;
+    }
+    #holdingsmembers .map .dubai {
+        position: absolute;
+        top: 211px;
+        left: 46px;
+    }
+    #holdingsmembers .map .usa {
+        position: absolute;
+        top: 214px;
+        left: 36px;
+    }
+    #holdingsmembers .map .cannada {
+        position: absolute;
+        top: 205px;
+        left: 43px;
+    }
+    #holdingsmembers .map p {
+        position: absolute;
+        margin-top: 14px;
+        width: 100%;
+        font-weight: 700;
+        /* margin-right: 40px; */
+    }
 }
 @media (max-width: 992px) {
     header .navbar {
@@ -1916,7 +1991,6 @@ footer .copyright {
     }
     
 }
-
 @media ( max-width: 726px) {
     #ecosystem {
         padding: 55px;
@@ -1987,41 +2061,44 @@ footer .copyright {
     .partners .owl-carousel .item .row:last-child {
         margin-top: -70px;
     }
+    /* #holdingsmembers .map{
+        width: 800px;
+        overflow-x: auto;
+      } */
     #holdingsmembers .map .singapore {
         position: absolute;
-        margin-top: 320px;
-        margin-left: 705px;
-
+        top: 229px;
+        right: 3px;
     }
     #holdingsmembers .map .vietnam {
         position: absolute;
-        margin-top: 233px;
-        margin-left: 637px;
+        top: 213px;
+        right: 64px;
     }
     #holdingsmembers .map .hongkong {
-        position: absolute;
-        margin-top: 193px;
-        margin-left: 692px;
+        position: absolute;    
+        top: 202px;
+        left: 35px;
     }
     #holdingsmembers .map .south {
         position: absolute;
-        margin-top: 395px;
-        margin-left: 368px;
+        top: 225px;
+    left: 25px;
     }
     #holdingsmembers .map .dubai {
         position: absolute;
-        margin-top: 222px;
-        margin-left: 428px;
+        top: 228px;
+        left: 28px;
     }
     #holdingsmembers .map .usa {
         position: absolute;
-        margin-top: 210px;
-        margin-left: 31px;
+        top: 210px;
+        left: -15px;
     }
     #holdingsmembers .map .cannada {
         position: absolute;
-        margin-top: 73px;
-        margin-left: 128px;
+        top: 225px;
+        left: -84px;
     }
     #holdingsmembers .map p {
         position: absolute;
@@ -2031,7 +2108,6 @@ footer .copyright {
         margin-right: 40px;
     }
 }
-
 @media (max-width: 576px) {
     .owl-carousel .item a {
         margin: 5px;
@@ -2189,38 +2265,38 @@ footer .copyright {
     }
     #holdingsmembers .map .singapore {
         position: absolute;
-        margin-top: 220px;
-        margin-left: 502px;
+        top: 87px;
+        right: 34px;
     }
     #holdingsmembers .map .vietnam {
         position: absolute;
-        margin-top: 157px;
-        margin-left: 453px;
+        top: 108px;
+        right: 92px;
     }
     #holdingsmembers .map .hongkong {
         position: absolute;
-        margin-top: 93px;
-        margin-left: 477px;
+        top: 116px;
+        left: -186px;
     }
     #holdingsmembers .map .south {
         position: absolute;
-        margin-top: 256px;
-        margin-left: 286px;
+        top: 66px;
+        left: -65px;
     }
     #holdingsmembers .map .dubai {
         position: absolute;
-        margin-top: 132px;
-        margin-left: 317px;
+        top: 125px;
+        left: -85px;
     }
     #holdingsmembers .map .usa {
         position: absolute;
-        margin-top: 112px;
-        margin-left: 64px;
+        top: 121px;
+        left: 55px;
     }
     #holdingsmembers .map .cannada {
         position: absolute;
-        margin-top: 46px;
-        margin-left: 147px;
+        top: 153px;
+        left: -78px;
     }
 }
 @media (max-width: 426px) {
@@ -2228,7 +2304,7 @@ footer .copyright {
         display: inline-flex;
         width: 15px;
         height: 15px;
-        padding: 4px;
+        padding: 2px;
         align-items: center;
         justify-content: center;
         position: relative;
@@ -2236,42 +2312,94 @@ footer .copyright {
     #holdingsmembers .map {
         background: url(../img/bg-map.png);
         background-repeat: no-repeat;
-        background-size: 449px 257px;
+        background-size: 444px 351px;
     }
     #holdingsmembers .map .singapore {
         position: absolute;
-        top: 189px;
-        right: 9px;   
+        top: 130px;
+        right: 9px;  
     }
     #holdingsmembers .map .vietnam {
         position: absolute;
-        top: 219px;
-        right: 47px;    
+        top: 180px;
+        right: 63px;   
     }
     #holdingsmembers .map .hongkong {
-        position: absolute;
-        top: 243px;
-        right: 27px;
+        position: absolute; 
+        top: 204px;
+        left: -307px;
     }
     #holdingsmembers .map .south {
         position: absolute;
-        top: 186px;
-        left: -55px;   
+        top: 127px;
+        left: -129px;  
     }
     #holdingsmembers .map .dubai {
         position: absolute;
-        top: 221px;
-        left: -53px;
+        top: 174px;
+        left: -157px;
     }
     #holdingsmembers .map .usa {
         position: absolute;
-        top: 226px;
-        left: 8px;
+        top: 159px;
+        left: 32px;
     }
     #holdingsmembers .map .cannada {
         position: absolute;
-        top: 243px;
-        left: -12px;
+        top: 216px;
+        left: -115px;
+    }
+    #holdingsmembers .map p {
+        position: absolute;
+        margin-top: 57px;
+        width: 100%;
+        margin-right: 78px;
+    }
+}
+
+@media ( max-width: 376px) {
+    #ecosystem {
+        padding: 34px;
+    }
+    #holdingsmembers .map {
+        /* background: url(../img/bg-map.png);
+        background-repeat: no-repeat; */
+        background-size: 414px 311px;
+    }
+    #holdingsmembers .map .singapore {
+        position: absolute;
+        top: 130px;
+        right: 9px;  
+    }
+    #holdingsmembers .map .vietnam {
+        position: absolute;
+        top: 164px;
+        right: 29px;   
+    }
+    #holdingsmembers .map .hongkong {
+        position: absolute; 
+        top: 198px;
+        left: -339px;
+    }
+    #holdingsmembers .map .south {
+        position: absolute;
+        top: 93px;
+        left: -144px; 
+    }
+    #holdingsmembers .map .dubai {
+        position: absolute;
+        top: 159px;
+        left: -176px
+    }
+    #holdingsmembers .map .usa {
+        position: absolute;
+        top: 159px;
+        left: 32px;
+    }
+    #holdingsmembers .map .cannada {
+        position: absolute;
+        top: 216px;
+        left: -129px;
     }
     #holdingsmembers .map p {
         position: absolute;
@@ -2283,9 +2411,9 @@ footer .copyright {
 @media (max-width: 320px) {
     .memberLocation {
         display: inline-flex;
-        width: 15px;
-        height: 15px;
-        padding: 4px;
+        width: 10px;
+        height: 10px;
+        padding: 2px;
         align-items: center;
         justify-content: center;
         position: relative;
@@ -2297,44 +2425,44 @@ footer .copyright {
     }
     #holdingsmembers .map .singapore {
         position: absolute;
-        top: 205px;
-        right: 9px;    
+        top: 98px;
+        right: 9px; 
     }
     #holdingsmembers .map .vietnam {
         position: absolute;
-        top: 237px;
+        top: 142px;
         right: 47px;
     }
     #holdingsmembers .map .hongkong {
         position: absolute;
-        top: 263px;
-        right: 27px;
+        top: 176px;
+        left: -394px;
     }
     #holdingsmembers .map .south {
         position: absolute;
-        top: 200px;
-        left: -110px;    
+        top: 70px;
+        left: -184px;   
     }
     #holdingsmembers .map .dubai {
         position: absolute;
-        top: 240px;
-        left: -124px;
+        top: 158px;
+        left: -224px;
     }
     #holdingsmembers .map .usa {
         position: absolute;
-        top: 246px;
-        left: -14px;
+        top: 154px;
+        left: 16px;
     }
     #holdingsmembers .map .cannada {
         position: absolute;
-        top: 267px;
-        left: -48px;    
+        top: 225px;
+        left: -145px;    
     }
     #holdingsmembers .map p {
         position: absolute;
-        margin-top: 57px;
+        margin-top: 41px;
         width: 100%;
-        margin-right: 78px; 
+        margin-right: 56px; 
     }
 }
 @media ( width: 390px ) {

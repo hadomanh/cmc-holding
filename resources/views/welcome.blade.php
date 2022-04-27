@@ -11,7 +11,7 @@
                 <div class="content">
                     <div class="carouselContent">
                         <h1 class="title">Metaway Holdings<br><span class="fw-light">The Big Things</span></h1>
-                        <h6 class="subTitle">Digital Economy Corporation</h6>
+                        <p class="subTitle">Digital Economy Corporation</p>
                         <a href="{{ route('about') }}" class="more">
                             @lang('read more')  <i class="fa-solid fa-angle-right"></i>
                         </a>

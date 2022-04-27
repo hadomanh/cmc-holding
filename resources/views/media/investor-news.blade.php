@@ -17,7 +17,7 @@
                     <a href="{{ route('media.investor-detail', $investorNews[0]->id) }}">
                         <img src="{{ $investorNews[0]->thumbnail }}" alt="" class="w-100">
                         <div class="mt-3">
-                            <h4>{{ $investorNews[0]->title }}</h4>
+                            <h4 class="title-new">{{ $investorNews[0]->title }}</h4>
                             <span class="miniSize">{{ date('Y-m-d', strtotime($investorNews[0]->created_at)) }}</span>
                             <p class="text-dark">{{ $investorNews[0]->subtitle }}</p>
                         </div>
@@ -32,7 +32,7 @@
                                 <div class="d-flex mb-4">
                                     <img src="{{ $item->thumbnail }}" alt="">
                                     <div class="ms-4">
-                                        <h4>{{ $item->title }}</h4>
+                                        <h4 class="title-new">{{ $item->title }}</h4>
                                         <span class="miniSize">{{ date('Y-m-d', strtotime($item->created_at)) }}</span>
                                     </div>
                                 </div>
@@ -49,7 +49,7 @@
                             <div class="col-12 col-lg-6"><img src="{{ $item->thumbnail }}" alt="" class="w-100"></div>
                             <div class="col-12 col-lg-6"> 
                                 <div class="mt-3">
-                                <h4>{{ $item->title }}</h4>
+                                <h4 class="title-new">{{ $item->title }}</h4>
                                 <span class="miniSize">{{ date('Y-m-d', strtotime($item->created_at)) }}</span>
                                 <p  class="text-dark">{{ $item->subtitle }}</p>
                                 </div>
