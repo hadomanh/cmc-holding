@@ -28,7 +28,7 @@
                 <div class="col-lg-4 col-12">
                     @foreach ($investorNews as $item)
                         @if ($loop->index > 0 && $loop->index < ($investorNews->count() - 1) / 2)
-                            <a href="">
+                            <a href="{{ route('media.investor-detail', $item->id) }}">
                                 <div class="d-flex mb-4">
                                     <img src="{{ $item->thumbnail }}" alt="">
                                     <div class="ms-4">
@@ -44,7 +44,7 @@
 
             @foreach ($investorNews as $item)
                 @if ($loop->index >= ($investorNews->count() - 1) / 2)
-                    <a href="">
+                    <a href="{{ route('media.investor-detail', $item->id) }}">
                         <div class="row pt-4 title-investor">
                             <div class="col-12 col-lg-6"><img src="{{ $item->thumbnail }}" alt="" class="w-100"></div>
                             <div class="col-12 col-lg-6"> 

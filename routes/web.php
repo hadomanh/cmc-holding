@@ -41,7 +41,8 @@ Route::prefix('media')->group(function () {
 
     Route::get('/news/{id}', function ($id) {
         $news = News::find($id);
-        return view('media.news-detail')->with(compact('news'));
+        $relatedNews = News::where('id', '!=', $id)->take(5)->get();
+        return view('media.news-detail')->with(compact('news', 'relatedNews'));
     })->name('media.news-detail');
 
     Route::get('/press', function () {
