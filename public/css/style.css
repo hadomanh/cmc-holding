@@ -33,7 +33,6 @@ h5,
 h6 {
     font-weight: 600;
     color: #000000;
-    text-align: initial;
 }
 
 .form-control:focus {
@@ -1461,7 +1460,7 @@ header .navbar .dropdown-toggle:after {
     animation: ripple 1000ms infinite;
 }
 /*======================INVESTOR-DETAIL========================*/
-#mediaNews .title-new{
+.title-new{
 text-align: initial !important;
 }
 /*========================== REPORT PAGE ==========================*/
