@@ -1897,31 +1897,37 @@ footer .copyright {
 }
 @media ( max-width: 770px) {
     #ecosystem {
-        padding: 79px;
+        padding: 75px;
+    }
+    
+}
+@media ( max-width: 764px) {
+    #ecosystem {
+        padding: 70px;
     }
     
 }
 @media ( max-width: 730px) {
     #ecosystem {
-        padding: 77px;
+        padding: 67px;
     }
     
 }
 @media ( max-width: 726px) {
     #ecosystem {
-        padding: 68px;
-    }
-    
-}
-@media ( max-width: 374px) {
-    #ecosystem {
-        padding: 34px;
+        padding: 55px;
     }
     
 }
 @media ( max-width: 600px) {
     #ecosystem {
         padding: 56px;
+    }
+    
+}
+@media ( max-width: 532px) {
+    #ecosystem {
+        padding: 42px;
     }
     
 }
@@ -1933,7 +1939,19 @@ footer .copyright {
 }
 @media ( max-width: 438px) {
     #ecosystem {
-        padding: 32px;
+        padding: 30px;
+    }
+    
+}
+@media ( max-width: 390px) {
+    #ecosystem {
+        padding: 24px;
+    }
+    
+}
+@media ( max-width: 374px) {
+    #ecosystem {
+        padding: 20px;
     }
     
 }
@@ -2311,5 +2329,15 @@ footer .copyright {
 @media (width: 390px) {
     .container2 .content h1 {
         font-size: 36px;
+    }
+}
+@media (width: 1198px) {
+    #corporation {
+        height: 242px !important;
+    }
+}
+@media (width: 1196px) {
+    #corporation {
+        height: 242px !important;
     }
 }
