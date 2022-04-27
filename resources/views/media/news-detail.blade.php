@@ -16,7 +16,7 @@
                     </div>
 
                     @foreach ($relatedNews as $item)
-                        <a href="{{ route('media.investor-detail', $item->id) }}">
+                        <a href="{{ route('media.news-detail', $item->id) }}">
                             <div class="d-flex mt-4">
                                 <div class="col-4">
                                     <img src="{{ $item->thumbnail }}" alt="" class="icon-detail">
