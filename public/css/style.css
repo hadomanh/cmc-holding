@@ -1474,8 +1474,8 @@ header .navbar .dropdown-toggle:after {
     animation: ripple 1000ms infinite;
 }
 /*======================INVESTOR-DETAIL========================*/
-#mediaNews .investor-detail .title-new{
-text-align: initial;
+#mediaNews .title-new{
+text-align: initial !important;
 }
 /*========================== REPORT PAGE ==========================*/
 
@@ -1547,6 +1547,9 @@ text-align: initial;
     display: flex;
     padding: 30px 0;
     margin: auto;
+}
+.title-investo{
+    text-align: initial;
 }
 .title-investor h4:hover {
     color: #CB1D23;
