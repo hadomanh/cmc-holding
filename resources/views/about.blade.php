@@ -50,7 +50,7 @@
                  <h2 class="sectionHeading text-uppercase"><span>@lang ('OUR MISSION')</span></h2>
                  <div class="row">
                     <div class="col-md-6 order-md-1 order-2 d-flex align-items-center">
-                         <div class="desc">
+                         <div class="desc text-our-mission">
                              <ul> 
                                  <li>@lang ('Utilizing the power of all social resources to build, develop and accompany the global digital economy era.')</li>
                                  <li>@lang ('Creating borderless connectivity in all fields of the digital economy.')</li>
@@ -73,7 +73,7 @@
                         <img src="{{ asset('img/blockcahin-2.png') }}" alt="" class="">
                     </div>
                     <div class="col-md-6 d-flex align-items-center">
-                        <div class="desc">
+                        <div class="desc text-our-mission">
                             <ul>
                                 <li>@lang ('Building a community of entrepreneurs, businesses, investors, and individuals with unified intelligence, companionship and sustainable development.')</li>
                                 <li>@lang ("Becoming the world's leading digital economy corporation by the convergence of intelligence, finance, technology. Thus, we contribute to the common prosperity of the global economy.")</li>
@@ -82,9 +82,9 @@
                         </div>
                     </div>
                 </div>
-
             </div>
         </section>
+       
         <section class="bgWhite ourcorevalues">
             <div class="container-lg">
             <div class="row g-0 item" id="ourcorevalues">
