@@ -1458,6 +1458,10 @@ header .navbar .dropdown-toggle:after {
     background: #fff;
     animation: ripple 1000ms infinite;
 }
+/*======================INVESTOR-DETAIL========================*/
+.mediaNews .title-new{
+text-align: initial;
+}
 /*========================== REPORT PAGE ==========================*/
 
 #reportPage .reportNav {
