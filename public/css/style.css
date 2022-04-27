@@ -1183,12 +1183,8 @@ header .navbar .dropdown-toggle:after {
 .text-our-mission ul>li {
     align-items: center;
     margin: 5px 0;
+    text-align: initial;
 }
-
-
-
-
-
 #ourvision .desc h2 {
     margin-bottom: 20px;
     margin-top: -60px !important;
@@ -1478,7 +1474,7 @@ header .navbar .dropdown-toggle:after {
     animation: ripple 1000ms infinite;
 }
 /*======================INVESTOR-DETAIL========================*/
-.mediaNews .title-new{
+#mediaNews .investor-detail .title-new{
 text-align: initial;
 }
 /*========================== REPORT PAGE ==========================*/
