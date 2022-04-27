@@ -1525,6 +1525,7 @@ header .navbar .dropdown-toggle:after {
 #mediaNews .newsItem .newsTitle {
     font-size: 20px;
     margin-bottom: 10px;
+    text-align: initial;
 }
 .miniSize {
     font-size: 12px;
@@ -1532,6 +1533,7 @@ header .navbar .dropdown-toggle:after {
 .investor h4 {
     font-weight: 700;
     font-size: 24px;
+    text-align: left;
 }
 .investor-detail {
     padding-top: 70px;
