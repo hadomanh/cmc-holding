@@ -33,6 +33,7 @@ h5,
 h6 {
     font-weight: 600;
     color: #000000;
+    text-align: initial;
 }
 
 .form-control:focus {
