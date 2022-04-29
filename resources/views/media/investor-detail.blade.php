@@ -22,7 +22,15 @@
                                     <img src="{{ $item->thumbnail }}" alt="" class="icon-detail">
                                 </div>
                                 <div class="col-8">
-                                    <h4 class="title-new">{{ $item->title }}</h4>
+                                    <strong style="
+                                        text-align: left;
+                                        overflow: hidden;
+                                        text-overflow: ellipsis;
+                                        display: -webkit-box;
+                                        -webkit-line-clamp: 3;
+                                        line-clamp: 3; 
+                                        -webkit-box-orient: vertical;
+                                    ">{{ $item->title }}</strong>
                                     <span class="miniSize">{{ date('Y-m-d', strtotime($item->created_at)) }}</span>
                                 </div>
                             </div>
