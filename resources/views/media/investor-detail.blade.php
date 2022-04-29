@@ -5,7 +5,7 @@
     <section class="investor-detail">
         <div class="container-lg">
             <div class="row title-investor">
-                <div class="col-lg-8 col-12">
+                <div class="col-lg-8 col-12 text-left">
                     <h3 class="">{!! $investorNews->title !!}</h3>
                     <br>
                     {!! $investorNews->content !!}
