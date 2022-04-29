@@ -1508,7 +1508,7 @@ header .navbar .dropdown-toggle:after {
     margin-bottom: 10px;
     text-align: initial;
 }
-#mediaNews .text-detail{
+.text-detail{
     text-align: left;
     overflow: hidden;
     text-overflow: ellipsis;
