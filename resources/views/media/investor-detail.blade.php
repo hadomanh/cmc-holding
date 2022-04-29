@@ -22,7 +22,7 @@
                                     <img src="{{ $item->thumbnail }}" alt="" class="icon-detail">
                                 </div>
                                 <div class="col-8 text-detail">
-                                    <strong class="">{{ $item->title }}</strong>
+                                    <strong class="">{{ $item->title }}</strong><br>
                                     <span class="miniSize">{{ date('Y-m-d', strtotime($item->created_at)) }}</span>
                                 </div>
                             </div>
