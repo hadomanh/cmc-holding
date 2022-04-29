@@ -1768,6 +1768,49 @@ footer .copyright {
     }
     
 }
+@media ( max-width: 1382px) {
+    #holdingsmembers .map .singapore {
+        position: absolute;
+        margin-top: 332px;
+        margin-left: 926px;
+    }
+    #holdingsmembers .map .vietnam {
+        position: absolute;
+        margin-top: 242px;
+        margin-left: 819px;
+    }
+    #holdingsmembers .map .hongkong {
+        position: absolute;
+        margin-top: 169px;
+        margin-left: 876px;
+    }
+    #holdingsmembers .map .south {
+        position: absolute;
+        margin-top: 393px;
+        margin-left: 545px;
+    }
+    #holdingsmembers .map .dubai {
+        position: absolute;
+        margin-top: 224px;
+        margin-left: 608px;
+    }
+    #holdingsmembers .map .usa {
+        position: absolute;
+        margin-top: 179px;
+        margin-left: 200px;
+    }
+    #holdingsmembers .map .cannada {
+        position: absolute;
+        margin-top: 77px;
+        margin-left: 324px;
+    }
+}
+@media ( max-width: 1398px) {
+    #ecosystem {
+        padding: 78px;
+    }
+    
+}
 @media ( max-width: 1198px) {
     #ecosystem {
         padding: 66px;

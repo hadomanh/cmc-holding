@@ -21,8 +21,8 @@
                                 <div class="col-4">
                                     <img src="{{ $item->thumbnail }}" alt="" class="icon-detail">
                                 </div>
-                                <div class="col-8">
-                                    <strong class="text-detail">{{ $item->title }}</strong>
+                                <div class="col-8 text-detail">
+                                    <strong class="">{{ $item->title }}</strong>
                                     <span class="miniSize">{{ date('Y-m-d', strtotime($item->created_at)) }}</span>
                                 </div>
                             </div>
