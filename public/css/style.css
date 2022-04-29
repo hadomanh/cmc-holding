@@ -1508,6 +1508,15 @@ header .navbar .dropdown-toggle:after {
     margin-bottom: 10px;
     text-align: initial;
 }
+#mediaNews .text-detail{
+    text-align: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    line-clamp: 3; 
+    -webkit-box-orient: vertical;
+}
 .miniSize {
     font-size: 12px;
 }
