@@ -549,10 +549,6 @@ header .navbar .dropdown-toggle:after {
     margin-top: 60px;
 }
 
-.about-home2 {
-    margin-top: -39px;
-}
-
 .banner-home {
     background: url(../img/Bg-home.png) bottom no-repeat;
     background-color: white;
@@ -2290,9 +2286,6 @@ footer .copyright {
         font-weight: 700;
         margin-left: 30px;
         margin-top: 43px;
-    }
-    .about-home2 {
-        margin-top: 0;
     }
     .ipBg {
         margin-top: 0;
