@@ -304,7 +304,7 @@ strong {
     top: 50%;
     transform: translateY(-50%);
     left: -40px;
-    background: url(../img/icon-arrow.png) no-repeat center center / contain;
+    background: url(../img/icon-arrow2.png) no-repeat center center / contain;
 }
 
 .owl-carousel .owl-nav button.owl-next {
@@ -546,12 +546,12 @@ header .navbar .dropdown-toggle:after {
     margin-top: -110px;
 }
 
-.partners .owl-carousel .item .col-custom {
+/* .partners .owl-carousel .item .col-custom {
     width: 20%;
     position: relative;
-}
+} */
 
-.partners .owl-carousel .item .col-custom:after {
+/* .partners .owl-carousel .item .col-custom:after {
     content: "";
     display: block;
     padding-bottom: 93%;
@@ -615,7 +615,7 @@ header .navbar .dropdown-toggle:after {
     height: 21px;
     width: 100%;
     right: -10px;
-    bottom: -23px;
+    bottom: -10px;
     background: url("../img/bg-partner-top.png") no-repeat right center;
 }
 
@@ -627,15 +627,11 @@ header .navbar .dropdown-toggle:after {
 
 .partners .owl-carousel .item a:hover img {
     filter: grayscale(0);
-}
-
-
-
+} */
 .partners .owl-carousel .item .col-custom {
     width: 20%;
     position: relative;
 }
-
 .partners .owl-carousel .item .col-custom:after {
     content: "";
     display: block;
@@ -645,8 +641,8 @@ header .navbar .dropdown-toggle:after {
     position: absolute;
     width: calc(100% / 1.4);
     height: calc(100% / 1.4);
-    top: calc(100% / 8);
-    left: calc(100% / 8);
+    top: calc(100% / 7);
+    left: calc(100% / 9);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -671,7 +667,7 @@ header .navbar .dropdown-toggle:after {
     ;
 }
 
-.partners .owl-carousel .item a:before {
+.partners .owl-carousel .item .bg-owl:before {
     width: 21px;
     height: 100%;
     left: -10px;
@@ -679,11 +675,11 @@ header .navbar .dropdown-toggle:after {
     background: url("../img/bg-partner-left.png") no-repeat center top;
 }
 
-.partners .owl-carousel .item a:after {
+.partners .owl-carousel .item .bg-owl:after {
     height: 21px;
     width: 100%;
     right: -10px;
-    top: -9px;
+    top: -21px;
     background: url("../img/bg-partner-top.png") no-repeat right center;
 }
 
@@ -691,7 +687,7 @@ header .navbar .dropdown-toggle:after {
     width: 21px;
     height: 100%;
     right: -10px;
-    top: -10px;
+    top: -21px;
     background: url("../img/bg-partner-left.png") no-repeat center top;
 }
 
@@ -699,7 +695,7 @@ header .navbar .dropdown-toggle:after {
     height: 21px;
     width: 100%;
     right: -10px;
-    bottom: -23px;
+    bottom: -10px;
     background: url("../img/bg-partner-top.png") no-repeat right center;
 }
 
@@ -979,7 +975,7 @@ header .navbar .dropdown-toggle:after {
 .team .listTeam .item {
     background: #FFFFFF;
     /* box-shadow: 4px 47px 45px -5px rgb(0 0 0 / 6%); */
-    box-shadow: -1px 13px 26px rgb(239 238 238 / 60%);
+    box-shadow: 0px 27px 39px rgb(240 240 234 / 81%);
     border-radius: 0px 0px 8px 8px;
 }
 .our-executive-team {

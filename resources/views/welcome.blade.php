@@ -65,7 +65,7 @@
                         <a href="#"><img class="card-img-top" src="{{ asset('img/Corporation-1.png') }}"></a>
                         <div class="card-body d-flex flex-column content">
                             <h3 class="card-title titleUnderline"><a href="#">@lang ('Brand Story')</a></h3>
-                            <p class="card-text flex-grow-1" style="height:162px;">@lang ('Born in an era when technology wave 5.0 is exploding globally,  Metaway Holdings is the convergence of pioneering leaders with outstanding vision and wisdom, unlimited imagination, a sky of creativity, and sustainable development.')</p>
+                            <p class="card-text flex-grow-1" style="height:162px;">@lang ('Born in an era when technology wave 5.0 is exploding globally, Metaway Holdings is the convergence of pioneering leaders with outstanding vision and wisdom, unlimited imagination, a sky of creativity, and sustainable development.')</p>
                             <div class="text-center">
                                 <a href="{{ route('about') }}" class="btn btnArrow">
                                     @lang ('READ MORE') <i class="fa-solid fa-angle-right p-2"></i>
@@ -117,30 +117,35 @@
                     <div class="row g-0 justify-content-center">
                         <div class="col-custom">
                             <a href="http://www.vnpost.vn/" target="blank">
+                                <span class="bg-owl"></span>
                                 <span></span>
                                 <img src="{{ asset('img/Vietnam Post.png') }}" alt="">
                             </a>
                         </div>
                         <div class="col-custom">
                             <a href="http://www.vietinbankcapital.vn/vi-vn/" target="blank">
+                                <span class="bg-owl"></span>
                                 <span></span>
                                 <img src="{{ asset('img/Viettin Capital.png') }}" alt="">
                             </a>
                         </div>
                         <div class="col-custom">
                             <a href="https://www.linkedin.com/company/acentus-capital" target="blank">
+                                <span class="bg-owl"></span>
                                 <span></span>
                                 <img src="{{ asset('img/Acentus Capital.png') }}" alt="">
                             </a>
                         </div>
                         <div class="col-custom">
                             <a href="http://www.petroland.com.vn/" target="blank">
+                                <span class="bg-owl"></span>
                                 <span></span>
                                 <img src="{{ asset('img/Petroland.png') }}" alt="">
                             </a>
                         </div>
                         <div class="col-custom">
                             <a href="https://vcci.com.vn/" target="blank">
+                                <span class="bg-owl"></span>
                                 <span></span>
                                 <img src="{{ asset('img/VVC.png') }}" alt="">
                             </a>
