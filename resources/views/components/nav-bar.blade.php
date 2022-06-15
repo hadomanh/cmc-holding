@@ -1,6 +1,6 @@
 <header>
     <div class="top">METAWAY Holdings Roadmap 2022-2027 IPO $300 billion</div>
-    <nav class="navbar navbar-expand-md bg-dark">
+    <nav class="navbar navbar-expand-md bg-dark" > 
       <a class="navbar-brand d-md-none d-block" href="{{ route('home') }}">
             <img src="{{ asset('img/Logo-cmc.png') }}" alt="">
         </a>

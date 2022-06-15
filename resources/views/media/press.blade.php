@@ -34,7 +34,7 @@
                                 <img src="{{ $item->thumbnail }}" alt="" class="w-100">
                             </a>
                             <div class="col-md-8">
-                                <h4 class="pressTitle titleUnderline">
+                                <h4 class="  titleUnderline">
                                     <a href="{{ route('media.press-detail', $item->id) }}">{{ $item->title }}</a>
                                 </h4>
                                 <div class="pressDesc">

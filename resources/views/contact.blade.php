@@ -4,20 +4,21 @@
 <div id="contactPage" class="bg-white">
     <section class="p-0">
         <div id="contact" class="carousel slide pt-0" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item active container2">
+            <div class="carousel-inner">
+                <div class="carousel-item active container2">
                     <img src="{{ asset('img/banner-contact.png') }}" alt="" class="w-100">
-                        <div class="content">
-                            <h1>CONTACT</h1>
-                        </div>
+
+                    <div class="content">
+                        <h1>CONTACT</h1>
                     </div>
                 </div>
             </div>
+        </div>
     </section>
     <section class="bgLocal">
         <div class="container-lg">
-            <div class="row align-items-center">
-            <h1 class="text-uppercase centered">Metaway Holdings</h1>
+            <div class="row align-items-center p-4 contact-metaway">
+                <h1 class="text-uppercase centered">Metaway Holdings</h1>
                 <div class="col-md-6">
                     <div class="row">
                         <div class="col-lg-6 col-md p-3">
@@ -123,6 +124,7 @@
                 </div>
             </div>
         </div>
+    </section>
 </div>
 @endsection
 

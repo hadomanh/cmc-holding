@@ -63,17 +63,17 @@
                     <ul class="list-unstyled">
                         <li>
                             <img src="{{ asset('img/icon-map.png') }}" class="icon">
-                            <div><strong>Address 1:</strong> 30 N Gould St Ste R Sheridan, Wyoming 82801, USA</div>
-                            <div><strong>Address 2:</strong> 2323 Main Street Irvine, CA 92614, U.S.A.</div>
-                            <div><strong>Address 3:</strong> CX01 lot, Van Khe urban area, La Khe Ward, Ha Dong District, Hanoi, Vietnam</div>
+                            <p><strong>Address 1:</strong> 30 N Gould St Ste R Sheridan, Wyoming 82801, USA</p>
+                            <p><strong>Address 2:</strong> 2323 Main Street Irvine, CA 92614, U.S.A.</p>
+                            <p><strong>Address 3:</strong> CX01 lot, Van Khe urban area, La Khe Ward, Ha Dong District, Hanoi, Vietnam</p>
                         </li>
                         <li>
                             <img src="{{ asset('img/Email.png') }}" class="icon">
-                            <div>info@metawayholdings.com  info@metawayholdings.vn</div>
+                            <p>info@metawayholdings.com  info@metawayholdings.vn</p>
                         </li>
                         <li>
                             <img src="{{ asset('img/icon-global-2.png') }}" class="icon">
-                            <div>www.metawayholdings.com  www.metawayholdings.vn</div>
+                            <p>www.metawayholdings.com  www.metawayholdings.vn</p>
                         </li>
                     </ul>
                 </div>
@@ -149,8 +149,8 @@
         <div class="companyInfo">
             <h6 class="title"></h6>
             <div class="row text-center">
-                <div>METAWAY Holdings.com is a proud part of METAWAY Holdings Inc., a leading business  services company.</div>
-                <div>METAWAY Holdings.com is a Registered Trademark. © 2022 – 2027  All Rights Reserved</div>
+                <p class="m-0 pt-2">METAWAY Holdings.com is a proud part of METAWAY Holdings Inc., a leading business  services company.</p>
+                <p>METAWAY Holdings.com is a Registered Trademark. © 2022 – 2027  All Rights Reserved</p>
             </div>
         </div>
     </div>
