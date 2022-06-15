@@ -4,15 +4,15 @@
 <div id="reportPage">
     <section class="banner p-0">
         <div id="annual" class="carousel slide pt-0" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item active container2">
+            <div class="carousel-inner">
+                <div class="carousel-item active container2">
                     <img src="{{ asset('img/banner-annual.png') }}" alt="" class="w-100">
-                        <div class="content">
-                            <h1>ANNUAL FINANCE REPORT</h1>
-                        </div>
+                    <div class="content">
+                        <h1>ANNUAL FINANCE REPORT</h1>
                     </div>
                 </div>
             </div>
+        </div>
     </section>
     <section class="bg-white">
         <div class="container-lg">
@@ -30,16 +30,16 @@
                 <div class="tab-pane fade show active" id="nav-internal-report" role="tabpanel" aria-labelledby="nav-internal-report-tab">
                     <table class="table align-middle">
                         <tr class="bgRed">
-                            <td>
+                            <td style="border-top-left-radius: 6px;">
                                 <div class="fw-bold text-white">TIME<i class="fas fa-arrow-down ms-2"></i></div>
                             </td>
                             <td class="text-white fw-bold">DOCUMENT</td>
-                            <td>
+                            <td style="border-top-right-radius: 6px;">
                                 <a href=""><i class="far fa-sticky-note"></i></a>
                             </td>
                         </tr>
                         <tr class="bgGrey">
-                            <td>2022</td>
+                            <td>2018</td>
                             <td>
                                 <div>Finance Report</div>
                             </td>
@@ -49,7 +49,7 @@
                             </td>
                         </tr>
                         <tr class="bgdarkGrey">
-                            <td>2023</td>
+                            <td>2019</td>
                             <td>
                                 <div>Finance Report</div>
                             </td>
@@ -59,7 +59,7 @@
                             </td>
                         </tr>
                         <tr class="bgGrey">
-                            <td>2024</td>
+                            <td>2020</td>
                             <td>
                                 <div>Finance Report</div>
                             </td>
@@ -69,7 +69,7 @@
                             </td>
                         </tr>
                         <tr class="bgdarkGrey">
-                            <td>2025</td>
+                            <td>2021</td>
                             <td>
                                 <div>Finance Report</div>
                             </td>
@@ -78,7 +78,7 @@
                                 <a href="#"><i class="fa fa-download"></i></a>
                             </td>
                         </tr>
-                        <tr class="bgGrey">
+                        <!-- <tr class="bgGrey">
                             <td>2026</td>
                             <td>
                                 <div>Finance Report</div>
@@ -87,22 +87,22 @@
                                 <a href="#"><i class="fas fa-eye"></i></a>
                                 <a href="#"><i class="fa fa-download"></i></a>
                             </td>
-                        </tr>
+                        </tr> -->
                     </table>
                 </div>
                 <div class="tab-pane fade" id="nav-finance-report" role="tabpanel" aria-labelledby="nav-finance-report-tab">
                     <table class="table align-middle">
-                    <tr class="bgRed">
-                            <td>
+                        <tr class="bgRed">
+                            <td style="border-top-left-radius: 6px;">
                                 <div class="fw-bold text-white">TIME<i class="fas fa-arrow-down ms-2"></i></div>
                             </td>
                             <td class="text-white fw-bold">DOCUMENT</td>
-                            <td>
+                            <td style="border-top-right-radius: 6px;">
                                 <a href=""><i class="far fa-sticky-note"></i></a>
                             </td>
                         </tr>
                         <tr class="bgGrey">
-                            <td>2022</td>
+                            <td>2018</td>
                             <td>
                                 <div>Finance Report</div>
                             </td>
@@ -112,7 +112,7 @@
                             </td>
                         </tr>
                         <tr class="bgdarkGrey">
-                            <td>2023</td>
+                            <td>2019</td>
                             <td>
                                 <div>Finance Report</div>
                             </td>
@@ -122,7 +122,7 @@
                             </td>
                         </tr>
                         <tr class="bgGrey">
-                            <td>2024</td>
+                            <td>2020</td>
                             <td>
                                 <div>Finance Report</div>
                             </td>
@@ -132,7 +132,7 @@
                             </td>
                         </tr>
                         <tr class="bgdarkGrey">
-                            <td>2025</td>
+                            <td>2021</td>
                             <td>
                                 <div>Finance Report</div>
                             </td>
@@ -141,7 +141,7 @@
                                 <a href="#"><i class="fa fa-download"></i></a>
                             </td>
                         </tr>
-                        <tr class="bgGrey">
+                        <!-- <tr class="bgGrey">
                             <td>2026</td>
                             <td>
                                 <div>Finance Report</div>
@@ -150,22 +150,22 @@
                                 <a href="#"><i class="fas fa-eye"></i></a>
                                 <a href="#"><i class="fa fa-download"></i></a>
                             </td>
-                        </tr>
+                        </tr> -->
                     </table>
                 </div>
                 <div class="tab-pane fade" id="nav-business-result-report" role="tabpanel" aria-labelledby="nav-business-result-report-tab">
                     <table class="table align-middle">
-                    <tr class="bgRed">
-                            <td>
+                        <tr class="bgRed">
+                            <td style="border-top-left-radius: 6px;">
                                 <div class="fw-bold text-white">TIME<i class="fas fa-arrow-down ms-2"></i></div>
                             </td>
                             <td class="text-white fw-bold">DOCUMENT</td>
-                            <td>
+                            <td style="border-top-right-radius: 6px;">
                                 <a href=""><i class="far fa-sticky-note"></i></a>
                             </td>
                         </tr>
                         <tr class="bgGrey">
-                            <td>2022</td>
+                            <td>2018</td>
                             <td>
                                 <div>Finance Report</div>
                             </td>
@@ -175,7 +175,7 @@
                             </td>
                         </tr>
                         <tr class="bgdarkGrey">
-                            <td>2023</td>
+                            <td>2019</td>
                             <td>
                                 <div>Finance Report</div>
                             </td>
@@ -185,7 +185,7 @@
                             </td>
                         </tr>
                         <tr class="bgGrey">
-                            <td>2024</td>
+                            <td>2020</td>
                             <td>
                                 <div>Finance Report</div>
                             </td>
@@ -195,7 +195,7 @@
                             </td>
                         </tr>
                         <tr class="bgdarkGrey">
-                            <td>2025</td>
+                            <td>2021</td>
                             <td>
                                 <div>Finance Report</div>
                             </td>
@@ -204,7 +204,7 @@
                                 <a href="#"><i class="fa fa-download"></i></a>
                             </td>
                         </tr>
-                        <tr class="bgGrey">
+                        <!-- <tr class="bgGrey">
                             <td>2026</td>
                             <td>
                                 <div>Finance Report</div>
@@ -213,7 +213,7 @@
                                 <a href="#"><i class="fas fa-eye"></i></a>
                                 <a href="#"><i class="fa fa-download"></i></a>
                             </td>
-                        </tr>
+                        </tr> -->
                     </table>
                 </div>
             </div>
