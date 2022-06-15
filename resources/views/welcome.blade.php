@@ -182,30 +182,35 @@
                     <div class="row g-0 justify-content-center">
                         <div class="col-custom col-sm-6">
                             <a href="http://www.vnpost.vn/" target="blank">
+                                <span class="bg-owl"></span>
                                 <span></span>
                                 <img src="{{ asset('img/Vietnam Post.png') }}" alt="">
                             </a>
                         </div>
                         <div class="col-custom col-sm-6">
                             <a href="http://www.vietinbankcapital.vn/vi-vn/" target="blank">
+                                <span class="bg-owl"></span>
                                 <span></span>
                                 <img src="{{ asset('img/Viettin Capital.png') }}" alt="">
                             </a>
                         </div>
                         <div class="col-custom col-sm-6">
                             <a href="https://www.linkedin.com/company/acentus-capital" target="blank">
+                                <span class="bg-owl"></span>
                                 <span></span>
                                 <img src="{{ asset('img/Acentus Capital.png') }}" alt="">
                             </a>
                         </div>
                         <div class="col-custom col-sm-6">
                             <a href="http://www.petroland.com.vn/" target="blank">
+                                <span class="bg-owl"></span>
                                 <span></span>
                                 <img src="{{ asset('img/Petroland.png') }}" alt="">
                             </a>
                         </div>
                         <div class="col-custom col-sm-6">
                             <a href="https://vcci.com.vn/" target="blank">
+                                <span class="bg-owl"></span>
                                 <span></span>
                                 <img src="{{ asset('img/VVC.png') }}" alt="">
                             </a>
