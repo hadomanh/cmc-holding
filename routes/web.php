@@ -52,7 +52,8 @@ Route::prefix('media')->group(function () {
 
     Route::get('/press/{id}', function ($id) {
         $press = Press::find($id);
-        return view('media.press-detail')->with(compact('press'));
+        $relatedPress = Press::where('id', '!=', $id)->take(5)->get();
+        return view('media.press-detail')->with(compact('press', 'relatedPress'));
     })->name('media.press-detail');
 
     Route::get('/investor-news', function () {

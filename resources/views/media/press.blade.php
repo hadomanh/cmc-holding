@@ -7,7 +7,7 @@
     </section>
     <section>
         <div class="container-lg">
-            <h2 class="sectionHeading text-uppercase centered">NEWS</h2>
+            <h2 class="sectionHeading text-uppercase centered">PRESS RELEASE</h2>
             <div class="row">
                 
                 <div class="col-lg-6 col-12">
