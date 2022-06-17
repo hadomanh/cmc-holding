@@ -8,7 +8,7 @@
                 <div class="carousel-item active container2">
                     <img src="{{ asset('img/banner-annual.png') }}" alt="" class="w-100">
                     <div class="content">
-                        <h1>ANNUAL FINANCE REPORT</h1>
+                        <h1>@lang ('ANNUAL FINANCE REPORT')</h1>
                     </div>
                 </div>
             </div>
@@ -20,9 +20,9 @@
             <div class="row g-0 reportNav">
                 <nav class="col d-flex justify-content-center">
                     <div class="nav nav-tabs" id="nav-tab" role="tablist">
-                        <button class="nav-link active" id="nav-internal-report-tab" data-bs-toggle="tab" data-bs-target="#nav-internal-report" type="button" role="tab" aria-controls="nav-internal-report" aria-selected="true">Annual Finance Report</button>
-                        <button class="nav-link" id="nav-finance-report-tab" data-bs-toggle="tab" data-bs-target="#nav-finance-report" type="button" role="tab" aria-controls="nav-finance-report" aria-selected="false">Finance Report</button>
-                        <button class="nav-link" id="nav-business-result-report-tab" data-bs-toggle="tab" data-bs-target="#nav-business-result-report" type="button" role="tab" aria-controls="nav-business-result-report" aria-selected="false">Business Result Report</button>
+                        <button class="nav-link active" id="nav-internal-report-tab" data-bs-toggle="tab" data-bs-target="#nav-internal-report" type="button" role="tab" aria-controls="nav-internal-report" aria-selected="true">@lang ('Annual Finance Report')</button>
+                        <button class="nav-link" id="nav-finance-report-tab" data-bs-toggle="tab" data-bs-target="#nav-finance-report" type="button" role="tab" aria-controls="nav-finance-report" aria-selected="false">@lang ('Finance Report')</button>
+                        <button class="nav-link" id="nav-business-result-report-tab" data-bs-toggle="tab" data-bs-target="#nav-business-result-report" type="button" role="tab" aria-controls="nav-business-result-report" aria-selected="false">@lang ('Business Result Report')</button>
                     </div>
                 </nav>
             </div>
@@ -41,7 +41,7 @@
                         <tr class="bgGrey">
                             <td>2018</td>
                             <td>
-                                <div>Finance Report</div>
+                                <div>@lang ('Finance Report')</div>
                             </td>
                             <td>
                                 <a href="#"><i class="fas fa-eye"></i></a>
@@ -51,7 +51,7 @@
                         <tr class="bgdarkGrey">
                             <td>2019</td>
                             <td>
-                                <div>Finance Report</div>
+                                <div>@lang ('Finance Report')</div>
                             </td>
                             <td>
                                 <a href="#"><i class="fas fa-eye"></i></a>
@@ -61,7 +61,7 @@
                         <tr class="bgGrey">
                             <td>2020</td>
                             <td>
-                                <div>Finance Report</div>
+                                <div>@lang ('Finance Report')</div>
                             </td>
                             <td>
                                 <a href="#"><i class="fas fa-eye"></i></a>
@@ -71,7 +71,7 @@
                         <tr class="bgdarkGrey">
                             <td>2021</td>
                             <td>
-                                <div>Finance Report</div>
+                                <div>@lang ('Finance Report')</div>
                             </td>
                             <td>
                                 <a href="#"><i class="fas fa-eye"></i></a>

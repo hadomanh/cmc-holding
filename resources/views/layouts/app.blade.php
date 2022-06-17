@@ -63,9 +63,9 @@
                     <ul class="list-unstyled">
                         <li>
                             <img src="{{ asset('img/icon-map.png') }}" class="icon">
-                            <p><strong>Address 1:</strong> 30 N Gould St Ste R Sheridan, Wyoming 82801, USA</p>
-                            <p><strong>Address 2:</strong> 2323 Main Street Irvine, CA 92614, U.S.A.</p>
-                            <p><strong>Address 3:</strong> CX01 lot, Van Khe urban area, La Khe Ward, Ha Dong District, Hanoi, Vietnam</p>
+                            <p><strong>@lang ('Address 1:')</strong> 30 N Gould St Ste R Sheridan, Wyoming 82801, USA</p>
+                            <p><strong>@lang ('Address 2:')</strong> 2323 Main Street Irvine, CA 92614, U.S.A.</p>
+                            <p><strong>@lang ('Address 3:')</strong> @lang ('CX01 lot, Van Khe urban area, La Khe Ward, Ha Dong District, Hanoi, Vietnam')</p>
                         </li>
                         <li>
                             <img src="{{ asset('img/Email.png') }}" class="icon">
@@ -82,16 +82,16 @@
                 <div class="col-md-5 col-xl-3">
                     <ul>
                         <li class="parent list-unstyled">
-                            <span class="">About us</span>
+                            <span class="">@lang ('About us')</span>
                             <ul class="list-unstyled">
-                                <li><a href="{{ route('about') }}">Overview</a></li>
-                                <li><a href="{{ route('about') }}">Our Mission</a></li>
-                                <li><a href="{{ route('about') }}">Our Vision</a></li>
-                                <li><a href="{{ route('about') }}">Our Core Values</a></li>
-                                <li><a href="{{ route('about') }}">Investment Sectors </a></li>
-                                <li><a href="{{ route('about') }}">Our Ecosystem</a></li>
-                                <li><a href="{{ route('about') }}">Holdings Members</a></li>
-                                <li><a href="{{ route('about') }}">Our Executive Team</a></li>
+                                <li><a href="{{ route('about') }}">@lang ('Overview')</a></li>
+                                <li><a href="{{ route('about') }}">@lang ('Our Mission')</a></li>
+                                <li><a href="{{ route('about') }}">@lang ('Our Vision')</a></li>
+                                <li><a href="{{ route('about') }}">@lang ('Our Core Values')</a></li>
+                                <li><a href="{{ route('about') }}">@lang ('Investment Sectors') </a></li>
+                                <li><a href="{{ route('about') }}">@lang ('Our Ecosystem')</a></li>
+                                <li><a href="{{ route('about') }}">@lang ('Holdings Members')</a></li>
+                                <li><a href="{{ route('about') }}">@lang ('Our Executive Team')</a></li>
                             </ul>
                         </li>
                     </ul>
@@ -113,11 +113,11 @@
                 <div class="col-md-5 col-xl-3">
                     <ul>
                         <li class="parent list-unstyled">
-                            <span>Investor</span>
+                            <span>@lang ('Investor')</span>
                             <ul class="list-unstyled">
-                                <li><a href="{{ route('investor.internal') }}">Internal Report</a></li>
-                                <li><a href="{{ route('investor.finance') }}">Annual Finance Report</a></li>
-                                <li><a href="{{ route('investor.sec-filing') }}">Sec Filing</a></li>
+                                <li><a href="{{ route('investor.internal') }}">@lang ('Internal Report')</a></li>
+                                <li><a href="{{ route('investor.finance') }}">@lang ('Annual Finance Report')</a></li>
+                                <li><a href="{{ route('investor.sec-filing') }}">@lang ('Sec Filing')</a></li>
                             </ul>
                         </li>
                     </ul>
@@ -125,11 +125,11 @@
                 <div class="col-md-5 col-xl-3">
                     <ul>
                         <li class="parent list-unstyled">
-                            <span>Media</span>
+                            <span>@lang ('Media')</span>
                             <ul class="list-unstyled">
-                                <li><a href="{{ route('media.investor-news') }}">Investment News</a></li>
-                                <li><a href="{{ route('media.news') }}">News</a></li>
-                                <li><a href="{{ route('media.press') }}">Press Release</a></li>
+                                <li><a href="{{ route('media.investor-news') }}">@lang ('Investment News')</a></li>
+                                <li><a href="{{ route('media.news') }}">@lang ('News')</a></li>
+                                <li><a href="{{ route('media.press') }}">@lang ('Press Release')</a></li>
                             </ul>
                         </li>
                     </ul>
@@ -137,7 +137,7 @@
                 <div class="col-md-5 col-xl-3">
                     <ul>
                         <li class="list-unstyled"> 
-                    <a href="{{ route('contact') }}"><span>Contact</span></a>
+                    <a href="{{ route('contact') }}"><span>@lang ('Contact')</span></a>
                     </li></ul>
                     
                 </div>
@@ -149,8 +149,8 @@
         <div class="companyInfo">
             <h6 class="title"></h6>
             <div class="row text-center">
-                <p class="m-0 pt-2">METAWAY Holdings.com is a proud part of METAWAY Holdings Inc., a leading business  services company.</p>
-                <p>METAWAY Holdings.com is a Registered Trademark. © 2022 – 2027  All Rights Reserved</p>
+                <p class="m-0 pt-2">@lang ('METAWAY Holdings.com is a proud part of METAWAY Holdings Inc., a leading business  services company.')</p>
+                <p>@lang ('METAWAY Holdings.com is a Registered Trademark. © 2022 – 2027  All Rights Reserved')</p>
             </div>
         </div>
     </div>
