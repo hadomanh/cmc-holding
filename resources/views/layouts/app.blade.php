@@ -127,7 +127,7 @@
                         <li class="parent list-unstyled">
                             <span>@lang ('Media')</span>
                             <ul class="list-unstyled">
-                                <li><a href="{{ route('media.investor-news') }}">@lang ('Investment News')</a></li>
+                                <li><a href="{{ route('media.investor-news') }}">@lang ('Investor News')</a></li>
                                 <li><a href="{{ route('media.news') }}">@lang ('News')</a></li>
                                 <li><a href="{{ route('media.press') }}">@lang ('Press Release')</a></li>
                             </ul>
