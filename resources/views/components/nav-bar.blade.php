@@ -1,5 +1,5 @@
 <header>
-    <div class="top">METAWAY Holdings Roadmap 2022-2027 IPO $300 billion</div>
+    <div class="top">@lang ('METAWAY Holdings Roadmap 2022-2027 IPO $300 billion')</div>
     <nav class="navbar navbar-expand-md bg-dark" > 
       <a class="navbar-brand d-md-none d-block" href="{{ route('home') }}">
             <img src="{{ asset('img/Logo-cmc.png') }}" alt="">
@@ -10,19 +10,19 @@
         <div class="collapse navbar-collapse justify-content-around align-items-end" id="navbarSupportedContent">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link {{ $isActive('home') }}" aria-current="page" href="{{ route('home') }}">Home</a>
+                    <a class="nav-link {{ $isActive('home') }}" aria-current="page" href="{{ route('home') }}">@lang ('Home')</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link {{ $isActive('about') }}" href="{{ route('about') }}">About us</a>
+                    <a class="nav-link {{ $isActive('about') }}" href="{{ route('about') }}">@lang ('About us')</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle {{ $isActive('investor') }}" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Investor
+                        @lang ('Investor')
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="{{ route('investor.internal') }}">Internal Report</a></li>
-                        <li><a class="dropdown-item" href="{{ route('investor.finance') }}">Annual Finance Report</a></li>
-                        <li><a class="dropdown-item" href="{{ route('investor.sec-filing') }}">Sec Filing</a></li>
+                        <li><a class="dropdown-item" href="{{ route('investor.internal') }}">@lang ('Internal Report')</a></li>
+                        <li><a class="dropdown-item" href="{{ route('investor.finance') }}">@lang ('Annual Finance Report')</a></li>
+                        <li><a class="dropdown-item" href="{{ route('investor.sec-filing') }}">@lang ('Sec Filing')</a></li>
                     </ul>
                 </li>
             </ul>
@@ -32,16 +32,16 @@
             <ul class="navbar-nav">
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle {{ $isActive('media') }}" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Media
+                        @lang ('Media')
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="{{ route('media.investor-news') }}">Investor News</a></li>
-                        <li><a class="dropdown-item" href="{{ route('media.news') }}">News</a></li>
-                        <li><a class="dropdown-item" href="{{ route('media.press') }}">Press Release</a></li>
+                        <li><a class="dropdown-item" href="{{ route('media.investor-news') }}">@lang ('Investor News')</a></li>
+                        <li><a class="dropdown-item" href="{{ route('media.news') }}">@lang ('News')</a></li>
+                        <li><a class="dropdown-item" href="{{ route('media.press') }}">@lang ('Press Release')</a></li>
                     </ul>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link {{ $isActive('contact') }}" href="{{ route('contact') }}">Contact</a>
+                    <a class="nav-link {{ $isActive('contact') }}" href="{{ route('contact') }}">@lang ('Contact')</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">

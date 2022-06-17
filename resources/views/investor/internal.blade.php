@@ -8,7 +8,7 @@
                     <div class="carousel-item active container2">
                     <img src="{{ asset('img/banner-internal.png') }}" alt="" class="w-100">
                         <div class="content">
-                            <h1>INTERNAL REPORT</h1>
+                            <h1>@lang ('INTERNAL REPORT')</h1>
                         </div>
                     </div>
                 </div>
@@ -29,9 +29,9 @@
                 <table class="table align-middle">
                         <tr class="bgRed">
                             <td>
-                                <div class="fw-bold text-white">TIME<i class="fas fa-arrow-down ms-2"></i></div>
+                                <div class="fw-bold text-white">@lang ('TIME')<i class="fas fa-arrow-down ms-2"></i></div>
                             </td>
-                            <td class="text-white fw-bold">DOCUMENT</td>
+                            <td class="text-white fw-bold">@lang ('DOCUMENT')</td>
                             <td>
                                 <a href=""><i class="far fa-sticky-note"></i></a>
                             </td>
@@ -39,7 +39,7 @@
                         <tr class="bgGrey">
                             <td>2018</td>
                             <td>
-                                <div>Finance Report</div>
+                                <div>@lang ('Finance Report')</div>
                             </td>
                             <td>
                                 <a href="#"><i class="fas fa-eye"></i></a>
@@ -49,7 +49,7 @@
                         <tr class="bgdarkGrey">
                             <td>2019</td>
                             <td>
-                                <div>Finance Report</div>
+                                <div>@lang ('Finance Report')</div>
                             </td>
                             <td>
                                 <a href="#"><i class="fas fa-eye"></i></a>

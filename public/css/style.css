@@ -453,6 +453,11 @@ header .navbar-nav .dropdown-menu .dropdown-item {
     font-size: 14px;
     padding: 20px 40px;
     border-left: 5px solid transparent;
+    border-radius: 8px;
+}
+
+.dropdown-item.active, .dropdown-item:active {
+    background-color: #fff;
 }
 
 header .navbar-nav .dropdown-menu .dropdown-item:hover {
