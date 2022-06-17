@@ -91,7 +91,7 @@
 
                 <div class="col-md-12 order-md-1">
                     <div class="desc row justify-content-center">
-                        <div class="col-md-3 our-core">
+                        <div class="col-lg-3 col-md-4 our-core">
                             <p>1</p>
                             <h5>@lang ('Think Big')</h5>
                             <ul class="ms-2">
@@ -100,7 +100,7 @@
                                 <li class="boder-ourcore">@lang ('Respect the diversity')</li>
                             </ul>
                         </div>
-                        <div class="col-md-3 our-core">
+                        <div class="col-lg-3 col-md-4 our-core">
                             <p>2</p>
                             <h5>@lang ('Spirit of Dedication')</h5>
                             <ul class="ms-2">
@@ -109,7 +109,7 @@
                                 <li class="boder-ourcore">@lang ('Giving is forever lasted')</li>
                             </ul>
                         </div>
-                        <div class="col-md-3 our-core">
+                        <div class="col-lg-3 col-md-4 our-core">
                             <p>3</p>
                             <h5 class="">@lang ('Transparency, safety')</h5>
                             <ul class="ms-2">
