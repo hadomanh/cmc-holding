@@ -10,8 +10,8 @@
             </video>
             <div class="content">
                 <div class="carouselContent">
-                    <h1 class="title ">METAWAY HOLDING<br><span class="fw-light mt-3">The Big Things</span></h1>
-                    <p class="subTitle">Digital Economy Corporation</p>
+                    <h1 class="title ">METAWAY HOLDING<br><span class="fw-light mt-3">@lang ('The Big Things')</span></h1>
+                    <p class="subTitle">@lang ('Digital Economy Corporation')</p>
                     <a href="{{ route('about') }}" class="more">
                         @lang('read more') <i class="fa-solid fa-angle-right"></i>
                     </a>
@@ -57,8 +57,8 @@
     <!-- Business highlights -->
     <section class="newsHighlights bgGrey bgArrow">
         <div class="container-lg">
-            <h2 class="sectionHeading centered p-3">CORPORATION HIGHLIGHTS</h2>
-            <p class="text-center p-3">The rise of the technology 5.0 revolution has motivated METAWAY Holdings' tycoons and founders to invest and participate in the fields of digital finance, advanced real estate development, and international commodities. </p>
+            <h2 class="sectionHeading centered p-3">@lang ('CORPORATION HIGHLIGHTS')</h2>
+            <p class="text-center p-3">@lang ("The rise of the technology 5.0 revolution has motivated METAWAY Holdings' tycoons and founders to invest and participate in the fields of digital finance, advanced real estate development, and international commodities.") </p>
             <div class="row pt-4">
                 <div class="col-md-4">
                     <div class="card container1">
@@ -94,7 +94,7 @@
                         <a href="#"><img class="card-img-top" src="{{ asset('img/Corporation-3.png') }}"></a>
                         <div class="card-body d-flex flex-column content">
                             <h3 class="card-title titleUnderline"><a href="#">@lang ('Ecosystem')</a></h3>
-                            <p class="card-text flex-grow-1" style="height:162px;" id="corporation"><strong>@lang ('The Metaway Holdings')</strong> @lang (" ecosystem is investing in products and services for specialized needs: The backbone pillar of the digital economy, Enormous Volume, Global Scale, Recurrent Demand, Fast-developing Market.")</p>
+                            <p class="card-text flex-grow-1" style="height:162px;" id="corporation"><strong>@lang ('The Metaway Holdings')</strong> @lang ("ecosystem is investing in products and services for specialized needs: The backbone pillar of the digital economy, Enormous Volume, Global Scale, Recurrent Demand, Fast-developing Market.")</p>
                             <div class="text-center">
                                 <a href="{{ route('about') }}" class="btn btnArrow">
                                     @lang ('READ MORE') <i class="fa-solid fa-angle-right p-2"></i>
@@ -110,8 +110,8 @@
     <!-- Our parnters -->
     <section class="bgWhite partners">
         <div class="container-lg">
-            <h2 class="sectionHeading centered">OUR PARTNERS</h2>
-            <p class="text-center p-3">We prefer to work with companies who have a common vision and can come along with our business ecosystem and corporate culture value system. Our partners come from the multi-diversification of internal and external resources.</p>
+            <h2 class="sectionHeading centered">@lang ('OUR PARTNERS')</h2>
+            <p class="text-center p-3">@lang ('We prefer to work with companies who have a common vision and can come along with our business ecosystem and corporate culture value system. Our partners come from the multi-diversification of internal and external resources.')</p>
             <div class="owl-carousel">
                 <div class="item">
                     <div class="row g-0 justify-content-center">
@@ -276,7 +276,7 @@
     <!-- As seen on -->
     <section class="bgWhite asSeenOn">
         <div class="container-lg">
-            <h2 class="sectionHeading centered">AS SEEN ON</h2>
+            <h2 class="sectionHeading centered">@lang ('AS SEEN ON')</h2>
             <div class="owl-carousel">
                 <div class="item">
                     <div class="row g-0  justify-content-center">
