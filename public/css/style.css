@@ -634,13 +634,13 @@ header .navbar .dropdown-toggle:after {
     filter: grayscale(0);
 } */
 .partners .owl-carousel .item .col-custom {
-    width: 20%;
+    width: 16%;
     position: relative;
 }
 .partners .owl-carousel .item .col-custom:after {
     content: "";
     display: block;
-    padding-bottom: 93%;
+    padding-bottom: 100%;
 }
 .partners .owl-carousel .item a {
     position: absolute;
@@ -675,24 +675,24 @@ header .navbar .dropdown-toggle:after {
 .partners .owl-carousel .item .bg-owl:before {
     width: 21px;
     height: 100%;
-    left: -10px;
-    top: -10px;
+    left: -3px;
+    top: -2px;
     background: url("../img/bg-partner-left.png") no-repeat center top;
 }
 
 .partners .owl-carousel .item .bg-owl:after {
     height: 21px;
     width: 100%;
-    right: -10px;
-    top: -21px;
+    right: -14px;
+    top: -5px;
     background: url("../img/bg-partner-top.png") no-repeat right center;
 }
 
 .partners .owl-carousel .item a span:before {
     width: 21px;
     height: 100%;
-    right: -10px;
-    top: -21px;
+    right: -13px;
+    top: -4px;
     background: url("../img/bg-partner-left.png") no-repeat center top;
 }
 

@@ -123,6 +123,13 @@
                             </a>
                         </div>
                         <div class="col-custom">
+                            <a href="https://corex.vn/" target="blank">
+                                <span class="bg-owl"></span>
+                                <span></span>
+                                <img src="{{ asset('img/corex-logo.png') }}" alt="">
+                            </a>
+                        </div>
+                        <div class="col-custom">
                             <a href="http://www.vietinbankcapital.vn/vi-vn/" target="blank">
                                 <span class="bg-owl"></span>
                                 <span></span>
@@ -156,6 +163,12 @@
                             <a href="http://phiglobal.com/" target="blank">
                                 <span></span>
                                 <img src="{{ asset('img/Phi Group.png') }}" alt="">
+                            </a>
+                        </div>
+                        <div class="col-custom">
+                            <a href="https://pencil.vn/" target="blank">
+                                <span></span>
+                                <img src="{{ asset('img/pencil-logo.png') }}" alt="">
                             </a>
                         </div>
                         <div class="col-custom">
@@ -180,35 +193,42 @@
                 </div>
                 <div class="item">
                     <div class="row g-0 justify-content-center">
-                        <div class="col-custom col-sm-6">
+                        <div class="col-custom">
                             <a href="http://www.vnpost.vn/" target="blank">
                                 <span class="bg-owl"></span>
                                 <span></span>
                                 <img src="{{ asset('img/Vietnam Post.png') }}" alt="">
                             </a>
                         </div>
-                        <div class="col-custom col-sm-6">
+                        <div class="col-custom">
+                            <a href="https://corex.vn/" target="blank">
+                                <span class="bg-owl"></span>
+                                <span></span>
+                                <img src="{{ asset('img/corex-logo.png') }}" alt="">
+                            </a>
+                        </div>
+                        <div class="col-custom">
                             <a href="http://www.vietinbankcapital.vn/vi-vn/" target="blank">
                                 <span class="bg-owl"></span>
                                 <span></span>
                                 <img src="{{ asset('img/Viettin Capital.png') }}" alt="">
                             </a>
                         </div>
-                        <div class="col-custom col-sm-6">
+                        <div class="col-custom">
                             <a href="https://www.linkedin.com/company/acentus-capital" target="blank">
                                 <span class="bg-owl"></span>
                                 <span></span>
                                 <img src="{{ asset('img/Acentus Capital.png') }}" alt="">
                             </a>
                         </div>
-                        <div class="col-custom col-sm-6">
+                        <div class="col-custom">
                             <a href="http://www.petroland.com.vn/" target="blank">
                                 <span class="bg-owl"></span>
                                 <span></span>
                                 <img src="{{ asset('img/Petroland.png') }}" alt="">
                             </a>
                         </div>
-                        <div class="col-custom col-sm-6">
+                        <div class="col-custom">
                             <a href="https://vcci.com.vn/" target="blank">
                                 <span class="bg-owl"></span>
                                 <span></span>
@@ -217,25 +237,31 @@
                         </div>
                     </div>
                     <div class="row g-0 justify-content-center">
-                        <div class="col-custom col-sm-6">
+                        <div class="col-custom">
                             <a href="http://phiglobal.com/" target="blank">
                                 <span></span>
                                 <img src="{{ asset('img/Phi Group.png') }}" alt="">
                             </a>
                         </div>
-                        <div class="col-custom col-sm-6">
+                        <div class="col-custom">
+                            <a href="https://pencil.vn/" target="blank">
+                                <span></span>
+                                <img src="{{ asset('img/pencil-logo.png') }}" alt="">
+                            </a>
+                        </div>
+                        <div class="col-custom">
                             <a href="https://vnpt.com.vn/" target="blank">
                                 <span></span>
                                 <img src="{{ asset('img/VNPT.png') }}" alt="">
                             </a>
                         </div>
-                        <div class="col-custom col-sm-6">
+                        <div class="col-custom">
                             <a href="http://phiglobal.com/" target="blank">
                                 <span></span>
                                 <img src="{{ asset('img/Phi Group.png') }}" alt="">
                             </a>
                         </div>
-                        <div class="col-custom col-sm-6">
+                        <div class="col-custom">
                             <a href="https://en.nikkoam.com/" target="blank">
                                 <span></span>
                                 <img src="{{ asset('img/Nikko AM.png') }}" alt="">
