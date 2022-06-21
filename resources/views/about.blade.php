@@ -28,16 +28,16 @@
                 <div class="row text-overview">
                     <div class="col-md-4 p-4">
                         <h4><img src="{{ asset('img/Overview- Company.png') }}" alt=""> <span>@lang ('Company Background')</span></h4>
-                        <p><strong>Metaway Holdings</strong> @lang ('is headquartered in the') <strong>@lang ('United States')</strong> @lang ('with numerous branch offices around the world. The company was founded in the next wave of digital technologies with artificial intelligence, blockchain, the Internet of things, and Cloud computing platforms and applications . These invincible waves will convey great potential and promote the instantaneous development of key economic sectors. Our major ambition is to connect together a community of entrepreneurs, firms, and investors who all share the same desire of giving a legacy for future genera tions.')</p>
+                        <p>Metaway Holdings @lang ('is headquartered in the') @lang ('United States') @lang ('with numerous branch offices around the world. The company was founded in the next wave of digital technologies with artificial intelligence, blockchain, the Internet of things, and Cloud computing platforms and applications . These invincible waves will convey great potential and promote the instantaneous development of key economic sectors. Our major ambition is to connect together a community of entrepreneurs, firms, and investors who all share the same desire of giving a legacy for future genera tions.')</p>
 
                     </div>
                     <div class="col-md-4 p-4">
                         <h4><img src="{{ asset('img/Overview-Resource.png') }}" alt=""> <span>@lang ('Resource')</span></h4>
-                        <p><strong>Metaway Holdings</strong> @lang ('possesses influential resources in human, finance, and technology.') <strong>Metaway Holdings'</strong> @lang ("founders and management team have extensive expertise and knowledge in strategy, corporate governance, investing, and restructuring. We capture the world's top successful business formulae. Thanks to the creative ideas based on understanding and mastering the latest platform technologies, We have earned the attention of major investment funds and reputable financial organizations.")</p>
+                        <p>@lang ('Possesses influential resources in human, finance, and technology.')  @lang ("founders and management team have extensive expertise and knowledge in strategy, corporate governance, investing, and restructuring. We capture the world's top successful business formulae. Thanks to the creative ideas based on understanding and mastering the latest platform technologies, We have earned the attention of major investment funds and reputable financial organizations.")</p>
                     </div>
                     <div class="col-md-4 p-4">
                         <h4><img src="{{ asset('img/Overview-Aspiration.png') }}" alt=""> <span>@lang ('Aspiration')</span></h4>
-                        <p><strong>Metaway Holdings</strong> @lang ('desires to integrate human intelligence, artificial intelligence, and business intelligence to jointly generate prosperous values for worldwide inhabitants and progress to become a leading digital economy organization in the world.')</p>
+                        <p>Metaway Holdings @lang ('desires to integrate human intelligence, artificial intelligence, and business intelligence to jointly generate prosperous values for worldwide inhabitants and progress to become a leading digital economy organization in the world.')</p>
                     </div>
                 </div>
             </div>
@@ -238,7 +238,7 @@
                     <div class="col-lg-2 col-md-4 col-sm-6 item d-flex flex-column align-items-center m-2">
                         <img src="{{ asset('img/Tran-Nam-Trung.png') }}" alt="">
                         <img class="border-icon" src="{{ asset('img/border-executive.png') }}" alt="">
-                        <h4 class="name">Tran Nam Chung</h4>
+                        <h4 class="name">Trần Nam Chung</h4>
                         <div class="position flex-grow-1">@lang ('Chairman')</div>
                         <div class="social">
                             <a href="#"><i class="fab fa-linkedin"></i></a>
@@ -268,7 +268,7 @@
                     <div class="col-lg-2 col-md-4 col-sm-6 item d-flex flex-column align-items-center m-2">
                         <img src="{{ asset('img/Pham-Anh-Tuan.png') }}" alt="">
                         <img class="border-icon" src="{{ asset('img/border-executive.png') }}" alt="">
-                        <h4 class="name">Pham Anh Tuan</h4>
+                        <h4 class="name">Phạm Anh Tuấn</h4>
                         <div class="position flex-grow-1">@lang ('Deputy CEO')</div>
                         <div class="social">
                             <a href="https://www.linkedin.com/"><i class="fab fa-linkedin"></i></a>
@@ -295,7 +295,7 @@
                     <div class="col-lg col-md-4 item d-flex flex-column align-items-center m-2">
                         <img src="{{ asset('img/Tran-Quang-Trung.png') }}" alt="">
                         <img class="border-icon" src="{{ asset('img/border-executive.png') }}" alt="">
-                        <h4 class="name">Tran Quang Trung</h4>
+                        <h4 class="name">Trần Quang Trung</h4>
                         <div class="position flex-grow-1">@lang ('Growth Advisor')</div>
                         <div class="social">
                             <a href="#"><i class="fab fa-linkedin"></i></a>
@@ -305,7 +305,7 @@
                     <div class="col-lg col-md-4 item d-flex flex-column align-items-center m-2">
                         <img src="{{ asset('img/Steve-Truong.png') }}" alt="">
                         <img class="border-icon" src="{{ asset('img/border-executive.png') }}" alt="">
-                        <h4 class="name">Steve Truong</h4>
+                        <h4 class="name">Steve Trương</h4>
                         <div class="position flex-grow-1">@lang ('Managing Director PHI') <br> @lang ('Group Advisor')</div>
                         <div class="social">
                             <a href="#"><i class="fab fa-linkedin"></i></a>
@@ -362,7 +362,7 @@
                     <div class="col-lg-2 col-md-4 item d-flex flex-column align-items-center m-2">
                         <img src="{{ asset('img/Andy-Vu.png') }}" alt="">
                         <img class="border-icon" src="{{ asset('img/border-executive.png') }}" alt="">
-                        <h4 class="name">Andy Vu</h4>
+                        <h4 class="name">Andy Vũ</h4>
                         <div class="position flex-grow-1">@lang ('CMO')</div>
                         <div class="social">
                             <a href="#"><i class="fab fa-linkedin"></i></a>
@@ -393,7 +393,7 @@
                         <img src="{{ asset('img/Le-Van-Duong.png') }}" alt="">
                         <img class="border-icon" src="{{ asset('img/border-executive.png') }}" alt="">
                         <div class="des">
-                            <h4 class="name">Le Van Duong</h4>
+                            <h4 class="name">Lê Văn Dương</h4>
                             <div class="position flex-grow-1">@lang ('Legal Director')</div>
                             <div class="social">
                                 <a href="#"><i class="fab fa-linkedin"></i></a>
@@ -431,7 +431,7 @@
                     <div class="col-lg-2 col-md-4 item d-flex flex-column align-items-center m-2">
                         <img src="{{ asset('img/Bui-Dinh-Ngoc.png') }}" alt="">
                         <img class="border-icon" src="{{ asset('img/border-executive.png') }}" alt="">
-                        <h4 class="name">Bui Dinh Ngoc</h4>
+                        <h4 class="name">Bùi Đình Ngọc</h4>
                         <div class="position flex-grow-1">@lang ('CTO')</div>
                         <div class="social">
                             <a href="#"><i class="fab fa-linkedin"></i></a>
