@@ -6,7 +6,7 @@
     <section class="banner p-0">
         <div id="carouselBanner" class="carousel slide pt-0" data-bs-ride="carousel">
             <video autoplay muted loop id="myVideo">
-                <source src="{{ asset('img/banner-home.mp4') }}" type="video/mp4">
+                <source src="{{ asset('img/bg-home-meta.mp4') }}" type="video/mp4">
             </video>
             <div class="content">
                 <div class="carouselContent">
@@ -62,7 +62,7 @@
             <div class="row pt-4">
                 <div class="col-md-4">
                     <div class="card container1">
-                        <a href="#"><img class="card-img-top" src="{{ asset('img/Corporation-1.png') }}"></a>
+                        <a href="#"><img class="card-img-top" src="{{ asset('img/bg-brand.png') }}"></a>
                         <div class="card-body d-flex flex-column content">
                             <h3 class="card-title titleUnderline"><a href="#">@lang ('Brand Story')</a></h3>
                             <p class="card-text flex-grow-1" style="height:162px;">@lang ('Born in an era when technology wave 5.0 is exploding globally, Metaway Holdings is the convergence of pioneering leaders with outstanding vision and wisdom, unlimited imagination, a sky of creativity, and sustainable development.')</p>
@@ -77,7 +77,7 @@
 
                 <div class="col-md-4">
                     <div class="card container1">
-                        <a href="#"><img class="card-img-top" src="{{ asset('img/Corporation-2.png') }}"></a>
+                        <a href="#"><img class="card-img-top" src="{{ asset('img/bg-investment.png') }}"></a>
                         <div class="card-body d-flex flex-column content">
                             <h3 class="card-title titleUnderline"><a href="#">@lang ('Investment Sector')</a></h3>
                             <p class="card-text flex-grow-1" style="height:162px;"><strong>Metaway Holdings</strong> @lang ('focuses on investing in leading sectors and industries with high growth potential in the future, which are the pillars of the digital economy including: healthcare, technology, real estate and finance.')</p>
@@ -91,7 +91,7 @@
                 </div>
                 <div class="col-md-4">
                     <div class="card container1">
-                        <a href="#"><img class="card-img-top" src="{{ asset('img/Corporation-3.png') }}"></a>
+                        <a href="#"><img class="card-img-top" src="{{ asset('img/bg-ecosystem.png') }}"></a>
                         <div class="card-body d-flex flex-column content">
                             <h3 class="card-title titleUnderline"><a href="#">@lang ('Ecosystem')</a></h3>
                             <p class="card-text flex-grow-1" style="height:162px;" id="corporation"><strong>@lang ('The Metaway Holdings')</strong> @lang ("ecosystem is investing in products and services for specialized needs: The backbone pillar of the digital economy, Enormous Volume, Global Scale, Recurrent Demand, Fast-developing Market.")</p>
@@ -123,13 +123,6 @@
                             </a>
                         </div>
                         <div class="col-custom">
-                            <a href="https://corex.vn/" target="blank">
-                                <span class="bg-owl"></span>
-                                <span></span>
-                                <img src="{{ asset('img/corex-logo.png') }}" alt="">
-                            </a>
-                        </div>
-                        <div class="col-custom">
                             <a href="http://www.vietinbankcapital.vn/vi-vn/" target="blank">
                                 <span class="bg-owl"></span>
                                 <span></span>
@@ -160,33 +153,34 @@
                     </div>
                     <div class="row g-0 justify-content-center">
                         <div class="col-custom">
-                            <a href="http://phiglobal.com/" target="blank">
-                                <span></span>
-                                <img src="{{ asset('img/Phi Group.png') }}" alt="">
-                            </a>
-                        </div>
-                        <div class="col-custom">
-                            <a href="https://pencil.vn/" target="blank">
-                                <span></span>
-                                <img src="{{ asset('img/pencil-logo.png') }}" alt="">
-                            </a>
-                        </div>
-                        <div class="col-custom">
                             <a href="https://vnpt.com.vn/" target="blank">
                                 <span></span>
                                 <img src="{{ asset('img/VNPT.png') }}" alt="">
                             </a>
                         </div>
                         <div class="col-custom">
+                            <a href="https://en.nikkoam.com/" target="blank">
+                                <span></span>
+                                <img src="{{ asset('img/Nikko AM.png') }}" alt="">
+                            </a>
+                        </div>
+                        <div class="col-custom">
+                            <a href="https://corex.vn/" target="blank">
+                                <span class="bg-owl"></span>
+                                <span></span>
+                                <img src="{{ asset('img/corex-logo.png') }}" alt="">
+                            </a>
+                        </div>
+                        <div class="col-custom">
                             <a href="http://phiglobal.com/" target="blank">
                                 <span></span>
                                 <img src="{{ asset('img/Phi Group.png') }}" alt="">
                             </a>
                         </div>
-                        <div class="col-custom">
-                            <a href="https://en.nikkoam.com/" target="blank">
+                        <div class="col-custom  ">
+                            <a href="https://pencil.vn/" target="blank">
                                 <span></span>
-                                <img src="{{ asset('img/Nikko AM.png') }}" alt="">
+                                <img src="{{ asset('img/pencil-logo.png') }}" alt="">
                             </a>
                         </div>
                     </div>
@@ -201,13 +195,6 @@
                             </a>
                         </div>
                         <div class="col-custom">
-                            <a href="https://corex.vn/" target="blank">
-                                <span class="bg-owl"></span>
-                                <span></span>
-                                <img src="{{ asset('img/corex-logo.png') }}" alt="">
-                            </a>
-                        </div>
-                        <div class="col-custom">
                             <a href="http://www.vietinbankcapital.vn/vi-vn/" target="blank">
                                 <span class="bg-owl"></span>
                                 <span></span>
@@ -238,33 +225,34 @@
                     </div>
                     <div class="row g-0 justify-content-center">
                         <div class="col-custom">
-                            <a href="http://phiglobal.com/" target="blank">
-                                <span></span>
-                                <img src="{{ asset('img/Phi Group.png') }}" alt="">
-                            </a>
-                        </div>
-                        <div class="col-custom">
-                            <a href="https://pencil.vn/" target="blank">
-                                <span></span>
-                                <img src="{{ asset('img/pencil-logo.png') }}" alt="">
-                            </a>
-                        </div>
-                        <div class="col-custom">
                             <a href="https://vnpt.com.vn/" target="blank">
                                 <span></span>
                                 <img src="{{ asset('img/VNPT.png') }}" alt="">
                             </a>
                         </div>
                         <div class="col-custom">
+                            <a href="https://en.nikkoam.com/" target="blank">
+                                <span></span>
+                                <img src="{{ asset('img/Nikko AM.png') }}" alt="">
+                            </a>
+                        </div>
+                        <div class="col-custom">
+                            <a href="https://corex.vn/" target="blank">
+                                <span class="bg-owl"></span>
+                                <span></span>
+                                <img src="{{ asset('img/corex-logo.png') }}" alt="">
+                            </a>
+                        </div>
+                        <div class="col-custom">
                             <a href="http://phiglobal.com/" target="blank">
                                 <span></span>
                                 <img src="{{ asset('img/Phi Group.png') }}" alt="">
                             </a>
                         </div>
-                        <div class="col-custom">
-                            <a href="https://en.nikkoam.com/" target="blank">
+                        <div class="col-custom  ">
+                            <a href="https://pencil.vn/" target="blank">
                                 <span></span>
-                                <img src="{{ asset('img/Nikko AM.png') }}" alt="">
+                                <img src="{{ asset('img/pencil-logo.png') }}" alt="">
                             </a>
                         </div>
                     </div>

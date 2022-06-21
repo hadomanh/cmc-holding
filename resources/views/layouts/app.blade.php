@@ -53,26 +53,24 @@
                     <div class="col-auto"><a target="_blank" href="https://twitter.com/metawayholdings" class="item"><i class="fa fa-twitter" aria-hidden="true"></i></a></div>
                 </div>
                 <h6 class="title text-red">
-                    <div class="">
-                        <img src="{{ asset('img/Logo-cmc.png') }}" class="footerLogo">
-                    </div>
+                        <img src="{{ asset('img/logo-metaway.png') }}" class="footerLogo">
                 </h6>
             </div>
             <div class="row menuFooter">
                 <div class="col-md-3">
                     <ul class="list-unstyled">
                         <li>
-                            <img src="{{ asset('img/icon-map.png') }}" class="icon">
+                            <img src="{{ asset('img/map-fter.png') }}" class="icon">
                             <p><strong>@lang ('Address 1:')</strong> 30 N Gould St Ste R Sheridan, Wyoming 82801, USA</p>
                             <p><strong>@lang ('Address 2:')</strong> 2323 Main Street Irvine, CA 92614, U.S.A.</p>
                             <p><strong>@lang ('Address 3:')</strong> @lang ('CX01 lot, Van Khe urban area, La Khe Ward, Ha Dong District, Hanoi, Vietnam')</p>
                         </li>
                         <li>
-                            <img src="{{ asset('img/Email.png') }}" class="icon">
+                            <img src="{{ asset('img/email-fter.png') }}" class="icon">
                             <p>info@metawayholdings.com  info@metawayholdings.vn</p>
                         </li>
                         <li>
-                            <img src="{{ asset('img/icon-global-2.png') }}" class="icon">
+                            <img src="{{ asset('img/global-fter.png') }}" class="icon">
                             <p>www.metawayholdings.com  www.metawayholdings.vn</p>
                         </li>
                     </ul>

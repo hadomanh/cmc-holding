@@ -1,6 +1,6 @@
 <header>
     <div class="top">@lang ('METAWAY Holdings Roadmap 2022-2027 IPO $300 billion')</div>
-    <nav class="navbar navbar-expand-md bg-dark" > 
+    <nav class="navbar navbar-expand-md" > 
       <a class="navbar-brand d-md-none d-block" href="{{ route('home') }}">
             <img src="{{ asset('img/Logo-cmc.png') }}" alt="">
         </a>
@@ -27,7 +27,7 @@
                 </li>
             </ul>
             <a class="navbar-brand d-none d-md-block" href="{{ route('home') }}">
-                <img src="{{ asset('img/Logo-cmc.png') }}" alt="">
+                <img src="{{ asset('img/logo-metaway.png') }}" alt="">
             </a>
             <ul class="navbar-nav">
                 <li class="nav-item dropdown">
