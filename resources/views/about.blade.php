@@ -248,7 +248,7 @@
                     <div class="col-lg-2 col-md-4 col-sm-6 item d-flex flex-column align-items-center m-2">
                         <img src="{{ asset('img/Henre-D.Fahman.png') }}" alt="">
                         <img class="border-icon" src="{{ asset('img/border-executive.png') }}" alt="">
-                        <h4 class="name">HẺNY D.FAHMAN</h4>
+                        <h4 class="name">HENRY D.FAHMAN</h4>
                         <div class="position flex-grow-1">@lang ('Vice Chairman')</div>
                         <div class="social">
                             <a href="#"><i class="fab fa-linkedin"></i></a>
@@ -256,7 +256,7 @@
                         </div>
                     </div>
                     <div class="col-lg-2 col-md-4 col-sm-6 item d-flex flex-column align-items-center m-2">
-                        <img src="{{ asset('img/ngo-minh-thang.png') }}" alt="">
+                        <img src="{{ asset('img/ngo-minh-thang1.png') }}" alt="">
                         <img class="border-icon" src="{{ asset('img/border-executive.png') }}" alt="">
 
                         <h4 class="name">NGO MINH THANG</h4>
