@@ -18,10 +18,10 @@
                         </a>
                         <h4 class="newsTitle titleUnderline">
                             <a href="{{ route('media.news-detail', $news[0]->id) }}">{{ $news[0]->title }}</a>
+                            <span class="miniSize">{{ date('Y-m-d', strtotime($item->created_at)) }}</span>
                         </h4>
                         <div class="newsDesc">
                             {{ $news[0]->subtitle }}
-                            <span class="miniSize">{{ date('Y-m-d', strtotime($item->created_at)) }}</span>
                         </div>
                     </div>
                     @endif
@@ -36,10 +36,10 @@
                             <div class="col-md-8">
                                 <h4 class="newsTitle titleUnderline">
                                     <a href="{{ route('media.news-detail', $item->id) }}">{{ $item->title }}</a>
+                                    <span class="miniSize">{{ date('Y-m-d', strtotime($item->created_at)) }}</span>
                                 </h4>
                                 <div class="newsDesc">
                                     {{ $item->subtitle }}
-                                    <span class="miniSize">{{ date('Y-m-d', strtotime($item->created_at)) }}</span>
                                 </div>  
                             </div>
                         </li>
@@ -59,10 +59,10 @@
                             <div class="col-md-8">
                                 <h4 class="newsTitle titleUnderline">
                                     <a href="{{ route('media.news-detail', $item->id) }}">{{ $item->title }}</a>
+                                    <span class="miniSize">{{ date('Y-m-d', strtotime($item->created_at)) }}</span>
                                 </h4>
                                 <div class="newsDesc">
                                     {{ $item->subtitle }}
-                                    <span class="miniSize">{{ date('Y-m-d', strtotime($item->created_at)) }}</span>
                                 </div>  
                             </div>
                         </li>
