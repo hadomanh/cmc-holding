@@ -1,6 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Sarabun:wght@300;400;600;700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Sarabun:wght@300;400;600;700&display=swap'); */
+@font-face {
+    font-family: gotham Bold;
+    src: url('SVN-Gotham Bold.ttf');
+  }
+  @font-face {
+    font-family: gotham Light;
+    src: url('SVN-Gotham Light.otf');
+  }
 body {
-    font-family: 'Sarabun', sans-serif;
+    /* font-family: 'Sarabun', sans-serif; */
+    font-family: gotham Light;
     font-size: 16px;
     color: #464646;
     font-weight: 300;
@@ -29,6 +38,7 @@ h5,
 h6 {
     font-weight: 600;
     color: #000000;
+    font-family: gotham Bold;
 }
 
 .form-control:focus {
@@ -153,7 +163,7 @@ strong {
     color: #CB1D23;
     margin-right: auto;
 }
-.btnArrow i:hover{
+.btnArrow:hover i{
     position: relative;
     left: 20px;
     transition: 1s;
@@ -368,7 +378,7 @@ header .top {
 header .navbar {
     background: #fff;
     padding: 8px 50px;
-    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.11);
+    box-shadow: 0px 4px 95px rgba(0, 0, 0, 0.2);
 }
 header .navbar .navbar-brand {
     margin: 0;
@@ -378,7 +388,7 @@ header .navbar .navbar-brand img {
     width: 213px;
 }
 header .navbar.navbar-expand-md .nav-item:not(:last-child) {
-    margin-right: 40px;
+    margin-right: 130px;
 }
 header .navbar.navbar-expand-md .nav-link {
     padding: 0;
@@ -430,7 +440,7 @@ header .navbar .dropdown-toggle:after {
 }
 .navbar-expand-md .navbar-nav .dropdown-menu{
     position: absolute;
-    left: -68px;
+    left: -65px;
 }
 /*========================== HOMEPAGE ==========================*/
 #homepage .carousel .carouselContent {
@@ -807,6 +817,7 @@ header .navbar .dropdown-toggle:after {
     position: absolute;
     left: 55px;
     bottom: -60px;
+    font-family: gotham Bold;
 }
 .carousel-item #aboutPage .team .listTeam {
     margin-top: 60px;
@@ -818,15 +829,11 @@ header .navbar .dropdown-toggle:after {
 
 .team .listTeam .item {
     background: #FFFFFF;
-    /* box-shadow: 4px 47px 45px -5px rgb(0 0 0 / 6%); */
-    box-shadow: 0px 27px 39px rgb(240 240 234 / 81%);
+    box-shadow: 4px 11px 30px rgba(0, 0, 0, 0.1);
     border-radius: 0px 0px 8px 8px;
-    width: 15%;
+    height: 100%;
+    width: 200px;
 }
-.our-executive-team {
-    column-count: 5 !important;
-}
-
 #aboutPage .team .listTeam .name {
     text-transform: uppercase;
     font-size: 16px;
@@ -908,7 +915,7 @@ header .navbar .dropdown-toggle:after {
     display: flex;
     position: relative;
     margin-top: 16px;
-    margin-right: -140px;
+    margin-right: -154px;
 }
 
 .ourvision {
@@ -942,7 +949,7 @@ header .navbar .dropdown-toggle:after {
     display: flex;
     position: relative;
     margin-top: 16px;
-    margin-right: -208px;
+    margin-right: -241px;
 }
 #ecosystem {
     background: black url(../img/BG-ecosystem.gif) no-repeat right;
@@ -963,7 +970,7 @@ header .navbar .dropdown-toggle:after {
     font-weight: 700;
     margin-left: 33px;
     margin-top: 15px;
-    font-size: 31px;
+    font-size: 32px;
     text-align: left;
 }
 .text-our-mission {
@@ -1036,16 +1043,14 @@ header .navbar .dropdown-toggle:after {
     color: #D91F26;
     font-size: 20px;
     font-weight: 60;
-    /* margin-right: 20px; */
 }
 
 .btn-btnWhite:hover {
     color: #D91F26;
-    margin-right: auto;
 }
-.btn-btnWhite i:hover{
+.btn-btnWhite:hover i{
     position: relative;
-    left: 20px;
+    left: 15px;
     transition: 1s;
 }
 #businesssectors .card {
@@ -1069,7 +1074,7 @@ header .navbar .dropdown-toggle:after {
     font-weight: 700;
 }
 #executive .border-icon {
-    margin-top: -35px;
+    margin-top: -43px;
 }
 .btn-read .btn-btnWhite {
     margin-top: 68px;
@@ -1106,7 +1111,7 @@ header .navbar .dropdown-toggle:after {
     display: flex;
     position: relative;
     margin-top: 16px;
-    margin-right: -140px;
+    margin-right: -154px;
 }
 .ourvision {
     background: White url(../img/bg-our-vision.png) left bottom no-repeat;
@@ -1140,7 +1145,7 @@ header .navbar .dropdown-toggle:after {
     display: flex;
     position: relative;
     margin-top: 16px;
-    margin-right: -208px;
+    margin-right: -241px;
 }
 
 #ecosystem {
@@ -1767,6 +1772,9 @@ footer .copyright {
     left: -81px;
     top: -19px;
     }
+    header .navbar.navbar-expand-md .nav-item:not(:last-child) {
+        margin-right: 73px;
+    }
 }
 @media (max-width: 992px) {
     header .navbar {
@@ -1806,17 +1814,6 @@ footer .copyright {
     #ecosystem .content {
         width: 100%;
     }
-    .advisors {
-        justify-content: center;
-    }
-    /* .newsHighlights .card .card-text {
-        margin-top: -8px;
-        margin-bottom: -7px;
-        padding: 0;
-        margin-bottom: 30px;
-        text-align: justify;
-        line-height: 29px;
-    } */
     .container1 .content {
         padding: 10px;
     }
@@ -1982,6 +1979,11 @@ footer .copyright {
     
 }
 @media (max-width: 768px) {
+    #aboutPage .banner .content h1 {
+        position: absolute;
+        left: -18px;
+        bottom: -29px;
+    }
     .partners .owl-carousel .item .row:last-child {
         margin-top: -70px;
     }
@@ -2127,8 +2129,22 @@ footer .copyright {
     .partners .owl-carousel .item .row:last-child {
         margin-top: -110px;
     }
+    header .navbar.navbar-expand-md .nav-item:not(:last-child) {
+        margin-right: 38px;
+    }
+    footer .social {
+        justify-content: right;
+        margin-bottom: -27px;
+        position: relative;
+        z-index: 1;
+    }
 }
 @media (max-width: 576px) {
+    #aboutPage .banner .content h1{
+        position: absolute;
+        left: 0px;
+        bottom: 0px;
+    }
     .owl-carousel .item a {
         margin: 5px;
     }
@@ -2155,11 +2171,6 @@ footer .copyright {
         top: -98px;
         left: -2px;
     }
-    /* .partners .owl-carousel .item .row:first-child .col-custom:nth-child(6) {
-        position: relative;
-        top: -13px;
-        left: -344px;
-    } */
     .partners .owl-carousel .item .row:last-child .col-custom:nth-child(1),
     .partners .owl-carousel .item .row:last-child .col-custom:nth-child(2) {
         position: relative;
@@ -2245,7 +2256,7 @@ footer .copyright {
     }
     footer .social {
         justify-content: center;
-        margin: auto;
+        margin-bottom: 61px;
     }
     footer .social .item {
         width: 35px;
@@ -2375,6 +2386,15 @@ footer .copyright {
         bottom: -10px;
         background: url("../img/bg-partner-top.png") no-repeat right center;
     }
+    footer .text-red img{
+        position: relative;
+        top: -33px;
+        background: white;
+        z-index: 1;
+        position: relative;
+        justify-content: center;
+        display: flex;
+    }
     
 }
 @media (max-width: 426px) {
@@ -2386,6 +2406,9 @@ footer .copyright {
         align-items: center;
         justify-content: center;
         position: relative;
+    }
+    .bgLocal{
+         margin: 0px;
     }
     .memberLocation:before {
         width: 10px;
@@ -2649,9 +2672,9 @@ footer .copyright {
     }
     #holdingsmembers .map p {
         position: absolute;
-        margin-top: 41px;
+        margin-top: 31px;
         width: 100%;
-        margin-right: 56px; 
+        margin-right: 108px;
     }
     #homepage .carousel .carouselContent {
         text-align: center;
