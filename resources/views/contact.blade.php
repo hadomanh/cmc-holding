@@ -70,7 +70,7 @@
                             <div class="d-flex">
                                 <div><img src="{{ asset('img/iconPosition.png') }}" class="w-100"></div>
                                 <div class="ms-3 location2">
-                                    <p class="d-block mb-2">International Plaza, 10 Anson Road, <br> Singapore</p>
+                                    <p class="d-block mb-2">International Plaza, 10 Anson Road, Singapore</p>
                                 </div>
                             </div>
                             <div class="d-flex">
@@ -92,7 +92,7 @@
                             <div class="d-flex">
                                 <div><img src="{{ asset('img/iconPosition.png') }}" class="w-100"></div>
                                 <div class="ms-3 location2">
-                                    <p class="d-block mb-2">116 Albert (City of Ottawa, Ontario), <br> Canada</p>
+                                    <p class="d-block mb-2">116 Albert (City of Ottawa, Ontario), Canada</p>
                                 </div>
                             </div>
                             <div class="d-flex">

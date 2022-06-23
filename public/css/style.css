@@ -1,15 +1,15 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Sarabun:wght@300;400;600;700&display=swap'); */
 @font-face {
-    font-family: gotham Bold;
-    src: url('SVN-Gotham Bold.ttf');
-  }
+    font-family: gotham-bold;
+    src: url('SVN-Gotham Regular.ttf');
+  } 
   @font-face {
-    font-family: gotham Light;
+    font-family: gotham-light;
     src: url('SVN-Gotham Light.otf');
   }
 body {
     /* font-family: 'Sarabun', sans-serif; */
-    font-family: gotham Light;
+    font-family: gotham-light, sans-serif;
     font-size: 16px;
     color: #464646;
     font-weight: 300;
@@ -25,11 +25,9 @@ a {
     -moz-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
 }
-
 a:hover {
     color: #df0023;
 }
-
 h1,
 h2,
 h3,
@@ -38,7 +36,7 @@ h5,
 h6 {
     font-weight: 600;
     color: #000000;
-    font-family: gotham Bold;
+    font-family: gotham-bold, sans-serif;
 }
 
 .form-control:focus {
@@ -405,12 +403,13 @@ header .navbar.navbar-expand-md .nav-link.active,
 header .navbar.navbar-expand-md .nav-link.show {
     color: #cf0020;
     border-bottom: 3px solid #cf0020;
+    font-weight: 600;
 }
 header .navbar.navbar-expand-md .nav-link:hover {
     color: black;
     transition: 0.3s;
     border-bottom: 3px solid #cf0020;
-    font-weight: 900;
+    font-weight: 600;
 }
 header .navbar-nav .dropdown-menu {
     background: white;
@@ -817,7 +816,6 @@ header .navbar .dropdown-toggle:after {
     position: absolute;
     left: 55px;
     bottom: -60px;
-    font-family: gotham Bold;
 }
 .carousel-item #aboutPage .team .listTeam {
     margin-top: 60px;
@@ -829,7 +827,7 @@ header .navbar .dropdown-toggle:after {
 
 .team .listTeam .item {
     background: #FFFFFF;
-    box-shadow: 4px 11px 30px rgba(0, 0, 0, 0.1);
+    box-shadow: 4px 20px 30px rgba(0, 0, 0, 0.1);
     border-radius: 0px 0px 8px 8px;
     height: 100%;
     width: 200px;
@@ -1074,7 +1072,7 @@ header .navbar .dropdown-toggle:after {
     font-weight: 700;
 }
 #executive .border-icon {
-    margin-top: -43px;
+    margin-top: -32px;
 }
 .btn-read .btn-btnWhite {
     margin-top: 68px;
@@ -1278,7 +1276,7 @@ header .navbar .dropdown-toggle:after {
     font-weight: 700;
 }
 #executive .border-icon {
-    margin-top: -35px;
+    margin-top: -32px;
 }
 .btn-read .btn-btnWhite {
     margin-top: 68px;
@@ -1501,7 +1499,7 @@ footer .menuFooter ul ul li a {
 }
 footer .menuFooter ul li a,
 footer .menuFooter ul li.parent span {
-    font-weight: 900;
+    font-weight: 600;
 }
 footer .menuFooter span {
     font-size: 20px;
