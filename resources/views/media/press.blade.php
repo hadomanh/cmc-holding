@@ -9,9 +9,7 @@
         <div class="container-lg">
             <h2 class="sectionHeading text-uppercase centered">PRESS RELEASE</h2>
             <div class="row">
-                
                 <div class="col-lg-6 col-12">
-
                     @if ($press->count() > 0)
                     <div class="pressItem highlight">
                         <a href="{{ route('media.press-detail', $press[0]->id) }}" class="pressThumb">
@@ -23,6 +21,7 @@
                         <div class="pressDesc">
                             {{ $press[0]->subtitle }}
                         </div>
+                        <span class="miniSize">{{ date('Y-m-d', strtotime($item->created_at)) }}</span>
                     </div>
                     @endif
 
@@ -40,6 +39,7 @@
                                 <div class="pressDesc">
                                     {{ $item->subtitle }}
                                 </div>  
+                                <span class="miniSize">{{ date('Y-m-d', strtotime($item->created_at)) }}</span>
                             </div>
                         </li>
                         @endif
@@ -61,7 +61,8 @@
                                 </h4>
                                 <div class="pressDesc">
                                     {{ $item->subtitle }}
-                                </div>  
+                                </div> 
+                                <span class="miniSize">{{ date('Y-m-d', strtotime($item->created_at)) }}</span> 
                             </div>
                         </li>
                         @endif
