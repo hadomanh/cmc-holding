@@ -25,7 +25,6 @@
                         <div class="newsDesc">
                             {{ $investorNews[0]->subtitle }}
                         </div>
-                        <span class="miniSize">{{ date('Y-m-d', strtotime($item->created_at)) }}</span>
                     </div>
                     @endif
 
