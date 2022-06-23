@@ -21,6 +21,7 @@
                         </h4>
                         <div class="newsDesc">
                             {{ $news[0]->subtitle }}
+                            <span class="miniSize">{{ date('Y-m-d', strtotime($item->created_at)) }}</span>
                         </div>
                     </div>
                     @endif
@@ -38,6 +39,7 @@
                                 </h4>
                                 <div class="newsDesc">
                                     {{ $item->subtitle }}
+                                    <span class="miniSize">{{ date('Y-m-d', strtotime($item->created_at)) }}</span>
                                 </div>  
                             </div>
                         </li>
@@ -60,6 +62,7 @@
                                 </h4>
                                 <div class="newsDesc">
                                     {{ $item->subtitle }}
+                                    <span class="miniSize">{{ date('Y-m-d', strtotime($item->created_at)) }}</span>
                                 </div>  
                             </div>
                         </li>
