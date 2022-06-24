@@ -300,7 +300,7 @@ strong {
     border-color: transparent;
 }
 .nav-tabs .nav-link:not(:first-child) {
-    margin-left: 30px;
+    padding: 0 15px !important;
 }
 .owl-carousel {
     position: relative;
@@ -1967,6 +1967,11 @@ footer .copyright {
         left: -18px;
         bottom: -29px;
     }
+    .navbar-expand-md .navbar-nav .dropdown-menu{
+        position: absolute;
+        left: 0px;
+        width: 100%;
+    }
     .partners .owl-carousel .item .row:last-child {
         margin-top: -70px;
     }
@@ -1975,8 +1980,8 @@ footer .copyright {
     }
     #holdingsmembers .map .singapore {
         position: absolute;
-        top: 229px;
-        right: 3px;
+        top: 220px;
+        right: 17px;    
     }
     #holdingsmembers .map .vietnam {
         position: absolute;
@@ -1985,13 +1990,13 @@ footer .copyright {
     }
     #holdingsmembers .map .hongkong {
         position: absolute;    
-        top: 202px;
-        left: 35px;
+        top: 208px;
+        left: 2px;
     }
     #holdingsmembers .map .south {
         position: absolute;
         top: 225px;
-    left: 25px;
+        left: 25px;
     }
     #holdingsmembers .map .dubai {
         position: absolute;
@@ -2381,6 +2386,15 @@ footer .copyright {
     
 }
 @media (max-width: 426px) {
+    .container2 .content h1{
+        font-size: 30px;
+    }
+    #reportPage .table>:not(caption)>*>*{
+        padding: 10px 13px;
+    }
+    .reportNav .nav-tabs .nav-link {
+        padding: 0 13px;
+    }
     .memberLocation {
         display: inline-flex;
         width: 15px;
@@ -2503,6 +2517,15 @@ footer .copyright {
 }
 
 @media ( max-width: 376px) {
+    .container2 .content h1{
+        font-size: 26px;
+    }
+    #reportPage .table>:not(caption)>*>*{
+        padding: 10px 13px;
+    }
+    .reportNav .nav-tabs .nav-link {
+        padding: 0 13px;
+    }
     #ecosystem {
         padding: 34px;
     }
@@ -2604,6 +2627,15 @@ footer .copyright {
     }
 }
 @media (max-width: 320px) {
+    .container2 .content h1{
+        font-size: 22px;
+    }
+    #reportPage .table>:not(caption)>*>*{
+        padding: 10px 13px;
+    }
+    .reportNav .nav-tabs .nav-link {
+        padding: 0 13px;
+    }
     .memberLocation {
         display: inline-flex;
         width: 10px;
