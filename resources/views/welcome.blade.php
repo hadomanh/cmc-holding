@@ -3,103 +3,91 @@
 @section('content')
 <div id="homepage">
     <!-- Banner -->
-    <section class="banner p-0">
-        <div id="carouselBanner" class="carousel slide pt-0" data-bs-ride="carousel">
-            <video autoplay muted loop id="myVideo">
-                <source src="{{ asset('img/bg-home-meta.mp4') }}" type="video/mp4">
-            </video>
-            <div class="content">
-                <div class="carouselContent">
-                    <h1 class="title ">METAWAY HOLDING<br><span class="fw-light mt-3">@lang ('The Big Things')</span></h1>
-                    <p class="subTitle">@lang ('Digital Economy Corporation')</p>
-                    <a href="{{ route('about') }}" class="more">
-                        @lang('read more') <i class="fa-solid fa-angle-right"></i>
-                    </a>
-                </div>
-            </div>
+    <section class="banner position-relative">
+        <video autoplay muted loop id="myVideo">
+            <source src="{{ asset('img/bg-home-meta.mp4') }}" type="video/mp4">
+        </video>
+        <div class="container-xxl">
+            <h1 class="title text-white">METAWAY HOLDING</h1>
+            <h2 class="slogan text-white">@lang ('The Big Things')</h2>
+            <p class="subTitle mt-3">@lang ('Digital Economy Corporation')</p>
+            <a href="{{ route('about') }}" class="btn btn-grey-outline text-uppercase">@lang('read more')</a>
         </div>
     </section>
 
     <!-- About Us -->
-    <section class="bgWhite banner-home">
-        <div class="container-lg">
-            <h2 class="sectionHeading centered text-uppercase p-3">{{ __('about us') }}</h2>
+    <section class="bgGrey about text-center">
+        <div class="container-xxl">
+            <h2 class="sectionHeading centered text-uppercase">{{ __('about us') }}</h2>
+            <p class="text-center pb-5"><strong> Metaway Holdings</strong> @lang ('is a global-scale digital economy corporation with the orientation to develop on the pillar fields of the digital economy society. We create platforms to fulfill multi-value ecosystems: Digital Healthcare, Digital Education, Digital Commerce, Digital Banking, Digital insurance, Digital Real Estate... All based on optimal application of the cutting-edge technologies for better serving the demand on for global connectivity')</p>
             <div class="row">
-                <div class="col-md-12">
-                    <p class="text-center pb-5"><strong> Metaway Holdings</strong> @lang ('is a global-scale digital economy corporation with the orientation to develop on the pillar fields of the digital economy society. We create platforms to fulfill multi-value ecosystems: Digital Healthcare, Digital Education, Digital Commerce, Digital Banking, Digital insurance, Digital Real Estate... All based on optimal application of the cutting-edge technologies for better serving the demand on for global connectivity')</p>
-                    <div class="row about-home">
-                        <div class="col-md-4 about-home1">
-                            <p><img class="img-bgWhite" src="{{ asset('img/way1.svg') }}" alt="" width="17%">
-                            <h6 class="title-bgWhite">@lang ('Way')</h6><strong> Metaway Holdings</strong> @lang ('possesses the secrets of the super-rich class and the formula successfully applied in the top corporations and even start up companies for spectacular business breakthroughs. This will be the firm launching pad to help us conquer all the peaks.') </p>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="about-home2">
-                                <p><img class="img-bgWhite" src="{{ asset('img/talent1.svg') }}" alt="" width="23%">
-                                <h6 class="title-bgWhite">@lang ('Talent')</h6><strong> Metaway Holdings</strong> @lang ('brings together gifted people with a noble vision and mission in connecting communities and actualizing all aspirations.')</p>
-
-                            </div>
-                        </div>
-                        <div class="col-md-4 about-home3">
-                            <p><img class="img-bgWhite" src="{{ asset('img/metaverse1.svg') }}" alt="" width="38%">
-                            <h6 class="title-bgWhite">@lang ('Metaverse')</h6>@lang ('Formed in the Metaverse era, we are well aware of the importance of developing infrastructure and solutions to help humankind quickly access and adapt to the movements of the future.')</p>
-                        </div>
+                <div class="col-md-4">
+                    <div class="item">
+                        <img src="{{ asset('img/way1.svg') }}" alt="">
+                        <h6 class="title">@lang ('Way')</h6>
+                        <p class="text-justify"><strong> Metaway Holdings</strong> @lang ('possesses the secrets of the super-rich class and the formula successfully applied in the top corporations and even start up companies for spectacular business breakthroughs. This will be the firm launching pad to help us conquer all the peaks.')</p>
                     </div>
                 </div>
-                <p class="text-center">
-                    <a href="{{ route('about') }}" class="btn btnWhite text-uppercase">
-                        @lang ('Read more') <i class="fa-solid fa-angle-right"></i>
-                    </a>
-                </p>
+                <div class="col-md-4">
+                    <div class="item">
+                        <img src="{{ asset('img/talent1.svg') }}" alt="">
+                        <h6 class="title">@lang ('Talent')</h6>
+                        <p class="text-justify"><strong> Metaway Holdings</strong> @lang ('brings together gifted people with a noble vision and mission in connecting communities and actualizing all aspirations.')</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="item">
+                        <img src="{{ asset('img/metaverse1.svg') }}" alt="">
+                        <h6 class="title">@lang ('Metaverse')</h6>
+                        <p class="text-justify">@lang ('Formed in the Metaverse era, we are well aware of the importance of developing infrastructure and solutions to help humankind quickly access and adapt to the movements of the future.')</p>
+                    </div>
+                </div>
             </div>
+            <p class="text-center mt-4">
+                <a href="{{ route('about') }}" class="btn btn-grey-outline text-uppercase">@lang ('Read more')</a>
+            </p>
         </div>
     </section>
 
     <!-- Business highlights -->
-    <section class="newsHighlights bgGrey bgArrow">
-        <div class="container-lg">
-            <h2 class="sectionHeading centered p-3">@lang ('CORPORATION HIGHLIGHTS')</h2>
-            <p class="text-center p-3">@lang ("The rise of the technology 5.0 revolution has motivated METAWAY Holdings' tycoons and founders to invest and participate in the fields of digital finance, advanced real estate development, and international commodities.") </p>
-            <div class="row pt-4">
+    <section class="corporation bgWhite">
+        <div class="container-xxl">
+            <h2 class="sectionHeading centered">@lang ('CORPORATION HIGHLIGHTS')</h2>
+            <p class="text-center">@lang ("The rise of the technology 5.0 revolution has motivated METAWAY Holdings' tycoons and founders to invest and participate in the fields of digital finance, advanced real estate development, and international commodities.") </p>
+            <div class="row">
                 <div class="col-md-4">
-                    <div class="card container1">
-                        <a href="#"><img class="card-img-top" src="{{ asset('img/bg-brand.png') }}"></a>
-                        <div class="card-body d-flex flex-column content">
-                            <h3 class="card-title titleUnderline"><a href="#">@lang ('Brand Story')</a></h3>
-                            <p class="card-text flex-grow-1" style="height:162px;">@lang ('Born in an era when technology wave 5.0 is exploding globally, Metaway Holdings is the convergence of pioneering leaders with outstanding vision and wisdom, unlimited imagination, a sky of creativity, and sustainable development.')</p>
-                            <div class="text-center">
-                                <a href="{{ route('about') }}" class="btn btnArrow">
-                                    @lang ('READ MORE') <i class="fa-solid fa-angle-right p-2"></i>
-                                </a>
-                            </div>
+                    <div class="item d-flex flex-column">
+                        <div class="imgWrap">
+                            <img src="{{ asset('img/bg-brand.jpg') }}" alt="">
                         </div>
-                    </div>
-                </div>
-
-                <div class="col-md-4">
-                    <div class="card container1">
-                        <a href="#"><img class="card-img-top" src="{{ asset('img/bg-investment.png') }}"></a>
-                        <div class="card-body d-flex flex-column content">
-                            <h3 class="card-title titleUnderline"><a href="#">@lang ('Investment Sector')</a></h3>
-                            <p class="card-text flex-grow-1" style="height:162px;"><strong>Metaway Holdings</strong> @lang ('focuses on investing in leading sectors and industries with high growth potential in the future, which are the pillars of the digital economy including: healthcare, technology, real estate and finance.')</p>
-                            <div class="text-center">
-                                <a href="{{ route('about') }}" class="btn btnArrow">
-                                    @lang ('READ MORE') <i class="fa-solid fa-angle-right p-2"></i>
-                                </a>
-                            </div>
+                        <h3 class="title mb-3"><a href="#">@lang ('Brand Story')</a></h3>
+                        <div class="desc flex-grow-1">@lang ('Born in an era when technology wave 5.0 is exploding globally, Metaway Holdings is the convergence of pioneering leaders with outstanding vision and wisdom, unlimited imagination, a sky of creativity, and sustainable development.')</div>
+                        <div class="text-center">
+                            <a href="{{ route('about') }}" class="btn btn-grey-outline">@lang ('READ MORE')</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="card container1">
-                        <a href="#"><img class="card-img-top" src="{{ asset('img/bg-ecosystem.png') }}"></a>
-                        <div class="card-body d-flex flex-column content">
-                            <h3 class="card-title titleUnderline"><a href="#">@lang ('Ecosystem')</a></h3>
-                            <p class="card-text flex-grow-1" style="height:162px;" id="corporation"><strong>@lang ('The Metaway Holdings')</strong> @lang ("ecosystem is investing in products and services for specialized needs: The backbone pillar of the digital economy, Enormous Volume, Global Scale, Recurrent Demand, Fast-developing Market.")</p>
-                            <div class="text-center">
-                                <a href="{{ route('about') }}" class="btn btnArrow">
-                                    @lang ('READ MORE') <i class="fa-solid fa-angle-right p-2"></i>
-                                </a>
-                            </div>
+                    <div class="item d-flex flex-column">
+                        <div class="imgWrap">
+                            <img src="{{ asset('img/bg-brand.jpg') }}" alt="">
+                        </div>
+                        <h3 class="title mb-3"><a href="#">@lang ('Investment Sector')</a></h3>
+                        <div class="desc flex-grow-1"><strong>Metaway Holdings</strong> @lang ('focuses on investing in leading sectors and industries with high growth potential in the future, which are the pillars of the digital economy including: healthcare, technology, real estate and finance.')</div>
+                        <div class="text-center">
+                            <a href="{{ route('about') }}" class="btn btn-grey-outline">@lang ('READ MORE')</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="item d-flex flex-column">
+                        <div class="imgWrap">
+                            <img src="{{ asset('img/bg-brand.jpg') }}" alt="">
+                        </div>
+                        <h3 class="title mb-3"><a href="#">@lang ('Ecosystem')</a></h3>
+                        <div class="desc flex-grow-1"><strong>@lang ('The Metaway Holdings')</strong> @lang ("ecosystem is investing in products and services for specialized needs: The backbone pillar of the digital economy, Enormous Volume, Global Scale, Recurrent Demand, Fast-developing Market.")</div>
+                        <div class="text-center">
+                            <a href="{{ route('about') }}" class="btn btn-grey-outline">@lang ('READ MORE')</a>
                         </div>
                     </div>
                 </div>
