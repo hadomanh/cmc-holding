@@ -4,16 +4,9 @@
 <div id="aboutPage">
 
     <!-- Banner -->
-    <section class="banner p-0">
-        <div id="carouselBanner" class="carousel slide pt-0" data-bs-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active container2">
-                    <img src="{{ asset('img/Banner-about.png') }}" alt="" class="w-100">
-                    <div class="content">
-                        <h1>@lang ('ABOUT US')</h1>
-                    </div>
-                </div>
-            </div>
+    <section class="banner">
+        <div class="container-xxl">
+            <h1 class="mb-0 text-white">@lang ('ABOUT US')</h1>
         </div>
     </section>
 
@@ -33,7 +26,7 @@
                     </div>
                     <div class="col-md-4 p-4">
                         <h4><img src="{{ asset('img/Overview-Resource.png') }}" alt=""> <span>@lang ('Resource')</span></h4>
-                        <p>@lang ('Possesses influential resources in human, finance, and technology.')  @lang ("founders and management team have extensive expertise and knowledge in strategy, corporate governance, investing, and restructuring. We capture the world's top successful business formulae. Thanks to the creative ideas based on understanding and mastering the latest platform technologies, We have earned the attention of major investment funds and reputable financial organizations.")</p>
+                        <p>@lang ('Possesses influential resources in human, finance, and technology.') @lang ("founders and management team have extensive expertise and knowledge in strategy, corporate governance, investing, and restructuring. We capture the world's top successful business formulae. Thanks to the creative ideas based on understanding and mastering the latest platform technologies, We have earned the attention of major investment funds and reputable financial organizations.")</p>
                     </div>
                     <div class="col-md-4 p-4">
                         <h4><img src="{{ asset('img/Overview-Aspiration.png') }}" alt=""> <span>@lang ('Aspiration')</span></h4>
@@ -232,211 +225,282 @@
             <p class="text-center"><strong>Metaway Holdings</strong> @lang ('owns executive resources who have many years of experience in many fields: restructuring, M&A, finance, investment and corporate governance. In addition, we also have senior advisors from Phi Group (USA) with a strong and reputable global partner system.')</p>
             <div class="listTeam">
                 <div class="col-md-12">
-                    <h4 class="sectionHeading text-uppercase1 mt-4"><span>@lang ('Board of Management')</span></h4>
+                    <h4 class="sectionHeading text-uppercase1 mt-4"><span>@lang ('BOARD OF MANAGEMENT')</span></h4>
                 </div>
-                <div class="row g-0 justify-content-center text-center our-executive-team">
-                    <div class="col-lg col-md-4 col-sm-6 item d-flex flex-column align-items-center m-2">
+                <div class="row g-0 d-flex justify-content-center text-center">
+                    <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 d-flex flex-column align-items-center mt-3">
                         <img src="{{ asset('img/Tran-Nam-Trung.png') }}" alt="">
                         <img class="border-icon" src="{{ asset('img/border-executive.png') }}" alt="">
-                        <h4 class="name">Trần Nam Chung</h4>
-                        <div class="position flex-grow-1">@lang ('Chairman')</div>
-                        <div class="social">
-                            <a href="#"><i class="fab fa-linkedin"></i></a>
-                            <a href="#"><i class="fa fa-twitter"></i></a>
-                        </div>
-                    </div>
-                    <div class="col-lg col-md-4 col-sm-6 item d-flex flex-column align-items-center m-2">
-                        <img src="{{ asset('img/Henre-D.Fahman.png') }}" alt="">
-                        <img class="border-icon" src="{{ asset('img/border-executive.png') }}" alt="">
-                        <h4 class="name">Henry D.Fahman</h4>
-                        <div class="position flex-grow-1">@lang ('Vice Chairman')</div>
-                        <div class="social">
-                            <a href="#"><i class="fab fa-linkedin"></i></a>
-                            <a href="#"><i class="fa fa-twitter"></i></a>
-                        </div>
-                    </div>
-                    <div class="col-lg col-md-4 col-sm-6 item d-flex flex-column align-items-center m-2">
-                        <img src="{{ asset('img/Nguyen-Ngoc-Son.png') }}" alt="">
-                        <img class="border-icon" src="{{ asset('img/border-executive.png') }}" alt="">
-                        <h4 class="name">Nguyễn Ngọc Sơn</h4>
-                        <div class="position flex-grow-1">@lang ('Vice Chairman CEO')</div>
-                        <div class="social">
-                            <a href="#"><i class="fab fa-linkedin"></i></a>
-                            <a href="#"><i class="fa fa-twitter"></i></a>
-                        </div>
-                    </div>
-                    <div class="col-lg col-md-4 col-sm-6 item d-flex flex-column align-items-center m-2">
-                        <img src="{{ asset('img/Pham-Anh-Tuan.png') }}" alt="">
-                        <img class="border-icon" src="{{ asset('img/border-executive.png') }}" alt="">
-                        <h4 class="name">Phạm Anh Tuấn</h4>
-                        <div class="position flex-grow-1">@lang ('Deputy CEO')</div>
-                        <div class="social">
-                            <a href="https://www.linkedin.com/"><i class="fab fa-linkedin"></i></a>
-                            <a href="https://twitter.com"><i class="fa fa-twitter"></i></a>
-                        </div>
-                    </div>
-                    <div class="col-lg col-md-4 col-sm-6 item d-flex flex-column align-items-center m-2">
-                        <img src="{{ asset('img/Nguyen-Thanh-Long.png') }}" alt="">
-                        <img class="border-icon" src="{{ asset('img/border-executive.png') }}" alt="">
-                        <h4 class="name">Nguyễn Thanh Long</h4>
-                        <div class="position flex-grow-1">@lang ('Member of BOM')</div>
-                        <div class="social">
-                            <a href="https://www.linkedin.com/"><i class="fab fa-linkedin"></i></a>
-                            <a href="https://twitter.com"><i class="fa fa-twitter"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="listTeam ">
-                <div class="col-md-12">
-                    <h4 class="sectionHeading text-uppercase1 mt-4"><span>@lang ('Advisors')</span></h4>
-                </div>
-                <div class="row g-0 text-center advisors">
-                    <div class="col-lg col-md-4 item d-flex flex-column align-items-center m-2">
-                        <img src="{{ asset('img/Tran-Quang-Trung.png') }}" alt="">
-                        <img class="border-icon" src="{{ asset('img/border-executive.png') }}" alt="">
-                        <h4 class="name">Trần Quang Trung</h4>
-                        <div class="position flex-grow-1">@lang ('Growth Advisor')</div>
-                        <div class="social">
-                            <a href="#"><i class="fab fa-linkedin"></i></a>
-                            <a href="#"><i class="fa fa-twitter"></i></a>
-                        </div>
-                    </div>
-                    <div class="col-lg col-md-4 item d-flex flex-column align-items-center m-2">
-                        <img src="{{ asset('img/Steve-Truong.png') }}" alt="">
-                        <img class="border-icon" src="{{ asset('img/border-executive.png') }}" alt="">
-                        <h4 class="name">Steve Trương</h4>
-                        <div class="position flex-grow-1">@lang ('Managing Director PHI') <br> @lang ('Group Advisor')</div>
-                        <div class="social">
-                            <a href="#"><i class="fab fa-linkedin"></i></a>
-                            <a href="#"><i class="fa fa-twitter"></i></a>
-                        </div>
-                    </div>
-                    <div class="col-lg col-md-4 item d-flex flex-column align-items-center m-2">
-                        <img src="{{ asset('img/Frank-N.Hawkins.png') }}" alt="">
-                        <img class="border-icon" src="{{ asset('img/border-executive.png') }}" alt="">
-                        <h4 class="name">Frank N.Hawkins</h4>
-                        <div class="position flex-grow-1">@lang ('Finance Advisor')</div>
-                        <div class="social">
-                            <a href="#"><i class="fab fa-linkedin"></i></a>
-                            <a href="#"><i class="fa fa-twitter"></i></a>
-                        </div>
-                    </div>
-                    <div class="col-lg col-md-4 item d-flex flex-column align-items-center m-2">
-                        <img src="{{ asset('img/Michael-Bennett.png') }}" alt="">
-                        <img class="border-icon" src="{{ asset('img/border-executive.png') }}" alt="">
-                        <h4 class="name">Michael Bennett</h4>
-                        <div class="position flex-grow-1">@lang ('Investment & Partnership Advisor')</div>
-                        <div class="social">
-                            <a href="#"><i class="fab fa-linkedin"></i></a>
-                            <a href="#"><i class="fa fa-twitter"></i></a>
-                        </div>
-                    </div>
-                    <div class="col-lg col-md-4 item d-flex flex-column align-items-center m-2">
-                        <img src="{{ asset('img/Tam-T.Bui.png') }}" alt="">
-                        <img class="border-icon" src="{{ asset('img/border-executive.png') }}" alt="">
-                        <h4 class="name">Tam T.Bui</h4>
-                        <div class="position flex-grow-1">@lang ('Chief Operationg Officer PHI Group Operation Advisor')</div>
-                        <div class="social">
-                            <a href="#"><i class="fab fa-linkedin"></i></a>
-                            <a href="#"><i class="fa fa-twitter"></i></a>
-                        </div>
-                    </div>
-                    <div class="col-lg col-md-4 item d-flex flex-column align-items-center m-2">
-                        <img src="{{ asset('img/Guiko-K.png') }}" alt="">
-                        <img class="border-icon" src="{{ asset('img/border-executive.png') }}" alt="">
-                        <h4 class="name">Guiko K</h4>
-                        <div class="position flex-grow-1">@lang ('Technology Advisor')</div>
-                        <div class="social">
-                            <a href="#"><i class="fab fa-linkedin"></i></a>
-                            <a href="#"><i class="fa fa-twitter"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="listTeam">
-                <div class="col-md-12">
-                    <h4 class="sectionHeading text-uppercase1 mt-4"><span>@lang ('Core Team')</span></h4>
-                </div>
-                <div class="row g-0 justify-content-center  text-center">
-                    <!-- <div class="col-lg-2 col-md-4 item d-flex flex-column align-items-center m-2">
-                        <img src="{{ asset('img/Nguyen-Thi-Thuy-Hong.png') }}" alt="">
-                        <img class="border-icon" src="{{ asset('img/border-executive.png') }}" alt="">
-                        <h4 class="name">NGUYEN THI THUY HONG </h4>
-                        <div class="position flex-grow-1">CHRO</div>
-                        <div class="social">
-                            <a href="#"><i class="fab fa-linkedin"></i></a>
-                            <a href="#"><i class="fa fa-twitter"></i></a>
-                        </div>
-                    </div> -->
-                    <div class="col-lg-2 col-md-4 item d-flex flex-column align-items-center m-2">
-                        <img src="{{ asset('img/Andy-Vu.png') }}" alt="">
-                        <img class="border-icon" src="{{ asset('img/border-executive.png') }}" alt="">
-                        <h4 class="name">Andy Vũ</h4>
-                        <div class="position flex-grow-1">@lang ('CMO')</div>
-                        <div class="social">
-                            <a href="#"><i class="fab fa-linkedin"></i></a>
-                            <a href="#"><i class="fa fa-twitter"></i></a>
-                        </div>
-                    </div>
-                    <div class="col-lg-2 col-md-4 item d-flex flex-column align-items-center m-2">
-                        <img src="{{ asset('img/Anna-Nguyen.png') }}" alt="">
-                        <img class="border-icon" src="{{ asset('img/border-executive.png') }}" alt="">
-                        <h4 class="name">Anna Nguyễn</h4>
-                        <div class="position flex-grow-1">@lang ('Deputy CEO')</div>
-                        <div class="social">
-                            <a href="#"><i class="fab fa-linkedin"></i></a>
-                            <a href="#"><i class="fa fa-twitter"></i></a>
-                        </div>
-                    </div>
-                    <div class="col-lg-2 col-md-4 item d-flex flex-column align-items-center m-2">
-                        <img src="{{ asset('img/Le-Van-Duong.png') }}" alt="">
-                        <img class="border-icon" src="{{ asset('img/border-executive.png') }}" alt="">
-                        <div class="des">
-                            <h4 class="name">Lê Văn Dương</h4>
-                            <div class="position flex-grow-1">@lang ('Legal Director')</div>
+                        <div class="item">
+                            <div style="width: auto; height: 75px;">
+                                <h4 class="name">TRAN NAM CHUNG</h4>
+                                <div class="position flex-grow-1">@lang ('Chairman')</div>
+                            </div>
                             <div class="social">
                                 <a href="#"><i class="fab fa-linkedin"></i></a>
                                 <a href="#"><i class="fa fa-twitter"></i></a>
                             </div>
                         </div>
                     </div>
-
+                    <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 d-flex flex-column align-items-center mt-3">
+                        <img src="{{ asset('img/Henre-D.Fahman.png') }}" alt="">
+                        <img class="border-icon" src="{{ asset('img/border-executive.png') }}" alt="">
+                        <div class="item">
+                            <div style="width: auto; height: 75px;">
+                                <h4 class="name">HENRY D.FAHMAN</h4>
+                                <div class="position flex-grow-1">@lang ('Vice Chairman')</div>
+                            </div>
+                            <div class="social">
+                                <a href="#"><i class="fab fa-linkedin"></i></a>
+                                <a href="#"><i class="fa fa-twitter"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 d-flex flex-column align-items-center mt-3">
+                        <img src="{{ asset('img/ngo-minh-thang1.png') }}" alt="">
+                        <img class="border-icon" src="{{ asset('img/border-executive.png') }}" alt="">
+                        <div class="item">
+                            <div style="width: auto; height: 75px;">
+                                <h4 class="name">NGO MINH THANG</h4>
+                                <div class="position flex-grow-1">@lang ('CEO')</div>
+                            </div>
+                            <div class="social">
+                                <a href="#"><i class="fab fa-linkedin"></i></a>
+                                <a href="#"><i class="fa fa-twitter"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 d-flex flex-column align-items-center mt-3">
+                        <img src="{{ asset('img/Pham-Anh-Tuan.png') }}" alt="">
+                        <img class="border-icon" src="{{ asset('img/border-executive.png') }}" alt="">
+                        <div class="item">
+                            <div style="width: auto; height: 75px;">
+                                <h4 class="name">PHAM ANH TUAN </h4>
+                                <div class="position flex-grow-1">@lang ('Deputy CEO')</div>
+                            </div>
+                            <div class="social">
+                                <a href="https://www.linkedin.com/"><i class="fab fa-linkedin"></i></a>
+                                <a href="https://twitter.com"><i class="fa fa-twitter"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 d-flex flex-column align-items-center mt-3">
+                        <img src="{{ asset('img/Anna-Nguyen.png') }}" alt="">
+                        <img class="border-icon" src="{{ asset('img/border-executive.png') }}" alt="">
+                        <div class="item">
+                            <div style="width: auto; height: 75px;">
+                                <h4 class="name">ANNA NGUYEN</h4>
+                                <div class="position flex-grow-1">@lang ('Deputy CEO')</div>
+                            </div>
+                            <div class="social">
+                                <a href="#"><i class="fab fa-linkedin"></i></a>
+                                <a href="#"><i class="fa fa-twitter"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="listTeam ">
+                <div class="col-md-12">
+                    <h4 class="sectionHeading text-uppercase1 mt-4"><span>@lang ('ADVISORS')</span></h4>
+                </div>
+                <div class="row g-0 d-flex justify-content-center text-center">
+                    <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 d-flex flex-column align-items-center mt-3">
+                        <img src="{{ asset('img/Tran-Quang-Trung.png') }}" alt="">
+                        <img class="border-icon" src="{{ asset('img/border-executive.png') }}" alt="">
+                        <div class="item">
+                            <div style="width: auto; height: 75px;">
+                                <h4 class="name">TRAN QUANG TRUNG</h4>
+                                <div class="position flex-grow-1">@lang ('Growth Advisor')</div>
+                            </div>
+                            <div class="social">
+                                <a href="#"><i class="fab fa-linkedin"></i></a>
+                                <a href="#"><i class="fa fa-twitter"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 d-flex flex-column align-items-center mt-3">
+                        <img src="{{ asset('img/Steve-Truong.png') }}" alt="">
+                        <img class="border-icon" src="{{ asset('img/border-executive.png') }}" alt="">
+                        <div class="item">
+                            <div style="width: auto; height: 75px;">
+                                <h4 class="name">STEVE TRUONG</h4>
+                                <div class="position flex-grow-1">@lang ('Managing Director PHI') <br> @lang ('Group Advisor')</div>
+                            </div>
+                            <div class="social">
+                                <a href="#"><i class="fab fa-linkedin"></i></a>
+                                <a href="#"><i class="fa fa-twitter"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 d-flex flex-column align-items-center mt-3">
+                        <img src="{{ asset('img/Frank-N.Hawkins.png') }}" alt="">
+                        <img class="border-icon" src="{{ asset('img/border-executive.png') }}" alt="">
+                        <div class="item">
+                            <div style="width: auto; height: 75px;">
+                                <h4 class="name">FRANK N.HAWKINS</h4>
+                                <div class="position flex-grow-1">@lang ('Finance Advisor')</div>
+                            </div>
+                            <div class="social">
+                                <a href="#"><i class="fab fa-linkedin"></i></a>
+                                <a href="#"><i class="fa fa-twitter"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 d-flex flex-column align-items-center mt-3">
+                        <img src="{{ asset('img/Michael-Bennett.png') }}" alt="">
+                        <img class="border-icon" src="{{ asset('img/border-executive.png') }}" alt="">
+                        <div class="item">
+                            <div style="width: auto; height: 75px;">
+                                <h4 class="name">MICHAEL BENNETT</h4>
+                                <div class="position flex-grow-1">@lang ('Investment &<br> Partnership Advisor')</div>
+                            </div>
+                            <div class="social">
+                                <a href="#"><i class="fab fa-linkedin"></i></a>
+                                <a href="#"><i class="fa fa-twitter"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 d-flex flex-column align-items-center mt-3">
+                        <img src="{{ asset('img/Tam-T.Bui.png') }}" alt="">
+                        <img class="border-icon" src="{{ asset('img/border-executive.png') }}" alt="">
+                        <div class="item">
+                            <div style="width: auto; height: 75px;">
+                                <h4 class="name">TAM T.BUI</h4>
+                                <div class="position flex-grow-1">@lang ('COO PHI Group Operation Advisor')</div>
+                            </div>
+                            <div class="social">
+                                <a href="#"><i class="fab fa-linkedin"></i></a>
+                                <a href="#"><i class="fa fa-twitter"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 d-flex flex-column align-items-center mt-3">
+                        <img src="{{ asset('img/Guiko-K.png') }}" alt="">
+                        <img class="border-icon" src="{{ asset('img/border-executive.png') }}" alt="">
+                        <div class="item">
+                            <div style="width: auto; height: 75px;">
+                                <h4 class="name">GUIKO K</h4>
+                                <div class="position flex-grow-1">@lang ('Technology Advisor')</div>
+                            </div>
+                            <div class="social">
+                                <a href="#"><i class="fab fa-linkedin"></i></a>
+                                <a href="#"><i class="fa fa-twitter"></i></a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="listTeam">
                 <div class="col-md-12">
-                    <h4 class="sectionHeading text-uppercase1 mt-4"><span>@lang ('Technical steering commitee')</span></h4>
+                    <h4 class="sectionHeading text-uppercase1 mt-4"><span>@lang ('CORE TEAM')</span></h4>
                 </div>
-                <div class="row g-0 teamWrap justify-content-center  text-center">
-                    <div class="col-lg-2 col-md-4 item d-flex flex-column align-items-center m-2">
+                <div class="row g-0 d-flex justify-content-center text-center">
+                    <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 d-flex flex-column align-items-center mt-3">
+                        <img src="{{ asset('img/Andy-Vu.png') }}" alt="">
+                        <img class="border-icon" src="{{ asset('img/border-executive.png') }}" alt="">
+                        <div class="item">
+                            <div style="width: auto; height: 75px;">
+                                <h4 class="name">ANDY VU</h4>
+                                <div class="position flex-grow-1">@lang ('CMO')</div>
+                            </div>
+                            <div class="social">
+                                <a href="#"><i class="fab fa-linkedin"></i></a>
+                                <a href="#"><i class="fa fa-twitter"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 d-flex flex-column align-items-center mt-3">
+                        <img src="{{ asset('img/ma-chi-thanh.png') }}" alt="">
+                        <img class="border-icon" src="{{ asset('img/border-executive.png') }}" alt="">
+                        <div class="item">
+                            <div style="width: auto; height: 75px;">
+                                <h4 class="name">MA CHI THANH </h4>
+                                <div class="position flex-grow-1">Creative Director</div>
+                            </div>
+                            <div class="social">
+                                <a href="#"><i class="fab fa-linkedin"></i></a>
+                                <a href="#"><i class="fa fa-twitter"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 d-flex flex-column align-items-center mt-3">
+                        <img src="{{ asset('img/tran-duc-minh.png') }}" alt="">
+                        <img class="border-icon" src="{{ asset('img/border-executive.png') }}" alt="">
+                        <div class="item">
+                            <div style="width: auto; height: 75px;">
+                                <h4 class="name">TRAN DUC MINH</h4>
+                                <div class="position flex-grow-1">@lang ('Training Director')</div>
+                            </div>
+                            <div class="social">
+                                <a href="https://www.linkedin.com/"><i class="fab fa-linkedin"></i></a>
+                                <a href="https://twitter.com"><i class="fa fa-twitter"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 d-flex flex-column align-items-center mt-3">
+                        <img src="{{ asset('img/Le-Van-Duong.png') }}" alt="">
+                        <img class="border-icon" src="{{ asset('img/border-executive.png') }}" alt="">
+                        <div class="item">
+                            <div class="des">
+                                <div style="width: auto; height: 75px;">
+                                    <h4 class="name">LE VAN DUONG</h4>
+                                    <div class="position flex-grow-1">@lang ('Legal Director')</div>
+                                </div>
+                                <div class="social">
+                                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                                    <a href="#"><i class="fa fa-twitter"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="listTeam">
+                <div class="col-md-12">
+                    <h4 class="sectionHeading text-uppercase1 mt-4"><span>@lang ('TECHNICAL STEERING COMMITEE')</span></h4>
+                </div>
+                <div class="row g-0 d-flex justify-content-center text-center">
+                    <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 d-flex flex-column align-items-center mt-3">
                         <img src="{{ asset('img/Guiko-K.png') }}" alt="">
                         <img class="border-icon" src="{{ asset('img/border-executive.png') }}" alt="">
-                        <h4 class="name">Guiko K</h4>
-                        <div class="position flex-grow-1">@lang ('Technology Advisor')</div>
-                        <div class="social">
-                            <a href="#"><i class="fab fa-linkedin"></i></a>
-                            <a href="#"><i class="fa fa-twitter"></i></a>
+                        <div class="item">
+                            <div style="width: auto; height: 75px;">
+                                <h4 class="name">GUIKO K</h4>
+                                <div class="position flex-grow-1">@lang ('Technology Advisor')</div>
+                            </div>
+                            <div class="social">
+                                <a href="#"><i class="fab fa-linkedin"></i></a>
+                                <a href="#"><i class="fa fa-twitter"></i></a>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-lg-2 col-md-4 item d-flex flex-column align-items-center m-2">
+                    <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 d-flex flex-column align-items-center mt-3">
                         <img src="{{ asset('img/Francesco.png') }}" alt="">
                         <img class="border-icon" src="{{ asset('img/border-executive.png') }}" alt="">
-                        <h4 class="name">Francesco</h4>
-                        <div class="position flex-grow-1">@lang ('CTO')</div>
-                        <div class="social">
-                            <a href="#"><i class="fab fa-linkedin"></i></a>
-                            <a href="#"><i class="fa fa-twitter"></i></a>
+                        <div class="item">
+                            <div style="width: auto; height: 75px;">
+                                <h4 class="name">FRANCESCO</h4>
+                                <div class="position flex-grow-1">@lang ('CTO')</div>
+                            </div>
+                            <div class="social">
+                                <a href="#"><i class="fab fa-linkedin"></i></a>
+                                <a href="#"><i class="fa fa-twitter"></i></a>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-lg-2 col-md-4 item d-flex flex-column align-items-center m-2">
+                    <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 d-flex flex-column align-items-center mt-3">
                         <img src="{{ asset('img/Bui-Dinh-Ngoc.png') }}" alt="">
                         <img class="border-icon" src="{{ asset('img/border-executive.png') }}" alt="">
-                        <h4 class="name">Bùi Đình Ngọc</h4>
-                        <div class="position flex-grow-1">@lang ('CTO')</div>
-                        <div class="social">
-                            <a href="#"><i class="fab fa-linkedin"></i></a>
-                            <a href="#"><i class="fa fa-twitter"></i></a>
+                        <div class="item">
+                            <div style="width: auto; height: 75px;">
+                                <h4 class="name">BUI DINH NGOC</h4>
+                                <div class="position flex-grow-1">@lang ('CTO')</div>
+                            </div>
+                            <div class="social">
+                                <a href="#"><i class="fab fa-linkedin"></i></a>
+                                <a href="#"><i class="fa fa-twitter"></i></a>
+                            </div>
                         </div>
                     </div>
                 </div>

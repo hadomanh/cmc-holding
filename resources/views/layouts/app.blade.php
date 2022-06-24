@@ -42,116 +42,94 @@
 @yield('content')
 
 <!-- Footer -->
-<footer class="pb-0 bgWhite">
-    <div class="container-lg">
-        <div class="row">
-            <div class="col-xl col-12">
-                <div class="row social">
-                    <div class="col-auto"><a target="_blank" href="https://www.facebook.com/metawayholdings" class="item"><i class="fa fa-facebook-f" aria-hidden="true"></i></a></div>
-                    <div class="col-auto"><a target="_blank" href="https://www.youtube.com/channel/UCpIg6-XEcZnofCZD5z8OLVw" class="item"><i class="fa fa-youtube" aria-hidden="true"></i></a></div>
-                    <div class="col-auto"><a target="_blank" href="https://www.linkedin.com/company/metawayholdings/" class="item"><i class="fa fa-linkedin" aria-hidden="true"></i></a></div>
-                    <div class="col-auto"><a target="_blank" href="https://twitter.com/metawayholdings" class="item"><i class="fa fa-twitter" aria-hidden="true"></i></a></div>
+<footer class="bgWhite">
+    <div class="container-xxl">
+        <div class="mb-5">
+            <div class="row align-items-center">
+                <div class="col-md-auto">
+                    <img src="{{ asset('img/logo.svg') }}" class="footerLogo">
                 </div>
-                <h6 class="title text-red">
-                    <div class="">
-                        <img src="{{ asset('img/Logo-cmc.png') }}" class="footerLogo">
+                <div class="col-md">
+                    <div class="d-flex align-items-center justify-content-end social">
+                        <a target="_blank" href="https://www.facebook.com/metawayholdings" class="item"><i class="fa fa-facebook-f" aria-hidden="true"></i></a>
+                        <a target="_blank" href="https://www.youtube.com/channel/UCpIg6-XEcZnofCZD5z8OLVw" class="item"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+                        <a target="_blank" href="https://www.linkedin.com/company/metawayholdings/" class="item"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                        <a target="_blank" href="https://twitter.com/metawayholdings" class="item"><i class="fa fa-twitter" aria-hidden="true"></i></a>
                     </div>
-                </h6>
+                </div>
+            </div>            
+        </div>
+        <div class="row">
+            <div class="col-md-3">
+                <ul class="list-unstyled info">
+                    <li class="mb-4">
+                        <img src="{{ asset('img/map-fter.png') }}" class="mb-2">
+                        <div class="mb-3"><strong>@lang ('Address 1:')</strong> 30 N Gould St Ste R Sheridan, Wyoming 82801, USA</div>
+                        <div class="mb-3"><strong>@lang ('Address 2:')</strong> 2323 Main Street Irvine, CA 92614, U.S.A.</div>
+                        <div><strong>@lang ('Address 3:')</strong> @lang ('CX01 lot, Van Khe urban area, La Khe Ward, Ha Dong District, Hanoi, Vietnam')</div>
+                    </li>
+                    <li class="mb-4">
+                        <img src="{{ asset('img/email-fter.png') }}" class="mb-2">
+                        <div class="mb-1">
+                            <a href="mailto:info@metawayholdings.com">info@metawayholdings.com</a>
+                        </div>
+                        <div>
+                            <a href="mailto:info@metawayholdings.vn">info@metawayholdings.vn</a>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="{{ asset('img/global-fter.png') }}" class="mb-2">
+                        <div class="mb-1">
+                            <a href="https://www.metawayholdings.com">www.metawayholdings.com</a>
+                        </div>
+                        <div>
+                            <a href="https://www.metawayholdings.vn">www.metawayholdings.vn</a>
+                        </div>
+                    </li>
+                </ul>
             </div>
-            <div class="row menuFooter">
-                <div class="col-md-3">
-                    <ul class="list-unstyled">
-                        <li>
-                            <img src="{{ asset('img/icon-map.png') }}" class="icon">
-                            <p><strong>@lang ('Address 1:')</strong> 30 N Gould St Ste R Sheridan, Wyoming 82801, USA</p>
-                            <p><strong>@lang ('Address 2:')</strong> 2323 Main Street Irvine, CA 92614, U.S.A.</p>
-                            <p><strong>@lang ('Address 3:')</strong> @lang ('CX01 lot, Van Khe urban area, La Khe Ward, Ha Dong District, Hanoi, Vietnam')</p>
-                        </li>
-                        <li>
-                            <img src="{{ asset('img/Email.png') }}" class="icon">
-                            <p>info@metawayholdings.com  info@metawayholdings.vn</p>
-                        </li>
-                        <li>
-                            <img src="{{ asset('img/icon-global-2.png') }}" class="icon">
-                            <p>www.metawayholdings.com  www.metawayholdings.vn</p>
-                        </li>
-                    </ul>
+            <div class="col-md-8 offset-md-1">
+                <div class="row justify-content-between">
+                    <div class="col-md-3">
+                        <h3 class="title">@lang ('About us')</h3>
+                        <ul class="list-unstyled menuFooter">
+                            <li><a href="{{ route('about') }}">@lang ('Overview')</a></li>
+                            <li><a href="{{ route('about') }}">@lang ('Our Mission')</a></li>
+                            <li><a href="{{ route('about') }}">@lang ('Our Vision')</a></li>
+                            <li><a href="{{ route('about') }}">@lang ('Our Core Values')</a></li>
+                            <li><a href="{{ route('about') }}">@lang ('Investment Sectors') </a></li>
+                            <li><a href="{{ route('about') }}">@lang ('Our Ecosystem')</a></li>
+                            <li><a href="{{ route('about') }}">@lang ('Holdings Members')</a></li>
+                            <li><a href="{{ route('about') }}">@lang ('Our Executive Team')</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3">
+                        <h3 class="title">@lang ('Investor')</h3>
+                        <ul class="list-unstyled menuFooter">
+                            <li><a href="{{ route('investor.internal') }}">@lang ('Internal Report')</a></li>
+                            <li><a href="{{ route('investor.finance') }}">@lang ('Annual Finance Report')</a></li>
+                            <li><a href="{{ route('investor.sec-filing') }}">@lang ('Sec Filing')</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3">
+                        <h3 class="title">@lang ('Media')</h3>
+                        <ul class="list-unstyled menuFooter">
+                            <li><a href="{{ route('media.investor-news') }}">@lang ('Investor News')</a></li>
+                            <li><a href="{{ route('media.news') }}">@lang ('News')</a></li>
+                            <li><a href="{{ route('media.press') }}">@lang ('Press Release')</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-auto">
+                        <h3 class="title">
+                            <a href="{{ route('contact') }}">@lang ('Contact')</a>
+                        </h3>
+                    </div>
                 </div>
-                <div class="col-9">
-                <div class="row">
-                <div class="col-md-5 col-xl-3">
-                    <ul>
-                        <li class="parent list-unstyled">
-                            <span class="">@lang ('About us')</span>
-                            <ul class="list-unstyled">
-                                <li><a href="{{ route('about') }}">@lang ('Overview')</a></li>
-                                <li><a href="{{ route('about') }}">@lang ('Our Mission')</a></li>
-                                <li><a href="{{ route('about') }}">@lang ('Our Vision')</a></li>
-                                <li><a href="{{ route('about') }}">@lang ('Our Core Values')</a></li>
-                                <li><a href="{{ route('about') }}">@lang ('Investment Sectors') </a></li>
-                                <li><a href="{{ route('about') }}">@lang ('Our Ecosystem')</a></li>
-                                <li><a href="{{ route('about') }}">@lang ('Holdings Members')</a></li>
-                                <li><a href="{{ route('about') }}">@lang ('Our Executive Team')</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </div>
-                <!-- <div class="col-md">
-                    <ul>
-                        <li class="parent list-unstyled">
-                            <span class="">Investment Sector</span>
-                            <ul class="list-unstyled">
-                                <li><a href="{{ route('about') }}">Our Core Values</a></li>
-                                <li><a href="{{ route('about') }}">Business Sector</a></li>
-                                <li><a href="{{ route('about') }}">Our Ecosystem</a></li>
-                                <li><a href="{{ route('about') }}">Holdings Members</a></li>
-                                <li><a href="{{ route('about') }}">Our Executive Team</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </div> -->
-                <div class="col-md-5 col-xl-3">
-                    <ul>
-                        <li class="parent list-unstyled">
-                            <span>@lang ('Investor')</span>
-                            <ul class="list-unstyled">
-                                <li><a href="{{ route('investor.internal') }}">@lang ('Internal Report')</a></li>
-                                <li><a href="{{ route('investor.finance') }}">@lang ('Annual Finance Report')</a></li>
-                                <li><a href="{{ route('investor.sec-filing') }}">@lang ('Sec Filing')</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-md-5 col-xl-3">
-                    <ul>
-                        <li class="parent list-unstyled">
-                            <span>@lang ('Media')</span>
-                            <ul class="list-unstyled">
-                                <li><a href="{{ route('media.investor-news') }}">@lang ('Investor News')</a></li>
-                                <li><a href="{{ route('media.news') }}">@lang ('News')</a></li>
-                                <li><a href="{{ route('media.press') }}">@lang ('Press Release')</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-md-5 col-xl-3">
-                    <ul>
-                        <li class="list-unstyled"> 
-                    <a href="{{ route('contact') }}"><span>@lang ('Contact')</span></a>
-                    </li></ul>
-                    
-                </div>
-                </div>
-                </div>
-                
             </div>
         </div>
-        <div class="companyInfo">
-            <h6 class="title"></h6>
-            <div class="row text-center">
-                <p class="m-0 pt-2">@lang ('METAWAY Holdings.com is a proud part of METAWAY Holdings Inc., a leading business  services company.')</p>
-                <p>@lang ('METAWAY Holdings.com is a Registered Trademark. © 2022 – 2027  All Rights Reserved')</p>
-            </div>
+        <div class="copyright small text-center">
+            <p class="mb-1">@lang ('METAWAY Holdings.com is a proud part of METAWAY Holdings Inc., a leading business  services company.')</p>
+            <p class="mb-0">@lang ('METAWAY Holdings.com is a Registered Trademark. © 2022 – 2027  All Rights Reserved')</p>
         </div>
     </div>
 </footer>
@@ -163,21 +141,18 @@
 <script>
     $('.owl-carousel').owlCarousel({
         loop: false,
-        margin: 0,
+        margin: 20,
         nav: true,
         dots: false,
-        autoplay: false,
-        autoplaySpeed: 1000,
-        navSpeed: 1000,
         responsive:{
             0:{
                 items:1
             },
             600:{
-                items:1
+                items:3
             },
             1000:{
-                items:1
+                items: 5
             }
         }
     })

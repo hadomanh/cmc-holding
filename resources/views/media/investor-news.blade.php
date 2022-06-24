@@ -42,6 +42,7 @@
                                 <div class="newsDesc">
                                     {{ $item->subtitle }}
                                 </div>  
+                                <span class="miniSize">{{ date('Y-m-d', strtotime($item->created_at)) }}</span>
                             </div>
                         </li>
                         @endif
@@ -64,6 +65,7 @@
                                 <div class="newsDesc">
                                     {{ $item->subtitle }}
                                 </div>  
+                                <span class="miniSize">{{ date('Y-m-d', strtotime($item->created_at)) }}</span>
                             </div>
                         </li>
                         @endif

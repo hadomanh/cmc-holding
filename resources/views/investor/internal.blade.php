@@ -2,17 +2,10 @@
 
 @section('content')
 <div id="reportPage">
-    <section class="banner p-0">
-        <div id="annual" class="carousel slide pt-0" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item active container2">
-                    <img src="{{ asset('img/banner-internal.png') }}" alt="" class="w-100">
-                        <div class="content">
-                            <h1>@lang ('INTERNAL REPORT')</h1>
-                        </div>
-                    </div>
-                </div>
-            </div>
+    <section class="banner internal text-center">
+        <div class="container-xxl">
+            <h1 class="mb-0 text-white">@lang ('INTERNAL REPORT')</h1>
+        </div>
     </section>
     <section class="bg-white">
         <div class="container-lg">
