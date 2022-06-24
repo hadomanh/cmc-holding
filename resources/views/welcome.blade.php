@@ -16,10 +16,10 @@
     </section>
 
     <!-- About Us -->
-    <section class="bgGrey about text-center">
+    <section class="bgGrey overviewElement text-center">
         <div class="container-xxl">
             <h2 class="sectionHeading centered text-uppercase">{{ __('about us') }}</h2>
-            <p class="text-center pb-5"><strong> Metaway Holdings</strong> @lang ('is a global-scale digital economy corporation with the orientation to develop on the pillar fields of the digital economy society. We create platforms to fulfill multi-value ecosystems: Digital Healthcare, Digital Education, Digital Commerce, Digital Banking, Digital insurance, Digital Real Estate... All based on optimal application of the cutting-edge technologies for better serving the demand on for global connectivity')</p>
+            <p class="pb-5"><strong> Metaway Holdings</strong> @lang ('is a global-scale digital economy corporation with the orientation to develop on the pillar fields of the digital economy society. We create platforms to fulfill multi-value ecosystems: Digital Healthcare, Digital Education, Digital Commerce, Digital Banking, Digital insurance, Digital Real Estate... All based on optimal application of the cutting-edge technologies for better serving the demand on for global connectivity')</p>
             <div class="row">
                 <div class="col-md-4">
                     <div class="item">
