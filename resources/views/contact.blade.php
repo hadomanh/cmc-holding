@@ -9,11 +9,11 @@
     </section>
     <section class="bgGrey">
         <div class="container-xxl">
-            <div class="row align-items-center p-4">                
-                <div class="col-md-6">
+            <div class="row align-items-center">                
+                <div class="col-lg-6">
                     <h2 class="sectionHeading fs-2 mb-3">Metaway Holdings</h2>
                     <div class="row info">
-                        <div class="col-lg-6 col-md">
+                        <div class="col-md-6 my-3">
                             <h5 class="text-uppercase fs-6">@lang ('United States of America')</h5>
                             <div class="d-flex">
                                 <div><img src="{{ asset('img/iconPosition.png') }}" class="w-100"></div>
@@ -34,7 +34,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-6 col-md">
+                        <div class="col-md-6 my-3">
                             <h5 class="text-uppercase fs-6">@lang ('VIETNAM')</h5>
                             <div class="d-flex">
                                 <div><img src="{{ asset('img/iconPosition.png') }}" class="w-100"></div>
@@ -55,7 +55,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-6 col-md mt-4">
+                        <div class="col-md-6 my-3">
                             <h5 class="text-uppercase fs-6">SINGAPORE</h5>
                             <div class="d-flex">
                                 <div><img src="{{ asset('img/iconPosition.png') }}" class="w-100"></div>
@@ -76,7 +76,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-6 col-md mt-4">
+                        <div class="col-md-6 my-3">
                             <h5 class="text-uppercase fs-6">CANADA</h5>
                             <div class="d-flex">
                                 <div><img src="{{ asset('img/iconPosition.png') }}" class="w-100"></div>
@@ -100,7 +100,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-lg-6">
                     <div class="ipBg">
                         <input type="text" class="form-control ipContact" placeholder="@lang ('Your Name') *">
                         <input type="email" class="form-control ipContact" placeholder="@lang ('Your Email') *">

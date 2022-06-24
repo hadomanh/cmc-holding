@@ -16,163 +16,169 @@
             </div>
             <div class="tab-content" id="nav-tabContent">
                 <div class="tab-pane fade show active" id="nav-internal-report" role="tabpanel" aria-labelledby="nav-internal-report-tab">
-                    <table class="table align-middle table-striped">
-                        <thead>
-                            <tr>
-                                <th>TIME<i class="fas fa-arrow-down ms-2"></i></th>
-                                <th>DOCUMENT</th>
-                                <th></th>
-                            </tr>
-                        </thead>
-                        <tbody>            
-                            <tr>
-                                <td>2018</td>
-                                <td>
-                                    @lang ('Finance Report')
-                                </td>
-                                <td>
-                                    <a href="#"><i class="fas fa-eye"></i></a>
-                                    <a href="#"><i class="fa fa-download"></i></a>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>2019</td>
-                                <td>
-                                    @lang ('Finance Report')
-                                </td>
-                                <td>
-                                    <a href="#"><i class="fas fa-eye"></i></a>
-                                    <a href="#"><i class="fa fa-download"></i></a>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>2020</td>
-                                <td>
-                                    @lang ('Finance Report')
-                                </td>
-                                <td>
-                                    <a href="#"><i class="fas fa-eye"></i></a>
-                                    <a href="#"><i class="fa fa-download"></i></a>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>2021</td>
-                                <td>
-                                    @lang ('Finance Report')
-                                </td>
-                                <td>
-                                    <a href="#"><i class="fas fa-eye"></i></a>
-                                    <a href="#"><i class="fa fa-download"></i></a>
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
+                    <div class="table-responsive">
+                        <table class="table align-middle table-striped">
+                            <thead>
+                                <tr>
+                                    <th>TIME<i class="fas fa-arrow-down ms-2"></i></th>
+                                    <th>DOCUMENT</th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody>            
+                                <tr>
+                                    <td>2018</td>
+                                    <td>
+                                        @lang ('Finance Report')
+                                    </td>
+                                    <td>
+                                        <a href="#"><i class="fas fa-eye"></i></a>
+                                        <a href="#"><i class="fa fa-download"></i></a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>2019</td>
+                                    <td>
+                                        @lang ('Finance Report')
+                                    </td>
+                                    <td>
+                                        <a href="#"><i class="fas fa-eye"></i></a>
+                                        <a href="#"><i class="fa fa-download"></i></a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>2020</td>
+                                    <td>
+                                        @lang ('Finance Report')
+                                    </td>
+                                    <td>
+                                        <a href="#"><i class="fas fa-eye"></i></a>
+                                        <a href="#"><i class="fa fa-download"></i></a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>2021</td>
+                                    <td>
+                                        @lang ('Finance Report')
+                                    </td>
+                                    <td>
+                                        <a href="#"><i class="fas fa-eye"></i></a>
+                                        <a href="#"><i class="fa fa-download"></i></a>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
                 <div class="tab-pane fade" id="nav-finance-report" role="tabpanel" aria-labelledby="nav-finance-report-tab">
-                    <table class="table align-middle table-striped">
-                        <thead>
-                            <tr>
-                                <th>TIME<i class="fas fa-arrow-down ms-2"></i></th>
-                                <th>DOCUMENT</th>
-                                <th></th>
-                            </tr>
-                        </thead>
-                        <tbody>            
-                            <tr>
-                                <td>2018</td>
-                                <td>
-                                    @lang ('Finance Report')
-                                </td>
-                                <td>
-                                    <a href="#"><i class="fas fa-eye"></i></a>
-                                    <a href="#"><i class="fa fa-download"></i></a>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>2019</td>
-                                <td>
-                                    @lang ('Finance Report')
-                                </td>
-                                <td>
-                                    <a href="#"><i class="fas fa-eye"></i></a>
-                                    <a href="#"><i class="fa fa-download"></i></a>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>2020</td>
-                                <td>
-                                    @lang ('Finance Report')
-                                </td>
-                                <td>
-                                    <a href="#"><i class="fas fa-eye"></i></a>
-                                    <a href="#"><i class="fa fa-download"></i></a>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>2021</td>
-                                <td>
-                                    @lang ('Finance Report')
-                                </td>
-                                <td>
-                                    <a href="#"><i class="fas fa-eye"></i></a>
-                                    <a href="#"><i class="fa fa-download"></i></a>
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
+                    <div class="table-responsive">
+                        <table class="table align-middle table-striped">
+                            <thead>
+                                <tr>
+                                    <th>TIME<i class="fas fa-arrow-down ms-2"></i></th>
+                                    <th>DOCUMENT</th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody>            
+                                <tr>
+                                    <td>2018</td>
+                                    <td>
+                                        @lang ('Finance Report')
+                                    </td>
+                                    <td>
+                                        <a href="#"><i class="fas fa-eye"></i></a>
+                                        <a href="#"><i class="fa fa-download"></i></a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>2019</td>
+                                    <td>
+                                        @lang ('Finance Report')
+                                    </td>
+                                    <td>
+                                        <a href="#"><i class="fas fa-eye"></i></a>
+                                        <a href="#"><i class="fa fa-download"></i></a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>2020</td>
+                                    <td>
+                                        @lang ('Finance Report')
+                                    </td>
+                                    <td>
+                                        <a href="#"><i class="fas fa-eye"></i></a>
+                                        <a href="#"><i class="fa fa-download"></i></a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>2021</td>
+                                    <td>
+                                        @lang ('Finance Report')
+                                    </td>
+                                    <td>
+                                        <a href="#"><i class="fas fa-eye"></i></a>
+                                        <a href="#"><i class="fa fa-download"></i></a>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
                 <div class="tab-pane fade" id="nav-business-result-report" role="tabpanel" aria-labelledby="nav-business-result-report-tab">
-                    <table class="table align-middle table-striped">
-                        <thead>
-                            <tr>
-                                <th>TIME<i class="fas fa-arrow-down ms-2"></i></th>
-                                <th>DOCUMENT</th>
-                                <th></th>
-                            </tr>
-                        </thead>
-                        <tbody>            
-                            <tr>
-                                <td>2018</td>
-                                <td>
-                                    @lang ('Finance Report')
-                                </td>
-                                <td>
-                                    <a href="#"><i class="fas fa-eye"></i></a>
-                                    <a href="#"><i class="fa fa-download"></i></a>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>2019</td>
-                                <td>
-                                    @lang ('Finance Report')
-                                </td>
-                                <td>
-                                    <a href="#"><i class="fas fa-eye"></i></a>
-                                    <a href="#"><i class="fa fa-download"></i></a>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>2020</td>
-                                <td>
-                                    @lang ('Finance Report')
-                                </td>
-                                <td>
-                                    <a href="#"><i class="fas fa-eye"></i></a>
-                                    <a href="#"><i class="fa fa-download"></i></a>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>2021</td>
-                                <td>
-                                    @lang ('Finance Report')
-                                </td>
-                                <td>
-                                    <a href="#"><i class="fas fa-eye"></i></a>
-                                    <a href="#"><i class="fa fa-download"></i></a>
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
+                    <div class="table-responsive">
+                        <table class="table align-middle table-striped">
+                            <thead>
+                                <tr>
+                                    <th>TIME<i class="fas fa-arrow-down ms-2"></i></th>
+                                    <th>DOCUMENT</th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody>            
+                                <tr>
+                                    <td>2018</td>
+                                    <td>
+                                        @lang ('Finance Report')
+                                    </td>
+                                    <td>
+                                        <a href="#"><i class="fas fa-eye"></i></a>
+                                        <a href="#"><i class="fa fa-download"></i></a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>2019</td>
+                                    <td>
+                                        @lang ('Finance Report')
+                                    </td>
+                                    <td>
+                                        <a href="#"><i class="fas fa-eye"></i></a>
+                                        <a href="#"><i class="fa fa-download"></i></a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>2020</td>
+                                    <td>
+                                        @lang ('Finance Report')
+                                    </td>
+                                    <td>
+                                        <a href="#"><i class="fas fa-eye"></i></a>
+                                        <a href="#"><i class="fa fa-download"></i></a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>2021</td>
+                                    <td>
+                                        @lang ('Finance Report')
+                                    </td>
+                                    <td>
+                                        <a href="#"><i class="fas fa-eye"></i></a>
+                                        <a href="#"><i class="fa fa-download"></i></a>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
             </div>
         </div>

@@ -239,7 +239,7 @@
             <div class="listMembers">
                 <h5 class="sectionHeading centered fs-4">@lang ('BOARD OF MANAGEMENT')</h5>
                 <div class="row align-items-center justify-content-center">
-                    <div class="col-md-2">
+                    <div class="col-lg-2 col-md-4 col-6">
                         <div class="avatar">
                             <img src="{{ asset('img/Tran-Nam-Trung.png') }}" alt="">
                         </div>
@@ -250,7 +250,7 @@
                             <a href="#"><i class="fa fa-twitter"></i></a>
                         </div>
                     </div>
-                    <div class="col-md-2">
+                    <div class="col-lg-2 col-md-4 col-6">
                         <div class="avatar">
                             <img src="{{ asset('img/Henre-D.Fahman.png') }}" alt="">
                         </div>
@@ -261,7 +261,7 @@
                             <a href="#"><i class="fa fa-twitter"></i></a>
                         </div>
                     </div>
-                    <div class="col-md-2">
+                    <div class="col-lg-2 col-md-4 col-6">
                         <div class="avatar">
                             <img src="{{ asset('img/ngo-minh-thang1.png') }}" alt="">
                         </div>
@@ -272,7 +272,7 @@
                             <a href="#"><i class="fa fa-twitter"></i></a>
                         </div>
                     </div>
-                    <div class="col-md-2">
+                    <div class="col-lg-2 col-md-4 col-6">
                         <div class="avatar">
                             <img src="{{ asset('img/Pham-Anh-Tuan.png') }}" alt="">
                         </div>
@@ -283,7 +283,7 @@
                             <a href="#"><i class="fa fa-twitter"></i></a>
                         </div>
                     </div>
-                    <div class="col-md-2">
+                    <div class="col-lg-2 col-md-4 col-6">
                         <div class="avatar">
                             <img src="{{ asset('img/Anna-Nguyen.png') }}" alt="">
                         </div>
@@ -299,7 +299,7 @@
             <div class="listMembers advisors">
                 <h5 class="sectionHeading centered fs-4">@lang ('ADVISORS')</h5>
                 <div class="row align-items-center justify-content-center">
-                    <div class="col-md-2">
+                    <div class="col-lg-2 col-md-4 col-6">
                         <div class="avatar">
                             <img src="{{ asset('img/Tran-Quang-Trung.png') }}" alt="">
                         </div>
@@ -310,7 +310,7 @@
                             <a href="#"><i class="fa fa-twitter"></i></a>
                         </div>
                     </div>
-                    <div class="col-md-2">
+                    <div class="col-lg-2 col-md-4 col-6">
                         <div class="avatar">
                             <img src="{{ asset('img/Steve-Truong.png') }}" alt="">
                         </div>
@@ -321,7 +321,7 @@
                             <a href="#"><i class="fa fa-twitter"></i></a>
                         </div>
                     </div>
-                    <div class="col-md-2">
+                    <div class="col-lg-2 col-md-4 col-6">
                         <div class="avatar">
                             <img src="{{ asset('img/Frank-N.Hawkins.png') }}" alt="">
                         </div>
@@ -332,7 +332,7 @@
                             <a href="#"><i class="fa fa-twitter"></i></a>
                         </div>
                     </div>
-                    <div class="col-md-2">
+                    <div class="col-lg-2 col-md-4 col-6">
                         <div class="avatar">
                             <img src="{{ asset('img/Michael-Bennett.png') }}" alt="">
                         </div>
@@ -343,7 +343,7 @@
                             <a href="#"><i class="fa fa-twitter"></i></a>
                         </div>
                     </div>
-                    <div class="col-md-2">
+                    <div class="col-lg-2 col-md-4 col-6">
                         <div class="avatar">
                             <img src="{{ asset('img/Tam-T.Bui.png') }}" alt="">
                         </div>
@@ -359,7 +359,7 @@
             <div class="listMembers">
                 <h5 class="sectionHeading centered fs-4">@lang ('CORE TEAM')</h5>
                 <div class="row align-items-center justify-content-center">
-                    <div class="col-md-2">
+                    <div class="col-lg-2 col-md-4 col-6">
                         <div class="avatar">
                             <img src="{{ asset('img/Andy-Vu.png') }}" alt="">
                         </div>
@@ -370,7 +370,7 @@
                             <a href="#"><i class="fa fa-twitter"></i></a>
                         </div>
                     </div>
-                    <div class="col-md-2">
+                    <div class="col-lg-2 col-md-4 col-6">
                         <div class="avatar">
                             <img src="{{ asset('img/ma-chi-thanh.png') }}" alt="">
                         </div>
@@ -381,7 +381,7 @@
                             <a href="#"><i class="fa fa-twitter"></i></a>
                         </div>
                     </div>
-                    <div class="col-md-2">
+                    <div class="col-lg-2 col-md-4 col-6">
                         <div class="avatar">
                             <img src="{{ asset('img/tran-duc-minh.png') }}" alt="">
                         </div>
@@ -392,7 +392,7 @@
                             <a href="#"><i class="fa fa-twitter"></i></a>
                         </div>
                     </div>
-                    <div class="col-md-2">
+                    <div class="col-lg-2 col-md-4 col-6">
                         <div class="avatar">
                             <img src="{{ asset('img/Le-Van-Duong.png') }}" alt="">
                         </div>
@@ -408,7 +408,7 @@
             <div class="listMembers">
                 <h5 class="sectionHeading centered fs-4">@lang ('TECHNICAL STEERING COMMITEE')</h5>
                 <div class="row align-items-center justify-content-center">
-                    <div class="col-md-2">
+                    <div class="col-lg-2 col-md-4 col-6">
                         <div class="avatar">
                             <img src="{{ asset('img/Bui-Dinh-Ngoc.png') }}" alt="">
                         </div>

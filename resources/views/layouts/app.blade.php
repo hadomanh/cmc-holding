@@ -46,11 +46,11 @@
     <div class="container-xxl">
         <div class="mb-5">
             <div class="row align-items-center">
-                <div class="col-md-auto">
+                <div class="col-md-auto text-center">
                     <img src="{{ asset('img/logo.svg') }}" class="footerLogo">
                 </div>
-                <div class="col-md">
-                    <div class="d-flex align-items-center justify-content-end social">
+                <div class="col-xl col-md col-12 mt-4 mt-md-0">
+                    <div class="d-flex align-items-center justify-content-md-end justify-content-center social">
                         <a target="_blank" href="https://www.facebook.com/metawayholdings" class="item"><i class="fa fa-facebook-f" aria-hidden="true"></i></a>
                         <a target="_blank" href="https://www.youtube.com/channel/UCpIg6-XEcZnofCZD5z8OLVw" class="item"><i class="fa fa-youtube" aria-hidden="true"></i></a>
                         <a target="_blank" href="https://www.linkedin.com/company/metawayholdings/" class="item"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
@@ -60,7 +60,7 @@
             </div>            
         </div>
         <div class="row">
-            <div class="col-md-3">
+            <div class="col-lg-3">
                 <ul class="list-unstyled info">
                     <li class="mb-4">
                         <img src="{{ asset('img/map-fter.png') }}" class="mb-2">
@@ -88,9 +88,9 @@
                     </li>
                 </ul>
             </div>
-            <div class="col-md-8 offset-md-1">
+            <div class="col-lg-8 offset-lg-1">
                 <div class="row justify-content-between">
-                    <div class="col-md-3">
+                    <div class="col-md-3 col-6">
                         <h3 class="title">@lang ('About us')</h3>
                         <ul class="list-unstyled menuFooter">
                             <li><a href="{{ route('about') }}">@lang ('Overview')</a></li>
@@ -103,7 +103,7 @@
                             <li><a href="{{ route('about') }}">@lang ('Our Executive Team')</a></li>
                         </ul>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-3 col-6">
                         <h3 class="title">@lang ('Investor')</h3>
                         <ul class="list-unstyled menuFooter">
                             <li><a href="{{ route('investor.internal') }}">@lang ('Internal Report')</a></li>
@@ -111,7 +111,7 @@
                             <li><a href="{{ route('investor.sec-filing') }}">@lang ('Sec Filing')</a></li>
                         </ul>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-3 col-6">
                         <h3 class="title">@lang ('Media')</h3>
                         <ul class="list-unstyled menuFooter">
                             <li><a href="{{ route('media.investor-news') }}">@lang ('Investor News')</a></li>
@@ -119,7 +119,7 @@
                             <li><a href="{{ route('media.press') }}">@lang ('Press Release')</a></li>
                         </ul>
                     </div>
-                    <div class="col-md-auto">
+                    <div class="col-md-auto col-6">
                         <h3 class="title">
                             <a href="{{ route('contact') }}">@lang ('Contact')</a>
                         </h3>
@@ -142,7 +142,7 @@
     $('.owl-carousel').owlCarousel({
         loop: false,
         margin: 20,
-        nav: true,
+        nav: false,
         dots: false,
         responsive:{
             0:{
