@@ -940,6 +940,9 @@ header .navbar-nav .dropdown-menu .dropdown-item:hover {
 #mediaNews .banner {
     background: url(../img/Investor-news.png) no-repeat center center / cover;
 }
+#mediaNews .news.banner {
+    background: url(../img/banner-news-1.jpg) no-repeat center center / cover;
+}
 #mediaNews .newsItem {
     margin-bottom: 20px;
 }

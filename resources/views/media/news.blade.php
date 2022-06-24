@@ -1,11 +1,13 @@
 @extends('layouts.app')
 
 @section('content')
-<div id="mediaNews" class="bg-white">
-    <section class="p-0">
-        <img src="{{ asset('img/banner-news-1.jpg') }}" alt="" class="w-100">
+<div id="mediaNews">
+    <section class="banner news">
+        <div class="container-xxl">
+            <h1 class="mb-0 text-white text-center">INVESTMENT NEWS</h1>
+        </div>
     </section>
-    <section>
+    <section class="bgGrey">
         <div class="container-lg">
             <h2 class="sectionHeading text-uppercase centered">NEWS</h2>
             <div class="row">
@@ -16,7 +18,7 @@
                         <a href="{{ route('media.news-detail', $news[0]->id) }}" class="newsThumb">
                             <img src="{{ $news[0]->thumbnail }}" alt="" class="w-100">
                         </a>
-                        <h4 class="newsTitle titleUnderline">
+                        <h4 class="newsTitle">
                             <a href="{{ route('media.news-detail', $news[0]->id) }}">{{ $news[0]->title }}</a>
                         </h4>
                         <div class="newsDesc">
@@ -33,7 +35,7 @@
                                 <img src="{{ $item->thumbnail }}" alt="" class="w-100">
                             </a>
                             <div class="col-md-8">
-                                <h4 class="newsTitle titleUnderline">
+                                <h4 class="newsTitle">
                                     <a href="{{ route('media.news-detail', $item->id) }}">{{ $item->title }}</a>
                                 </h4>
                                 <div class="newsDesc">
@@ -56,7 +58,7 @@
                                 <img src="{{ $item->thumbnail }}" alt="" class="w-100">
                             </a>
                             <div class="col-md-8">
-                                <h4 class="newsTitle titleUnderline">
+                                <h4 class="newsTitle">
                                     <a href="{{ route('media.news-detail', $item->id) }}">{{ $item->title }}</a>
                                 </h4>
                                 <div class="newsDesc">
@@ -72,9 +74,6 @@
             </div>
         </div>
     </section>
-    <div class="container-lg">
-        <div class="lineSeparated"></div>
-    </div>
 </div>
 @endsection
 

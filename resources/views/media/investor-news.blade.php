@@ -7,7 +7,7 @@
             <h1 class="mb-0 text-white text-center">INVESTMENT NEWS</h1>
         </div>
     </section>
-    <section>
+    <section class="bgGrey">
         <div class="container-xxl">
             <div class="row">
                 <div class="col-lg-6 col-12">
@@ -16,7 +16,7 @@
                         <a href="{{ route('media.news-detail', $investorNews[0]->id) }}" class="newsThumb">
                             <img src="{{ $investorNews[0]->thumbnail }}" alt="" class="w-100">
                         </a>
-                        <h4 class="newsTitle titleUnderline">
+                        <h4 class="newsTitle">
                             <a href="{{ route('media.news-detail', $investorNews[0]->id) }}">{{ $investorNews[0]->title }}</a>
                         </h4>
                         <div class="newsDesc">
@@ -33,7 +33,7 @@
                                 <img src="{{ $item->thumbnail }}" alt="" class="w-100">
                             </a>
                             <div class="col-md-8">
-                                <h4 class="newsTitle titleUnderline">
+                                <h4 class="newsTitle">
                                     <a href="{{ route('media.news-detail', $item->id) }}">{{ $item->title }}</a>
                                 </h4>
                                 <div class="newsDesc">
@@ -56,7 +56,7 @@
                                 <img src="{{ $item->thumbnail }}" alt="" class="w-100">
                             </a>
                             <div class="col-md-8">
-                                <h4 class="newsTitle titleUnderline">
+                                <h4 class="newsTitle">
                                     <a href="{{ route('media.news-detail', $item->id) }}">{{ $item->title }}</a>
                                 </h4>
                                 <div class="newsDesc">
@@ -72,9 +72,6 @@
             </div>
         </div>
     </section>
-    <div class="container-lg">
-        <div class="lineSeparated"></div>
-    </div>
 </div>
 @endsection
 
