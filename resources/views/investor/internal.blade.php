@@ -7,50 +7,60 @@
             <h1 class="mb-0 text-white">@lang ('INTERNAL REPORT')</h1>
         </div>
     </section>
-    <section class="bg-white">
-        <div class="container-lg">
-            <!-- <h2 class="sectionHeading text-uppercase centered">FINANCE REPORT</h2> -->
-            <!-- <div class="row g-0 reportNav">
-                <nav class="col">
-                    <div class="nav nav-tabs" id="nav-tab" role="tablist">
-                        <button class="nav-link active" id="nav-internal-report-tab" data-bs-toggle="tab" data-bs-target="#nav-internal-report" type="button" role="tab" aria-controls="nav-internal-report" aria-selected="true">Internal Report</button>
-                    </div>
-                </nav>
-            </div> -->
-            <div class="tab-content" id="nav-tabContent">
-                <div class="tab-pane fade show active" id="nav-internal-report" role="tabpanel" aria-labelledby="nav-internal-report-tab">
-                <table class="table align-middle">
-                        <tr class="bgRed">
-                            <td>
-                                <div class="fw-bold text-white">@lang ('TIME')<i class="fas fa-arrow-down ms-2"></i></div>
-                            </td>
-                            <td class="text-white fw-bold">@lang ('DOCUMENT')</td>
-                            <td>
-                                <a href=""><i class="far fa-sticky-note"></i></a>
-                            </td>
+    <section class="bgGrey">
+        <div class="container-xxl">
+            <div class="table-responsive">
+                <table class="table align-middle table-striped">
+                    <thead>
+                        <tr>
+                            <th>@lang ('TIME')<i class="fas fa-arrow-down ms-2"></i></th>
+                            <th>@lang ('DOCUMENT')</th>
+                            <th></th>
                         </tr>
-                        <tr class="bgGrey">
+                    </thead>
+                    <tbody>            
+                        <tr>
                             <td>2018</td>
                             <td>
-                                <div>@lang ('Finance Report')</div>
+                                @lang ('Finance Report')
                             </td>
                             <td>
                                 <a href="#"><i class="fas fa-eye"></i></a>
                                 <a href="#"><i class="fa fa-download"></i></a>
                             </td>
                         </tr>
-                        <tr class="bgdarkGrey">
+                        <tr>
                             <td>2019</td>
                             <td>
-                                <div>@lang ('Finance Report')</div>
+                                @lang ('Finance Report')
                             </td>
                             <td>
                                 <a href="#"><i class="fas fa-eye"></i></a>
                                 <a href="#"><i class="fa fa-download"></i></a>
                             </td>
                         </tr>
-                    </table>
-                </div>
+                        <tr>
+                            <td>2020</td>
+                            <td>
+                                @lang ('Finance Report')
+                            </td>
+                            <td>
+                                <a href="#"><i class="fas fa-eye"></i></a>
+                                <a href="#"><i class="fa fa-download"></i></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>2021</td>
+                            <td>
+                                @lang ('Finance Report')
+                            </td>
+                            <td>
+                                <a href="#"><i class="fas fa-eye"></i></a>
+                                <a href="#"><i class="fa fa-download"></i></a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
         </div>
     </section>

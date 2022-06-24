@@ -735,6 +735,16 @@ header .navbar-nav .dropdown-menu .dropdown-item:hover {
     font-weight: 700;
     margin-right: -110px;
 }
+#aboutPage .ecoSystem {
+    color: #fff;
+    background: url(../img/bg-eco.jpg) no-repeat center center / cover;
+}
+#aboutPage .ecoSystem .sectionHeading {
+    color: #fff;
+}
+#aboutPage .ecoSystem .sectionHeading:before {
+    background: #fff;
+}
 #aboutPage .teamMembers .listMembers {
     margin-top: 50px;
 }
@@ -879,16 +889,30 @@ header .navbar-nav .dropdown-menu .dropdown-item:hover {
 #reportPage .banner.finance {
     background: url(../img/banner-annual.png) no-repeat center center / cover;
 }
-#reportPage .reportNav {
-    border-bottom: 1px solid #b2b2b2;
+#reportPage .nav {
+    margin-bottom: 20px;
+    background: #58595b;
 }
-#reportPage table td {
-    width: 33.333%;
+#reportPage .nav .nav-link {
+    padding: 15px;
+    color: #fff;
 }
-#reportPage table td:nth-child(2) {
+#reportPage .nav .nav-link.active {
+    background: #d71920;
+}
+#reportPage table {
+    background: #fff;
+}
+#reportPage table thead tr th {
+    background: #939598;
+    color: #fff;
+}
+#reportPage table td:nth-child(2),
+#reportPage table th:nth-child(2) {
     text-align: center;
 }
-#reportPage table td:nth-child(3) {
+#reportPage table td:nth-child(3),
+#reportPage table th:nth-child(3) {
     text-align: right;
 }
 #reportPage table td img {
@@ -913,6 +937,9 @@ header .navbar-nav .dropdown-menu .dropdown-item:hover {
     border: none;
 }
 /*========================== NEWS PAGE ==========================*/
+#mediaNews .banner {
+    background: url(../img/Investor-news.png) no-repeat center center / cover;
+}
 #mediaNews .newsItem {
     margin-bottom: 20px;
 }

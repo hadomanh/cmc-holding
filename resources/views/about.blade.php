@@ -46,7 +46,7 @@
                 <div class="col-md-4">
                     <div class="item">
                         <div class="imgWrap">
-                            <img src="{{ asset('img/bg-brand.jpg') }}" alt="">
+                            <img src="{{ asset('img/our-mission.jpg') }}" alt="">
                         </div>
                         <h2 class="sectionHeading centered fs-5 mb-3">@lang ('OUR MISSION')</h2>
                         <div class="desc">
@@ -61,7 +61,7 @@
                 <div class="col-md-4">
                     <div class="item">
                         <div class="imgWrap">
-                            <img src="{{ asset('img/bg-brand.jpg') }}" alt="">
+                            <img src="{{ asset('img/our-vision.jpg') }}" alt="">
                         </div>
                         <h2 class="sectionHeading centered fs-5 mb-3">@lang ('OUR VISION')</h2>
                         <div class="desc">
@@ -76,7 +76,7 @@
                 <div class="col-md-4">
                     <div class="item">
                         <div class="imgWrap">
-                            <img src="{{ asset('img/bg-brand.jpg') }}" alt="">
+                            <img src="{{ asset('img/our-value.jpg') }}" alt="">
                         </div>
                         <h2 class="sectionHeading centered fs-5 mb-3">@lang ('OUR CORE VALUES')</h2>
                         <div class="desc">
@@ -186,7 +186,7 @@
     </section>
 
     <!-- eco system -->
-    <section class="bgDark">
+    <section class="ecoSystem">
         <div class="container-xxl">
             <h2 class="sectionHeading">@lang ('ECOSYSTEM')</h2>
             <strong>The Metaway Holdings</strong> @lang ("ecosystem is investing in products and services for specialized needs: The backbone pillar of the digital economy, Enormous Volume, Global Scale, Recurrent Demand, Fast-developing Market. We address existing markets and industries' issues with the latest smart, transparent technology solutions.")

@@ -1,19 +1,16 @@
 @extends('layouts.app')
 
 @section('content')
-<div id="mediaNews" class="bg-white">
-    <section class="p-0">
-        <div class="carousel-item active container2">
-            <img src="{{ asset('img/Investor-news.png') }}" alt="" class="w-100">
-            <div class="content"><h1>INVESTMENT NEWS</h1></div>
+<div id="mediaNews">
+    <section class="banner">
+        <div class="container-xxl">
+            <h1 class="mb-0 text-white text-center">INVESTMENT NEWS</h1>
         </div>
-        <img src="{{ asset('img/Investor-news.png') }}" alt="" class="w-100">
     </section>
     <section>
-        <div class="container-lg">
+        <div class="container-xxl">
             <div class="row">
                 <div class="col-lg-6 col-12">
-
                     @if ($investorNews->count() > 0)
                     <div class="newsItem highlight">
                         <a href="{{ route('media.news-detail', $investorNews[0]->id) }}" class="newsThumb">

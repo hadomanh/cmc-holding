@@ -23,7 +23,7 @@
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <li><a class="dropdown-item" href="{{ route('investor.internal') }}">@lang ('Internal Report')</a></li>
                             <li><a class="dropdown-item" href="{{ route('investor.finance') }}">@lang ('Annual Finance Report')</a></li>
-                            <li><a class="dropdown-item" href="{{ route('investor.sec-filing') }}">@lang ('Sec Filing')</a></li>
+                            <!-- <li><a class="dropdown-item" href="{{ route('investor.sec-filing') }}">@lang ('Sec Filing')</a></li> -->
                         </ul>
                     </li>
                 </ul>
