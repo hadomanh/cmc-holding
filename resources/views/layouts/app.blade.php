@@ -141,21 +141,18 @@
 <script>
     $('.owl-carousel').owlCarousel({
         loop: false,
-        margin: 0,
+        margin: 20,
         nav: true,
         dots: false,
-        autoplay: false,
-        autoplaySpeed: 1000,
-        navSpeed: 1000,
         responsive:{
             0:{
                 items:1
             },
             600:{
-                items:1
+                items:3
             },
             1000:{
-                items:1
+                items: 5
             }
         }
     })
