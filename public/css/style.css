@@ -1,13 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700&display=swap');
+
 body {
     font-family: 'Plus Jakarta Sans', sans-serif;
     font-size: 16px;
     color: #414042;
     font-weight: 400;
 }
+
 img {
     max-width: 100%;
 }
+
 a {
     color: #464646;
     text-decoration: none;
@@ -15,9 +18,11 @@ a {
     -moz-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
 }
+
 a:hover {
     color: #df0023;
 }
+
 /* h1,
 h2,
 h3,
@@ -28,15 +33,22 @@ h6 {
     color: #000000;
     font-family: gotham-bold, sans-serif;
 } */
-h1,h2,h3,h4,h5,h6 {
-    color: #ffff;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #000;
     font-weight: 700;
     letter-spacing: 1px;
 }
+
 .form-control:focus {
     box-shadow: none;
     outline: none;
 }
+
 a.more {
     display: inline-block;
     color: #ce0020;
@@ -47,14 +59,17 @@ a.more {
     background: #fff;
     line-height: 100%;
 }
+
 a.more:hover {
     background: #ce0020;
     color: #fff;
 }
+
 section {
     padding: 50px 0;
     position: relative;
 }
+
 section .sectionHeading,
 .titleUnderline {
     font-size: 40px;
@@ -66,6 +81,7 @@ section .sectionHeading,
     color: #414042;
     padding-bottom: 20px;
 }
+
 section .sectionHeading:before,
 .titleUnderline:before {
     content: "";
@@ -79,40 +95,49 @@ section .sectionHeading:before,
     -moz-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
 }
+
 section .sectionHeading span {
     font-weight: 300;
 }
+
 section .sectionHeading.centered,
 .titleUnderline.centered {
     text-align: center;
 }
+
 section .sectionHeading.centered:before,
 .titleUnderline.centered:before {
     left: 50%;
     transform: translateX(-50%);
 }
+
 section .sectionSubHeading {
     font-weight: 300;
     font-size: 20px;
 }
+
 section.bgDark .sectionHeading {
     color: #fff;
 }
+
 .btn {
     font-weight: 500;
     padding: 10px 40px;
 }
+
 .btn-grey-outline {
     border: 1px solid #58595b;
     border-radius: 4px;
     background: #fff;
     color: #58595b;
 }
+
 .btn-grey-outline:hover {
     border-color: #d71920;
     color: #fff;
-    background: linear-gradient(90deg, rgba(196,21,28,1) 0%, rgba(215,25,32,1) 50%, rgba(237,28,36,1) 100%);
+    background: linear-gradient(90deg, rgba(196, 21, 28, 1) 0%, rgba(215, 25, 32, 1) 50%, rgba(237, 28, 36, 1) 100%);
 }
+
 .text-justify {
     text-align: justify;
 }
@@ -122,6 +147,7 @@ ul.owl-carousel {
     list-style: square;
     padding: 0;
 }
+
 ul.owl-carousel li:not(:last-child) {
     margin-bottom: 8px;
 }
@@ -129,18 +155,21 @@ ul.owl-carousel li:not(:last-child) {
 strong {
     font-weight: 700;
 }
+
 .title-bgWhite {
     text-align: center;
     color: #C51D23;
     font-size: 24px;
     width: 100%;
 }
+
 .img-bgWhite {
     display: block;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 50px;
 }
+
 .btnWhite {
     color: #CB1D23;
     border-radius: 5px;
@@ -152,22 +181,27 @@ strong {
     transition-duration: 0.5s;
     font-weight: 600;
 }
+
 .btnWhite:hover {
     box-shadow: inset 400px 0 0 0 #CB1D23;
     transition-duration: 0.8s;
     color: white;
 }
+
 .card-img-top {
     width: 100%;
-} 
+}
+
 .container1 {
     position: relative;
     max-width: 800px;
     margin: 0 auto;
 }
+
 .container1 img {
     vertical-align: middle;
 }
+
 .container1 .content {
     position: absolute;
     bottom: 0;
@@ -177,52 +211,65 @@ strong {
     width: 100%;
     padding: 20px;
 }
+
 .container1 a {
     color: #fff;
 }
+
 .btnArrow {
     color: #CB1D23;
     font-size: 20px;
     display: flex;
     justify-content: end;
 }
-.btnArrow:hover  {
+
+.btnArrow:hover {
     color: #CB1D23;
     margin-right: auto;
 }
-.btnArrow:hover i{
+
+.btnArrow:hover i {
     position: relative;
     left: 20px;
     transition: 1s;
 }
+
 .btnRed {
-    background: linear-gradient(90deg, rgba(196,21,28,1) 0%, rgba(215,25,32,1) 50%, rgba(237,28,36,1) 100%);
+    background: linear-gradient(90deg, rgba(196, 21, 28, 1) 0%, rgba(215, 25, 32, 1) 50%, rgba(237, 28, 36, 1) 100%);
     color: #fff;
 }
+
 .bgWhite {
     background: #fff;
 }
+
 .bgGrey {
     background: #f3f3f3;
 }
+
 .bgDark {
     color: #fff;
     background: #58595b;
 }
+
 .nav-tabs {
     border: 1px solid #c2c2c2;
     border-radius: 5px;
     background: #fff;
 }
+
 .nav-tabs .nav-item:first-child button {
     border-radius: 5px 0 0 5px;
 }
+
 .nav-tabs .nav-item:last-child button {
     border-radius: 0 5px 5px 0;
 }
+
 .nav-tabs .nav-item:not(:last-child) {
     border-right: 1px solid #c2c2c2;
 }
+
 .nav-tabs .nav-item .nav-link {
     display: block;
     width: 100%;
@@ -235,30 +282,37 @@ strong {
     padding: 25px 10px;
     height: 100%;
 }
+
 .nav-tabs .nav-item .nav-link.active {
     background: #f3f3f3;
     color: #ce0020;
 }
+
 .carousel-dark .carousel-indicators button.active,
 .carousel-indicators button.active {
     background-color: #df0023;
 }
+
 .card {
     border: none;
 }
+
 .newsHighlights .item {
     margin-bottom: 25px;
 }
+
 .newsHighlights .card .card-text {
     margin-bottom: 30px;
     text-align: justify;
     line-height: 29px;
 }
+
 .videoWrapper {
     position: relative;
     padding-bottom: 56.25%;
     height: 0;
 }
+
 .videoWrapper iframe {
     position: absolute;
     top: 0;
@@ -266,10 +320,12 @@ strong {
     width: 100%;
     height: 100%;
 }
+
 .nav-tabs {
     border: none;
     background: none;
 }
+
 .nav-tabs .nav-link {
     padding: 10px 0;
     box-shadow: none;
@@ -277,6 +333,7 @@ strong {
     color: #464646;
     border-bottom: 2px solid transparent;
 }
+
 .nav-tabs .nav-item.show .nav-link,
 .nav-tabs .nav-link.active {
     background: none;
@@ -285,15 +342,19 @@ strong {
     font-weight: 700;
     color: #ce0020;
 }
+
 .nav-tabs .nav-link:hover {
     border-color: transparent;
 }
+
 .nav-tabs .nav-link:not(:first-child) {
     padding: 0 15px !important;
 }
+
 .owl-carousel {
     position: relative;
 }
+
 .owl-carousel .owl-nav button.owl-next,
 .owl-carousel .owl-nav button.owl-prev {
     position: absolute;
@@ -304,20 +365,24 @@ strong {
     left: -40px;
     background: url(../img/icon-arrow2.png) no-repeat center center / contain;
 }
+
 .owl-carousel .owl-nav button.owl-next {
     left: auto;
     right: -40px;
     transform: translateY(-50%) rotate(180deg)
 }
+
 .owl-carousel .owl-nav button span {
     display: none;
 }
+
 .carousel-indicators {
     width: 100%;
     margin: 0;
     justify-content: end;
     padding: 10px 20px;
 }
+
 .lineSeparated {
     border-top: 1px solid #ddd;
     padding: 20px 0;
@@ -328,43 +393,54 @@ strong {
     margin-bottom: 1rem;
     border: 0px solid !important;
 }
+
 .ipContact:focus {
     background: #f0f0f0;
 }
+
 .ipBg {
     background: white;
     box-shadow: 0px 4px 68px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
     padding: 20px;
 }
+
 .bgLocal {
     background: url(../img/bannerLocal1.png) no-repeat bottom left;
     margin: 0px 61px;
 }
-section .reportNav .nav-link{
+
+section .reportNav .nav-link {
     color: #000000;
     font-weight: 600;
 }
+
 .iconContact {
     margin-left: 5px;
 }
+
 .fa-sticky-note {
     transform: rotate(270deg);
     color: #fff;
 }
+
 .bgRed {
     background: #ce0020;
 }
+
 .bgdarkGrey {
     background: #E2E2E2;
 }
+
 .miniSize {
     font-size: 12px;
 }
+
 .overviewElement .item {
     padding: 0 20px;
     text-align: center;
 }
+
 .overviewElement img {
     height: 80px;
     filter: grayscale(1);
@@ -372,6 +448,7 @@ section .reportNav .nav-link{
     -moz-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
 }
+
 .overviewElement .title {
     font-weight: 700;
     color: #414042;
@@ -382,16 +459,20 @@ section .reportNav .nav-link{
     -moz-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
 }
+
 .overviewElement .item:hover img {
     filter: grayscale(0);
 }
+
 .overviewElement .item:hover .title {
     color: #C51D23;
 }
+
 /*========================== HEADER ==========================*/
 header {
     background: #fff;
 }
+
 header .top {
     padding: 10px 30px;
     background: #58595b;
@@ -400,25 +481,31 @@ header .top {
     font-weight: 600;
     letter-spacing: 3px;
 }
+
 header .navbar {
     padding: 10px 0;
 }
+
 header .navbar .navbar-brand {
     margin: 0;
     padding: 0;
 }
+
 header .navbar .navbar-brand img {
     width: 220px;
 }
+
 header .navbar.navbar-expand-md .nav-item:not(:last-child) {
     margin-right: 50px;
 }
+
 header .navbar.navbar-expand-md .nav-link {
     padding: 0;
     color: #000;
     font-weight: 600;
     position: relative;
 }
+
 header .navbar.navbar-expand-md .nav-link:before {
     content: "";
     position: absolute;
@@ -431,18 +518,22 @@ header .navbar.navbar-expand-md .nav-link:before {
     -moz-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
 }
+
 header .navbar.navbar-expand-md .nav-link:hover,
 header .navbar.navbar-expand-md .nav-link.active {
     color: #d71920;
 }
+
 header .navbar.navbar-expand-md .nav-link:hover:before,
 header .navbar.navbar-expand-md .nav-link.active:before {
     width: 100%;
 }
+
 header .navbar.navbar-expand-md .language .nav-link:before,
 header .navbar.navbar-expand-md .language .dropdown-toggle::after {
     display: none;
 }
+
 header .navbar-nav .dropdown-menu {
     background: #fff;
     border-radius: 0;
@@ -452,21 +543,25 @@ header .navbar-nav .dropdown-menu {
     left: 50%;
     transform: translateX(-50%);
 }
+
 header .navbar-nav .dropdown-menu .dropdown-item {
     color: black;
     text-align: center;
     font-size: 14px;
     padding: 20px 40px;
 }
+
 header .navbar-nav .dropdown-menu .dropdown-item:hover {
     color: #d00020;
 }
+
 /*========================== HOMEPAGE ==========================*/
 #homepage .banner {
     padding: 220px 0;
     text-align: center;
     color: #fff;
 }
+
 #homepage .banner video {
     position: absolute;
     left: 0;
@@ -474,42 +569,51 @@ header .navbar-nav .dropdown-menu .dropdown-item:hover {
     width: 100%;
     z-index: -1;
 }
+
 #homepage .banner .title {
     letter-spacing: 10px;
 }
+
 #homepage .banner .slogan {
     font-weight: 200;
 }
+
 #homepage .banner .title,
 #homepage .banner .slogan {
     font-size: 60px;
     margin-bottom: 20px;
 }
-#homepage .banner .subTitle  {
+
+#homepage .banner .subTitle {
     font-size: 20px;
     margin-bottom: 30px;
     letter-spacing: 5px;
 }
+
 #homepage .corporation .item {
     border: 1px solid #ddd;
     padding: 20px;
     height: 100%;
 }
+
 #homepage .corporation .item .imgWrap {
     margin: -21px -21px 20px;
     height: 248px;
     overflow: hidden;
 }
+
 #homepage .corporation .item .imgWrap img {
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
 }
+
 #homepage .corporation .item .title a {
     font-size: 22px;
     position: relative;
     display: inline-block;
 }
+
 #homepage .corporation .item .title a:before {
     content: "";
     position: absolute;
@@ -522,20 +626,25 @@ header .navbar-nav .dropdown-menu .dropdown-item:hover {
     -moz-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
 }
+
 #homepage .corporation .item .desc {
     margin-bottom: 20px;
 }
+
 #homepage .corporation .item:hover .imgWrap img {
     transform: scale(1.2);
 }
+
 #homepage .corporation .item:hover .title a:before {
-    width: 60px;    
+    width: 60px;
 }
+
 #homepage .corporation .item:hover .btn-grey-outline {
     border-color: #d71920;
     color: #fff;
-    background: linear-gradient(90deg, rgba(196,21,28,1) 0%, rgba(215,25,32,1) 50%, rgba(237,28,36,1) 100%);
+    background: linear-gradient(90deg, rgba(196, 21, 28, 1) 0%, rgba(215, 25, 32, 1) 50%, rgba(237, 28, 36, 1) 100%);
 }
+
 #homepage .owl-carousel .item .imgWrap {
     background: #fff;
     margin: 20px 0;
@@ -546,6 +655,7 @@ header .navbar-nav .dropdown-menu .dropdown-item:hover {
     padding: 30px;
     position: relative;
 }
+
 #homepage .partners .owl-carousel .item .imgWrap:before {
     content: "";
     position: absolute;
@@ -558,49 +668,59 @@ header .navbar-nav .dropdown-menu .dropdown-item:hover {
     -moz-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
 }
+
 #homepage .partners .owl-carousel .item .imgWrap:hover:before {
     width: 100%;
 }
+
 #homepage .owl-carousel .item .imgWrap img {
     filter: grayscale(1);
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
 }
+
 #homepage .owl-carousel .item .imgWrap:hover img {
     filter: grayscale(0);
 }
+
 #homepage .asSeenOn .owl-carousel .item .imgWrap {
     background: none;
     margin: 0;
     padding: 0 20px;
 }
+
 /*========================== ABOUT PAGE ==========================*/
 #aboutPage .banner {
     text-align: center;
     background: url(../img/Banner-about.png) no-repeat center center / cover;
 }
+
 #aboutPage .ourMission .item {
     border: 1px solid #ddd;
     padding: 20px;
     height: 100%;
 }
+
 #aboutPage .ourMission .item .imgWrap {
     margin: -21px -21px 20px;
     height: 248px;
     overflow: hidden;
 }
+
 #aboutPage .ourMission .item ul {
     padding: 0;
     margin-left: 20px;
 }
-#aboutPage .ourMission .number  {
+
+#aboutPage .ourMission .number {
     font-weight: 700;
     position: relative;
     line-height: 1;
     font-size: 25px;
     margin-right: 15px;
 }
+
 #aboutPage .ourMission .number:before {
     content: "";
     position: absolute;
@@ -610,22 +730,27 @@ header .navbar-nav .dropdown-menu .dropdown-item:hover {
     background: #d71920;
     width: 13px;
 }
+
 #aboutPage .investmentSector .item {
     background: #fff;
     padding: 20px;
     height: 100%;
 }
+
 #aboutPage .investmentSector .item .imgWrap {
     margin: -21px -21px 20px;
     display: block;
-    
+
 }
+
 #aboutPage .investmentSector .item .imgWrap img {
     width: 100%;
 }
-#aboutPage .investmentSector .row > div {
+
+#aboutPage .investmentSector .row>div {
     margin-top: 25px;
 }
+
 #aboutPage .memberLocation {
     display: inline-flex;
     width: 45px;
@@ -635,6 +760,7 @@ header .navbar-nav .dropdown-menu .dropdown-item:hover {
     justify-content: center;
     position: relative;
 }
+
 #aboutPage .memberLocation:before {
     display: none;
     content: "";
@@ -649,6 +775,7 @@ header .navbar-nav .dropdown-menu .dropdown-item:hover {
     animation-duration: 2s;
     animation-iteration-count: infinite;
 }
+
 #aboutPage .memberLocation:after {
     content: "";
     position: absolute;
@@ -659,18 +786,23 @@ header .navbar-nav .dropdown-menu .dropdown-item:hover {
     animation-duration: 2s;
     animation-iteration-count: infinite;
 }
+
 #aboutPage .memberLocation.style-1:before {
     animation-name: blue-animate-1;
 }
+
 #aboutPage .memberLocation.style-1:after {
     animation-name: circle-animate-1;
 }
+
 #aboutPage .memberLocation.style-2:before {
     animation-name: blue-animate-2;
 }
+
 #aboutPage .memberLocation.style-2:after {
     animation-name: circle-animate-2;
 }
+
 #aboutPage #holdingsmembers .map {
     background: url(../img/bg-map.png);
     background-repeat: no-repeat;
@@ -679,42 +811,50 @@ header .navbar-nav .dropdown-menu .dropdown-item:hover {
     width: 100%;
     height: 575px;
 }
+
 #aboutPage #holdingsmembers .map .singapore {
     position: absolute;
     margin-top: 332px;
     margin-left: 1019px;
 }
+
 #aboutPage #holdingsmembers .map .vietnam {
     position: absolute;
     margin-top: 242px;
     margin-left: 913px;
 }
+
 #aboutPage #holdingsmembers .map .hongkong {
     position: absolute;
     margin-top: 176px;
     margin-left: 957px;
 }
+
 #aboutPage #holdingsmembers .map .south {
     position: absolute;
     margin-top: 393px;
     margin-left: 648px;
 }
+
 #aboutPage #holdingsmembers .map .dubai {
     position: absolute;
     margin-top: 224px;
     margin-left: 699px;
 }
+
 #aboutPage #holdingsmembers .map .usa {
     position: absolute;
     margin-top: 173px;
     margin-left: 285px;
 
 }
+
 #aboutPage #holdingsmembers .map .cannada {
     position: absolute;
     margin-top: 77px;
     margin-left: 398px;
 }
+
 #aboutPage #holdingsmembers .map p {
     position: absolute;
     margin-top: 18px;
@@ -722,53 +862,65 @@ header .navbar-nav .dropdown-menu .dropdown-item:hover {
     font-weight: 700;
     margin-right: -110px;
 }
+
 #aboutPage .ecoSystem {
     color: #fff;
     background: url(../img/bg-eco.jpg) no-repeat center center / cover;
 }
+
 #aboutPage .ecoSystem .sectionHeading {
     color: #fff;
 }
+
 #aboutPage .ecoSystem .sectionHeading:before {
     background: #fff;
 }
+
 #aboutPage .teamMembers .listMembers {
     margin-top: 50px;
 }
+
 #aboutPage .teamMembers .avatar {
     position: relative;
     width: 100%;
     background: url(../img/circle.png) no-repeat center center / cover
 }
+
 #aboutPage .teamMembers .avatar:after {
     content: "";
     display: block;
     padding-bottom: 100%;
 }
+
 #aboutPage .teamMembers .avatar img {
     border-radius: 50%;
     position: absolute;
     left: 50%;
     top: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
 }
+
 #aboutPage .teamMembers .name {
     font-size: 16px;
     margin: 20px 0 10px;
     color: #414042;
 }
+
 #aboutPage .teamMembers .position {
     font-weight: 200;
     font-size: 16px;
 }
+
 #aboutPage .teamMembers .advisors .position {
     min-height: 40px;
 }
+
 #aboutPage .teamMembers .social a {
     display: inline-block;
     margin: 0 12px;
     font-size: 18px;
 }
+
 @keyframes circle-animate-1 {
     0% {
         transform: scale(1);
@@ -864,156 +1016,196 @@ header .navbar-nav .dropdown-menu .dropdown-item:hover {
         opacity: 1;
     }
 }
+
 /*======================INVESTOR-DETAIL========================*/
-.title-new{
+.title-new {
     font-size: 12px;
     text-align: left;
 }
+
 /*========================== REPORT PAGE ==========================*/
 #reportPage .banner.internal {
     background: url(../img/banner-internal.png) no-repeat center center / cover;
 }
+
 #reportPage .banner.finance {
     background: url(../img/banner-annual.png) no-repeat center center / cover;
 }
+
 #reportPage .nav {
     margin-bottom: 20px;
     background: #58595b;
 }
+
 #reportPage .nav .nav-link {
     padding: 15px;
     color: #fff;
 }
+
 #reportPage .nav .nav-link.active {
     background: #d71920;
 }
+
 #reportPage table {
     background: #fff;
 }
+
 #reportPage table thead tr th {
     background: #939598;
     color: #fff;
 }
+
 #reportPage table td:nth-child(2),
 #reportPage table th:nth-child(2) {
     text-align: center;
 }
+
 #reportPage table td:nth-child(3),
 #reportPage table th:nth-child(3) {
     text-align: right;
 }
+
 #reportPage table td img {
     width: 100px;
 }
+
 #reportPage table td a {
     font-size: 20px;
     display: inline-block;
 }
+
 #reportPage table td a:not(:first-child) {
     margin-left: 30px;
 }
+
 #reportPage .table>:not(caption)>*>* {
     padding: 15px 40px;
     border: 0;
 }
+
 #reportPage .form-select {
     background-color: transparent;
 }
+
 #reportPage .form-select:focus {
     box-shadow: none;
     border: none;
 }
+
 /*========================== NEWS PAGE ==========================*/
 #mediaNews .banner {
     background: url(../img/Investor-news.png) no-repeat center center / cover;
 }
+
 #mediaNews .news.banner {
     background: url(../img/banner-news-1.jpg) no-repeat center center / cover;
 }
+
 #mediaNews .newsItem {
     margin-bottom: 20px;
 }
+
 #mediaNews .newsItem.highlight {
     margin-bottom: 30px;
 }
+
 #mediaNews .newsItem.highlight .newsThumb {
     display: block;
     margin-bottom: 20px;
 }
+
 #mediaNews .newsItem .newsTitle {
     font-size: 20px;
     margin-bottom: 10px;
     text-align: initial;
 }
-.text-detail{
+
+.text-detail {
     text-align: left;
     overflow: hidden;
     text-overflow: ellipsis;
     display: -webkit-box;
     -webkit-line-clamp: 3;
-    line-clamp: 3; 
+    line-clamp: 3;
     margin: 5px 0;
     /* -webkit-box-orient: vertical; */
 }
+
 .miniSize {
     font-size: 12px;
 }
+
 .investor h4 {
     font-weight: 700;
     font-size: 24px;
     text-align: left;
 }
+
 .investor-detail {
     padding-top: 70px;
 }
+
 .investor-detail .title-news {
     font-size: 16px;
     font-weight: 900;
     padding: 30px 0;
 }
+
 .investor-detail .img-detail {
     display: flex;
     padding: 30px 0;
     margin: auto;
 }
-.title-investo{
+
+.title-investo {
     text-align: initial;
 }
+
 .title-investor h4:hover {
     color: #CB1D23;
 }
+
 .title-investor-detail a {
     color: #bf0223;
     padding-bottom: 5px;
     border-bottom: solid 3px #bf0223;
     width: 100%;
 }
+
 .investor-detail .icon-detail {
     padding: 0 5px;
 }
+
 .investor-detail .h4 {
     font-size: 16px;
 }
+
 .flag {
     margin-right: 13px;
 }
+
 .arrowdown {
     font-size: 14px !important;
     margin-left: 9px !important;
 }
+
 .location2 p {
     height: 45px;
 }
-#mediaNews h3{
+
+#mediaNews h3 {
     text-align: left;
 }
-.investor-detail p{
+
+.investor-detail p {
     text-align: left;
 }
+
 /*========================== CONTACT PAGE ==========================*/
 #contactPage .banner {
     background: url(../img/banner-contact.png) no-repeat center center / cover;
 }
+
 #contactPage .info {
     font-size: 14px;
 }
@@ -1021,55 +1213,69 @@ header .navbar-nav .dropdown-menu .dropdown-item:hover {
 #contactPage .contactForm ul li {
     margin: 10px 0;
 }
+
 #contactPage .contactForm ul li .label {
     font-weight: 600;
     color: #bf0223;
     flex-shrink: 0;
     width: 80px;
 }
+
 #contactPage .branch .item {
     border: 1px solid #c2c2c2;
     margin-right: -1px;
 }
+
 #contactPage .branch .item ul {
     padding: 10px;
 }
+
 #contactPage .branch .item ul li {
     padding: 5px 10px;
 }
+
 #contactPage .branch .item ul li .label {
     flex-shrink: 0;
     width: 25px;
     font-weight: 600;
 }
+
 /*========================== FOOTER ==========================*/
 footer {
     padding-top: 50px;
 }
+
 footer .social {
     border-bottom: 1px solid #d71920;
     padding-bottom: 5px;
 }
+
 footer .social a {
-    font-size: 30px;    
+    font-size: 30px;
 }
-footer .social a + a {
+
+footer .social a+a {
     margin-left: 30px;
 }
+
 footer .title {
     font-size: 18px;
     margin-bottom: 20px;
 }
-footer .menuFooter li {    
+
+footer .menuFooter li {
     margin-bottom: 20px;
 }
+
 footer .menuFooter li a {
     display: inline-block;
     position: relative;
 }
+
 footer .menuFooter li a:hover {
     color: #d71920;
 }
+
 footer .menuFooter li a:before {
     content: "";
     position: absolute;
@@ -1082,271 +1288,322 @@ footer .menuFooter li a:before {
     -moz-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
 }
+
 footer .menuFooter li a:hover:before {
-    width: 100%;    
+    width: 100%;
 }
+
 footer .copyright {
     border-top: 1px solid #d7d7d7;
     padding: 15px 0;
     margin-top: 30px;
 }
-/*========================== RESPONSIVE ==========================*/
-@media (max-width: 1440px) {
-    
-}
-@media (max-width: 1024px) {
 
-}
+/*========================== RESPONSIVE ==========================*/
+@media (max-width: 1440px) {}
+
+@media (max-width: 1024px) {}
+
 @media (max-width: 992px) {
     header .navbar.navbar-expand-md .nav-item:not(:last-child) {
         margin-right: 30px;
     }
+
     #homepage .banner {
         padding: 80px 0;
     }
+
     .overviewElement .item {
         padding: 0 10px;
     }
+
     #homepage .corporation .item .imgWrap,
     #aboutPage .ourMission .item .imgWrap {
         height: 160px;
     }
+
     #aboutPage .teamMembers .avatar img {
         width: 90%;
     }
-    #aboutPage .listMembers .row > div {
+
+    #aboutPage .listMembers .row>div {
         margin-bottom: 30px;
     }
 }
-@media (max-width: 768px) {
-   
-}
+
+@media (max-width: 768px) {}
+
 @media (max-width: 576px) {
     section {
         padding: 30px 0;
     }
+
     section .sectionHeading,
     .titleUnderline {
         font-size: 28px;
         margin-bottom: 20px;
     }
+
     header .navbar.navbar-expand-md .nav-item:not(:last-child) {
         margin-right: 0;
     }
+
     header .navbar-collapse .navbar-nav:first-child {
         margin-top: 20px;
     }
+
     header .navbar.navbar-expand-md .nav-item {
         margin: 10px 0;
     }
+
     header .navbar.navbar-expand-md .nav-item a {
         display: inline-block;
     }
+
     header .navbar-nav .dropdown-menu {
         transform: none;
         text-align: left;
     }
+
     header .navbar-nav .dropdown-menu .dropdown-item {
         text-align: left;
         padding: 10px 15px;
     }
+
     header .navbar-toggler:focus {
         box-shadow: none;
     }
+
     #homepage .banner {
         padding: 40px 0;
         overflow: hidden;
     }
-    #homepage .banner video {
+
+    /* #homepage .banner video {
         width: auto;
         height: 100%;
-    }
+    } */
     #homepage .banner .title,
     #homepage .banner .slogan {
         font-size: 25px;
     }
+
     #homepage .banner .title {
         letter-spacing: 5px;
     }
+
     #homepage .banner .subTitle {
         font-size: 16px;
         letter-spacing: 3px;
     }
+
     #homepage .corporation .item .imgWrap,
     #aboutPage .ourMission .item .imgWrap {
         height: 220px;
     }
+
     #homepage .corporation .item {
         height: auto;
         margin-bottom: 15px;
     }
+
     #aboutPage .ourMission .item {
         height: auto;
         margin-bottom: 15px;
     }
+
     #aboutPage .teamMembers .listMembers {
         margin-top: 0;
     }
+
     section.map {
         display: none;
     }
-    footer  {
+
+    footer {
         padding-top: 30px;
     }
+
     footer .info {
         margin-bottom: 30px;
     }
 }
-@media (max-width: 426px) {
-    
-}
+
 @media (max-width: 1180px) {
     #holdingsmembers .map .singapore {
         position: absolute;
         margin-top: 343px;
         margin-left: 832px;
     }
+
     #holdingsmembers .map .vietnam {
         position: absolute;
         margin-top: 252px;
         margin-left: 722px;
     }
+
     #holdingsmembers .map .hongkong {
         position: absolute;
         margin-top: 178px;
         margin-left: 760px;
     }
+
     #holdingsmembers .map .south {
         position: absolute;
         margin-top: 394px;
         margin-left: 450px;
     }
+
     #holdingsmembers .map .dubai {
         position: absolute;
         margin-top: 218px;
         margin-left: 514px;
     }
+
     #holdingsmembers .map .usa {
         position: absolute;
         margin-top: 194px;
         margin-left: 117px;
     }
+
     #holdingsmembers .map .cannada {
         position: absolute;
         margin-top: 77px;
         margin-left: 229px;
     }
 }
-@media ( max-width: 1382px) {
+
+@media (max-width: 1382px) {
     #holdingsmembers .map .singapore {
         position: absolute;
         margin-top: 332px;
         margin-left: 926px;
     }
+
     #holdingsmembers .map .vietnam {
         position: absolute;
         margin-top: 242px;
         margin-left: 819px;
     }
+
     #holdingsmembers .map .hongkong {
         position: absolute;
         margin-top: 169px;
         margin-left: 876px;
     }
+
     #holdingsmembers .map .south {
         position: absolute;
         margin-top: 393px;
         margin-left: 545px;
     }
+
     #holdingsmembers .map .dubai {
         position: absolute;
         margin-top: 224px;
         margin-left: 608px;
     }
+
     #holdingsmembers .map .usa {
         position: absolute;
         margin-top: 179px;
         margin-left: 200px;
     }
+
     #holdingsmembers .map .cannada {
         position: absolute;
         margin-top: 77px;
         margin-left: 324px;
     }
 }
-@media ( max-width: 1198px) {
+
+@media (max-width: 1198px) {
     #holdingsmembers .map .singapore {
         position: absolute;
         top: 220px;
         right: 180px;
     }
+
     #holdingsmembers .map .vietnam {
-        position: absolute;    
+        position: absolute;
         top: 194px;
         right: 292px;
     }
+
     #holdingsmembers .map .hongkong {
         position: absolute;
         top: 195px;
         left: -32px;
     }
+
     #holdingsmembers .map .south {
         position: absolute;
         top: 214px;
         left: -55px;
     }
+
     #holdingsmembers .map .dubai {
         position: absolute;
         top: 211px;
         left: -46px;
     }
+
     #holdingsmembers .map .usa {
         position: absolute;
         top: 248px;
         left: -28px;
     }
+
     #holdingsmembers .map .cannada {
         position: absolute;
         top: 228px;
         left: -30px;
     }
 }
+
 @media (max-width: 1024px) {
     #holdingsmembers .map .singapore {
         position: absolute;
         top: 204px;
         right: 105px;
     }
+
     #holdingsmembers .map .vietnam {
         position: absolute;
         top: 172px;
         right: 199px;
     }
+
     #holdingsmembers .map .hongkong {
         position: absolute;
         top: 211px;
         left: -53px;
     }
+
     #holdingsmembers .map .south {
         position: absolute;
         top: 208px;
         left: -44px;
     }
+
     #holdingsmembers .map .dubai {
         position: absolute;
         top: 211px;
         left: -51px;
     }
+
     #holdingsmembers .map .usa {
         position: absolute;
         top: 214px;
         left: -53px;
     }
+
     #holdingsmembers .map .cannada {
         position: absolute;
         top: 205px;
         left: -64px;
     }
+
     #holdingsmembers .map p {
         position: absolute;
         margin-top: 14px;
@@ -1355,79 +1612,94 @@ footer .copyright {
         /* margin-right: 40px; */
     }
 }
+
 @media (max-width: 992px) {
     #holdingsmembers .map .singapore {
         position: absolute;
         margin-top: 332px;
         margin-left: 696px;
     }
+
     #holdingsmembers .map .vietnam {
         position: absolute;
         margin-top: 239px;
         margin-left: 618px;
     }
+
     #holdingsmembers .map .hongkong {
         position: absolute;
         margin-top: 175px;
         margin-left: 680px;
     }
+
     #holdingsmembers .map .south {
         position: absolute;
         margin-top: 389px;
         margin-left: 362px;
     }
+
     #holdingsmembers .map .dubai {
         position: absolute;
         margin-top: 218px;
         margin-left: 420px;
     }
+
     #holdingsmembers .map .usa {
         position: absolute;
         margin-top: 203px;
         margin-left: 39px;
     }
+
     #holdingsmembers .map .cannada {
         position: absolute;
         margin-top: 84px;
         margin-left: 244px;
     }
 }
+
 @media (max-width: 768px) {
     #holdingsmembers .map .singapore {
         position: absolute;
         top: 220px;
-        right: 17px;    
+        right: 17px;
     }
+
     #holdingsmembers .map .vietnam {
         position: absolute;
         top: 213px;
         right: 64px;
     }
+
     #holdingsmembers .map .hongkong {
-        position: absolute;    
+        position: absolute;
         top: 208px;
         left: 2px;
     }
+
     #holdingsmembers .map .south {
         position: absolute;
         top: 225px;
         left: 25px;
     }
+
     #holdingsmembers .map .dubai {
         position: absolute;
         top: 228px;
         left: 28px;
     }
+
     #holdingsmembers .map .usa {
         position: absolute;
         top: 210px;
         left: -15px;
     }
+
     #holdingsmembers .map .cannada {
         position: absolute;
         top: 225px;
         left: -84px;
     }
+
     #holdingsmembers .map p {
         position: absolute;
         margin-top: 70px;
@@ -1436,6 +1708,7 @@ footer .copyright {
         margin-right: 40px;
     }
 }
+
 @media (max-width: 576px) {
     .memberLocation {
         display: inline-flex;
@@ -1446,44 +1719,59 @@ footer .copyright {
         justify-content: center;
         position: relative;
     }
+
     #holdingsmembers .map {
         background: url(../img/bg-map.png);
         background-repeat: no-repeat;
         background-size: 576px 351px;
     }
+
     #holdingsmembers .map .singapore {
         position: absolute;
         top: 87px;
         right: 34px;
     }
+
     #holdingsmembers .map .vietnam {
         position: absolute;
         top: 108px;
         right: 92px;
     }
+
     #holdingsmembers .map .hongkong {
         position: absolute;
         top: 116px;
         left: -186px;
     }
+
     #holdingsmembers .map .south {
         position: absolute;
         top: 66px;
         left: -65px;
     }
+
     #holdingsmembers .map .dubai {
         position: absolute;
         top: 125px;
         left: -85px;
     }
+
     #holdingsmembers .map .usa {
         position: absolute;
         top: 121px;
         left: 55px;
     }
+
     #holdingsmembers .map .cannada {
         position: absolute;
         top: 153px;
         left: -78px;
+    }
+
+    @media (max-width: 320px) {
+        #reportPage .table>:not(caption)>*>* {
+            padding: 15px 8px;
+            border: 0;
+        }
     }
 }
