@@ -1,9 +1,9 @@
 @extends('layouts.app')
 
 @section('content')
-<div id="mediaNews" class="bg-white">
-    <section class="investor-detail">
-        <div class="container-lg">
+<div id="mediaNews">
+    <section class="investor-detail bgGrey">
+        <div class="container-xxl">
             <div class="row title-investor">
                 <div class="col-lg-8 col-12 text-left">
                     <h3>{!! $press->title !!}</h3>

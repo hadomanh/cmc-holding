@@ -1,12 +1,14 @@
 @extends('layouts.app')
 
 @section('content')
-<div id="mediaNews" class="bg-white">
-    <section class="p-0">
-        <img src="{{ asset('img/banner-press-1.jpg') }}" alt="" class="w-100">
+<div id="mediaNews">
+    <section class="banner news">
+        <div class="container-xxl">
+            <h1 class="mb-0 text-white text-center">PRESS RELEASE</h1>
+        </div>
     </section>
-    <section>
-        <div class="container-lg">
+    <section class="bgGrey">
+        <div class="container-xxl">
             <h2 class="sectionHeading text-uppercase centered">PRESS RELEASE</h2>
             <div class="row">
                 <div class="col-lg-6 col-12">
@@ -15,7 +17,7 @@
                         <a href="{{ route('media.press-detail', $press[0]->id) }}" class="pressThumb">
                             <img src="{{ $press[0]->thumbnail }}" alt="" class="w-100">
                         </a>
-                        <h4 class="pressTitle titleUnderline">
+                        <h4 class="pressTitle">
                             <a href="{{ route('media.press-detail', $press[0]->id) }}">{{ $press[0]->title }}</a>
                         </h4>
                         <div class="pressDesc">
@@ -32,7 +34,7 @@
                                 <img src="{{ $item->thumbnail }}" alt="" class="w-100">
                             </a>
                             <div class="col-md-8">
-                                <h4 class="  titleUnderline">
+                                <h4 class="">
                                     <a href="{{ route('media.press-detail', $item->id) }}">{{ $item->title }}</a>
                                 </h4>
                                 <div class="pressDesc">
@@ -55,7 +57,7 @@
                                 <img src="{{ $item->thumbnail }}" alt="" class="w-100">
                             </a>
                             <div class="col-md-8">
-                                <h4 class="pressTitle titleUnderline">
+                                <h4 class="pressTitle">
                                     <a href="{{ route('media.press-detail', $item->id) }}">{{ $item->title }}</a>
                                 </h4>
                                 <div class="pressDesc">
@@ -71,9 +73,6 @@
             </div>
         </div>
     </section>
-    <div class="container-lg">
-        <div class="lineSeparated"></div>
-    </div>
 </div>
 @endsection
 

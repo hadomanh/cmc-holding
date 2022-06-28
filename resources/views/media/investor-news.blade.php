@@ -1,25 +1,22 @@
 @extends('layouts.app')
 
 @section('content')
-<div id="mediaNews" class="bg-white">
-    <section class="p-0">
-        <div class="carousel-item active container2">
-            <img src="{{ asset('img/Investor-news.png') }}" alt="" class="w-100">
-            <div class="content"><h1>INVESTMENT NEWS</h1></div>
+<div id="mediaNews">
+    <section class="banner">
+        <div class="container-xxl">
+            <h1 class="mb-0 text-white text-center">INVESTMENT NEWS</h1>
         </div>
-        <img src="{{ asset('img/Investor-news.png') }}" alt="" class="w-100">
     </section>
-    <section>
-        <div class="container-lg">
+    <section class="bgGrey">
+        <div class="container-xxl">
             <div class="row">
                 <div class="col-lg-6 col-12">
-
                     @if ($investorNews->count() > 0)
                     <div class="newsItem highlight">
                         <a href="{{ route('media.news-detail', $investorNews[0]->id) }}" class="newsThumb">
                             <img src="{{ $investorNews[0]->thumbnail }}" alt="" class="w-100">
                         </a>
-                        <h4 class="newsTitle titleUnderline">
+                        <h4 class="newsTitle">
                             <a href="{{ route('media.news-detail', $investorNews[0]->id) }}">{{ $investorNews[0]->title }}</a>
                         </h4>
                         <div class="newsDesc">
@@ -36,7 +33,7 @@
                                 <img src="{{ $item->thumbnail }}" alt="" class="w-100">
                             </a>
                             <div class="col-md-8">
-                                <h4 class="newsTitle titleUnderline">
+                                <h4 class="newsTitle">
                                     <a href="{{ route('media.news-detail', $item->id) }}">{{ $item->title }}</a>
                                 </h4>
                                 <div class="newsDesc">
@@ -59,7 +56,7 @@
                                 <img src="{{ $item->thumbnail }}" alt="" class="w-100">
                             </a>
                             <div class="col-md-8">
-                                <h4 class="newsTitle titleUnderline">
+                                <h4 class="newsTitle">
                                     <a href="{{ route('media.news-detail', $item->id) }}">{{ $item->title }}</a>
                                 </h4>
                                 <div class="newsDesc">
@@ -75,9 +72,6 @@
             </div>
         </div>
     </section>
-    <div class="container-lg">
-        <div class="lineSeparated"></div>
-    </div>
 </div>
 @endsection
 
