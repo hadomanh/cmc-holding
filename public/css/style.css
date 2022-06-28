@@ -35,7 +35,7 @@ h4,
 h5,
 h6 {
     font-weight: 600;
-    color: #000000;
+    /* color: #000000; */
     font-family: gotham-bold, sans-serif;
 }
 
