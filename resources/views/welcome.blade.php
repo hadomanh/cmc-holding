@@ -10,7 +10,7 @@
             </video>
             <div class="content">
                 <div class="carouselContent">
-                    <h1 class="title ">METAWAY HOLDING<br><span class="fw-light mt-3">@lang ('The Big Things')</span></h1>
+                    <h1 class="title ">METAWAY HOLDINGS<br><span class="fw-light mt-3">@lang ('The Big Things')</span></h1>
                     <p class="subTitle">@lang ('Digital Economy Corporation')</p>
                     <a href="{{ route('about') }}" class="more">
                         @lang('read more') <i class="fa-solid fa-angle-right"></i>
