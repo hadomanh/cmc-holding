@@ -3,15 +3,20 @@
 @section('content')
 <div id="homepage">
     <!-- Banner -->
-    <section class="banner position-relative">
-        <video autoplay muted loop id="myVideo">
-            <source src="{{ asset('img/bg-home-meta.mp4') }}" type="video/mp4">
-        </video>
-        <div class="container-xxl">
-            <h1 class="title text-white">METAWAY HOLDING</h1>
-            <h2 class="slogan text-white">@lang ('The Big Things')</h2>
-            <p class="subTitle mt-3">@lang ('Digital Economy Corporation')</p>
-            <a href="{{ route('about') }}" class="btn btn-grey-outline text-uppercase">@lang('read more')</a>
+    <section class="banner p-0">
+        <div id="carouselBanner" class="carousel slide pt-0" data-bs-ride="carousel">
+            <video autoplay muted loop id="myVideo">
+                <source src="{{ asset('img/bg-home-meta.mp4') }}" type="video/mp4">
+            </video>
+            <div class="content">
+                <div class="carouselContent">
+                    <h1 class="title ">METAWAY HOLDINGS<br><span class="fw-light mt-3">@lang ('The Big Things')</span></h1>
+                    <p class="subTitle">@lang ('Digital Economy Corporation')</p>
+                    <a href="{{ route('about') }}" class="more">
+                        @lang('read more') <i class="fa-solid fa-angle-right"></i>
+                    </a>
+                </div>
+            </div>
         </div>
     </section>
 
