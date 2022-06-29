@@ -8,7 +8,7 @@
             <source src="{{ asset('img/bg-home-meta.mp4') }}" type="video/mp4">
         </video>
         <div class="container-xxl">
-            <h1 class="title text-white">METAWAY HOLDING</h1>
+            <h1 class="title text-white">METAWAY HOLDINGS</h1>
             <h2 class="slogan text-white">@lang ('The Big Things')</h2>
             <p class="subTitle mt-3">@lang ('Digital Economy Corporation')</p>
             <a href="{{ route('about') }}" class="btn btn-grey-outline text-uppercase">@lang('read more')</a>
