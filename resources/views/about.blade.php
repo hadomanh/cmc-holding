@@ -133,10 +133,10 @@
                         <h5 class="titleUnderline fs-5 mb-3"><a href="#">@lang ('Technology field')</a></h5>
                         <div class="desc flex-grow-1">
                             <strong>Metaway Tech</strong> @lang ('explores, expands, and delivers crucial technology solutions in the pillars of the digital economy. Our goal is to improve the capacity and overall development to meet global user needs in the digital economy age.')
-                        </div>   
+                        </div>
                         <div class="text-center mt-4">
                             <a href="#" class="btn btn-grey-outline">@lang ('READ MORE')</a>
-                        </div>                     
+                        </div>
                     </div>
                 </div>
                 <div class="col-md-6">
@@ -147,10 +147,10 @@
                         <h5 class="titleUnderline fs-5 mb-3"><a href="#">@lang ('Healthcare field')</a></h5>
                         <div class="desc flex-grow-1">
                             <strong>Metaway Med</strong> @lang ("orients to establish an international standard clinic and hospital system specializing in chiropractic. Blockchain technology will be applied to digital medical records for best tracked Metaway Med builds a technology platform to support medical examination, diagnosis, calibration, and treatment for patients, which will help patients save huge amounts of unnecessary costs. Metaway Med owns a world-leading professors and specialists team who are dedicated to caring for patients' health.")
-                        </div>   
+                        </div>
                         <div class="text-center mt-4">
                             <a href="http://metawaymed.com" class="btn btn-grey-outline">@lang ('READ MORE')</a>
-                        </div>                     
+                        </div>
                     </div>
                 </div>
                 <div class="col-md-6">
@@ -161,10 +161,10 @@
                         <h5 class="titleUnderline fs-5 mb-3"><a href="#">@lang ('Real Estate field')</a></h5>
                         <div class="desc flex-grow-1">
                             <strong>Metaway Land</strong> @lang ('is an investor and developer of super-luxury class real estate and smart cities. We create the differences for real estates, set new standards for personal branding and premium enjoyment exclusively for elite owners. We apply new technologies comprehensively in the field of real estate. On a global scale, myriad investment opportunities and new forms of ownership will be opened up for Investors regardless of legal and geographical barriers.')
-                        </div>   
+                        </div>
                         <div class="text-center mt-4">
                             <a href="http://metawayland.com" class="btn btn-grey-outline">@lang ('READ MORE')</a>
-                        </div>                     
+                        </div>
                     </div>
                 </div>
                 <div class="col-md-6">
@@ -175,10 +175,10 @@
                         <h5 class="titleUnderline fs-5 mb-3"><a href="#">@lang ('Finance field')</a></h5>
                         <div class="desc flex-grow-1">
                             <strong>Metaway Finance</strong> @lang ("applies new technologies in creating digital platforms and solutions for Banking, Insurance, and Securities fields. Brand new investment opportunities and exclusive trading models will be opened up for global users We believe in the future you are the only one who will take control of your own financial life. FWe empower you to learn, plan, and actualize your financial prosperity dreams. You should say bye to all the confusing myths you've heard about investing")
-                        </div>   
+                        </div>
                         <div class="text-center mt-4">
                             <a href="http://metawayfinance.com" class="btn btn-grey-outline">@lang ('READ MORE')</a>
-                        </div>                     
+                        </div>
                     </div>
                 </div>
             </div>
@@ -413,6 +413,28 @@
                             <img src="{{ asset('img/Bui-Dinh-Ngoc.png') }}" alt="">
                         </div>
                         <h4 class="name">@lang ('BUI DINH NGOC')</h4>
+                        <h5 class="position">@lang ('CTO')</h5>
+                        <div class="social">
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-6">
+                        <div class="avatar">
+                            <img src="{{ asset('img/Guiko-K.png') }}" alt="">
+                        </div>
+                        <h4 class="name">GUIKO-K</h4>
+                        <h5 class="position">@lang ('Technology Advisor')</h5>
+                        <div class="social">
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-6">
+                        <div class="avatar">
+                            <img src="{{ asset('img/Francesco.png') }}" alt="">
+                        </div>
+                        <h4 class="name">FRANCESCO</h4>
                         <h5 class="position">@lang ('CTO')</h5>
                         <div class="social">
                             <a href="#"><i class="fab fa-linkedin"></i></a>
