@@ -156,11 +156,14 @@
                         </a>
                     </div>
                     <div class="imgWrap">
-                        <a href="https://pencil.vn/" target="blank">
+                        <!-- <a href="https://pencil.vn/" target="blank">
                             <img src="{{ asset('img/pencil-logo.png') }}" alt="">
+                        </a> -->
+                        <a href="http://www.petroland.com.vn/" target="blank">
+                            <img src="{{ asset('img/Petroland.png') }}" alt="">
                         </a>
                     </div>
-                </div>          
+                </div>
             </div>
         </div>
     </section>

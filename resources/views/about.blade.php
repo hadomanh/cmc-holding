@@ -26,7 +26,7 @@
                     <div class="item">
                         <img src="{{ asset('img/icon-resource.svg') }}" alt="">
                         <h6 class="title">@lang ('Resource')</h6>
-                        <p class="text-justify">@lang ('Possesses influential resources in human, finance, and technology.') @lang ("founders and management team have extensive expertise and knowledge in strategy, corporate governance, investing, and restructuring. We capture the world's top successful business formulae. Thanks to the creative ideas based on understanding and mastering the latest platform technologies, We have earned the attention of major investment funds and reputable financial organizations.")</p>
+                        <p class="text-justify">@lang ("Possesses influential resources in human, finance, and technology. founders and management team have extensive expertise and knowledge in strategy, corporate governance, investing, and restructuring. We capture the world's top successful business formulae. Thanks to the creative ideas based on understanding and mastering the latest platform technologies, We have earned the attention of major investment funds and reputable financial organizations.")</p>
                     </div>
                 </div>
                 <div class="col-md-4">
@@ -139,10 +139,10 @@
                         <h5 class="titleUnderline fs-5 mb-3"><a href="#">@lang ('Technology field')</a></h5>
                         <div class="desc flex-grow-1">
                             <strong>Metaway Tech</strong> @lang ('explores, expands, and delivers crucial technology solutions in the pillars of the digital economy. Our goal is to improve the capacity and overall development to meet global user needs in the digital economy age.')
-                        </div>   
+                        </div>
                         <div class="text-center mt-4">
                             <a href="#" class="btn btn-grey-outline">@lang ('READ MORE')</a>
-                        </div>                     
+                        </div>
                     </div>
                 </div>
                 <div class="col-md-6">
@@ -153,10 +153,10 @@
                         <h5 class="titleUnderline fs-5 mb-3"><a href="#">@lang ('Healthcare field')</a></h5>
                         <div class="desc flex-grow-1">
                             <strong>Metaway Med</strong> @lang ("orients to establish an international standard clinic and hospital system specializing in chiropractic. Blockchain technology will be applied to digital medical records for best tracked Metaway Med builds a technology platform to support medical examination, diagnosis, calibration, and treatment for patients, which will help patients save huge amounts of unnecessary costs. Metaway Med owns a world-leading professors and specialists team who are dedicated to caring for patients' health.")
-                        </div>   
+                        </div>
                         <div class="text-center mt-4">
                             <a href="http://metawaymed.com" class="btn btn-grey-outline">@lang ('READ MORE')</a>
-                        </div>                     
+                        </div>
                     </div>
                 </div>
                 <div class="col-md-6">
@@ -167,10 +167,10 @@
                         <h5 class="titleUnderline fs-5 mb-3"><a href="#">@lang ('Real Estate field')</a></h5>
                         <div class="desc flex-grow-1">
                             <strong>Metaway Land</strong> @lang ('is an investor and developer of super-luxury class real estate and smart cities. We create the differences for real estates, set new standards for personal branding and premium enjoyment exclusively for elite owners. We apply new technologies comprehensively in the field of real estate. On a global scale, myriad investment opportunities and new forms of ownership will be opened up for Investors regardless of legal and geographical barriers.')
-                        </div>   
+                        </div>
                         <div class="text-center mt-4">
                             <a href="http://metawayland.com" class="btn btn-grey-outline">@lang ('READ MORE')</a>
-                        </div>                     
+                        </div>
                     </div>
                 </div>
                 <div class="col-md-6">
@@ -181,10 +181,10 @@
                         <h5 class="titleUnderline fs-5 mb-3"><a href="#">@lang ('Finance field')</a></h5>
                         <div class="desc flex-grow-1">
                             <strong>Metaway Finance</strong> @lang ("applies new technologies in creating digital platforms and solutions for Banking, Insurance, and Securities fields. Brand new investment opportunities and exclusive trading models will be opened up for global users We believe in the future you are the only one who will take control of your own financial life. FWe empower you to learn, plan, and actualize your financial prosperity dreams. You should say bye to all the confusing myths you've heard about investing")
-                        </div>   
+                        </div>
                         <div class="text-center mt-4">
                             <a href="http://metawayfinance.com" class="btn btn-grey-outline">@lang ('READ MORE')</a>
-                        </div>                     
+                        </div>
                     </div>
                 </div>
             </div>
@@ -195,7 +195,7 @@
     <section class="ecoSystem">
         <div class="container-xxl">
             <h2 class="sectionHeading">@lang ('ECOSYSTEM')</h2>
-            <strong>The Metaway Holdings</strong> @lang ("ecosystem is investing in products and services for specialized needs: The backbone pillar of the digital economy, Enormous Volume, Global Scale, Recurrent Demand, Fast-developing Market. We address existing markets and industries' issues with the latest smart, transparent technology solutions.")
+            <strong>@lang ('The Metaway Holdings')</strong> @lang ("ecosystem is investing in products and services for specialized needs: The backbone pillar of the digital economy, Enormous Volume, Global Scale, Recurrent Demand, Fast-developing Market. We address existing markets and industries' issues with the latest smart, transparent technology solutions.")
         </div>
     </section>
 
@@ -203,7 +203,7 @@
     <section class="bgWhite map" id="holdingsmembers">
         <div class="container-xxl">
             <h2 class="sectionHeading centered">@lang ('HOLDINGS MEMBERS')</h2>
-            <p class="text-center">@lang ("Metaway Holdings operates under the model of “Holdings in holdings”. We build separate ecosystems while still focusing on Metaway Holding's broad goal of globalization, digitization, and innovation for superior social values.")</p>
+            <p class="text-center">@lang ("Metaway Holdings operates under the model of 'Holdings in holdings'. We build separate ecosystems while still focusing on Metaway Holding's broad goal of globalization, digitization, and innovation for superior social values.")</p>
             <div class="map">
                 <div class="memberLocation style-1 cannada">
                     <img src="{{ asset('img/icon-metaway.png') }}" alt="">
@@ -249,7 +249,7 @@
                         <div class="avatar">
                             <img src="{{ asset('img/Tran-Nam-Trung.png') }}" alt="">
                         </div>
-                        <h4 class="name">TRAN NAM CHUNG</h4>
+                        <h4 class="name">@lang ('TRAN NAM CHUNG')</h4>
                         <h5 class="position">@lang ('Chairman')</h5>
                         <div class="social">
                             <a href="#"><i class="fab fa-linkedin"></i></a>
@@ -271,7 +271,7 @@
                         <div class="avatar">
                             <img src="{{ asset('img/ngo-minh-thang1.png') }}" alt="">
                         </div>
-                        <h4 class="name">NGO MINH THANG</h4>
+                        <h4 class="name">@lang ('NGO MINH THANG')</h4>
                         <h5 class="position">@lang ('CEO')</h5>
                         <div class="social">
                             <a href="#"><i class="fab fa-linkedin"></i></a>
@@ -282,7 +282,7 @@
                         <div class="avatar">
                             <img src="{{ asset('img/Pham-Anh-Tuan.png') }}" alt="">
                         </div>
-                        <h4 class="name">PHAM ANH TUAN</h4>
+                        <h4 class="name">@lang ('PHAM ANH TUAN')</h4>
                         <h5 class="position">@lang ('Deputy CEO')</h5>
                         <div class="social">
                             <a href="#"><i class="fab fa-linkedin"></i></a>
@@ -293,7 +293,7 @@
                         <div class="avatar">
                             <img src="{{ asset('img/Anna-Nguyen.png') }}" alt="">
                         </div>
-                        <h4 class="name">ANNA NGUYEN</h4>
+                        <h4 class="name">@lang ('ANNA NGUYEN')</h4>
                         <h5 class="position">@lang ('Deputy CEO')</h5>
                         <div class="social">
                             <a href="#"><i class="fab fa-linkedin"></i></a>
@@ -309,7 +309,7 @@
                         <div class="avatar">
                             <img src="{{ asset('img/Tran-Quang-Trung.png') }}" alt="">
                         </div>
-                        <h4 class="name">TRAN QUANG TRUNG</h4>
+                        <h4 class="name">@lang ('TRAN QUANG TRUNG')</h4>
                         <h5 class="position">@lang ('Growth Advisor')</h5>
                         <div class="social">
                             <a href="#"><i class="fab fa-linkedin"></i></a>
@@ -369,7 +369,7 @@
                         <div class="avatar">
                             <img src="{{ asset('img/Andy-Vu.png') }}" alt="">
                         </div>
-                        <h4 class="name">ANDY VU</h4>
+                        <h4 class="name">@lang ('ANDY VU')</h4>
                         <h5 class="position">@lang ('CMO')</h5>
                         <div class="social">
                             <a href="#"><i class="fab fa-linkedin"></i></a>
@@ -380,7 +380,7 @@
                         <div class="avatar">
                             <img src="{{ asset('img/ma-chi-thanh.png') }}" alt="">
                         </div>
-                        <h4 class="name">MA CHI THANH </h4>
+                        <h4 class="name">@lang ('MA CHI THANH')</h4>
                         <h5 class="position">Creative Director</h5>
                         <div class="social">
                             <a href="#"><i class="fab fa-linkedin"></i></a>
@@ -391,7 +391,7 @@
                         <div class="avatar">
                             <img src="{{ asset('img/tran-duc-minh.png') }}" alt="">
                         </div>
-                        <h4 class="name">TRAN DUC MINH</h4>
+                        <h4 class="name">@lang ('TRAN DUC MINH')</h4>
                         <h5 class="position">@lang ('Training Director')</h5>
                         <div class="social">
                             <a href="#"><i class="fab fa-linkedin"></i></a>
@@ -402,7 +402,7 @@
                         <div class="avatar">
                             <img src="{{ asset('img/Le-Van-Duong.png') }}" alt="">
                         </div>
-                        <h4 class="name">LE VAN DUONG</h4>
+                        <h4 class="name">@lang ('LE VAN DUONG')</h4>
                         <h5 class="position">@lang ('Legal Director')</h5>
                         <div class="social">
                             <a href="#"><i class="fab fa-linkedin"></i></a>
@@ -418,7 +418,29 @@
                         <div class="avatar">
                             <img src="{{ asset('img/Bui-Dinh-Ngoc.png') }}" alt="">
                         </div>
-                        <h4 class="name">BUI DINH NGOC</h4>
+                        <h4 class="name">@lang ('BUI DINH NGOC')</h4>
+                        <h5 class="position">@lang ('CTO')</h5>
+                        <div class="social">
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-6">
+                        <div class="avatar">
+                            <img src="{{ asset('img/Guiko-K.png') }}" alt="">
+                        </div>
+                        <h4 class="name">GUIKO-K</h4>
+                        <h5 class="position">@lang ('Technology Advisor')</h5>
+                        <div class="social">
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-6">
+                        <div class="avatar">
+                            <img src="{{ asset('img/Francesco.png') }}" alt="">
+                        </div>
+                        <h4 class="name">FRANCESCO</h4>
                         <h5 class="position">@lang ('CTO')</h5>
                         <div class="social">
                             <a href="#"><i class="fab fa-linkedin"></i></a>

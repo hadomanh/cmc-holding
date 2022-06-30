@@ -64,8 +64,8 @@
                 <ul class="list-unstyled info">
                     <li class="mb-4">
                         <img src="{{ asset('img/map-fter.png') }}" class="mb-2">
-                        <div class="mb-3"><strong>@lang ('Address 1:')</strong> 30 N Gould St Ste R Sheridan, Wyoming 82801, USA</div>
-                        <div class="mb-3"><strong>@lang ('Address 2:')</strong> 2323 Main Street Irvine, CA 92614, U.S.A.</div>
+                        <div class="mb-3"><strong>@lang ('Address 1:')</strong> @lang ('30 N Gould St Ste R Sheridan, Wyoming 82801, USA')</div>
+                        <div class="mb-3"><strong>@lang ('Address 2:')</strong> @lang ('2323 Main Street Irvine, CA 92614, U.S.A.')</div>
                         <div><strong>@lang ('Address 3:')</strong> @lang ('CX01 lot, Van Khe urban area, La Khe Ward, Ha Dong District, Hanoi, Vietnam')</div>
                     </li>
                     <li class="mb-4">
