@@ -160,7 +160,7 @@
                             <img src="{{ asset('img/pencil-logo.png') }}" alt="">
                         </a>
                     </div>
-                </div>          
+                </div>
             </div>
         </div>
     </section>
