@@ -267,7 +267,7 @@
                             <a href="#"><i class="fa fa-twitter"></i></a>
                         </div>
                     </div>
-                    <div class="col-lg-2 col-md-4 col-6">
+                    <!-- <div class="col-lg-2 col-md-4 col-6">
                         <div class="avatar">
                             <img src="{{ asset('img/ngo-minh-thang1.png') }}" alt="">
                         </div>
@@ -277,7 +277,7 @@
                             <a href="#"><i class="fab fa-linkedin"></i></a>
                             <a href="#"><i class="fa fa-twitter"></i></a>
                         </div>
-                    </div>
+                    </div> -->
                     <div class="col-lg-2 col-md-4 col-6">
                         <div class="avatar">
                             <img src="{{ asset('img/Pham-Anh-Tuan.png') }}" alt="">
