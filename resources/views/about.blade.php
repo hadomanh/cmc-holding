@@ -249,7 +249,7 @@
                         <div class="avatar">
                             <img src="{{ asset('img/Tran-Nam-Trung.png') }}" alt="">
                         </div>
-                        <h4 class="name">@lang ('TRAN NAM CHUNG')</h4>
+                        <h4 class="name">@lang ('Tran Nam Chung')</h4>
                         <h5 class="position">@lang ('Chairman')</h5>
                         <div class="social">
                             <a href="#"><i class="fab fa-linkedin"></i></a>
@@ -260,7 +260,7 @@
                         <div class="avatar">
                             <img src="{{ asset('img/Henre-D.Fahman.png') }}" alt="">
                         </div>
-                        <h4 class="name">HENRY D.FAHMAN</h4>
+                        <h4 class="name">Henry D.Fahman</h4>
                         <h5 class="position">@lang ('Vice Chairman')</h5>
                         <div class="social">
                             <a href="#"><i class="fab fa-linkedin"></i></a>
@@ -282,7 +282,7 @@
                         <div class="avatar">
                             <img src="{{ asset('img/Pham-Anh-Tuan.png') }}" alt="">
                         </div>
-                        <h4 class="name">@lang ('PHAM ANH TUAN')</h4>
+                        <h4 class="name">@lang ('Pham Anh Tuan')</h4>
                         <h5 class="position">@lang ('Deputy CEO')</h5>
                         <div class="social">
                             <a href="#"><i class="fab fa-linkedin"></i></a>
@@ -293,7 +293,7 @@
                         <div class="avatar">
                             <img src="{{ asset('img/Anna-Nguyen.png') }}" alt="">
                         </div>
-                        <h4 class="name">@lang ('ANNA NGUYEN')</h4>
+                        <h4 class="name">@lang ('Anna Nguyen')</h4>
                         <h5 class="position">@lang ('Deputy CEO')</h5>
                         <div class="social">
                             <a href="#"><i class="fab fa-linkedin"></i></a>
@@ -309,7 +309,7 @@
                         <div class="avatar">
                             <img src="{{ asset('img/Tran-Quang-Trung.png') }}" alt="">
                         </div>
-                        <h4 class="name">@lang ('TRAN QUANG TRUNG')</h4>
+                        <h4 class="name">@lang ('Tran Quang Trung')</h4>
                         <h5 class="position">@lang ('Growth Advisor')</h5>
                         <div class="social">
                             <a href="#"><i class="fab fa-linkedin"></i></a>
@@ -320,8 +320,8 @@
                         <div class="avatar">
                             <img src="{{ asset('img/Steve-Truong.png') }}" alt="">
                         </div>
-                        <h4 class="name">STEVE TRUONG</h4>
-                        <h5 class="position">@lang ('Managing Director PHI')<br>@lang ('Group Advisor')</h5>
+                        <h4 class="name">Steve Truong</h4>
+                        <h5 class="position">@lang ('Managing Director PHI Group Advisor')</h5>
                         <div class="social">
                             <a href="#"><i class="fab fa-linkedin"></i></a>
                             <a href="#"><i class="fa fa-twitter"></i></a>
@@ -331,7 +331,7 @@
                         <div class="avatar">
                             <img src="{{ asset('img/Frank-N.Hawkins.png') }}" alt="">
                         </div>
-                        <h4 class="name">FRANK N.HAWKINS</h4>
+                        <h4 class="name">Frank N.Hawkins</h4>
                         <h5 class="position">@lang ('Finance Advisor')</h5>
                         <div class="social">
                             <a href="#"><i class="fab fa-linkedin"></i></a>
@@ -342,7 +342,7 @@
                         <div class="avatar">
                             <img src="{{ asset('img/Michael-Bennett.png') }}" alt="">
                         </div>
-                        <h4 class="name">MICHAEL BENNETT</h4>
+                        <h4 class="name">Michael Bennett</h4>
                         <h5 class="position">@lang ('Investment & Partnership Advisor')</h5>
                         <div class="social">
                             <a href="#"><i class="fab fa-linkedin"></i></a>
@@ -353,7 +353,7 @@
                         <div class="avatar">
                             <img src="{{ asset('img/Tam-T.Bui.png') }}" alt="">
                         </div>
-                        <h4 class="name">TAM T.BUI</h4>
+                        <h4 class="name">Tam T.Bui</h4>
                         <h5 class="position">@lang ('COO PHI Group Operation Advisor')</h5>
                         <div class="social">
                             <a href="#"><i class="fab fa-linkedin"></i></a>
@@ -369,7 +369,7 @@
                         <div class="avatar">
                             <img src="{{ asset('img/Andy-Vu.png') }}" alt="">
                         </div>
-                        <h4 class="name">@lang ('ANDY VU')</h4>
+                        <h4 class="name">@lang ('Andy Vu')</h4>
                         <h5 class="position">@lang ('CMO')</h5>
                         <div class="social">
                             <a href="#"><i class="fab fa-linkedin"></i></a>
@@ -380,7 +380,7 @@
                         <div class="avatar">
                             <img src="{{ asset('img/ma-chi-thanh.png') }}" alt="">
                         </div>
-                        <h4 class="name">@lang ('MA CHI THANH')</h4>
+                        <h4 class="name">@lang ('Ma Chi Thanh')</h4>
                         <h5 class="position">@lang ('Creative Director')</h5>
                         <div class="social">
                             <a href="#"><i class="fab fa-linkedin"></i></a>
@@ -391,7 +391,7 @@
                         <div class="avatar">
                             <img src="{{ asset('img/tran-duc-minh.png') }}" alt="">
                         </div>
-                        <h4 class="name">@lang ('TRAN DUC MINH')</h4>
+                        <h4 class="name">@lang ('Tran Duc Minh')</h4>
                         <h5 class="position">@lang ('Training Director')</h5>
                         <div class="social">
                             <a href="#"><i class="fab fa-linkedin"></i></a>
@@ -402,7 +402,7 @@
                         <div class="avatar">
                             <img src="{{ asset('img/Le-Van-Duong.png') }}" alt="">
                         </div>
-                        <h4 class="name">@lang ('LE VAN DUONG')</h4>
+                        <h4 class="name">@lang ('Le Van Duong')</h4>
                         <h5 class="position">@lang ('Legal Director')</h5>
                         <div class="social">
                             <a href="#"><i class="fab fa-linkedin"></i></a>
@@ -418,7 +418,7 @@
                         <div class="avatar">
                             <img src="{{ asset('img/Bui-Dinh-Ngoc.png') }}" alt="">
                         </div>
-                        <h4 class="name">@lang ('BUI DINH NGOC')</h4>
+                        <h4 class="name">@lang ('Bui Dinh Ngoc')</h4>
                         <h5 class="position">@lang ('CTO')</h5>
                         <div class="social">
                             <a href="#"><i class="fab fa-linkedin"></i></a>
@@ -429,7 +429,7 @@
                         <div class="avatar">
                             <img src="{{ asset('img/Guiko-K.png') }}" alt="">
                         </div>
-                        <h4 class="name">GUIKO-K</h4>
+                        <h4 class="name">Guiko K</h4>
                         <h5 class="position">@lang ('Technology Advisor')</h5>
                         <div class="social">
                             <a href="#"><i class="fab fa-linkedin"></i></a>
@@ -440,7 +440,7 @@
                         <div class="avatar">
                             <img src="{{ asset('img/Francesco.png') }}" alt="">
                         </div>
-                        <h4 class="name">FRANCESCO</h4>
+                        <h4 class="name">Francesco</h4>
                         <h5 class="position">@lang ('CTO')</h5>
                         <div class="social">
                             <a href="#"><i class="fab fa-linkedin"></i></a>
