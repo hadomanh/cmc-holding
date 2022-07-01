@@ -81,7 +81,9 @@
                         <h2 class="sectionHeading centered fs-5 mb-3">@lang ('OUR CORE VALUES')</h2>
                         <div class="desc">
                             <div class="d-flex align-items-start">
-                                <div class="number">@lang ('01')</div>
+                                @if (Session::get('app_locale') == 'en')
+                                    <div class="number">01</div>    
+                                @endif
                                 <div>
                                     <h6>@lang ('Think Big')</h6>
                                     <ul>
@@ -92,7 +94,9 @@
                                 </div>
                             </div>
                             <div class="d-flex align-items-start">
-                                <div class="number">@lang ('02')</div>
+                                @if (Session::get('app_locale') == 'en')
+                                    <div class="number">02</div>    
+                                @endif
                                 <div>
                                     <h6>@lang ('Spirit of Dedication')</h6>
                                     <ul>
@@ -103,7 +107,9 @@
                                 </div>
                             </div>
                             <div class="d-flex align-items-start">
-                                <div class="number">@lang ('03')</div>
+                                @if (Session::get('app_locale') == 'en')
+                                    <div class="number">03</div>    
+                                @endif
                                 <div>
                                     <h6 class="">@lang ('Transparency, safety')</h6>
                                     <ul>
