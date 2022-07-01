@@ -4,12 +4,12 @@
 <div id="mediaNews">
     <section class="banner news">
         <div class="container-xxl">
-            <h1 class="mb-0 text-white text-center">PRESS RELEASE</h1>
+            <h1 class="mb-0 text-white text-center">@lang ('PRESS RELEASE')</h1>
         </div>
     </section>
     <section class="bgGrey">
         <div class="container-xxl">
-            <h2 class="sectionHeading text-uppercase centered">PRESS RELEASE</h2>
+            <h2 class="sectionHeading text-uppercase centered">@lang ('PRESS RELEASE')</h2>
             <div class="row">
                 <div class="col-lg-6 col-12">
                     @if ($press->count() > 0)

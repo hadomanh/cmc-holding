@@ -18,7 +18,7 @@
                             <div class="d-flex">
                                 <div><img src="{{ asset('img/iconPosition.png') }}" class="w-100"></div>
                                 <div class="ms-3 location1">
-                                    <p class="d-block mb-2">30 N Gould St Ste R Sheridan, <br> Wyoming 82801 <br> 2323 Main Street Irvine, CA 92614 </p>
+                                    <p class="d-block mb-2">@lang ('30 N Gould St Ste R Sheridan,') <br> @lang ('Wyoming 82801') <br> @lang('2323 Main Street Irvine, CA 92614') </p>
                                 </div>
                             </div>
                             <div class="d-flex">

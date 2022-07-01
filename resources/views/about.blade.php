@@ -19,7 +19,7 @@
                     <div class="item">
                         <img src="{{ asset('img/icon-building.svg') }}" alt="">
                         <h6 class="title">@lang ('Company Background')</h6>
-                        <p class="text-justify">Metaway Holdings @lang ('is headquartered in the') @lang ('United States') @lang ('with numerous branch offices around the world. The company was founded in the next wave of digital technologies with artificial intelligence, blockchain, the Internet of things, and Cloud computing platforms and applications . These invincible waves will convey great potential and promote the instantaneous development of key economic sectors. Our major ambition is to connect together a community of entrepreneurs, firms, and investors who all share the same desire of giving a legacy for future genera tions.')</p>
+                        <p class="text-justify">@lang ('Metaway Holdings is headquartered in the United States with numerous branch offices around the world. The company was founded in the next wave of digital technologies with artificial intelligence, blockchain, the Internet of things, and Cloud computing platforms and applications . These invincible waves will convey great potential and promote the instantaneous development of key economic sectors. Our major ambition is to connect together a community of entrepreneurs, firms, and investors who all share the same desire of giving a legacy for future genera tions.')</p>
                     </div>
                 </div>
                 <div class="col-md-4">
@@ -81,7 +81,9 @@
                         <h2 class="sectionHeading centered fs-5 mb-3">@lang ('OUR CORE VALUES')</h2>
                         <div class="desc">
                             <div class="d-flex align-items-start">
-                                <div class="number">@lang ('01')</div>
+                                @if (Session::get('app_locale') == 'en')
+                                    <div class="number">01</div>    
+                                @endif
                                 <div>
                                     <h6>@lang ('Think Big')</h6>
                                     <ul>
@@ -92,7 +94,9 @@
                                 </div>
                             </div>
                             <div class="d-flex align-items-start">
-                                <div class="number">@lang ('02')</div>
+                                @if (Session::get('app_locale') == 'en')
+                                    <div class="number">02</div>    
+                                @endif
                                 <div>
                                     <h6>@lang ('Spirit of Dedication')</h6>
                                     <ul>
@@ -103,7 +107,9 @@
                                 </div>
                             </div>
                             <div class="d-flex align-items-start">
-                                <div class="number">@lang ('03')</div>
+                                @if (Session::get('app_locale') == 'en')
+                                    <div class="number">03</div>    
+                                @endif
                                 <div>
                                     <h6 class="">@lang ('Transparency, safety')</h6>
                                     <ul>
