@@ -4,7 +4,7 @@
 <div id="mediaNews">
     <section class="banner">
         <div class="container-xxl">
-            <h1 class="mb-0 text-white text-center">INVESTMENT NEWS</h1>
+            <h1 class="mb-0 text-white text-center">@lang ('INVESTMENT NEWS')</h1>
         </div>
     </section>
     <section class="bgGrey">

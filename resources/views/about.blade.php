@@ -19,7 +19,7 @@
                     <div class="item">
                         <img src="{{ asset('img/icon-building.svg') }}" alt="">
                         <h6 class="title">@lang ('Company Background')</h6>
-                        <p class="text-justify">Metaway Holdings @lang ('is headquartered in the') @lang ('United States') @lang ('with numerous branch offices around the world. The company was founded in the next wave of digital technologies with artificial intelligence, blockchain, the Internet of things, and Cloud computing platforms and applications . These invincible waves will convey great potential and promote the instantaneous development of key economic sectors. Our major ambition is to connect together a community of entrepreneurs, firms, and investors who all share the same desire of giving a legacy for future genera tions.')</p>
+                        <p class="text-justify">@lang ('Metaway Holdings is headquartered in the United States with numerous branch offices around the world. The company was founded in the next wave of digital technologies with artificial intelligence, blockchain, the Internet of things, and Cloud computing platforms and applications . These invincible waves will convey great potential and promote the instantaneous development of key economic sectors. Our major ambition is to connect together a community of entrepreneurs, firms, and investors who all share the same desire of giving a legacy for future genera tions.')</p>
                     </div>
                 </div>
                 <div class="col-md-4">
