@@ -381,7 +381,7 @@
                             <img src="{{ asset('img/ma-chi-thanh.png') }}" alt="">
                         </div>
                         <h4 class="name">@lang ('MA CHI THANH')</h4>
-                        <h5 class="position">Creative Director</h5>
+                        <h5 class="position">@lang ('Creative Director')</h5>
                         <div class="social">
                             <a href="#"><i class="fab fa-linkedin"></i></a>
                             <a href="#"><i class="fa fa-twitter"></i></a>
