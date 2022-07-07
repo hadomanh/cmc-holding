@@ -4,22 +4,34 @@
     <meta charset="utf-8">
 
     @section('meta-tag')
-        <title>METAWAY HOLDING</title>
-        <meta id="PagKeywords" name="keywords" content="METAWAY HOLDINGS" />
-        <meta id="PagDescription" name="description" content="" />
-
-        <!-- Facebook Tag -->
-        <meta property="og:url" content=""/>
-        <meta property="og:type" content="website"/>
-        <meta property="og:title" content="METAWAY HOLDINGS"/>
-        <meta property="og:description" content="METAWAY HOLDINGS"/>
-        <meta property="og:image" content=""/>
-        <meta property="og:site_name" content="METAWAY HOLDINGS"/>
+        <title>Metaway Holdings -The Big Things - Tập đoàn kinh tế số Việt Nam</title>
+        <meta name="description" content="Metaway Holdings là tập đoàn kinh tế số hoạt động trên phạm vi toàn cầu, định hướng phát triển các lĩnh vực trụ cột của nền kinh tế, hướng tới xã hội số." />
+        <meta name="keywords" content="kinh tế số, kinhteso, kinh tế số việt nam, kinhtesovietnam, metawayholdings" />
     @show
+    
+    <!-- Facebook Tag -->
+    <meta property="og:url" content="https://metawayholdings.com/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Metaway Holdings -The Big Things - Tập đoàn kinh tế số Việt Nam" />
+    <meta property="og:description" content="Metaway Holdings là tập đoàn kinh tế số hoạt động trên phạm vi toàn cầu, định hướng phát triển các lĩnh vực trụ cột của nền kinh tế, hướng tới xã hội số." />
+    <meta property="og:image" content="https://imagedelivery.net/KvFcUzLL2k6Q3_ROU5d8cw/1d22c510-f212-4bb3-1786-b645b68f9400/public" />
+    <meta property="og:site_name" content="metawayholdings.com" />
+
+    <!-- Twitter Tag -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@metawayholdings" />
+    <meta name="twitter:creator" content="@metawayholdings" />
+    <meta name="twitter:title" content="Metaway Holdings -The Big Things - Tập đoàn kinh tế số Việt Nam" />
+    <meta name="twitter:description" content="Metaway Holdings là tập đoàn kinh tế số hoạt động trên phạm vi toàn cầu, định hướng phát triển các lĩnh vực trụ cột của nền kinh tế, hướng tới xã hội số." />
+    <meta name="twitter:image:src" content="https://imagedelivery.net/KvFcUzLL2k6Q3_ROU5d8cw/1d22c510-f212-4bb3-1786-b645b68f9400/public">
 
     <!-- Main Tag -->
-    <link id="LinkIcon" href="" type="image/x-icon" rel="shortcut icon" />
-    <link rel="icon" href="{{ asset('img/Avata.jpg') }}" type="image/ico" />
+    <link type="image/x-icon" rel="shortcut icon" />
+    <link rel="icon" href="{{ asset('img/favicon-32x32.png') }}" type="image/ico" />
+    <link rel="icon" href="{{ asset('img/favicon-32x32.png') }}" type="image/png" sizes="32x32">
+    <link rel="icon" href="{{ asset('img/favicon-16x16.png') }}" type="image/png" sizes="16x16">
+    <link rel="apple-touch-icon" href="{{ asset('img/apple-touch-icon.png') }}" sizes="180x180">
+    <link rel="mask-icon" href="{{ asset('img/favicon-32x32.png') }}">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
