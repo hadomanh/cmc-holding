@@ -2,23 +2,27 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
+
+    @section('meta-tag')
+        <title>METAWAY HOLDING</title>
+        <meta id="PagKeywords" name="keywords" content="METAWAY HOLDINGS" />
+        <meta id="PagDescription" name="description" content="" />
+
+        <!-- Facebook Tag -->
+        <meta property="og:url" content=""/>
+        <meta property="og:type" content="website"/>
+        <meta property="og:title" content="METAWAY HOLDINGS"/>
+        <meta property="og:description" content="METAWAY HOLDINGS"/>
+        <meta property="og:image" content=""/>
+        <meta property="og:site_name" content="METAWAY HOLDINGS"/>
+    @show
+
     <!-- Main Tag -->
-    <title>METAWAY HOLDING</title>
-    <meta id="PagKeywords" name="keywords" content="METAWAY HOLDINGS" />
-    <meta id="PagDescription" name="description" content="" />
     <link id="LinkIcon" href="" type="image/x-icon" rel="shortcut icon" />
     <link rel="icon" href="{{ asset('img/Avata.jpg') }}" type="image/ico" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-    <!-- Facebook Tag -->
-    <meta property="og:url" content=""/>
-    <meta property="og:type" content="website"/>
-    <meta property="og:title" content="METAWAY HOLDINGS"/>
-    <meta property="og:description" content="METAWAY HOLDINGS"/>
-    <meta property="og:image" content=""/>
-    <meta property="og:site_name" content="METAWAY HOLDINGS"/>
 
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/fa881189ef.js" crossorigin="anonymous"></script>

@@ -1,5 +1,11 @@
 @extends('layouts.app')
 
+@section('meta-tag')
+    <title>Metaway Holdings -The Big Things - Tập đoàn kinh tế số Việt Nam</title>
+    <meta name="description" content="Metaway Holdings là tập đoàn kinh tế số hoạt động trên phạm vi toàn cầu, định hướng phát triển các lĩnh vực trụ cột của nền kinh tế, hướng tới xã hội số." />
+    <meta name="keywords" content="kinh tế số, kinhteso, kinh tế số việt nam, kinhtesovietnam, metawayholdings" />
+@endsection
+
 @section('content')
 <div id="homepage">
     <!-- Banner -->
