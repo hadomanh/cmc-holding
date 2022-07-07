@@ -1,5 +1,11 @@
 @extends('layouts.app')
 
+@section('meta-tag')
+    <title>Metaway Holdings xoay quanh các trụ cột hình thành nền kinh tế số</title>
+    <meta name="description" content="Trở thành tập đoàn kinh tế số hàng đầu thế giới bằng sức mạnh của sự hội tụ trí tuệ, tài chính và công nghệ, đóng góp vào sự thịnh vượng chung của kinh tế toàn cầu." />
+    <meta name="keywords" content="tap đoàn kinh tế số, tapdoankinhteso" />
+@endsection
+
 @section('content')
 <div id="aboutPage">
 
