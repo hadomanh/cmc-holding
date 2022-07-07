@@ -20,7 +20,7 @@
           @foreach ($press as $item)
               <tr>
                     <td>{{ $loop->index + 1 }}</td>
-                    <td><a href="javascript:void(0)" target="_blank">{{ $item->title }}</a></td>
+                    <td><a href="{{ route('media.press-detail', $item->id) }}" target="_blank">{{ $item->title }}</a></td>
 
                     @if ($item->active)
                         <td class="text-success">Active</td>
