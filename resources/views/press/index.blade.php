@@ -1,6 +1,17 @@
 @extends('layouts.admin')
 
 @section('content')
+
+<div class="py-3">
+    <a href="{{ route('press.index', ['lang' => 'vi']) }}" class="btn btn-outline-danger">
+        VI
+    </a>
+
+    <a href="{{ route('press.index', ['lang' => 'en']) }}" class="btn btn-outline-primary">
+        EN
+    </a>
+</div>
+
 <div class="card">
     <div class="card-header bg-primary">
         <h3 class="card-title">Press</h3>

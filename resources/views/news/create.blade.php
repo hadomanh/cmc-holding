@@ -9,6 +9,15 @@
 
     <form class="card-body" action="{{ route('news.store') }}" method="POST" enctype="multipart/form-data" autocomplete="off">
         @csrf
+
+        <div class="form-group">
+            <label for="langSelect">Language:</label>
+            <select name="lang" class="form-control" id="langSelect">
+              <option value="vi" selected>Vietnamese</option>
+              <option value="en">English</option>
+            </select>
+        </div>
+        
         <div class="form-group">
             <label for="titleInput">Title</label>
             <input type="text" name="title" class="form-control" id="titleInput" placeholder="Title" required>

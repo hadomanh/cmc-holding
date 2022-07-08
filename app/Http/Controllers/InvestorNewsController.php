@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\InvestorNews;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Config;
 use Illuminate\Support\Str;
 
 class InvestorNewsController extends Controller
@@ -19,9 +20,10 @@ class InvestorNewsController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    public function index(Request $request)
     {
-        $news = $this->news->all();
+        $lang = $request->lang ?? Config::get('app.fallback_locale');
+        $news = $this->news->where('lang', $lang)->get();
         
         return view('investor-news.index')->with(compact('news'));
     }
@@ -64,6 +66,7 @@ class InvestorNewsController extends Controller
         $news->title = $request->title;
         $news->subtitle = $request->subtitle;
         $news->content = $request->content;
+        $news->lang = $request->lang;
 
         if (!$request->filled('seo_title')) {
             $news->seo_title = $request->title;

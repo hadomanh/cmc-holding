@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\Press;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Config;
 use Illuminate\Support\Str;
 
 class PressController extends Controller
@@ -19,9 +20,10 @@ class PressController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    public function index(Request $request)
     {
-        $press = $this->press->all();
+        $lang = $request->lang ?? Config::get('app.fallback_locale');
+        $press = $this->press->where('lang', $lang)->get();
         
         return view('press.index')->with(compact('press'));
     }
@@ -64,6 +66,7 @@ class PressController extends Controller
         $press->title = $request->title;
         $press->subtitle = $request->subtitle;
         $press->content = $request->content;
+        $press->lang = $request->lang;
 
         if (!$request->filled('seo_title')) {
             $press->seo_title = $request->title;

@@ -8,6 +8,7 @@ use App\Http\Controllers\InvestorNewsController;
 use App\Models\InvestorNews;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades\Session;
 
 /*
 |--------------------------------------------------------------------------
@@ -35,7 +36,10 @@ Route::get('/contact', function () {
 Route::prefix('media')->group(function () {
 
     Route::get('/news', function () {
-        $news = News::where('active', true)->get();
+        $news = News::where([
+            ['active', true],
+            ['lang', Session::get('app_locale')],
+        ])->get();
         return view('media.news')->with(compact('news'));
     })->name('media.news');
 
@@ -46,7 +50,10 @@ Route::prefix('media')->group(function () {
     })->name('media.news-detail');
 
     Route::get('/press', function () {
-        $press = Press::where('active', true)->get();
+        $press = Press::where([
+            ['active', true],
+            ['lang', Session::get('app_locale')],
+        ])->get();
         return view('media.press')->with(compact('press'));
     })->name('media.press');
 
@@ -57,7 +64,10 @@ Route::prefix('media')->group(function () {
     })->name('media.press-detail');
 
     Route::get('/investor-news', function () {
-        $investorNews = InvestorNews::where('active', true)->get();
+        $investorNews = InvestorNews::where([
+            ['active', true],
+            ['lang', Session::get('app_locale')],
+        ])->get();
         return view('media.investor-news')->with(compact('investorNews'));
     })->name('media.investor-news');
 

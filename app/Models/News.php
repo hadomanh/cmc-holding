@@ -16,5 +16,6 @@ class News extends Model
         'seo_description',
         'seo_keyword',
         'active',
+        'lang',
     ];
 }
