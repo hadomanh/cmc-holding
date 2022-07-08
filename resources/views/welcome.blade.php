@@ -109,55 +109,55 @@
             <div class="owl-carousel owl-theme">
                 <div class="item">
                     <div class="imgWrap">
-                        <a href="http://www.vnpost.vn/" target="_blank">
+                        <a href="http://www.vnpost.vn/" target="_blank" rel="nofollow">
                             <img src="{{ asset('img/Vietnam Post.png') }}" alt="">
                         </a>
                     </div>
                     <div class="imgWrap">
-                        <a href="http://www.vietinbankcapital.vn/vi-vn/" target="blank">
+                        <a href="http://www.vietinbankcapital.vn/vi-vn/" target="blank" rel="nofollow">
                             <img src="{{ asset('img/Viettin Capital.png') }}" alt="">
                         </a>
                     </div>
                 </div>
                 <div class="item">
                     <div class="imgWrap">
-                        <a href="http://www.petroland.com.vn/" target="blank">
+                        <a href="http://www.petroland.com.vn/" target="blank" rel="nofollow">
                             <img src="{{ asset('img/Petroland.png') }}" alt="">
                         </a>
                     </div>
                     <div class="imgWrap">
-                        <a href="https://www.linkedin.com/company/acentus-capital" target="blank">
+                        <a href="https://www.linkedin.com/company/acentus-capital" target="blank" rel="nofollow">
                             <img src="{{ asset('img/Acentus Capital.png') }}" alt="">
                         </a>
                     </div>
                 </div>
                 <div class="item">
                     <div class="imgWrap">
-                        <a href="https://vcci.com.vn/" target="blank">
+                        <a href="https://vcci.com.vn/" target="blank" rel="nofollow">
                             <img src="{{ asset('img/VVC.png') }}" alt="">
                         </a>
                     </div>
                     <div class="imgWrap">
-                        <a href="https://vnpt.com.vn/" target="blank">
+                        <a href="https://vnpt.com.vn/" target="blank" rel="nofollow">
                             <img src="{{ asset('img/VNPT.png') }}" alt="">
                         </a>
                     </div>
                 </div>
                 <div class="item">
                     <div class="imgWrap">
-                        <a href="https://en.nikkoam.com/" target="blank">
+                        <a href="https://en.nikkoam.com/" target="blank" rel="nofollow">
                             <img src="{{ asset('img/Nikko AM.png') }}" alt="">
                         </a>
                     </div>
                     <div class="imgWrap">
-                        <a href="https://corex.vn/" target="blank">
+                        <a href="https://corex.vn/" target="blank" rel="nofollow">
                             <img src="{{ asset('img/corex-logo.png') }}" alt="">
                         </a>
                     </div>
                 </div>
                 <div class="item">
                     <div class="imgWrap">
-                        <a href="http://phiglobal.com/" target="blank">
+                        <a href="http://phiglobal.com/" target="blank" rel="nofollow">
                             <img src="{{ asset('img/Phi Group.png') }}" alt="">
                         </a>
                     </div>
@@ -165,7 +165,7 @@
                         <!-- <a href="https://pencil.vn/" target="blank">
                             <img src="{{ asset('img/pencil-logo.png') }}" alt="">
                         </a> -->
-                        <a href="http://www.petroland.com.vn/" target="blank">
+                        <a href="http://www.petroland.com.vn/" target="blank" rel="nofollow">
                             <img src="{{ asset('img/Petroland.png') }}" alt="">
                         </a>
                     </div>
@@ -181,55 +181,55 @@
             <div class="owl-carousel owl-theme">
                 <div class="item">
                     <div class="imgWrap">
-                        <a href="https://ca.finance.yahoo.com/news/phi-group-joins-vietnam-based-143000193.html" target="blank">
+                        <a href="https://ca.finance.yahoo.com/news/phi-group-joins-vietnam-based-143000193.html" target="_blank" rel="nofollow">
                             <img src="{{ asset('img/Yahoo-Finance.png') }}" alt="">
                         </a>
                     </div>
                     <div class="imgWrap">
-                        <a href="https://viettimes.vn/mot-startup-goi-von-thanh-cong-1-5-trieu-usd-trong-vong-dau-tien-post153780.html" target="blank">
+                        <a href="https://viettimes.vn/mot-startup-goi-von-thanh-cong-1-5-trieu-usd-trong-vong-dau-tien-post153780.html" target="_blank" rel="nofollow">
                             <img src="{{ asset('img/Viettimes.png') }}" alt="">
                         </a>
                     </div>
                 </div>
                 <div class="item">
                     <div class="imgWrap">
-                        <a href="https://www.nasdaq.com/press-release/corrections-startup-cmc-holdings-successfully-raised-us%241.5-million-in-co-founder" target="blank">
+                        <a href="https://www.nasdaq.com/press-release/corrections-startup-cmc-holdings-successfully-raised-us%241.5-million-in-co-founder" target="_blank" rel="nofollow">
                             <img src="{{ asset('img/UNasdaq.png') }}" alt="">
                         </a>
                     </div>
                     <div class="imgWrap">
-                        <a href="https://thesaigontimes.vn/startup-cong-nghe-goi-von-thanh-cong-15-trieu-do-la-sau-1-gio-keu-goi/" target="blank">
+                        <a href="https://thesaigontimes.vn/startup-cong-nghe-goi-von-thanh-cong-15-trieu-do-la-sau-1-gio-keu-goi/" target="_blank" rel="nofollow">
                             <img src="{{ asset('img/Thoi-bao-kinh-te-sai-gon.png') }}" alt="">
                         </a>
                     </div>
                 </div>
                 <div class="item">
                     <div class="imgWrap">
-                        <a href="https://www.marketwatch.com/press-release/phi-group-joins-vietnam-based-cmc-holdings-to-develop-digital-economy-ecosystem-with-multiple-platforms-to-serve-global-users-needs-2022-01-25" target="blank">
+                        <a href="https://www.marketwatch.com/press-release/phi-group-joins-vietnam-based-cmc-holdings-to-develop-digital-economy-ecosystem-with-multiple-platforms-to-serve-global-users-needs-2022-01-25" target="_blank" rel="nofollow">
                             <img src="{{ asset('img/Market-Watch.png') }}" alt="">
                         </a>
                     </div>
                     <div class="imgWrap">
-                        <a href="https://www.marketscreener.com/quote/stock/PHI-GROUP-INC-120787446/news/Corrections-Startup-CMC-Holdings-Successfully-Raised-US-1-5-million-in-Co-founder-Round-to-speed-u-37661739/" target="blank">
+                        <a href="https://www.marketscreener.com/quote/stock/PHI-GROUP-INC-120787446/news/Corrections-Startup-CMC-Holdings-Successfully-Raised-US-1-5-million-in-Co-founder-Round-to-speed-u-37661739/" target="_blank" rel="nofollow">
                             <img src="{{ asset('img/Market-Screener.png') }}" alt="">
                         </a>
                     </div>
                 </div>
                 <div class="item">
                     <div class="imgWrap">
-                        <a href="https://www.globenewswire.com/news-release/2022/01/27/2374480/0/en/Corrections-Startup-CMC-Holdings-Successfully-Raised-US-1-5-million-in-Co-founder-Round-to-speed-up-developments-aiming-for-US-300-billion-IPO-target-by-2027.html" target="blank">
+                        <a href="https://www.globenewswire.com/news-release/2022/01/27/2374480/0/en/Corrections-Startup-CMC-Holdings-Successfully-Raised-US-1-5-million-in-Co-founder-Round-to-speed-up-developments-aiming-for-US-300-billion-IPO-target-by-2027.html" target="_blank" rel="nofollow">
                             <img src="{{ asset('img/Global-PR-Newswire.png') }}" alt="">
                         </a>
                     </div>
                     <div class="imgWrap">
-                        <a href="https://doanhnhansaigon.vn/khoi-nghiep/thu-hut-1-5-trieu-usd-vong-co-founder-chi-sau-mot-gio-keu-goi-1109107.html" target="blank">
+                        <a href="https://doanhnhansaigon.vn/khoi-nghiep/thu-hut-1-5-trieu-usd-vong-co-founder-chi-sau-mot-gio-keu-goi-1109107.html" target="_blank" rel="nofollow">
                             <img src="{{ asset('img/Doanh-Nhan-Sai-Gon.png') }}" alt="">
                         </a>
                     </div>
                 </div>
                 <div class="item">
                     <div class="imgWrap">
-                        <a href="https://cafef.vn/mot-startup-phat-trien-nen-kinh-te-so-vua-hut-15-trieu-usd-vong-co-founder-tham-vong-ipo-san-nasdaq-vao-nam-2027-2022011821242" target="blank">
+                        <a href="https://cafef.vn/mot-startup-phat-trien-nen-kinh-te-so-vua-hut-15-trieu-usd-vong-co-founder-tham-vong-ipo-san-nasdaq-vao-nam-2027-2022011821242" target="_blank" rel="nofollow">
                             <img src="{{ asset('img/Cafe-F.png') }}" alt="">
                         </a>
                     </div>
