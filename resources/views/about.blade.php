@@ -147,7 +147,7 @@
                             <strong>Metaway Tech</strong> @lang ('explores, expands, and delivers crucial technology solutions in the pillars of the digital economy. Our goal is to improve the capacity and overall development to meet global user needs in the digital economy age.')
                         </div>
                         <div class="text-center mt-4">
-                            <a href="#" class="btn btn-grey-outline">@lang ('READ MORE')</a>
+                            <a href="https://metawaytech.com/" class="btn btn-grey-outline">@lang ('READ MORE')</a>
                         </div>
                     </div>
                 </div>
