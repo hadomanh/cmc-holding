@@ -415,11 +415,6 @@
                             <a href="#"><i class="fa fa-twitter"></i></a>
                         </div>
                     </div>
-                </div>
-            </div>
-            <div class="listMembers">
-                <h5 class="sectionHeading centered fs-4">@lang ('TECHNICAL STEERING COMMITEE')</h5>
-                <div class="row align-items-center justify-content-center">
                     <div class="col-lg-2 col-md-4 col-6">
                         <div class="avatar">
                             <img src="{{ asset('img/Bui-Dinh-Ngoc.png') }}" alt="">
@@ -431,30 +426,14 @@
                             <a href="#"><i class="fa fa-twitter"></i></a>
                         </div>
                     </div>
-                    <!-- <div class="col-lg-2 col-md-4 col-6">
-                        <div class="avatar">
-                            <img src="{{ asset('img/Guiko-K.png') }}" alt="">
-                        </div>
-                        <h4 class="name">Guiko K</h4>
-                        <h5 class="position">@lang ('Technology Advisor')</h5>
-                        <div class="social">
-                            <a href="#"><i class="fab fa-linkedin"></i></a>
-                            <a href="#"><i class="fa fa-twitter"></i></a>
-                        </div>
-                    </div>
-                    <div class="col-lg-2 col-md-4 col-6">
-                        <div class="avatar">
-                            <img src="{{ asset('img/Francesco.png') }}" alt="">
-                        </div>
-                        <h4 class="name">Francesco</h4>
-                        <h5 class="position">@lang ('CTO')</h5>
-                        <div class="social">
-                            <a href="#"><i class="fab fa-linkedin"></i></a>
-                            <a href="#"><i class="fa fa-twitter"></i></a>
-                        </div>
-                    </div> -->
                 </div>
             </div>
+            <!-- <div class="listMembers">
+                <h5 class="sectionHeading centered fs-4">@lang ('TECHNICAL STEERING COMMITEE')</h5>
+                <div class="row align-items-center justify-content-center">
+                    
+                </div>
+            </div> -->
         </div>
     </section>
 </div>
