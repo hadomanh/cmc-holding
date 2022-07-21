@@ -694,6 +694,7 @@ header .navbar-nav .dropdown-menu .dropdown-item:hover {
 #aboutPage .banner {
     text-align: center;
     background: url(../img/Banner-about.png) no-repeat center center / cover;
+    /* padding: 341px 0; */
 }
 
 #aboutPage .ourMission .item {

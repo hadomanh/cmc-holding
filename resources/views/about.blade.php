@@ -373,17 +373,6 @@
                 <div class="row align-items-center justify-content-center">
                     <div class="col-lg-2 col-md-4 col-6">
                         <div class="avatar">
-                            <img src="{{ asset('img/Andy-Vu.png') }}" alt="">
-                        </div>
-                        <h4 class="name">@lang ('Andy Vu')</h4>
-                        <h5 class="position">@lang ('CMO')</h5>
-                        <div class="social">
-                            <a href="#"><i class="fab fa-linkedin"></i></a>
-                            <a href="#"><i class="fa fa-twitter"></i></a>
-                        </div>
-                    </div>
-                    <div class="col-lg-2 col-md-4 col-6">
-                        <div class="avatar">
                             <img src="{{ asset('img/ma-chi-thanh.png') }}" alt="">
                         </div>
                         <h4 class="name">@lang ('Ma Chi Thanh')</h4>
