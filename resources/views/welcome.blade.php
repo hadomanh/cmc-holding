@@ -9,7 +9,7 @@
 @section('content')
 <div id="homepage">
     <!-- Banner -->
-    <section class="banner position-relative">
+    <section class="banner d-flex flex-column justify-content-center position-relative">
         <video autoplay muted loop id="myVideo">
             <source src="{{ asset('img/bg-home-meta.mp4') }}" type="video/mp4">
         </video>

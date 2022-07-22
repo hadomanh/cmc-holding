@@ -1,8 +1,8 @@
 <header>
     <div class="top">@lang ('METAWAY Holdings Roadmap 2022-2027 IPO $300 billion')</div>
-    <nav class="navbar navbar-expand-md"> 
+    <nav class="navbar navbar-expand-lg"> 
         <div class="container-xxl">
-            <a class="navbar-brand d-md-none d-block" href="{{ route('home') }}">
+            <a class="navbar-brand d-lg-none d-block" href="{{ route('home') }}">
                 <img src="{{ asset('img/logo.svg') }}" width="220">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -27,7 +27,7 @@
                         </ul>
                     </li>
                 </ul>
-                <a class="navbar-brand d-none d-md-block" href="{{ route('home') }}">
+                <a class="navbar-brand logoDesktop d-none d-lg-block" href="{{ route('home') }}">
                     <img src="{{ asset('img/logo.svg') }}" alt="">
                 </a>
                 <ul class="navbar-nav">

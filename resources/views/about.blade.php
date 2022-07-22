@@ -206,11 +206,12 @@
     </section>
 
     <!-- map -->
-    <section class="bgWhite map" id="holdingsmembers">
+    <section class="bgWhite holdingsmembers overflow-hidden">
         <div class="container-xxl">
             <h2 class="sectionHeading centered">@lang ('HOLDINGS MEMBERS')</h2>
             <p class="text-center">@lang ("Metaway Holdings operates under the model of 'Holdings in holdings'. We build separate ecosystems while still focusing on Metaway Holding's broad goal of globalization, digitization, and innovation for superior social values.")</p>
-            <div class="map">
+            <div class="map text-center">
+                <img src="{{ asset('img/bg-map.png') }}" alt="">
                 <div class="memberLocation style-1 cannada">
                     <img src="{{ asset('img/icon-metaway.png') }}" alt="">
                     <p>Canada</p>

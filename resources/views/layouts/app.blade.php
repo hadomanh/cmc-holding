@@ -44,7 +44,7 @@
     <link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet">
     <link href="{{ asset('css/owl.carousel.min.css') }}" rel="stylesheet">
     <link href="{{ asset('css/owl.theme.default.css') }}" rel="stylesheet">
-    <link href="{{ asset('css/style.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/style.css?v=1') }}" rel="stylesheet">
 
     <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
 
@@ -171,7 +171,7 @@
         dots: false,
         responsive:{
             0:{
-                items:1
+                items:2
             },
             600:{
                 items:3
