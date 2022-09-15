@@ -15,11 +15,11 @@
 
                     @if ($news->count() > 0)
                     <div class="newsItem highlight">
-                        <a href="{{ route('media.news-detail', $news[0]->id) }}" class="newsThumb">
+                        <a href="{{ route('media.news-detail', $news[0]->slug) }}" class="newsThumb">
                             <img src="{{ $news[0]->thumbnail }}" alt="" class="w-100">
                         </a>
                         <h4 class="newsTitle">
-                            <a href="{{ route('media.news-detail', $news[0]->id) }}">{{ $news[0]->title }}</a>
+                            <a href="{{ route('media.news-detail', $news[0]->slug) }}">{{ $news[0]->title }}</a>
                         </h4>
                         <div class="newsDesc">
                             {{ $news[0]->subtitle }}
@@ -31,12 +31,12 @@
                         @foreach ($news as $item)
                         @if ($loop->index > 0 && $loop->index < ($news->count() - 1) / 2)
                         <li class="newsItem row">
-                            <a href="{{ route('media.news-detail', $item->id) }}" class="col-md-4 newsThumb">
+                            <a href="{{ route('media.news-detail', $item->slug) }}" class="col-md-4 newsThumb">
                                 <img src="{{ $item->thumbnail }}" alt="" class="w-100">
                             </a>
                             <div class="col-md-8">
                                 <h4 class="newsTitle">
-                                    <a href="{{ route('media.news-detail', $item->id) }}">{{ $item->title }}</a>
+                                    <a href="{{ route('media.news-detail', $item->slug) }}">{{ $item->title }}</a>
                                 </h4>
                                 <div class="newsDesc">
                                     {{ $item->subtitle }}
@@ -54,12 +54,12 @@
                         @foreach ($news as $item)
                         @if ($loop->index >= ($news->count() - 1) / 2)
                         <li class="newsItem row">
-                            <a href="{{ route('media.news-detail', $item->id) }}" class="col-md-4 newsThumb">
+                            <a href="{{ route('media.news-detail', $item->slug) }}" class="col-md-4 newsThumb">
                                 <img src="{{ $item->thumbnail }}" alt="" class="w-100">
                             </a>
                             <div class="col-md-8">
                                 <h4 class="newsTitle">
-                                    <a href="{{ route('media.news-detail', $item->id) }}">{{ $item->title }}</a>
+                                    <a href="{{ route('media.news-detail', $item->slug) }}">{{ $item->title }}</a>
                                 </h4>
                                 <div class="newsDesc">
                                     {{ $item->subtitle }}

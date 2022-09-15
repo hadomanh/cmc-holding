@@ -43,7 +43,9 @@ Route::prefix('media')->group(function () {
         return view('media.news')->with(compact('news'));
     })->name('media.news');
 
-    Route::get('/news/{id}', function ($id) {
+    Route::get('/news/{slug}', function ($slug) {
+        $slug_parts = explode('-', $slug);
+        $id = $slug_parts[count($slug_parts) - 1];
         $news = News::find($id);
         $relatedNews = News::where('id', '!=', $id)->take(5)->get();
         return view('media.news-detail')->with(compact('news', 'relatedNews'));
@@ -57,7 +59,9 @@ Route::prefix('media')->group(function () {
         return view('media.press')->with(compact('press'));
     })->name('media.press');
 
-    Route::get('/press/{id}', function ($id) {
+    Route::get('/press/{slug}', function ($slug) {
+        $slug_parts = explode('-', $slug);
+        $id = $slug_parts[count($slug_parts) - 1];
         $press = Press::find($id);
         $relatedPress = Press::where('id', '!=', $id)->take(5)->get();
         return view('media.press-detail')->with(compact('press', 'relatedPress'));
