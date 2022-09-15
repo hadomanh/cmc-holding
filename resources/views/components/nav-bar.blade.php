@@ -1,5 +1,5 @@
 <header>
-    <div class="top">@lang ('METAWAY Holdings Roadmap 2022-2027 IPO $300 billion')</div>
+    <!-- <div class="top">@lang ('METAWAY Holdings Roadmap 2022-2027 IPO $300 billion')</div> -->
     <nav class="navbar navbar-expand-lg"> 
         <div class="container-xxl">
             <a class="navbar-brand d-lg-none d-block" href="{{ route('home') }}">
